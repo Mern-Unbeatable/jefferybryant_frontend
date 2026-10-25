@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "players": "Hugadónan",
+    "coachesAcademies": "Entrenadónan i Akademianan",
+    "about": "Tokante CFit",
+    "partners": "Sosionan",
+    "login": "Drenta",
+    "join": "Uni ku CFit",
+    "openMenu": "Habri menu",
+    "closeMenu": "Sera menu",
+    "language": "Idioma"
+  },
+  "footer": {
+    "description": "Un plataforma di inteligensia di futbòl mas inteligente ku ta konektá talento karibense ku e hendenan ku ta formando e futuro di e deporte.",
+    "explore": "Eksplorá",
+    "company": "Kompania",
+    "connect": "Kontakto",
+    "privacyPolicy": "Maneho di Privasidat",
+    "terms": "Términonan i Kondishonnan",
+    "region": "Region Karibense",
+    "rights": "© {{year}} CFit Talent. Tur derecho reservá.",
+    "tagline": "Inteligensia di Futbòl Karibense"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Inteligensia di Futbòl Karibense",
+      "titleBefore": "Deskubrí e ",
+      "titleHighlight": "talento",
+      "titleAfter": " di futbòl karibense. Konektá ku e futuro.",
+      "description": "CFit ta reuní hugadónan, entrenadónan, akademianan i scoutnan profeshonal den un plataforma di inteligensia di futbòl mas inteligente, traha pa konektá talento karibense ku oportunidat.",
+      "createProfile": "Krea perfil di hugadó",
+      "joinCoach": "Uni komo entrenadó/akademia",
+      "features": {
+        "profiles": "Perfilnan strukturá",
+        "verified": "Informashon verifiká",
+        "caribbean": "Enfoke karibense"
+      }
+    }
+  }
+}

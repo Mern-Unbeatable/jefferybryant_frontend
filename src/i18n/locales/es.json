@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "players": "Jugadores",
+    "coachesAcademies": "Entrenadores y Academias",
+    "about": "Sobre CFit",
+    "partners": "Socios",
+    "login": "Iniciar sesión",
+    "join": "Únete a CFit",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "language": "Idioma"
+  },
+  "footer": {
+    "description": "Una plataforma de inteligencia futbolística más inteligente que conecta el talento caribeño con las personas que están dando forma al futuro del juego.",
+    "explore": "Explorar",
+    "company": "Empresa",
+    "connect": "Contacto",
+    "privacyPolicy": "Política de privacidad",
+    "terms": "Términos y condiciones",
+    "region": "Región del Caribe",
+    "rights": "© {{year}} CFit Talent. Todos los derechos reservados.",
+    "tagline": "Inteligencia Futbolística del Caribe"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Inteligencia Futbolística del Caribe",
+      "titleBefore": "Descubre el ",
+      "titleHighlight": "talento",
+      "titleAfter": " futbolístico del Caribe. Conecta con el futuro.",
+      "description": "CFit reúne a jugadores, entrenadores, academias y ojeadores profesionales a través de una plataforma de inteligencia futbolística más inteligente, creada para conectar el talento caribeño con oportunidades.",
+      "createProfile": "Crear perfil de jugador",
+      "joinCoach": "Unirse como entrenador/academia",
+      "features": {
+        "profiles": "Perfiles estructurados",
+        "verified": "Información verificada",
+        "caribbean": "Enfoque caribeño"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "home": "Home",
+    "players": "Players",
+    "coachesAcademies": "Coaches & Academies",
+    "about": "About CFit",
+    "partners": "Partners",
+    "login": "Login",
+    "join": "Join CFit",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language"
+  },
+  "footer": {
+    "description": "A smarter football intelligence platform connecting Caribbean talent with the people shaping the future of the game.",
+    "explore": "Explore",
+    "company": "Company",
+    "connect": "Connect",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "region": "Caribbean Region",
+    "rights": "© {{year}} CFit Talent. All rights reserved.",
+    "tagline": "Caribbean Football Intelligence"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Caribbean Football Intelligence",
+      "titleBefore": "Discover Caribbean Football ",
+      "titleHighlight": "Talent.",
+      "titleAfter": " Connect with the future.",
+      "description": "CFit brings players, coaches, academies, and professional scouts together through a smarter football intelligence platform built to connect Caribbean talent with opportunities.",
+      "createProfile": "Create Player Profile",
+      "joinCoach": "Join Coach/Academy",
+      "features": {
+        "profiles": "Structured profiles",
+        "verified": "Verified information",
+        "caribbean": "Caribbean focused"
+      }
+    }
+  }
+}
