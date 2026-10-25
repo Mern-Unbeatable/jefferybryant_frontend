@@ -4,9 +4,7 @@
 @font-face {
   font-family: "Ethnocentric";
   src:
-    local("Ethnocentric"),
-    url("/fonts/Ethnocentric.woff2") format("woff2"),
-    url("/fonts/Ethnocentric.otf") format("opentype");
+    url("/fonts/Ethnocentric-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -14,11 +12,8 @@
 
 @font-face {
   font-family: "Tactic Sans";
-  src:
-    local("Tactic Sans"),
-    url("/fonts/TacticSans.woff2") format("woff2"),
-    url("/fonts/TacticSans.otf") format("opentype");
-  font-weight: 400;
+  src: url("/fonts/tactic-sans-light.ttf") format("truetype");
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
@@ -27,6 +22,7 @@
   --color-primary: #121619;
   --color-btn-primary: #fdcc29;
 
+  --font-sans: "Tactic Sans", sans-serif;
   --font-ethnocentric: "Ethnocentric", sans-serif;
   --font-tactic: "Tactic Sans", sans-serif;
 }
