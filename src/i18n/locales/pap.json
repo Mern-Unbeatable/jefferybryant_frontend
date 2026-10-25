@@ -148,6 +148,77 @@
       "description": "Traha bo perfil di futbòl, mustra bo kaminda komo hugadó i bira parti di un ekosistema di futbòl karibense konektá ku CFit.",
       "joinCfit": "Uni ku CFit",
       "joinCoach": "Uni komo entrenadó/akademia"
+    },
+    "whyProfile": {
+      "eyebrow": "Pakiko krea un perfil di CFit?",
+      "title": "Hasi bo kaminda di futbòl",
+      "titleHighlight": "visibel.",
+      "description": "Un perfil di CFit ta duna bo historia di futbòl struktura—e ta yuda bo presentá ken bo ta, unda bo a hunga i kon bo kaminda ta desaroyando.",
+      "items": {
+        "identity": {
+          "title": "Bo identidat di futbòl",
+          "description": "Krea un bista kompleto di bo historia, posishon, informashon físiko, klup òf akademia i historia di hunga."
+        },
+        "showcase": {
+          "title": "Mustra bo kaminda",
+          "description": "Presentá bo eksperensia di futbòl i kompartí video di wega òf entrenamentu disponibel via bo perfil."
+        },
+        "ecosystem": {
+          "title": "Ekosistema di futbòl konektá",
+          "description": "Bira parti di un plataforma ku ta konektá hugadónan, entrenadónan, akademianan i scouting profeshonal."
+        },
+        "organized": {
+          "title": "Informashon di hugadó organisá",
+          "description": "Tene bo informashon di futbòl strukturá i aksesibel pa e proseso di revishon i verifikashon di CFit."
+        }
+      }
+    },
+    "profilePreview": {
+      "eyebrow": "Bo perfil di futbòl profeshonal",
+      "titleLine1": "Pone e informashon",
+      "titleLine2": "korekto",
+      "titleLine3": "den e",
+      "titleHighlight": "lugá korekto.",
+      "description": "Bo perfil por reuní bo datonan personal, historia di futbòl, informashon di entrenadó, historia di hunga, informashon di rendimentu i video disponibel den un bista organisá.",
+      "checks": {
+        "identity": "Identidat di futbòl kla",
+        "history": "Historia di hunga strukturá",
+        "video": "Konteksto di video i rendimentu"
+      },
+      "cta": "Krea perfil di hugadó",
+      "card": {
+        "label": "Ehempel di perfil di hugadó",
+        "role": "Atakante · Trinidad i Tobago",
+        "submitted": "Perfil entregá",
+        "imageAlt": "Ehempel di hugadó riba un kancha di futbòl",
+        "fields": {
+          "country": "Pais",
+          "position": "Posishon",
+          "age": "Edat",
+          "heightWeight": "Altura / Peso",
+          "foot": "Pia preferí",
+          "club": "Klup / Akademia"
+        },
+        "values": {
+          "country": "Trinidad i Tobago",
+          "position": "Wing drechi",
+          "age": "19",
+          "heightWeight": "178 cm / 71 kg",
+          "foot": "Drechi",
+          "club": "Port of Spain Academy"
+        },
+        "blocks": {
+          "history": "Historia di hunga",
+          "historyValue": "3 entrada",
+          "stats": "Estadístika di hugadó",
+          "statsValue": "Datonan di temporada",
+          "coach": "Informashon di entrenadó",
+          "coachValue": "1 kontakto",
+          "video": "Link di video",
+          "videoValue": "4 disponibel"
+        },
+        "note": "Presentashon di ehempel so. E kamponan final di registrashon lo sigui e rekisitonan aprobá di CFit."
+      }
     }
   }
 }

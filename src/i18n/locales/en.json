@@ -148,6 +148,77 @@
       "description": "Build your football profile, showcase your playing journey, and become part of a connected Caribbean football ecosystem with CFit.",
       "joinCfit": "Join CFit",
       "joinCoach": "Join Coach/Academy"
+    },
+    "whyProfile": {
+      "eyebrow": "Why create a CFit profile?",
+      "title": "Make your football journey",
+      "titleHighlight": "visible.",
+      "description": "A CFit profile gives your football story structure—helping you present who you are, where you have played, and how your journey is developing.",
+      "items": {
+        "identity": {
+          "title": "Your football identity",
+          "description": "Create a complete view of your background, position, physical information, club or academy, and playing history."
+        },
+        "showcase": {
+          "title": "Showcase your journey",
+          "description": "Present your football experience and share available match footage or training videos through your profile."
+        },
+        "ecosystem": {
+          "title": "Connected football ecosystem",
+          "description": "Become part of a platform connecting players, coaches, academies, and professional scouting."
+        },
+        "organized": {
+          "title": "Organized player information",
+          "description": "Keep your football information structured and accessible for the CFit review and verification process."
+        }
+      }
+    },
+    "profilePreview": {
+      "eyebrow": "Your professional football profile",
+      "titleLine1": "Put the right",
+      "titleLine2": "information",
+      "titleLine3": "in the",
+      "titleHighlight": "right place.",
+      "description": "Your profile can bring your personal details, football background, coach information, playing history, performance information, and available footage together in one organized view.",
+      "checks": {
+        "identity": "Clear football identity",
+        "history": "Structured playing history",
+        "video": "Video and performance context"
+      },
+      "cta": "Create Player Profile",
+      "card": {
+        "label": "Sample player profile",
+        "role": "Forward · Trinidad & Tobago",
+        "submitted": "Profile submitted",
+        "imageAlt": "Sample player on a football pitch",
+        "fields": {
+          "country": "Country",
+          "position": "Position",
+          "age": "Age",
+          "heightWeight": "Height / Weight",
+          "foot": "Preferred foot",
+          "club": "Club / Academy"
+        },
+        "values": {
+          "country": "Trinidad & Tobago",
+          "position": "Right Winger",
+          "age": "19",
+          "heightWeight": "178 cm / 71 kg",
+          "foot": "Right",
+          "club": "Port of Spain Academy"
+        },
+        "blocks": {
+          "history": "Playing history",
+          "historyValue": "3 entries",
+          "stats": "Player statistics",
+          "statsValue": "Season data",
+          "coach": "Coach information",
+          "coachValue": "1 contact",
+          "video": "Video links",
+          "videoValue": "4 available"
+        },
+        "note": "Sample presentation only. Final registration fields will follow CFit's approved requirements."
+      }
     }
   }
 }

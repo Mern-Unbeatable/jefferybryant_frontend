@@ -148,6 +148,77 @@
       "description": "Crea tu perfil futbolístico, muestra tu trayectoria como jugador y forma parte de un ecosistema futbolístico caribeño conectado con CFit.",
       "joinCfit": "Únete a CFit",
       "joinCoach": "Unirse como entrenador/academia"
+    },
+    "whyProfile": {
+      "eyebrow": "¿Por qué crear un perfil en CFit?",
+      "title": "Haz visible tu",
+      "titleHighlight": "trayectoria futbolística.",
+      "description": "Un perfil en CFit da estructura a tu historia futbolística: te ayuda a mostrar quién eres, dónde has jugado y cómo se está desarrollando tu trayectoria.",
+      "items": {
+        "identity": {
+          "title": "Tu identidad futbolística",
+          "description": "Crea una visión completa de tu historial, posición, información física, club o academia y trayectoria como jugador."
+        },
+        "showcase": {
+          "title": "Muestra tu trayectoria",
+          "description": "Presenta tu experiencia futbolística y comparte videos de partidos o entrenamientos disponibles a través de tu perfil."
+        },
+        "ecosystem": {
+          "title": "Ecosistema futbolístico conectado",
+          "description": "Forma parte de una plataforma que conecta jugadores, entrenadores, academias y ojeadores profesionales."
+        },
+        "organized": {
+          "title": "Información de jugador organizada",
+          "description": "Mantén tu información futbolística estructurada y accesible para el proceso de revisión y verificación de CFit."
+        }
+      }
+    },
+    "profilePreview": {
+      "eyebrow": "Tu perfil futbolístico profesional",
+      "titleLine1": "Pon la información",
+      "titleLine2": "correcta",
+      "titleLine3": "en el",
+      "titleHighlight": "lugar correcto.",
+      "description": "Tu perfil puede reunir tus datos personales, trayectoria futbolística, información del entrenador, historial de juego, información de rendimiento y videos disponibles en una vista organizada.",
+      "checks": {
+        "identity": "Identidad futbolística clara",
+        "history": "Historial de juego estructurado",
+        "video": "Contexto de video y rendimiento"
+      },
+      "cta": "Crear perfil de jugador",
+      "card": {
+        "label": "Perfil de jugador de ejemplo",
+        "role": "Delantero · Trinidad y Tobago",
+        "submitted": "Perfil enviado",
+        "imageAlt": "Jugador de ejemplo en un campo de fútbol",
+        "fields": {
+          "country": "País",
+          "position": "Posición",
+          "age": "Edad",
+          "heightWeight": "Altura / Peso",
+          "foot": "Pie preferido",
+          "club": "Club / Academia"
+        },
+        "values": {
+          "country": "Trinidad y Tobago",
+          "position": "Extremo derecho",
+          "age": "19",
+          "heightWeight": "178 cm / 71 kg",
+          "foot": "Derecho",
+          "club": "Port of Spain Academy"
+        },
+        "blocks": {
+          "history": "Historial de juego",
+          "historyValue": "3 registros",
+          "stats": "Estadísticas",
+          "statsValue": "Datos de temporada",
+          "coach": "Información del entrenador",
+          "coachValue": "1 contacto",
+          "video": "Enlaces de video",
+          "videoValue": "4 disponibles"
+        },
+        "note": "Solo es una presentación de ejemplo. Los campos finales de registro seguirán los requisitos aprobados por CFit."
+      }
     }
   }
 }
