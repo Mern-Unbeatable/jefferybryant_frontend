@@ -15,7 +15,7 @@ const FeaturesSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="py-20 lg:py-28">
+    <section className="pt-20 lg:pt-28">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
           <span className="h-px w-8 bg-accent" />

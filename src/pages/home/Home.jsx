@@ -4,7 +4,6 @@ import EcosystemSection from "./sections/EcosystemSection";
 import HowItWorksSection from "./sections/HowItWorksSection";
 import RootedSection from "./sections/RootedSection";
 import FeaturesSection from "./sections/FeaturesSection";
-import CtaSection from "./sections/CtaSection";
 
 const Home = () => {
   return (
@@ -15,7 +14,6 @@ const Home = () => {
       <HowItWorksSection />
       <RootedSection />
       <FeaturesSection />
-      <CtaSection />
     </>
   );
 };

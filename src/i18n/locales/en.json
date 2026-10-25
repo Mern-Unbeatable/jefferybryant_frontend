@@ -129,12 +129,25 @@
           "description": "Pair playing context with available footage and performance details."
         }
       }
-    },
-    "cta": {
-      "eyebrow": "Your next chapter starts here",
-      "title": "Your football journey deserves to be",
-      "titleHighlight": "seen.",
-      "description": "Whether you're a player, coach, or academy, CFit gives you a structured way to become part of the Caribbean football ecosystem."
+    }
+  },
+  "cta": {
+    "eyebrow": "Your next chapter starts here",
+    "title": "Your football journey deserves to be",
+    "titleHighlight": "seen.",
+    "description": "Whether you're a player, coach, or academy, CFit gives you a structured way to become part of the Caribbean football ecosystem.",
+    "createProfile": "Create Player Profile",
+    "joinCoach": "Join Coach/Academy"
+  },
+  "player": {
+    "hero": {
+      "eyebrow": "For the players. For the Caribbean.",
+      "titleLine1": "Your talent.",
+      "titleLine2": "Your journey.",
+      "titleHighlight": "Your opportunity.",
+      "description": "Build your football profile, showcase your playing journey, and become part of a connected Caribbean football ecosystem with CFit.",
+      "joinCfit": "Join CFit",
+      "joinCoach": "Join Coach/Academy"
     }
   }
 }

@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";
+import CtaSection from "@/components/common/CtaSection";
 
 const MainLayout = () => {
   return (
@@ -8,6 +9,7 @@ const MainLayout = () => {
       <Navbar />
       <main className="flex-1">
         <Outlet />
+        <CtaSection />
       </main>
       <Footer />
     </div>

@@ -129,12 +129,25 @@
           "description": "Combina el contexto de juego con videos disponibles y detalles de rendimiento."
         }
       }
-    },
-    "cta": {
-      "eyebrow": "Tu próximo capítulo empieza aquí",
-      "title": "Tu trayectoria futbolística merece ser",
-      "titleHighlight": "vista.",
-      "description": "Ya seas jugador, entrenador o academia, CFit te ofrece una forma estructurada de formar parte del ecosistema futbolístico del Caribe."
+    }
+  },
+  "cta": {
+    "eyebrow": "Tu próximo capítulo empieza aquí",
+    "title": "Tu trayectoria futbolística merece ser",
+    "titleHighlight": "vista.",
+    "description": "Ya seas jugador, entrenador o academia, CFit te ofrece una forma estructurada de formar parte del ecosistema futbolístico del Caribe.",
+    "createProfile": "Crear perfil de jugador",
+    "joinCoach": "Unirse como entrenador/academia"
+  },
+  "player": {
+    "hero": {
+      "eyebrow": "Para los jugadores. Para el Caribe.",
+      "titleLine1": "Tu talento.",
+      "titleLine2": "Tu trayectoria.",
+      "titleHighlight": "Tu oportunidad.",
+      "description": "Crea tu perfil futbolístico, muestra tu trayectoria como jugador y forma parte de un ecosistema futbolístico caribeño conectado con CFit.",
+      "joinCfit": "Únete a CFit",
+      "joinCoach": "Unirse como entrenador/academia"
     }
   }
 }
