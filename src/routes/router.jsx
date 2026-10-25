@@ -6,12 +6,14 @@ import {
 import MainLayout from "@/layouts/MainLayout";
 import Home from "@/pages/home/Home";
 import Player from "@/pages/player/Player";
+import CoachesAcademies from "@/pages/coaches&Academies/Coaches&Academies";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainLayout />}>
       <Route index element={<Home />} />
       <Route path="players" element={<Player />} />
+      <Route path="coaches-academies" element={<CoachesAcademies />} />
     </Route>
   )
 );

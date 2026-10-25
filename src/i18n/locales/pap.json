@@ -241,6 +241,65 @@
           "description": "E informashon ku bo a entregá ta drenta e proseso di verifikashon i revishon di CFit."
         }
       }
+    },
+    "caribbeanTalent": {
+      "eyebrow": "Raís den Karibe",
+      "titleLine1": "Talento karibense",
+      "titleLine2": "meresé di ser",
+      "titleHighlight": "deskubrí.",
+      "description1": "For di kancha di bario te na tereno di akademia, Karibe ta kas di talento di futbòl ekstraordinario. Kada hugador tin un biahe ku ta bal la pena pa mira.",
+      "description2": "CFit tin komo meta pa uni e biahenan ei—konektando hugadó ku entrenador, akademia i scouting profesional mediante un ekosistema di futbòl mas struktura.",
+      "cta": "Kuminsá traha bo perfil"
+    },
+    "faq": {
+      "eyebrow": "Pregunta di hugadó",
+      "titleLine1": "Tur loke",
+      "titleLine2": "bo mester",
+      "titleLine3": "pa",
+      "titleHighlight": "kuminsá.",
+      "titleHighlight2": "",
+      "description": "Kontesta kla tokante kon pa drenta CFit i traha bo perfil di futbòl.",
+      "items": {
+        "whatIs": {
+          "question": "Kiko ta CFit?",
+          "answer": "CFit ta un plataforma di inteligensia di futbòl karibense diseñá pa organisá informashon di hugadó i konektá e ekosistema di futbòl mediante perfilnan strukturá."
+        },
+        "whoCanCreate": {
+          "question": "Ken por krea un perfil di hugador?",
+          "answer": "Kualke hugador di futbòl den Karibe por krea un perfil, for di hugadó di bario i skol te hugadó di akademia i klup."
+        },
+        "whatInfo": {
+          "question": "Ki informashon mi mester pa registrá?",
+          "answer": "Bo ta mester bo datonan personal básiko, poshon, pia preferí, haltura i peso, bo klup of akademia aktual i bo historia di hunga."
+        },
+        "addVideos": {
+          "question": "Mi por agregá video na mi perfil di hugador?",
+          "answer": "Si. Bo por agregá link di bo wega- i highlight video disponibel pa entrenador i scout por mira bo hunga."
+        },
+        "verification": {
+          "question": "Kon e proseso di verifikashon di CFit ta funshoná?",
+          "answer": "Despues ku bo entregá bo perfil, e tim di CFit ta revisá bo informashon pa sigurá ku e ta korekto i kompleto promé ku e bira parti di e ekosistema verifiká."
+        },
+        "recommend": {
+          "question": "Un entrenador of akademia por rekomendá mi?",
+          "answer": "Si. Entrenador i akademia riba CFit por agregá informashon i rekomendashon ku ta sostené bo perfil di hugador."
+        },
+        "update": {
+          "question": "Kon mi por aktualisá mi informashon di hugador?",
+          "answer": "Bo por drenta bo kuenta na kualke momento pa aktualisá bo datonan, historia di hunga, statistiknan i link di video."
+        }
+      }
+    }
+  },
+  "coaches": {
+    "hero": {
+      "eyebrow": "Entrenador i akademia",
+      "titleLine1": "Desaroyá talento.",
+      "titleLine2": "Traha konekshon.",
+      "titleHighlight": "Forma e futuro.",
+      "description": "CFit ta yuda entrenador i akademia karibense organisá informashon di hugadó, konektá ku e ekosistema di futbòl mas amplio i presentá talento prometedor mediante un plataforma strukturá.",
+      "register": "Registrá bo akademia",
+      "discover": "Deskubrí kon e ta funshoná"
     }
   }
 }

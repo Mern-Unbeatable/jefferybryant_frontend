@@ -241,6 +241,65 @@
           "description": "Your submitted information enters the CFit verification and review process."
         }
       }
+    },
+    "caribbeanTalent": {
+      "eyebrow": "Rooted in the Caribbean",
+      "titleLine1": "Caribbean talent",
+      "titleLine2": "deserves to be",
+      "titleHighlight": "discovered.",
+      "description1": "From community pitches to academy grounds, the Caribbean is home to extraordinary football talent. Every player has a journey worth seeing.",
+      "description2": "CFit aims to bring those journeys together—connecting players with coaches, academies, and professional scouting through a more structured football ecosystem.",
+      "cta": "Start building your profile"
+    },
+    "faq": {
+      "eyebrow": "Player questions",
+      "titleLine1": "Everything",
+      "titleLine2": "you need",
+      "titleLine3": "to",
+      "titleHighlight": "get",
+      "titleHighlight2": "started.",
+      "description": "Clear answers about joining CFit and building your football profile.",
+      "items": {
+        "whatIs": {
+          "question": "What is CFit?",
+          "answer": "CFit is a Caribbean football intelligence platform designed to organize player information and connect the football ecosystem through structured profiles."
+        },
+        "whoCanCreate": {
+          "question": "Who can create a player profile?",
+          "answer": "Any football player in the Caribbean can create a profile, from community and school players to academy and club players."
+        },
+        "whatInfo": {
+          "question": "What information do I need to register?",
+          "answer": "You will need your basic personal details, position, preferred foot, height and weight, your current club or academy, and your playing history."
+        },
+        "addVideos": {
+          "question": "Can I add videos to my player profile?",
+          "answer": "Yes. You can add links to your available match footage and highlight videos so coaches and scouts can see you play."
+        },
+        "verification": {
+          "question": "How does the CFit verification process work?",
+          "answer": "After you submit your profile, the CFit team reviews your information for accuracy and completeness before it becomes part of the verified ecosystem."
+        },
+        "recommend": {
+          "question": "Can a coach or academy recommend me?",
+          "answer": "Yes. Coaches and academies on CFit can add coach information and recommendations that support your player profile."
+        },
+        "update": {
+          "question": "How can I update my player information?",
+          "answer": "You can log in to your account at any time to update your details, playing history, statistics, and video links."
+        }
+      }
+    }
+  },
+  "coaches": {
+    "hero": {
+      "eyebrow": "Coaches & Academies",
+      "titleLine1": "Develop talent.",
+      "titleLine2": "Build connections.",
+      "titleHighlight": "Shape the future.",
+      "description": "CFit helps Caribbean coaches and academies organize player information, connect with the wider football ecosystem, and introduce promising talent through a structured platform.",
+      "register": "Register your academy",
+      "discover": "Discover how it works"
     }
   }
 }

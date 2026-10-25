@@ -241,6 +241,65 @@
           "description": "La información enviada entra en el proceso de verificación y revisión de CFit."
         }
       }
+    },
+    "caribbeanTalent": {
+      "eyebrow": "Arraigados en el Caribe",
+      "titleLine1": "El talento caribeño",
+      "titleLine2": "merece ser",
+      "titleHighlight": "descubierto.",
+      "description1": "Desde canchas comunitarias hasta campos de academias, el Caribe es hogar de un talento futbolístico extraordinario. Cada jugador tiene un camino que merece ser visto.",
+      "description2": "CFit busca unir esos caminos, conectando a jugadores con entrenadores, academias y ojeadores profesionales a través de un ecosistema futbolístico más estructurado.",
+      "cta": "Comienza a crear tu perfil"
+    },
+    "faq": {
+      "eyebrow": "Preguntas de jugadores",
+      "titleLine1": "Todo lo que",
+      "titleLine2": "necesitas",
+      "titleLine3": "para",
+      "titleHighlight": "empezar.",
+      "titleHighlight2": "",
+      "description": "Respuestas claras sobre cómo unirte a CFit y crear tu perfil futbolístico.",
+      "items": {
+        "whatIs": {
+          "question": "¿Qué es CFit?",
+          "answer": "CFit es una plataforma de inteligencia futbolística caribeña diseñada para organizar la información de los jugadores y conectar el ecosistema del fútbol mediante perfiles estructurados."
+        },
+        "whoCanCreate": {
+          "question": "¿Quién puede crear un perfil de jugador?",
+          "answer": "Cualquier jugador de fútbol del Caribe puede crear un perfil, desde jugadores comunitarios y escolares hasta jugadores de academias y clubes."
+        },
+        "whatInfo": {
+          "question": "¿Qué información necesito para registrarme?",
+          "answer": "Necesitarás tus datos personales básicos, posición, pie preferido, altura y peso, tu club o academia actual y tu historial de juego."
+        },
+        "addVideos": {
+          "question": "¿Puedo agregar videos a mi perfil de jugador?",
+          "answer": "Sí. Puedes agregar enlaces a tus partidos y videos destacados disponibles para que entrenadores y ojeadores te vean jugar."
+        },
+        "verification": {
+          "question": "¿Cómo funciona el proceso de verificación de CFit?",
+          "answer": "Después de enviar tu perfil, el equipo de CFit revisa tu información para comprobar que sea precisa y completa antes de que forme parte del ecosistema verificado."
+        },
+        "recommend": {
+          "question": "¿Puede un entrenador o academia recomendarme?",
+          "answer": "Sí. Los entrenadores y academias en CFit pueden agregar información y recomendaciones que respalden tu perfil de jugador."
+        },
+        "update": {
+          "question": "¿Cómo puedo actualizar mi información de jugador?",
+          "answer": "Puedes iniciar sesión en tu cuenta en cualquier momento para actualizar tus datos, historial de juego, estadísticas y enlaces de video."
+        }
+      }
+    }
+  },
+  "coaches": {
+    "hero": {
+      "eyebrow": "Entrenadores y academias",
+      "titleLine1": "Desarrolla talento.",
+      "titleLine2": "Crea conexiones.",
+      "titleHighlight": "Forma el futuro.",
+      "description": "CFit ayuda a entrenadores y academias del Caribe a organizar la información de sus jugadores, conectarse con el ecosistema futbolístico y presentar talento prometedor a través de una plataforma estructurada.",
+      "register": "Registra tu academia",
+      "discover": "Descubre cómo funciona"
     }
   }
 }
