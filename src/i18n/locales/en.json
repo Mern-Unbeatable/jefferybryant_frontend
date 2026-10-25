@@ -219,6 +219,28 @@
         },
         "note": "Sample presentation only. Final registration fields will follow CFit's approved requirements."
       }
+    },
+    "joinSteps": {
+      "eyebrow": "How to join CFit",
+      "titleLine1": "Three steps.",
+      "titleLine2": "One clear",
+      "titleHighlight": "pathway.",
+      "description": "Starting your CFit journey is designed to be simple, understandable, and transparent.",
+      "stepLabel": "Step",
+      "steps": {
+        "create": {
+          "title": "Create your profile",
+          "description": "Start your player registration and provide your basic football information."
+        },
+        "complete": {
+          "title": "Complete your information",
+          "description": "Add your playing history, football details, and available video links."
+        },
+        "review": {
+          "title": "CFit review",
+          "description": "Your submitted information enters the CFit verification and review process."
+        }
+      }
     }
   }
 }

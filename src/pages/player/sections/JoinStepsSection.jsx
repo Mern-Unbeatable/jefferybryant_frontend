@@ -24,7 +24,7 @@ const JoinStepsSection = () => {
               </span>
             </h2>
           </div>
-          <p className="max-w-xs text-sm leading-relaxed text-white/80 lg:pb-2">
+          <p className="max-w-sm text-sm leading-relaxed text-white/80 lg:pb-2">
             {t("player.joinSteps.description")}
           </p>
         </div>

@@ -219,6 +219,28 @@
         },
         "note": "Presentashon di ehempel so. E kamponan final di registrashon lo sigui e rekisitonan aprobá di CFit."
       }
+    },
+    "joinSteps": {
+      "eyebrow": "Kon pa drenta CFit",
+      "titleLine1": "Tres paso.",
+      "titleLine2": "Un caminda",
+      "titleHighlight": "kla.",
+      "description": "Kuminsá bo biahe ku CFit ta diseñá pa ta simpel, komprensibel i transparente.",
+      "stepLabel": "Paso",
+      "steps": {
+        "create": {
+          "title": "Krea bo perfil",
+          "description": "Kuminsá bo registrashon komo hugador i duna bo informashon básiko di futbòl."
+        },
+        "complete": {
+          "title": "Kompletá bo informashon",
+          "description": "Agregá bo historia di hunga, detayenan di futbòl i link di video disponibel."
+        },
+        "review": {
+          "title": "Revishon di CFit",
+          "description": "E informashon ku bo a entregá ta drenta e proseso di verifikashon i revishon di CFit."
+        }
+      }
     }
   }
 }

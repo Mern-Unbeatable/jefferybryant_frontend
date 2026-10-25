@@ -219,6 +219,28 @@
         },
         "note": "Solo es una presentación de ejemplo. Los campos finales de registro seguirán los requisitos aprobados por CFit."
       }
+    },
+    "joinSteps": {
+      "eyebrow": "Cómo unirte a CFit",
+      "titleLine1": "Tres pasos.",
+      "titleLine2": "Un camino",
+      "titleHighlight": "claro.",
+      "description": "Comenzar tu camino en CFit está diseñado para ser simple, comprensible y transparente.",
+      "stepLabel": "Paso",
+      "steps": {
+        "create": {
+          "title": "Crea tu perfil",
+          "description": "Inicia tu registro como jugador y proporciona tu información futbolística básica."
+        },
+        "complete": {
+          "title": "Completa tu información",
+          "description": "Agrega tu historial de juego, detalles futbolísticos y enlaces de video disponibles."
+        },
+        "review": {
+          "title": "Revisión de CFit",
+          "description": "La información enviada entra en el proceso de verificación y revisión de CFit."
+        }
+      }
     }
   }
 }
