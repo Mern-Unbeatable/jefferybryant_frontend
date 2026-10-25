@@ -129,6 +129,12 @@
           "description": "Pair playing context with available footage and performance details."
         }
       }
+    },
+    "cta": {
+      "eyebrow": "Your next chapter starts here",
+      "title": "Your football journey deserves to be",
+      "titleHighlight": "seen.",
+      "description": "Whether you're a player, coach, or academy, CFit gives you a structured way to become part of the Caribbean football ecosystem."
     }
   }
 }

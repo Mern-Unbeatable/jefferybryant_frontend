@@ -129,6 +129,12 @@
           "description": "Kombiná konteksto di hunga ku video disponibel i detayenan di rendimentu."
         }
       }
+    },
+    "cta": {
+      "eyebrow": "Bo siguiente kapítulo ta kuminsá aki",
+      "title": "Bo kaminda di futbòl meresé di wòrdu",
+      "titleHighlight": "mirá.",
+      "description": "Sea bo ta hugadó, entrenadó òf akademia, CFit ta duna bo un manera strukturá pa bira parti di e ekosistema di futbòl karibense."
     }
   }
 }

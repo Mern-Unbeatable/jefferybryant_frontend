@@ -129,6 +129,12 @@
           "description": "Combina el contexto de juego con videos disponibles y detalles de rendimiento."
         }
       }
+    },
+    "cta": {
+      "eyebrow": "Tu próximo capítulo empieza aquí",
+      "title": "Tu trayectoria futbolística merece ser",
+      "titleHighlight": "vista.",
+      "description": "Ya seas jugador, entrenador o academia, CFit te ofrece una forma estructurada de formar parte del ecosistema futbolístico del Caribe."
     }
   }
 }
