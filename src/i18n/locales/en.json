@@ -300,6 +300,178 @@
       "description": "CFit helps Caribbean coaches and academies organize player information, connect with the wider football ecosystem, and introduce promising talent through a structured platform.",
       "register": "Register your academy",
       "discover": "Discover how it works"
+    },
+    "whyJoin": {
+      "eyebrow": "Why join CFit?",
+      "titleLine1": "Give your players",
+      "titleLine2": "a more structured",
+      "titleLine3": "path",
+      "titleHighlight": "forward.",
+      "description": "Bring your organization and players into one connected environment built around clearer football information and better coordination.",
+      "items": {
+        "together": {
+          "title": "Bring your players together",
+          "description": "Register your organization and connect your players through a structured academy profile."
+        },
+        "invite": {
+          "title": "Invite players easily",
+          "description": "Use a unique player registration link and QR code to make player onboarding easier."
+        },
+        "track": {
+          "title": "Track player registration",
+          "description": "Monitor the registration journey from invitation to profile completion and verification."
+        },
+        "recommend": {
+          "title": "Recommend promising talent",
+          "description": "Recommend players and provide relevant comments to help CFit understand their football background."
+        }
+      }
+    },
+    "journey": {
+      "eyebrow": "Academy registration journey",
+      "titleLine1": "From registration to",
+      "titleLine2": "player",
+      "titleHighlight": "connection.",
+      "description": "Organization approval is required before full dashboard access and player management tools become available.",
+      "approvalRequired": "Approval required",
+      "steps": {
+        "register": {
+          "title": "Register your organization",
+          "description": "Submit your coach or academy registration information."
+        },
+        "approval": {
+          "title": "Admin approval",
+          "description": "CFit reviews and approves your organization before full dashboard access."
+        },
+        "invite": {
+          "title": "Invite your players",
+          "description": "Share your unique registration link or QR code with players."
+        },
+        "track": {
+          "title": "Track player progress",
+          "description": "Monitor invited players through their registration journey."
+        },
+        "recommend": {
+          "title": "Recommend talent",
+          "description": "Provide relevant football context for promising players."
+        }
+      }
+    },
+    "management": {
+      "eyebrow": "Academy player management",
+      "titleLine1": "Keep every",
+      "titleLine2": "player journey",
+      "titleLine3": "in",
+      "titleHighlight": "view.",
+      "description": "See who has been invited, who has registered, and which profiles have progressed through completion and verification—all within a clear organization view.",
+      "windowTitle": "Academy dashboard · Feature preview",
+      "overview": "Organization overview",
+      "approved": "Approved organization",
+      "statuses": {
+        "invited": "Invited",
+        "registered": "Registered",
+        "complete": "Profile complete",
+        "verified": "Verified"
+      },
+      "stats": {
+        "invited": "Total invited",
+        "registered": "Registered",
+        "complete": "Profiles completed",
+        "verified": "Verified"
+      },
+      "columns": {
+        "player": "Player",
+        "age": "Age",
+        "position": "Position",
+        "status": "Status",
+        "invited": "Invited"
+      },
+      "positions": {
+        "midfielder": "Midfielder",
+        "forward": "Forward",
+        "defender": "Defender",
+        "goalkeeper": "Goalkeeper"
+      }
+    },
+    "invitation": {
+      "eyebrow": "Less friction. More connection.",
+      "titleLine1": "Bring your",
+      "titleLine2": "academy's",
+      "titleHighlight": "talent into CFit.",
+      "description": "Invite players through a personalized registration link or QR code. Once players register through your invitation, they can be automatically associated with your organization.",
+      "checks": {
+        "unique": "A unique link for your approved organization",
+        "share": "Easy to share with players and parents",
+        "connected": "Connected to your academy from the start"
+      },
+      "card": {
+        "title": "Your academy invitation",
+        "preview": "Preview",
+        "academyLabel": "Academy",
+        "linkLabel": "Player registration link",
+        "qrPreview": "QR preview",
+        "copy": "Copy Invitation Link",
+        "download": "Download QR Code",
+        "note": "Available after academy approval"
+      }
+    },
+    "recommend": {
+      "eyebrow": "Recommend a player",
+      "titleLine1": "Help CFit",
+      "titleLine2": "understand the talent",
+      "titleLine3": "behind every",
+      "titleHighlight": "player.",
+      "description": "Coaches can recommend associated players and provide relevant comments about playing ability, development, and football background. This context supports a more complete player story without exposing confidential evaluations or internal intelligence.",
+      "cta": "Register your organization",
+      "form": {
+        "title": "Coach recommendation",
+        "preview": "Feature preview",
+        "playerLabel": "Select player",
+        "typeLabel": "Recommendation type",
+        "typeValue": "Development Progress",
+        "commentsLabel": "Coach comments",
+        "commentsValue": "Daniel has shown consistent technical development and a strong understanding of his midfield role...",
+        "submit": "Submit recommendation",
+        "note": "Recommendations provide additional context only and do not expose or replace CFit's private evaluation process."
+      }
+    },
+    "faq": {
+      "eyebrow": "Good questions. Clear answers.",
+      "titleLine1": "What coaches &",
+      "titleLine2": "academies need",
+      "titleLine3": "to",
+      "titleHighlight": "know.",
+      "description": "A little more clarity before your academy joins.",
+      "items": {
+        "whoCanRegister": {
+          "question": "Who can register as a coach or academy?",
+          "answer": "Football coaches, academies, clubs, and youth programs across the Caribbean can register their organization on CFit."
+        },
+        "approval": {
+          "question": "Does my organization need admin approval?",
+          "answer": "Yes. Every organization is reviewed by the CFit team before full dashboard access and player management tools become available."
+        },
+        "invite": {
+          "question": "How can I invite players to CFit?",
+          "answer": "Once approved, you receive a unique registration link and QR code that you can share with your players and their parents."
+        },
+        "track": {
+          "question": "Can I track my players' registration status?",
+          "answer": "Yes. Your dashboard shows who has been invited, who has registered, and which profiles are complete or verified."
+        },
+        "recommendation": {
+          "question": "How does the player recommendation feature work?",
+          "answer": "You can select an associated player, choose a recommendation type, and add comments about their ability, development, and football background."
+        },
+        "multiple": {
+          "question": "Can I manage multiple players through my organization?",
+          "answer": "Yes. All players who register through your invitation are associated with your organization and can be managed from one view."
+        },
+        "intelligence": {
+          "question": "Can coaches view CFit's private scouting intelligence?",
+          "answer": "No. Recommendations add context to a player's profile, but CFit's private evaluations and internal scouting intelligence remain confidential."
+        }
+      }
     }
   }
 }

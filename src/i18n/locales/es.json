@@ -300,6 +300,178 @@
       "description": "CFit ayuda a entrenadores y academias del Caribe a organizar la información de sus jugadores, conectarse con el ecosistema futbolístico y presentar talento prometedor a través de una plataforma estructurada.",
       "register": "Registra tu academia",
       "discover": "Descubre cómo funciona"
+    },
+    "whyJoin": {
+      "eyebrow": "¿Por qué unirte a CFit?",
+      "titleLine1": "Dale a tus jugadores",
+      "titleLine2": "un camino más",
+      "titleLine3": "estructurado",
+      "titleHighlight": "hacia adelante.",
+      "description": "Reúne a tu organización y a tus jugadores en un entorno conectado, construido en torno a información futbolística más clara y una mejor coordinación.",
+      "items": {
+        "together": {
+          "title": "Reúne a tus jugadores",
+          "description": "Registra tu organización y conecta a tus jugadores mediante un perfil de academia estructurado."
+        },
+        "invite": {
+          "title": "Invita jugadores fácilmente",
+          "description": "Usa un enlace de registro único y un código QR para facilitar la incorporación de jugadores."
+        },
+        "track": {
+          "title": "Sigue el registro de jugadores",
+          "description": "Supervisa el proceso de registro desde la invitación hasta la finalización y verificación del perfil."
+        },
+        "recommend": {
+          "title": "Recomienda talento prometedor",
+          "description": "Recomienda jugadores y agrega comentarios relevantes para ayudar a CFit a conocer su trayectoria futbolística."
+        }
+      }
+    },
+    "journey": {
+      "eyebrow": "Proceso de registro de academias",
+      "titleLine1": "Del registro a la",
+      "titleLine2": "conexión con",
+      "titleHighlight": "jugadores.",
+      "description": "Se requiere la aprobación de la organización antes de acceder al panel completo y a las herramientas de gestión de jugadores.",
+      "approvalRequired": "Requiere aprobación",
+      "steps": {
+        "register": {
+          "title": "Registra tu organización",
+          "description": "Envía la información de registro de tu entrenador o academia."
+        },
+        "approval": {
+          "title": "Aprobación del administrador",
+          "description": "CFit revisa y aprueba tu organización antes de dar acceso completo al panel."
+        },
+        "invite": {
+          "title": "Invita a tus jugadores",
+          "description": "Comparte tu enlace de registro único o código QR con los jugadores."
+        },
+        "track": {
+          "title": "Sigue el progreso",
+          "description": "Supervisa a los jugadores invitados durante su proceso de registro."
+        },
+        "recommend": {
+          "title": "Recomienda talento",
+          "description": "Aporta contexto futbolístico relevante sobre jugadores prometedores."
+        }
+      }
+    },
+    "management": {
+      "eyebrow": "Gestión de jugadores de la academia",
+      "titleLine1": "Mantén cada",
+      "titleLine2": "camino de jugador",
+      "titleLine3": "a la",
+      "titleHighlight": "vista.",
+      "description": "Ve quién ha sido invitado, quién se ha registrado y qué perfiles han avanzado hasta completarse y verificarse, todo dentro de una vista clara de la organización.",
+      "windowTitle": "Panel de academia · Vista previa",
+      "overview": "Resumen de la organización",
+      "approved": "Organización aprobada",
+      "statuses": {
+        "invited": "Invitado",
+        "registered": "Registrado",
+        "complete": "Perfil completo",
+        "verified": "Verificado"
+      },
+      "stats": {
+        "invited": "Total invitados",
+        "registered": "Registrados",
+        "complete": "Perfiles completos",
+        "verified": "Verificados"
+      },
+      "columns": {
+        "player": "Jugador",
+        "age": "Edad",
+        "position": "Posición",
+        "status": "Estado",
+        "invited": "Invitado"
+      },
+      "positions": {
+        "midfielder": "Centrocampista",
+        "forward": "Delantero",
+        "defender": "Defensa",
+        "goalkeeper": "Portero"
+      }
+    },
+    "invitation": {
+      "eyebrow": "Menos fricción. Más conexión.",
+      "titleLine1": "Lleva el talento",
+      "titleLine2": "de tu academia",
+      "titleHighlight": "a CFit.",
+      "description": "Invita a jugadores mediante un enlace de registro personalizado o un código QR. Cuando se registren con tu invitación, pueden quedar asociados automáticamente a tu organización.",
+      "checks": {
+        "unique": "Un enlace único para tu organización aprobada",
+        "share": "Fácil de compartir con jugadores y padres",
+        "connected": "Conectados a tu academia desde el inicio"
+      },
+      "card": {
+        "title": "Invitación de tu academia",
+        "preview": "Vista previa",
+        "academyLabel": "Academia",
+        "linkLabel": "Enlace de registro de jugadores",
+        "qrPreview": "Vista previa QR",
+        "copy": "Copiar enlace de invitación",
+        "download": "Descargar código QR",
+        "note": "Disponible tras la aprobación de la academia"
+      }
+    },
+    "recommend": {
+      "eyebrow": "Recomienda a un jugador",
+      "titleLine1": "Ayuda a CFit",
+      "titleLine2": "a entender el talento",
+      "titleLine3": "detrás de cada",
+      "titleHighlight": "jugador.",
+      "description": "Los entrenadores pueden recomendar a jugadores asociados y aportar comentarios relevantes sobre su capacidad, desarrollo y trayectoria futbolística. Este contexto completa la historia del jugador sin exponer evaluaciones confidenciales ni inteligencia interna.",
+      "cta": "Registra tu organización",
+      "form": {
+        "title": "Recomendación del entrenador",
+        "preview": "Vista previa",
+        "playerLabel": "Seleccionar jugador",
+        "typeLabel": "Tipo de recomendación",
+        "typeValue": "Progreso de desarrollo",
+        "commentsLabel": "Comentarios del entrenador",
+        "commentsValue": "Daniel ha mostrado un desarrollo técnico constante y una gran comprensión de su rol en el mediocampo...",
+        "submit": "Enviar recomendación",
+        "note": "Las recomendaciones solo aportan contexto adicional y no exponen ni reemplazan el proceso de evaluación privado de CFit."
+      }
+    },
+    "faq": {
+      "eyebrow": "Buenas preguntas. Respuestas claras.",
+      "titleLine1": "Lo que entrenadores",
+      "titleLine2": "y academias deben",
+      "titleLine3": "",
+      "titleHighlight": "saber.",
+      "description": "Un poco más de claridad antes de que tu academia se una.",
+      "items": {
+        "whoCanRegister": {
+          "question": "¿Quién puede registrarse como entrenador o academia?",
+          "answer": "Entrenadores, academias, clubes y programas juveniles de todo el Caribe pueden registrar su organización en CFit."
+        },
+        "approval": {
+          "question": "¿Mi organización necesita aprobación del administrador?",
+          "answer": "Sí. El equipo de CFit revisa cada organización antes de habilitar el panel completo y las herramientas de gestión de jugadores."
+        },
+        "invite": {
+          "question": "¿Cómo puedo invitar jugadores a CFit?",
+          "answer": "Una vez aprobada, recibirás un enlace de registro único y un código QR para compartir con tus jugadores y sus padres."
+        },
+        "track": {
+          "question": "¿Puedo seguir el estado de registro de mis jugadores?",
+          "answer": "Sí. Tu panel muestra quién fue invitado, quién se registró y qué perfiles están completos o verificados."
+        },
+        "recommendation": {
+          "question": "¿Cómo funciona la recomendación de jugadores?",
+          "answer": "Puedes seleccionar un jugador asociado, elegir un tipo de recomendación y agregar comentarios sobre su capacidad, desarrollo y trayectoria."
+        },
+        "multiple": {
+          "question": "¿Puedo gestionar varios jugadores desde mi organización?",
+          "answer": "Sí. Todos los jugadores que se registran con tu invitación quedan asociados a tu organización y se gestionan desde una sola vista."
+        },
+        "intelligence": {
+          "question": "¿Pueden los entrenadores ver la inteligencia de scouting privada de CFit?",
+          "answer": "No. Las recomendaciones añaden contexto al perfil, pero las evaluaciones privadas y la inteligencia interna de CFit siguen siendo confidenciales."
+        }
+      }
     }
   }
 }

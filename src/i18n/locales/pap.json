@@ -300,6 +300,178 @@
       "description": "CFit ta yuda entrenador i akademia karibense organisá informashon di hugadó, konektá ku e ekosistema di futbòl mas amplio i presentá talento prometedor mediante un plataforma strukturá.",
       "register": "Registrá bo akademia",
       "discover": "Deskubrí kon e ta funshoná"
+    },
+    "whyJoin": {
+      "eyebrow": "Dikon drenta CFit?",
+      "titleLine1": "Duna bo hugadónan",
+      "titleLine2": "un caminda mas",
+      "titleLine3": "strukturá",
+      "titleHighlight": "dilanti.",
+      "description": "Trese bo organisashon i hugadónan den un ambiente konektá, konstruí rond di informashon di futbòl mas kla i un mihó koordinashon.",
+      "items": {
+        "together": {
+          "title": "Uni bo hugadónan",
+          "description": "Registrá bo organisashon i konektá bo hugadónan mediante un perfil di akademia strukturá."
+        },
+        "invite": {
+          "title": "Invitá hugadó fásilmente",
+          "description": "Usa un link di registrashon úniko i un kódigo QR pa fasilitá e entrada di hugadó."
+        },
+        "track": {
+          "title": "Sigui registrashon di hugadó",
+          "description": "Monitoriá e proseso di registrashon for di invitashon te kompletashon i verifikashon di perfil."
+        },
+        "recommend": {
+          "title": "Rekomendá talento prometedor",
+          "description": "Rekomendá hugadó i duna komentario relevante pa yuda CFit komprondé nan trayektoria di futbòl."
+        }
+      }
+    },
+    "journey": {
+      "eyebrow": "Proseso di registrashon di akademia",
+      "titleLine1": "For di registrashon te",
+      "titleLine2": "konekshon ku",
+      "titleHighlight": "hugadó.",
+      "description": "Aprobashon di e organisashon ta nesesario promé ku akseso kompleto na e dashboard i e herament di maneho di hugadó ta disponibel.",
+      "approvalRequired": "Aprobashon nesesario",
+      "steps": {
+        "register": {
+          "title": "Registrá bo organisashon",
+          "description": "Entregá e informashon di registrashon di bo entrenador of akademia."
+        },
+        "approval": {
+          "title": "Aprobashon di admin",
+          "description": "CFit ta revisá i aprobá bo organisashon promé ku akseso kompleto na e dashboard."
+        },
+        "invite": {
+          "title": "Invitá bo hugadónan",
+          "description": "Kompartí bo link di registrashon úniko of kódigo QR ku hugadónan."
+        },
+        "track": {
+          "title": "Sigui progreso di hugadó",
+          "description": "Monitoriá hugadónan invitá durante nan proseso di registrashon."
+        },
+        "recommend": {
+          "title": "Rekomendá talento",
+          "description": "Duna konteksto di futbòl relevante pa hugadónan prometedor."
+        }
+      }
+    },
+    "management": {
+      "eyebrow": "Maneho di hugadó di akademia",
+      "titleLine1": "Tene kada",
+      "titleLine2": "biahe di hugadó",
+      "titleLine3": "na",
+      "titleHighlight": "bista.",
+      "description": "Mira ken a wòrdu invitá, ken a registrá i ki perfil a avansá te kompletashon i verifikashon—tur den un bista kla di bo organisashon.",
+      "windowTitle": "Dashboard di akademia · Vista previo",
+      "overview": "Resumen di organisashon",
+      "approved": "Organisashon aprobá",
+      "statuses": {
+        "invited": "Invitá",
+        "registered": "Registrá",
+        "complete": "Perfil kompleto",
+        "verified": "Verifiká"
+      },
+      "stats": {
+        "invited": "Total invitá",
+        "registered": "Registrá",
+        "complete": "Perfil kompletá",
+        "verified": "Verifiká"
+      },
+      "columns": {
+        "player": "Hugadó",
+        "age": "Edat",
+        "position": "Poshon",
+        "status": "Status",
+        "invited": "Invitá"
+      },
+      "positions": {
+        "midfielder": "Mediokampista",
+        "forward": "Atakante",
+        "defender": "Defensor",
+        "goalkeeper": "Keeper"
+      }
+    },
+    "invitation": {
+      "eyebrow": "Ménos friktion. Mas konekshon.",
+      "titleLine1": "Trese e talento",
+      "titleLine2": "di bo akademia",
+      "titleHighlight": "den CFit.",
+      "description": "Invitá hugadó mediante un link di registrashon personalisá of un kódigo QR. Ora nan registrá via bo invitashon, nan por keda asosiá outomátikamente ku bo organisashon.",
+      "checks": {
+        "unique": "Un link úniko pa bo organisashon aprobá",
+        "share": "Fásil pa kompartí ku hugadó i mayor",
+        "connected": "Konektá ku bo akademia for di kuminsamentu"
+      },
+      "card": {
+        "title": "Invitashon di bo akademia",
+        "preview": "Vista previo",
+        "academyLabel": "Akademia",
+        "linkLabel": "Link di registrashon di hugadó",
+        "qrPreview": "Vista previo QR",
+        "copy": "Kopia link di invitashon",
+        "download": "Baha kódigo QR",
+        "note": "Disponibel despues di aprobashon di akademia"
+      }
+    },
+    "recommend": {
+      "eyebrow": "Rekomendá un hugadó",
+      "titleLine1": "Yuda CFit",
+      "titleLine2": "komprondé e talento",
+      "titleLine3": "tras di kada",
+      "titleHighlight": "hugadó.",
+      "description": "Entrenadónan por rekomendá hugadó asosiá i duna komentario relevante tokante abilidat, desaroyo i trayektoria di futbòl. E konteksto aki ta kompletá e historia di e hugadó sin eksponé evaluashon konfidensial of inteligensia interno.",
+      "cta": "Registrá bo organisashon",
+      "form": {
+        "title": "Rekomendashon di entrenador",
+        "preview": "Vista previo",
+        "playerLabel": "Selektá hugadó",
+        "typeLabel": "Tipo di rekomendashon",
+        "typeValue": "Progreso di desaroyo",
+        "commentsLabel": "Komentario di entrenador",
+        "commentsValue": "Daniel a mustra desaroyo téchniko konsistente i un bon komprenshon di su ròl den mediokampo...",
+        "submit": "Entregá rekomendashon",
+        "note": "Rekomendashonnan ta duna konteksto adishonal so i no ta eksponé ni reemplasá e proseso di evaluashon privá di CFit."
+      }
+    },
+    "faq": {
+      "eyebrow": "Bon pregunta. Kontesta kla.",
+      "titleLine1": "Loke entrenador",
+      "titleLine2": "i akademia mester",
+      "titleLine3": "",
+      "titleHighlight": "sa.",
+      "description": "Un tiki mas klaridat promé ku bo akademia drenta.",
+      "items": {
+        "whoCanRegister": {
+          "question": "Ken por registrá komo entrenador of akademia?",
+          "answer": "Entrenador, akademia, klup i programa di hubentut rònt Karibe por registrá nan organisashon riba CFit."
+        },
+        "approval": {
+          "question": "Mi organisashon mester aprobashon di admin?",
+          "answer": "Si. E tim di CFit ta revisá kada organisashon promé ku akseso kompleto na e dashboard i herament di maneho di hugadó ta disponibel."
+        },
+        "invite": {
+          "question": "Kon mi por invitá hugadó na CFit?",
+          "answer": "Despues di aprobashon, bo ta risibí un link di registrashon úniko i kódigo QR pa kompartí ku bo hugadónan i nan mayornan."
+        },
+        "track": {
+          "question": "Mi por sigui e status di registrashon di mi hugadónan?",
+          "answer": "Si. Bo dashboard ta mustra ken a wòrdu invitá, ken a registrá i ki perfil ta kompleto of verifiká."
+        },
+        "recommendation": {
+          "question": "Kon e funshon di rekomendashon di hugadó ta traha?",
+          "answer": "Bo por selektá un hugadó asosiá, skohe un tipo di rekomendashon i agregá komentario tokante su abilidat, desaroyo i trayektoria."
+        },
+        "multiple": {
+          "question": "Mi por maneha vários hugadó via mi organisashon?",
+          "answer": "Si. Tur hugadó ku registrá via bo invitashon ta keda asosiá ku bo organisashon i bo por maneha nan for di un solo bista."
+        },
+        "intelligence": {
+          "question": "Entrenadónan por mira e inteligensia di scouting privá di CFit?",
+          "answer": "No. Rekomendashonnan ta agregá konteksto na e perfil, pero e evaluashonnan privá i inteligensia interno di CFit ta keda konfidensial."
+        }
+      }
     }
   }
 }
