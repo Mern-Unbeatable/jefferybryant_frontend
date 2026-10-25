@@ -36,6 +36,36 @@
         "verified": "Información verificada",
         "caribbean": "Enfoque caribeño"
       }
+    },
+    "whatIs": {
+      "eyebrow": "¿Qué es CFit?",
+      "titleLine1": "Una plataforma.",
+      "titleLine2": "Un mundo de",
+      "titleHighlight": "potencial futbolístico.",
+      "description": "CFit conecta el ecosistema futbolístico del Caribe en un entorno digital confiable. Ayudamos a organizar la información de los jugadores, las rutas de desarrollo y el acceso a ojeadores profesionales, haciendo que el talento sea más fácil de entender y las oportunidades más fáciles de encontrar.",
+      "cta": "Más información sobre CFit",
+      "mapAlt": "Mapa mundial que muestra conexiones futbolísticas"
+    },
+    "ecosystem": {
+      "eyebrow": "Creado para el ecosistema del fútbol",
+      "title": "Una plataforma.",
+      "titleHighlight": "Todas las perspectivas.",
+      "description": "CFit ofrece a cada parte del recorrido del talento las herramientas adecuadas para conectar, organizar y descubrir.",
+      "players": {
+        "title": "Jugadores",
+        "description": "Crea un perfil futbolístico profesional que reúna tu trayectoria, tu información de rendimiento y tus mejores videos en una sola historia clara.",
+        "cta": "Crea tu perfil"
+      },
+      "coaches": {
+        "title": "Entrenadores y Academias",
+        "description": "Registra jugadores, gestiona invitaciones y recomienda talento futbolístico prometedor a través de una plataforma estructurada.",
+        "cta": "Únete como entrenador"
+      },
+      "scouts": {
+        "title": "Ojeadores Profesionales",
+        "description": "Descubre información relevante de jugadores, revisa perfiles y videos disponibles, y sigue el talento potencial con confianza.",
+        "cta": "Explora CFit"
+      }
     }
   }
 }

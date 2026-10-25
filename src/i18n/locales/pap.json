@@ -36,6 +36,36 @@
         "verified": "Informashon verifiká",
         "caribbean": "Enfoke karibense"
       }
+    },
+    "whatIs": {
+      "eyebrow": "Kiko ta CFit?",
+      "titleLine1": "Un plataforma.",
+      "titleLine2": "Un mundu di",
+      "titleHighlight": "potensial di futbòl.",
+      "description": "CFit ta konektá e ekosistema di futbòl karibense den un ambiente digital konfiabel. Nos ta yuda organisá informashon di hugadó, kaminda di desaroyo i akseso na scouting profeshonal—hasiendo talento mas fásil pa komprondé i oportunidat mas fásil pa haña.",
+      "cta": "Siña mas tokante CFit",
+      "mapAlt": "Mapa mundial ku ta mustra konekshonnan di futbòl"
+    },
+    "ecosystem": {
+      "eyebrow": "Traha pa e ekosistema di futbòl",
+      "title": "Un plataforma.",
+      "titleHighlight": "Tur perspektiva.",
+      "description": "CFit ta duna kada parti di e kaminda di talento e hèrmèntnan korekto pa konektá, organisá i deskubrí.",
+      "players": {
+        "title": "Hugadónan",
+        "description": "Krea un perfil di futbòl profeshonal ku ta reuní bo historia di hunga, informashon di rendimentu i video highlights den un historia kla.",
+        "cta": "Krea bo perfil"
+      },
+      "coaches": {
+        "title": "Entrenadónan i Akademianan",
+        "description": "Registrá hugadónan, maneha invitashonnan i rekomendá talento di futbòl prometedor via un plataforma strukturá.",
+        "cta": "Uni komo entrenadó"
+      },
+      "scouts": {
+        "title": "Scoutnan Profeshonal",
+        "description": "Deskubrí informashon relevante di hugadó, revisá perfilnan i video disponibel, i sigui talento potensial ku konfiansa.",
+        "cta": "Eksplorá CFit"
+      }
     }
   }
 }

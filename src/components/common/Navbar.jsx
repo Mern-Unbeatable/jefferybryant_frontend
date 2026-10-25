@@ -71,7 +71,7 @@ const Navbar = () => {
       </nav>
 
       {isOpen && (
-        <div className="border-t border-white/10 bg-primary px-4 pb-6 xl:hidden">
+        <div className="absolute inset-x-0 top-full max-h-[calc(100svh-4rem)] overflow-y-auto border-t border-white/10 bg-primary px-4 pb-6 shadow-2xl xl:hidden">
           <ul className="flex flex-col gap-4 pt-4">
             {navLinks.map((link) => (
               <li key={link.to}>

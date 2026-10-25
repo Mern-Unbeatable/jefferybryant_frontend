@@ -36,6 +36,36 @@
         "verified": "Verified information",
         "caribbean": "Caribbean focused"
       }
+    },
+    "whatIs": {
+      "eyebrow": "What is CFit?",
+      "titleLine1": "One platform.",
+      "titleLine2": "A world of",
+      "titleHighlight": "football potential.",
+      "description": "CFit connects the Caribbean football ecosystem in one trusted digital environment. We help organize player information, development pathways, and professional scouting access—making talent easier to understand and opportunity easier to navigate.",
+      "cta": "Learn More About CFit",
+      "mapAlt": "World map showing football connections"
+    },
+    "ecosystem": {
+      "eyebrow": "Built for the football ecosystem",
+      "title": "One platform.",
+      "titleHighlight": "Every perspective.",
+      "description": "CFit gives every part of the talent journey the right tools to connect, organize, and discover.",
+      "players": {
+        "title": "Players",
+        "description": "Build a professional football profile that brings your playing history, performance information, and video highlights into one clear story.",
+        "cta": "Create your profile"
+      },
+      "coaches": {
+        "title": "Coaches & Academies",
+        "description": "Register players, manage invitations, and recommend promising football talent through one structured platform.",
+        "cta": "Join as coach"
+      },
+      "scouts": {
+        "title": "Professional Scouts",
+        "description": "Discover relevant player information, review profiles and available video, then monitor potential talent with confidence.",
+        "cta": "Explore CFit"
+      }
     }
   }
 }
