@@ -90,6 +90,45 @@
           "description": "Scouts access relevant approved information to evaluate and monitor talent."
         }
       }
+    },
+    "rooted": {
+      "eyebrow": "Rooted in the Caribbean",
+      "title": "Connecting Caribbean talent to football",
+      "titleHighlight": "opportunities.",
+      "description": "Across islands, communities, and leagues, football ambition runs deep. CFit creates a shared digital space for players, coaches, academies, and the wider professional ecosystem to connect through better information.",
+      "cta": "Become part of CFit"
+    },
+    "features": {
+      "eyebrow": "Built with purpose",
+      "titleLine1": "Football",
+      "titleLine2": "intelligence.",
+      "titleHighlight": "Caribbean focus.",
+      "items": {
+        "profiles": {
+          "title": "Structured player profiles",
+          "description": "A clear, professional view of each player's football journey."
+        },
+        "connections": {
+          "title": "Coach & academy connections",
+          "description": "Bring local development networks into one connected ecosystem."
+        },
+        "intelligence": {
+          "title": "Organized football intelligence",
+          "description": "Turn scattered football information into useful, structured context."
+        },
+        "scouting": {
+          "title": "Professional scouting access",
+          "description": "Help scouts discover and evaluate relevant Caribbean talent."
+        },
+        "verified": {
+          "title": "Verified player information",
+          "description": "A review process designed to improve trust in submitted information."
+        },
+        "video": {
+          "title": "Video & performance information",
+          "description": "Pair playing context with available footage and performance details."
+        }
+      }
     }
   }
 }

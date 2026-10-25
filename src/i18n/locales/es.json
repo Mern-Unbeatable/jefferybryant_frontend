@@ -90,6 +90,45 @@
           "description": "Los ojeadores acceden a información aprobada y relevante para evaluar y seguir el talento."
         }
       }
+    },
+    "rooted": {
+      "eyebrow": "Con raíces en el Caribe",
+      "title": "Conectando el talento caribeño con",
+      "titleHighlight": "oportunidades futbolísticas.",
+      "description": "En islas, comunidades y ligas, la ambición futbolística es profunda. CFit crea un espacio digital compartido para que jugadores, entrenadores, academias y todo el ecosistema profesional se conecten a través de mejor información.",
+      "cta": "Forma parte de CFit"
+    },
+    "features": {
+      "eyebrow": "Creado con propósito",
+      "titleLine1": "Inteligencia",
+      "titleLine2": "futbolística.",
+      "titleHighlight": "Enfoque caribeño.",
+      "items": {
+        "profiles": {
+          "title": "Perfiles de jugador estructurados",
+          "description": "Una visión clara y profesional de la trayectoria futbolística de cada jugador."
+        },
+        "connections": {
+          "title": "Conexiones con entrenadores y academias",
+          "description": "Integra las redes locales de desarrollo en un ecosistema conectado."
+        },
+        "intelligence": {
+          "title": "Inteligencia futbolística organizada",
+          "description": "Convierte información futbolística dispersa en un contexto útil y estructurado."
+        },
+        "scouting": {
+          "title": "Acceso para ojeadores profesionales",
+          "description": "Ayuda a los ojeadores a descubrir y evaluar talento caribeño relevante."
+        },
+        "verified": {
+          "title": "Información de jugador verificada",
+          "description": "Un proceso de revisión diseñado para aumentar la confianza en la información enviada."
+        },
+        "video": {
+          "title": "Video e información de rendimiento",
+          "description": "Combina el contexto de juego con videos disponibles y detalles de rendimiento."
+        }
+      }
     }
   }
 }

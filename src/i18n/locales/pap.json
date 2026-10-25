@@ -90,6 +90,45 @@
           "description": "Scoutnan ta haña akseso na informashon aprobá i relevante pa evaluá i sigui talento."
         }
       }
+    },
+    "rooted": {
+      "eyebrow": "Ku rais den Karibe",
+      "title": "Konektando talento karibense ku",
+      "titleHighlight": "oportunidatnan di futbòl.",
+      "description": "Riba isla, den komunidat i liga, ambishon pa futbòl ta profundo. CFit ta krea un espasio digital komun pa hugadónan, entrenadónan, akademianan i henter e ekosistema profeshonal konektá via mihó informashon.",
+      "cta": "Bira parti di CFit"
+    },
+    "features": {
+      "eyebrow": "Traha ku propósito",
+      "titleLine1": "Inteligensia",
+      "titleLine2": "di futbòl.",
+      "titleHighlight": "Enfoke karibense.",
+      "items": {
+        "profiles": {
+          "title": "Perfil di hugadó strukturá",
+          "description": "Un bista kla i profeshonal di e kaminda di futbòl di kada hugadó."
+        },
+        "connections": {
+          "title": "Konekshon ku entrenadó i akademia",
+          "description": "Uni e rednan di desaroyo lokal den un ekosistema konektá."
+        },
+        "intelligence": {
+          "title": "Inteligensia di futbòl organisá",
+          "description": "Kambia informashon di futbòl sparsí den un konteksto útil i strukturá."
+        },
+        "scouting": {
+          "title": "Akseso pa scout profeshonal",
+          "description": "Yuda scoutnan deskubrí i evaluá talento karibense relevante."
+        },
+        "verified": {
+          "title": "Informashon di hugadó verifiká",
+          "description": "Un proseso di revishon diseñá pa oumentá konfiansa den informashon entregá."
+        },
+        "video": {
+          "title": "Video i informashon di rendimentu",
+          "description": "Kombiná konteksto di hunga ku video disponibel i detayenan di rendimentu."
+        }
+      }
     }
   }
 }
