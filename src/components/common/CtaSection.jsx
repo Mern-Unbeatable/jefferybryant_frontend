@@ -23,7 +23,7 @@ const pageCtas = {
   "/partners": {
     ns: "partners.cta",
     highlightBlock: true,
-    primary: { to: "/join/partner", label: "becomePartner" },
+    primary: { to: "#partnership-inquiry", label: "becomePartner" },
     secondary: { to: "mailto:hello@cfittalent.com", label: "contact" },
   },
 };
@@ -34,7 +34,7 @@ const secondaryClass =
   "flex items-center justify-center gap-2 rounded-sm border border-white/20 bg-primary/80 px-6 py-3 text-sm uppercase text-white transition hover:border-white";
 
 const CtaButton = ({ to, className, children }) =>
-  to.startsWith("mailto:") ? (
+  to.startsWith("mailto:") || to.startsWith("#") ? (
     <a href={to} className={className}>
       {children}
     </a>

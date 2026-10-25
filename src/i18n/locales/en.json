@@ -597,6 +597,202 @@
       "description": "Connect with CFit and explore how your organization can contribute to a stronger, more connected football ecosystem.",
       "becomePartner": "Become a partner",
       "contact": "Contact CFit"
+    },
+    "hero": {
+      "eyebrow": "Partnership with purpose",
+      "titleLine1": "Together, we can",
+      "titleLine2": "build a stronger",
+      "titleLine3": "Caribbean",
+      "titleLine4": "football",
+      "titleHighlight": "ecosystem",
+      "description": "CFit welcomes football organizations, academies, clubs, and development partners who share a vision of connecting Caribbean football talent through a more structured and collaborative platform.",
+      "joinCfit": "Join CFit",
+      "joinCoach": "Join Coach/Academy"
+    },
+    "whoCan": {
+      "eyebrow": "Who can partner with CFit?",
+      "titleLine1": "Connecting",
+      "titleLine2": "organizations across",
+      "titleLine3": "the football",
+      "titleHighlight": "community.",
+      "description": "We welcome conversations with organizations that share an interest in structured football development and stronger Caribbean connections.",
+      "items": {
+        "clubs": {
+          "title": "Football clubs",
+          "description": "Organizations interested in connecting with the Caribbean football ecosystem and discovering structured player information."
+        },
+        "academies": {
+          "title": "Football academies",
+          "description": "Academies focused on youth development, player growth, and introducing promising football talent."
+        },
+        "associations": {
+          "title": "Football associations",
+          "description": "Football organizations interested in supporting a more connected and organized football environment."
+        },
+        "youth": {
+          "title": "Youth development programs",
+          "description": "Programs dedicated to developing young football players and supporting their football journeys."
+        },
+        "development": {
+          "title": "Development organizations",
+          "description": "Organizations working to strengthen football opportunities, development, and collaboration."
+        }
+      }
+    },
+    "why": {
+      "eyebrow": "Why partner with CFit?",
+      "titleLine1": "Be part of a more",
+      "titleLine2": "connected",
+      "titleLine3": "football",
+      "titleHighlight": "future.",
+      "description": "Partnership begins with shared goals, responsible collaboration, and a commitment to strengthening football development.",
+      "items": {
+        "talent": {
+          "title": "Connect with football talent",
+          "description": "Become part of a platform designed to organize and connect Caribbean football talent."
+        },
+        "development": {
+          "title": "Support structured player development",
+          "description": "Contribute to an ecosystem where player information and football backgrounds can be presented in a structured format."
+        },
+        "connections": {
+          "title": "Strengthen football connections",
+          "description": "Build connections between players, coaches, academies, and professional football stakeholders."
+        },
+        "ecosystem": {
+          "title": "Support the Caribbean ecosystem",
+          "description": "Participate in a wider effort to improve the organization and visibility of Caribbean football talent."
+        }
+      }
+    },
+    "ecosystem": {
+      "eyebrow": "The CFit partnership ecosystem",
+      "titleLine1": "Different",
+      "titleLine2": "organizations.",
+      "titleLine3": "One connected",
+      "titleHighlight": "vision.",
+      "description": "CFit provides a shared platform layer across the football community while maintaining role-based permissions. Partnership does not automatically grant access to confidential player information or internal scouting intelligence.",
+      "nodes": {
+        "clubs": "Football clubs",
+        "academies": "Academies",
+        "coaches": "Coaches",
+        "players": "Players",
+        "development": "Development organizations",
+        "scouts": "Professional scouts"
+      }
+    },
+    "steps": {
+      "eyebrow": "How partnership works",
+      "titleLine1": "Start a",
+      "titleLine2": "conversation.",
+      "titleLine3": "Build something",
+      "titleHighlight": "meaningful.",
+      "description": "Every potential collaboration begins with a conversation—not automatic approval or onboarding.",
+      "stepLabel": "Step",
+      "items": {
+        "interest": {
+          "title": "Express your interest",
+          "description": "Submit a partnership inquiry through the public contact form."
+        },
+        "connect": {
+          "title": "Connect with CFit",
+          "description": "The CFit team reviews your inquiry and discusses possible areas of collaboration."
+        },
+        "explore": {
+          "title": "Explore collaboration",
+          "description": "Relevant opportunities and next steps can be discussed based on shared goals."
+        }
+      }
+    },
+    "inquiry": {
+      "eyebrow": "Partnership inquiry",
+      "titleLine1": "Let's explore how",
+      "titleLine2": "we can work",
+      "titleHighlight": "together.",
+      "description": "Tell us a little about your organization and how you would like to connect with CFit.",
+      "fields": {
+        "organization": "Organization name",
+        "organizationType": "Organization type",
+        "contactPerson": "Contact person",
+        "email": "Email address",
+        "country": "Country",
+        "website": "Website (optional)",
+        "interest": "Partnership interest",
+        "message": "Message"
+      },
+      "placeholders": {
+        "organization": "Your organization",
+        "organizationType": "Select organization type",
+        "contactPerson": "Full name",
+        "country": "Country or territory",
+        "interest": "Select an area of interest",
+        "message": "Tell us about your organization and what you would like to explore with CFit."
+      },
+      "orgTypes": {
+        "club": "Football club",
+        "academy": "Football academy",
+        "association": "Football association",
+        "youth": "Youth development program",
+        "development": "Development organization",
+        "other": "Other"
+      },
+      "interests": {
+        "talent": "Connecting with football talent",
+        "development": "Player development",
+        "ecosystem": "Supporting the Caribbean ecosystem",
+        "sponsorship": "Sponsorship or support",
+        "other": "Other"
+      },
+      "note": "Inquiries are reviewed by the CFit team before any next steps.",
+      "submit": "Submit partnership inquiry",
+      "successTitle": "Thank you for your inquiry",
+      "successText": "The CFit team will review your message and get in touch to discuss possible areas of collaboration."
+    },
+    "borders": {
+      "eyebrow": "Caribbean football · A shared vision",
+      "titleLine1": "Building",
+      "titleLine2": "connections",
+      "titleLine3": "beyond",
+      "titleHighlight": "borders.",
+      "description": "Meaningful progress comes from organizations, academies, coaches, and development initiatives working toward a more connected football community. CFit creates a place for those conversations to begin around clearer information and shared purpose.",
+      "cta": "Join CFit"
+    },
+    "faq": {
+      "eyebrow": "Partnership questions",
+      "titleLine1": "Explore",
+      "titleLine2": "partnership with",
+      "titleHighlight": "clarity",
+      "description": "Straightforward answers about inquiries, participation, and information access.",
+      "items": {
+        "whichOrganizations": {
+          "question": "What types of organizations can partner with CFit?",
+          "answer": "Football clubs, academies, associations, youth development programs, and development organizations that share our vision are welcome to start a conversation."
+        },
+        "expressInterest": {
+          "question": "How can our organization express partnership interest?",
+          "answer": "Submit the partnership inquiry form on this page with details about your organization and the areas you would like to explore."
+        },
+        "guarantee": {
+          "question": "Does submitting an inquiry guarantee a partnership?",
+          "answer": "No. Every inquiry is reviewed by the CFit team, and any collaboration is discussed based on shared goals and suitability."
+        },
+        "academies": {
+          "question": "Can football academies participate in CFit?",
+          "answer": "Yes. Academies can register as an organization, invite their players, and take part in the wider CFit ecosystem."
+        },
+        "connect": {
+          "question": "How does CFit connect different football organizations?",
+          "answer": "CFit provides a shared platform where organizations, coaches, players, and scouts interact through structured information and role-based access."
+        },
+        "playerInformation": {
+          "question": "Can partners access player information?",
+          "answer": "Partnership does not automatically grant access to player information. Access follows role-based permissions and approved platform standards."
+        },
+        "contact": {
+          "question": "How can we contact the CFit team?",
+          "answer": "Use the partnership inquiry form above or email us at hello@cfittalent.com."
+        }
+      }
     }
   }
 }

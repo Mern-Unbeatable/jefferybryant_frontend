@@ -597,6 +597,202 @@
       "description": "Conecta con CFit y descubre cómo tu organización puede contribuir a un ecosistema futbolístico más fuerte y conectado.",
       "becomePartner": "Hazte socio",
       "contact": "Contacta a CFit"
+    },
+    "hero": {
+      "eyebrow": "Alianzas con propósito",
+      "titleLine1": "Juntos podemos",
+      "titleLine2": "construir un",
+      "titleLine3": "ecosistema futbolístico",
+      "titleLine4": "caribeño",
+      "titleHighlight": "más fuerte",
+      "description": "CFit da la bienvenida a organizaciones futbolísticas, academias, clubes y socios de desarrollo que comparten la visión de conectar el talento caribeño mediante una plataforma más estructurada y colaborativa.",
+      "joinCfit": "Únete a CFit",
+      "joinCoach": "Únete como entrenador/academia"
+    },
+    "whoCan": {
+      "eyebrow": "¿Quién puede asociarse con CFit?",
+      "titleLine1": "Conectando",
+      "titleLine2": "organizaciones de toda",
+      "titleLine3": "la comunidad",
+      "titleHighlight": "futbolística.",
+      "description": "Damos la bienvenida a organizaciones interesadas en el desarrollo futbolístico estructurado y en conexiones caribeñas más sólidas.",
+      "items": {
+        "clubs": {
+          "title": "Clubes de fútbol",
+          "description": "Organizaciones interesadas en conectarse con el ecosistema futbolístico caribeño y descubrir información estructurada de jugadores."
+        },
+        "academies": {
+          "title": "Academias de fútbol",
+          "description": "Academias enfocadas en el desarrollo juvenil, el crecimiento de jugadores y la presentación de talento prometedor."
+        },
+        "associations": {
+          "title": "Asociaciones de fútbol",
+          "description": "Organizaciones interesadas en apoyar un entorno futbolístico más conectado y organizado."
+        },
+        "youth": {
+          "title": "Programas de desarrollo juvenil",
+          "description": "Programas dedicados a desarrollar jóvenes futbolistas y apoyar sus caminos en el fútbol."
+        },
+        "development": {
+          "title": "Organizaciones de desarrollo",
+          "description": "Organizaciones que trabajan para fortalecer las oportunidades, el desarrollo y la colaboración en el fútbol."
+        }
+      }
+    },
+    "why": {
+      "eyebrow": "¿Por qué asociarse con CFit?",
+      "titleLine1": "Forma parte de un",
+      "titleLine2": "futuro futbolístico",
+      "titleLine3": "más",
+      "titleHighlight": "conectado.",
+      "description": "Toda alianza comienza con objetivos compartidos, colaboración responsable y el compromiso de fortalecer el desarrollo del fútbol.",
+      "items": {
+        "talent": {
+          "title": "Conecta con talento futbolístico",
+          "description": "Forma parte de una plataforma diseñada para organizar y conectar el talento futbolístico caribeño."
+        },
+        "development": {
+          "title": "Apoya el desarrollo estructurado",
+          "description": "Contribuye a un ecosistema donde la información y trayectoria de los jugadores se presentan de forma estructurada."
+        },
+        "connections": {
+          "title": "Fortalece las conexiones",
+          "description": "Crea conexiones entre jugadores, entrenadores, academias y actores profesionales del fútbol."
+        },
+        "ecosystem": {
+          "title": "Apoya el ecosistema caribeño",
+          "description": "Participa en un esfuerzo más amplio para mejorar la organización y visibilidad del talento caribeño."
+        }
+      }
+    },
+    "ecosystem": {
+      "eyebrow": "El ecosistema de alianzas de CFit",
+      "titleLine1": "Distintas",
+      "titleLine2": "organizaciones.",
+      "titleLine3": "Una visión",
+      "titleHighlight": "conectada.",
+      "description": "CFit ofrece una plataforma compartida para toda la comunidad futbolística, manteniendo permisos según el rol. Una alianza no otorga acceso automático a información confidencial de jugadores ni a inteligencia interna de scouting.",
+      "nodes": {
+        "clubs": "Clubes de fútbol",
+        "academies": "Academias",
+        "coaches": "Entrenadores",
+        "players": "Jugadores",
+        "development": "Organizaciones de desarrollo",
+        "scouts": "Ojeadores profesionales"
+      }
+    },
+    "steps": {
+      "eyebrow": "Cómo funcionan las alianzas",
+      "titleLine1": "Inicia una",
+      "titleLine2": "conversación.",
+      "titleLine3": "Construye algo",
+      "titleHighlight": "significativo.",
+      "description": "Toda posible colaboración comienza con una conversación, no con una aprobación o incorporación automática.",
+      "stepLabel": "Paso",
+      "items": {
+        "interest": {
+          "title": "Expresa tu interés",
+          "description": "Envía una solicitud de alianza mediante el formulario de contacto público."
+        },
+        "connect": {
+          "title": "Conecta con CFit",
+          "description": "El equipo de CFit revisa tu solicitud y analiza posibles áreas de colaboración."
+        },
+        "explore": {
+          "title": "Explora la colaboración",
+          "description": "Se pueden conversar oportunidades y próximos pasos según los objetivos compartidos."
+        }
+      }
+    },
+    "inquiry": {
+      "eyebrow": "Solicitud de alianza",
+      "titleLine1": "Exploremos cómo",
+      "titleLine2": "podemos trabajar",
+      "titleHighlight": "juntos.",
+      "description": "Cuéntanos un poco sobre tu organización y cómo te gustaría conectar con CFit.",
+      "fields": {
+        "organization": "Nombre de la organización",
+        "organizationType": "Tipo de organización",
+        "contactPerson": "Persona de contacto",
+        "email": "Correo electrónico",
+        "country": "País",
+        "website": "Sitio web (opcional)",
+        "interest": "Interés de la alianza",
+        "message": "Mensaje"
+      },
+      "placeholders": {
+        "organization": "Tu organización",
+        "organizationType": "Selecciona el tipo de organización",
+        "contactPerson": "Nombre completo",
+        "country": "País o territorio",
+        "interest": "Selecciona un área de interés",
+        "message": "Cuéntanos sobre tu organización y qué te gustaría explorar con CFit."
+      },
+      "orgTypes": {
+        "club": "Club de fútbol",
+        "academy": "Academia de fútbol",
+        "association": "Asociación de fútbol",
+        "youth": "Programa de desarrollo juvenil",
+        "development": "Organización de desarrollo",
+        "other": "Otro"
+      },
+      "interests": {
+        "talent": "Conectar con talento futbolístico",
+        "development": "Desarrollo de jugadores",
+        "ecosystem": "Apoyar el ecosistema caribeño",
+        "sponsorship": "Patrocinio o apoyo",
+        "other": "Otro"
+      },
+      "note": "El equipo de CFit revisa las solicitudes antes de cualquier siguiente paso.",
+      "submit": "Enviar solicitud de alianza",
+      "successTitle": "Gracias por tu solicitud",
+      "successText": "El equipo de CFit revisará tu mensaje y se pondrá en contacto para conversar sobre posibles áreas de colaboración."
+    },
+    "borders": {
+      "eyebrow": "Fútbol caribeño · Una visión compartida",
+      "titleLine1": "Creando",
+      "titleLine2": "conexiones",
+      "titleLine3": "sin",
+      "titleHighlight": "fronteras.",
+      "description": "El progreso real surge de organizaciones, academias, entrenadores e iniciativas de desarrollo que trabajan por una comunidad futbolística más conectada. CFit ofrece un espacio para que esas conversaciones comiencen con información más clara y un propósito compartido.",
+      "cta": "Únete a CFit"
+    },
+    "faq": {
+      "eyebrow": "Preguntas sobre alianzas",
+      "titleLine1": "Explora",
+      "titleLine2": "las alianzas con",
+      "titleHighlight": "claridad",
+      "description": "Respuestas directas sobre solicitudes, participación y acceso a la información.",
+      "items": {
+        "whichOrganizations": {
+          "question": "¿Qué tipos de organizaciones pueden asociarse con CFit?",
+          "answer": "Clubes, academias, asociaciones, programas juveniles y organizaciones de desarrollo que compartan nuestra visión pueden iniciar una conversación."
+        },
+        "expressInterest": {
+          "question": "¿Cómo puede nuestra organización expresar su interés?",
+          "answer": "Envía el formulario de solicitud de alianza de esta página con información sobre tu organización y las áreas que te gustaría explorar."
+        },
+        "guarantee": {
+          "question": "¿Enviar una solicitud garantiza una alianza?",
+          "answer": "No. El equipo de CFit revisa cada solicitud y cualquier colaboración se analiza según los objetivos compartidos."
+        },
+        "academies": {
+          "question": "¿Pueden participar las academias de fútbol en CFit?",
+          "answer": "Sí. Las academias pueden registrarse como organización, invitar a sus jugadores y formar parte del ecosistema de CFit."
+        },
+        "connect": {
+          "question": "¿Cómo conecta CFit a las distintas organizaciones?",
+          "answer": "CFit ofrece una plataforma compartida donde organizaciones, entrenadores, jugadores y ojeadores interactúan mediante información estructurada y acceso según el rol."
+        },
+        "playerInformation": {
+          "question": "¿Pueden los socios acceder a la información de jugadores?",
+          "answer": "Una alianza no otorga acceso automático a la información de jugadores. El acceso sigue permisos según el rol y los estándares aprobados."
+        },
+        "contact": {
+          "question": "¿Cómo podemos contactar al equipo de CFit?",
+          "answer": "Usa el formulario de solicitud de alianza o escríbenos a hello@cfittalent.com."
+        }
+      }
     }
   }
 }

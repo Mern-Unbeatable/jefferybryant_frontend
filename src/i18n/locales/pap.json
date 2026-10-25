@@ -597,6 +597,202 @@
       "description": "Konektá ku CFit i eksplorá kon bo organisashon por kontribuí na un ekosistema di futbòl mas fuerte i konektá.",
       "becomePartner": "Bira socio",
       "contact": "Kontaktá CFit"
+    },
+    "hero": {
+      "eyebrow": "Asosiashon ku propósito",
+      "titleLine1": "Huntu nos por",
+      "titleLine2": "traha un",
+      "titleLine3": "ekosistema di futbòl",
+      "titleLine4": "karibense",
+      "titleHighlight": "mas fuerte",
+      "description": "CFit ta duna bonbini na organisashon di futbòl, akademia, klup i socio di desaroyo ku ta kompartí e vishon di konektá talento di futbòl karibense mediante un plataforma mas strukturá i kolaborativo.",
+      "joinCfit": "Drenta CFit",
+      "joinCoach": "Drenta komo entrenador/akademia"
+    },
+    "whoCan": {
+      "eyebrow": "Ken por asosiá ku CFit?",
+      "titleLine1": "Konektando",
+      "titleLine2": "organisashonnan den",
+      "titleLine3": "e komunidat",
+      "titleHighlight": "di futbòl.",
+      "description": "Nos ta duna bonbini na kombersashon ku organisashon ku tin interes den desaroyo strukturá di futbòl i konekshonnan karibense mas fuerte.",
+      "items": {
+        "clubs": {
+          "title": "Klup di futbòl",
+          "description": "Organisashon interesá den konektá ku e ekosistema di futbòl karibense i deskubrí informashon strukturá di hugadó."
+        },
+        "academies": {
+          "title": "Akademia di futbòl",
+          "description": "Akademia enfoká riba desaroyo di hubentut, kresementu di hugadó i presentá talento prometedor."
+        },
+        "associations": {
+          "title": "Asosiashon di futbòl",
+          "description": "Organisashon di futbòl interesá den sostené un ambiente di futbòl mas konektá i organisá."
+        },
+        "youth": {
+          "title": "Programa di desaroyo di hubentut",
+          "description": "Programa dediká na desaroyá hóben hugadó di futbòl i sostené nan biahe."
+        },
+        "development": {
+          "title": "Organisashon di desaroyo",
+          "description": "Organisashon ku ta traha pa fortalesé oportunidat, desaroyo i kolaborashon den futbòl."
+        }
+      }
+    },
+    "why": {
+      "eyebrow": "Dikon asosiá ku CFit?",
+      "titleLine1": "Bira parti di un",
+      "titleLine2": "futuro di futbòl",
+      "titleLine3": "mas",
+      "titleHighlight": "konektá.",
+      "description": "Asosiashon ta kuminsá ku metanan kompartí, kolaborashon responsabel i un kompromiso pa fortalesé desaroyo di futbòl.",
+      "items": {
+        "talent": {
+          "title": "Konektá ku talento di futbòl",
+          "description": "Bira parti di un plataforma diseñá pa organisá i konektá talento di futbòl karibense."
+        },
+        "development": {
+          "title": "Sostené desaroyo strukturá",
+          "description": "Kontribuí na un ekosistema kaminda informashon i trayektoria di hugadó ta wòrdu presentá na un forma strukturá."
+        },
+        "connections": {
+          "title": "Fortalesé konekshonnan",
+          "description": "Traha konekshon entre hugadó, entrenador, akademia i aktor profesional di futbòl."
+        },
+        "ecosystem": {
+          "title": "Sostené e ekosistema karibense",
+          "description": "Partisipá den un esfuerso mas amplio pa mehorá organisashon i visibilidat di talento di futbòl karibense."
+        }
+      }
+    },
+    "ecosystem": {
+      "eyebrow": "E ekosistema di asosiashon di CFit",
+      "titleLine1": "Diferente",
+      "titleLine2": "organisashon.",
+      "titleLine3": "Un vishon",
+      "titleHighlight": "konektá.",
+      "description": "CFit ta ofresé un plataforma kompartí pa henter e komunidat di futbòl, miéntras e ta mantené permiso segun ròl. Asosiashon no ta duna akseso outomátiko na informashon konfidensial di hugadó ni inteligensia interno di scouting.",
+      "nodes": {
+        "clubs": "Klup di futbòl",
+        "academies": "Akademia",
+        "coaches": "Entrenador",
+        "players": "Hugadó",
+        "development": "Organisashon di desaroyo",
+        "scouts": "Scout profesional"
+      }
+    },
+    "steps": {
+      "eyebrow": "Kon asosiashon ta funshoná",
+      "titleLine1": "Kuminsá un",
+      "titleLine2": "kombersashon.",
+      "titleLine3": "Traha algu",
+      "titleHighlight": "signifikante.",
+      "description": "Kada kolaborashon posibel ta kuminsá ku un kombersashon—no ku aprobashon of entrada outomátiko.",
+      "stepLabel": "Paso",
+      "items": {
+        "interest": {
+          "title": "Ekspresá bo interes",
+          "description": "Entregá un solisitut di asosiashon via e formulario di kontakto públiko."
+        },
+        "connect": {
+          "title": "Konektá ku CFit",
+          "description": "E tim di CFit ta revisá bo solisitut i ta papia tokante areanan posibel di kolaborashon."
+        },
+        "explore": {
+          "title": "Eksplorá kolaborashon",
+          "description": "Oportunidat relevante i siguiente pasonan por wòrdu diskutí segun metanan kompartí."
+        }
+      }
+    },
+    "inquiry": {
+      "eyebrow": "Solisitut di asosiashon",
+      "titleLine1": "Laga nos eksplorá kon",
+      "titleLine2": "nos por traha",
+      "titleHighlight": "huntu.",
+      "description": "Konta nos un tiki tokante bo organisashon i kon bo ke konektá ku CFit.",
+      "fields": {
+        "organization": "Nòmber di organisashon",
+        "organizationType": "Tipo di organisashon",
+        "contactPerson": "Persona di kontakto",
+        "email": "Adrès di email",
+        "country": "Pais",
+        "website": "Website (opshonal)",
+        "interest": "Interes di asosiashon",
+        "message": "Mensahe"
+      },
+      "placeholders": {
+        "organization": "Bo organisashon",
+        "organizationType": "Skohe tipo di organisashon",
+        "contactPerson": "Nòmber kompleto",
+        "country": "Pais of teritorio",
+        "interest": "Skohe un area di interes",
+        "message": "Konta nos tokante bo organisashon i kiko bo ke eksplorá ku CFit."
+      },
+      "orgTypes": {
+        "club": "Klup di futbòl",
+        "academy": "Akademia di futbòl",
+        "association": "Asosiashon di futbòl",
+        "youth": "Programa di desaroyo di hubentut",
+        "development": "Organisashon di desaroyo",
+        "other": "Otro"
+      },
+      "interests": {
+        "talent": "Konektá ku talento di futbòl",
+        "development": "Desaroyo di hugadó",
+        "ecosystem": "Sostené e ekosistema karibense",
+        "sponsorship": "Patrosinio of sosten",
+        "other": "Otro"
+      },
+      "note": "E tim di CFit ta revisá solisitutnan promé ku kualke siguiente paso.",
+      "submit": "Entregá solisitut di asosiashon",
+      "successTitle": "Danki pa bo solisitut",
+      "successText": "E tim di CFit lo revisá bo mensahe i tuma kontakto pa papia tokante areanan posibel di kolaborashon."
+    },
+    "borders": {
+      "eyebrow": "Futbòl karibense · Un vishon kompartí",
+      "titleLine1": "Trahando",
+      "titleLine2": "konekshon",
+      "titleLine3": "sin",
+      "titleHighlight": "frontera.",
+      "description": "Progreso signifikante ta bin di organisashon, akademia, entrenador i inisiativa di desaroyo ku ta traha pa un komunidat di futbòl mas konektá. CFit ta krea un lugá pa e kombersashonnan ei kuminsá rònt di informashon mas kla i un propósito kompartí.",
+      "cta": "Drenta CFit"
+    },
+    "faq": {
+      "eyebrow": "Pregunta tokante asosiashon",
+      "titleLine1": "Eksplorá",
+      "titleLine2": "asosiashon ku",
+      "titleHighlight": "klaridat",
+      "description": "Kontesta direkto tokante solisitut, partisipashon i akseso na informashon.",
+      "items": {
+        "whichOrganizations": {
+          "question": "Ki tipo di organisashon por asosiá ku CFit?",
+          "answer": "Klup, akademia, asosiashon, programa di hubentut i organisashon di desaroyo ku ta kompartí nos vishon por kuminsá un kombersashon."
+        },
+        "expressInterest": {
+          "question": "Kon nos organisashon por ekspresá interes?",
+          "answer": "Entregá e formulario di solisitut riba e página aki ku detaye tokante bo organisashon i e areanan ku bo ke eksplorá."
+        },
+        "guarantee": {
+          "question": "Entregá un solisitut ta garantisá un asosiashon?",
+          "answer": "No. E tim di CFit ta revisá kada solisitut, i kualke kolaborashon ta wòrdu diskutí segun metanan kompartí."
+        },
+        "academies": {
+          "question": "Akademia di futbòl por partisipá den CFit?",
+          "answer": "Si. Akademia por registrá komo organisashon, invitá nan hugadónan i bira parti di e ekosistema di CFit."
+        },
+        "connect": {
+          "question": "Kon CFit ta konektá diferente organisashon di futbòl?",
+          "answer": "CFit ta ofresé un plataforma kompartí kaminda organisashon, entrenador, hugadó i scout ta interaktuá mediante informashon strukturá i akseso segun ròl."
+        },
+        "playerInformation": {
+          "question": "Socionan por tin akseso na informashon di hugadó?",
+          "answer": "Asosiashon no ta duna akseso outomátiko na informashon di hugadó. Akseso ta sigui permiso segun ròl i standarnan aprobá."
+        },
+        "contact": {
+          "question": "Kon nos por kontaktá e tim di CFit?",
+          "answer": "Usa e formulario di solisitut di asosiashon òf manda email na hello@cfittalent.com."
+        }
+      }
     }
   }
 }
