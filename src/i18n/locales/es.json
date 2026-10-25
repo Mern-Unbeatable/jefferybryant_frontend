@@ -66,6 +66,30 @@
         "description": "Descubre información relevante de jugadores, revisa perfiles y videos disponibles, y sigue el talento potencial con confianza.",
         "cta": "Explora CFit"
       }
+    },
+    "howItWorks": {
+      "eyebrow": "Cómo funciona CFit",
+      "title": "Del perfil a la",
+      "titleHighlight": "posibilidad.",
+      "description": "Un camino claro y confiable, diseñado según la forma en que se desarrolla el talento futbolístico.",
+      "steps": {
+        "join": {
+          "title": "Únete a CFit",
+          "description": "Jugadores y entrenadores crean perfiles o registran su organización."
+        },
+        "build": {
+          "title": "Crea tu perfil",
+          "description": "Los jugadores añaden su trayectoria futbolística, información de juego y videos disponibles."
+        },
+        "verify": {
+          "title": "Verificación e inteligencia",
+          "description": "CFit revisa y organiza la información enviada por los jugadores."
+        },
+        "discover": {
+          "title": "Descubrimiento de talento",
+          "description": "Los ojeadores acceden a información aprobada y relevante para evaluar y seguir el talento."
+        }
+      }
     }
   }
 }

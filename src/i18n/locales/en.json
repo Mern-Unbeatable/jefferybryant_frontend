@@ -66,6 +66,30 @@
         "description": "Discover relevant player information, review profiles and available video, then monitor potential talent with confidence.",
         "cta": "Explore CFit"
       }
+    },
+    "howItWorks": {
+      "eyebrow": "How CFit works",
+      "title": "From profile to",
+      "titleHighlight": "possibility.",
+      "description": "A clear, credible pathway designed around the way football talent develops.",
+      "steps": {
+        "join": {
+          "title": "Join CFit",
+          "description": "Players and coaches create profiles or register their organization."
+        },
+        "build": {
+          "title": "Build your profile",
+          "description": "Players add their football background, playing information, and available videos."
+        },
+        "verify": {
+          "title": "Verification & Intelligence",
+          "description": "CFit reviews and organizes submitted player information."
+        },
+        "discover": {
+          "title": "Talent discovery",
+          "description": "Scouts access relevant approved information to evaluate and monitor talent."
+        }
+      }
     }
   }
 }

@@ -66,6 +66,30 @@
         "description": "Deskubrí informashon relevante di hugadó, revisá perfilnan i video disponibel, i sigui talento potensial ku konfiansa.",
         "cta": "Eksplorá CFit"
       }
+    },
+    "howItWorks": {
+      "eyebrow": "Kon CFit ta funshoná",
+      "title": "Di perfil pa",
+      "titleHighlight": "posibilidat.",
+      "description": "Un kaminda kla i konfiabel, diseñá rond di e manera ku talento di futbòl ta desaroyá.",
+      "steps": {
+        "join": {
+          "title": "Uni ku CFit",
+          "description": "Hugadónan i entrenadónan ta krea perfil òf registrá nan organisashon."
+        },
+        "build": {
+          "title": "Traha bo perfil",
+          "description": "Hugadónan ta agregá nan historia di futbòl, informashon di hunga i video disponibel."
+        },
+        "verify": {
+          "title": "Verifikashon i Inteligensia",
+          "description": "CFit ta revisá i organisá e informashon di hugadó entregá."
+        },
+        "discover": {
+          "title": "Deskubrimentu di talento",
+          "description": "Scoutnan ta haña akseso na informashon aprobá i relevante pa evaluá i sigui talento."
+        }
+      }
     }
   }
 }
