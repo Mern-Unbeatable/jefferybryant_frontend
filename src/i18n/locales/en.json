@@ -472,6 +472,131 @@
           "answer": "No. Recommendations add context to a player's profile, but CFit's private evaluations and internal scouting intelligence remain confidential."
         }
       }
+    },
+    "cta": {
+      "eyebrow": "The next chapter starts with you",
+      "title": "Your academy is part of",
+      "titleHighlight": "the bigger picture.",
+      "description": "Join CFit and help connect your players to a more organized Caribbean football ecosystem.",
+      "register": "Register your academy",
+      "learnMore": "Learn more about CFit"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About CFit Talent",
+      "titleLine1": "Connecting",
+      "titleLine2": "Caribbean",
+      "titleLine3": "football talent",
+      "titleLine4": "to a bigger",
+      "titleHighlight": "future.",
+      "description": "CFit is building a connected football intelligence platform that brings players, coaches, academies, and professional scouts together through structured player information and meaningful connections.",
+      "explore": "Explore the CFit",
+      "join": "Join CFit"
+    },
+    "whoWeAre": {
+      "eyebrow": "Who we are",
+      "titleLine1": "Built around the",
+      "titleLine2": "Caribbean",
+      "titleLine3": "football",
+      "titleHighlight": "ecosystem.",
+      "description": "CFit is designed to bring structure and connectivity to the Caribbean football landscape. By organizing player information and connecting athletes, coaches, academies, and professional scouts, CFit aims to make football talent easier to understand, follow, and evaluate.",
+      "cta": "Discover our mission",
+      "imageAlt": "Caribbean waterfront city at sunset"
+    },
+    "mission": {
+      "eyebrow": "Our mission",
+      "titleLine1": "Creating better",
+      "titleLine2": "connections for",
+      "titleHighlight1": "Caribbean",
+      "titleHighlight2": "football",
+      "description": "Our mission is to provide a structured environment where players can build football profiles, coaches and academies can introduce talent, and authorized professional scouts can access relevant, approved player information.",
+      "tags": {
+        "profiles": "Player profiles",
+        "connections": "Organization connections",
+        "scouting": "Relevant scouting access"
+      },
+      "cta": "Discover our mission",
+      "imageAlt": "Football player with the ball at sunset"
+    },
+    "flow": {
+      "eyebrow": "How CFit works",
+      "titleLine1": "Information in.",
+      "titleLine2": "Intelligence",
+      "titleHighlight": "organized.",
+      "description": "A simple overview of how player information moves through the platform responsibly.",
+      "stepLabel": "Step",
+      "steps": {
+        "information": {
+          "title": "Player information",
+          "description": "Players submit their football profiles and relevant information."
+        },
+        "verification": {
+          "title": "Verification",
+          "description": "CFit reviews and verifies submitted information."
+        },
+        "intelligence": {
+          "title": "Football intelligence",
+          "description": "Relevant information is organized and managed within the platform."
+        },
+        "scouting": {
+          "title": "Scouting access",
+          "description": "Authorized professional scouts review approved player information."
+        }
+      }
+    },
+    "commitment": {
+      "eyebrow": "Our commitment to Caribbean football",
+      "titleLine1": "Every player has",
+      "titleLine2": "a story",
+      "titleLine3": "worth",
+      "titleHighlight": "understanding.",
+      "description": "CFit is committed to supporting a more connected, structured, and visible Caribbean football ecosystem—one where player journeys, coaching relationships, and academy development can be represented with greater clarity.",
+      "cta": "Become part of the ecosystem"
+    },
+    "trust": {
+      "eyebrow": "Trust, privacy & responsibility",
+      "titleLine1": "Information",
+      "titleLine2": "handled",
+      "titleLine3": "with",
+      "titleHighlight": "purpose.",
+      "description": "CFit is being designed around appropriate access, clear information structures, and responsible participation. Final policies and consent requirements will follow approved platform standards.",
+      "items": {
+        "structured": {
+          "title": "Structured information",
+          "description": "Player information is organized into clear, purposeful profile sections."
+        },
+        "roleBased": {
+          "title": "Role-based access",
+          "description": "Participants access information according to their platform role and permissions."
+        },
+        "verification": {
+          "title": "Organized verification",
+          "description": "Submitted information follows a defined review and verification process."
+        },
+        "participation": {
+          "title": "Responsible participation",
+          "description": "Appropriate consent processes are considered, especially where minors are involved."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Join the ecosystem",
+      "title": "Be part of the future of Caribbean football.",
+      "titleHighlight": "",
+      "description": "Whether you are a player, coach, or academy, CFit offers a way to become part of a more connected football ecosystem.",
+      "join": "Join CFit",
+      "explore": "Explore players"
+    }
+  },
+  "partners": {
+    "cta": {
+      "eyebrow": "A shared football future",
+      "title": "Let's build the future of Caribbean football",
+      "titleHighlight": "together",
+      "description": "Connect with CFit and explore how your organization can contribute to a stronger, more connected football ecosystem.",
+      "becomePartner": "Become a partner",
+      "contact": "Contact CFit"
     }
   }
 }

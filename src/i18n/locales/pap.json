@@ -472,6 +472,131 @@
           "answer": "No. Rekomendashonnan ta agregá konteksto na e perfil, pero e evaluashonnan privá i inteligensia interno di CFit ta keda konfidensial."
         }
       }
+    },
+    "cta": {
+      "eyebrow": "E siguiente kapítulo ta kuminsá ku bo",
+      "title": "Bo akademia ta parti di",
+      "titleHighlight": "e imágen grandi.",
+      "description": "Drenta CFit i yuda konektá bo hugadónan ku un ekosistema di futbòl karibense mas organisá.",
+      "register": "Registrá bo akademia",
+      "learnMore": "Sa mas tokante CFit"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Tokante CFit Talent",
+      "titleLine1": "Konektando",
+      "titleLine2": "talento di",
+      "titleLine3": "futbòl karibense",
+      "titleLine4": "ku un futuro",
+      "titleHighlight": "mas grandi.",
+      "description": "CFit ta konstruyendo un plataforma konektá di inteligensia di futbòl ku ta uni hugadó, entrenador, akademia i scout profesional mediante informashon strukturá di hugadó i konekshonnan signifikante.",
+      "explore": "Eksplorá CFit",
+      "join": "Drenta CFit"
+    },
+    "whoWeAre": {
+      "eyebrow": "Ken nos ta",
+      "titleLine1": "Konstruí rònt di e",
+      "titleLine2": "ekosistema",
+      "titleLine3": "di futbòl",
+      "titleHighlight": "karibense.",
+      "description": "CFit ta diseñá pa trese struktura i konektividat na e futbòl karibense. Dor di organisá informashon di hugadó i konektá atleta, entrenador, akademia i scout profesional, CFit tin komo meta pa hasi talento di futbòl mas fásil pa komprondé, sigui i evaluá.",
+      "cta": "Deskubrí nos mishon",
+      "imageAlt": "Siudat karibense na kantu di laman na ora di solo baha"
+    },
+    "mission": {
+      "eyebrow": "Nos mishon",
+      "titleLine1": "Kreando mihó",
+      "titleLine2": "konekshon pa",
+      "titleHighlight1": "futbòl",
+      "titleHighlight2": "karibense",
+      "description": "Nos mishon ta pa ofresé un ambiente strukturá kaminda hugadó por traha perfil di futbòl, entrenador i akademia por presentá talento, i scout profesional outorisá por tin akseso na informashon relevante i aprobá di hugadó.",
+      "tags": {
+        "profiles": "Perfil di hugadó",
+        "connections": "Konekshon ku organisashon",
+        "scouting": "Akseso relevante pa scout"
+      },
+      "cta": "Deskubrí nos mishon",
+      "imageAlt": "Hugadó di futbòl ku bala na ora di solo baha"
+    },
+    "flow": {
+      "eyebrow": "Kon CFit ta traha",
+      "titleLine1": "Informashon ta drenta.",
+      "titleLine2": "Inteligensia",
+      "titleHighlight": "organisá.",
+      "description": "Un resumen simpel di kon informashon di hugadó ta move den e plataforma na un manera responsabel.",
+      "stepLabel": "Paso",
+      "steps": {
+        "information": {
+          "title": "Informashon di hugadó",
+          "description": "Hugadónan ta entregá nan perfil di futbòl i informashon relevante."
+        },
+        "verification": {
+          "title": "Verifikashon",
+          "description": "CFit ta revisá i verifiká e informashon entregá."
+        },
+        "intelligence": {
+          "title": "Inteligensia di futbòl",
+          "description": "Informashon relevante ta wòrdu organisá i manehá den e plataforma."
+        },
+        "scouting": {
+          "title": "Akseso pa scout",
+          "description": "Scout profesional outorisá ta revisá informashon aprobá di hugadó."
+        }
+      }
+    },
+    "commitment": {
+      "eyebrow": "Nos kompromiso ku futbòl karibense",
+      "titleLine1": "Kada hugadó tin",
+      "titleLine2": "un historia",
+      "titleLine3": "ku ta bal pa",
+      "titleHighlight": "komprondé.",
+      "description": "CFit ta komprometé na sostené un ekosistema di futbòl karibense mas konektá, strukturá i visibel—kaminda e biahe di hugadó, relashon ku entrenador i desaroyo di akademia por wòrdu representá ku mas klaridat.",
+      "cta": "Bira parti di e ekosistema"
+    },
+    "trust": {
+      "eyebrow": "Konfiansa, privasidat i responsabilidat",
+      "titleLine1": "Informashon",
+      "titleLine2": "manehá",
+      "titleLine3": "ku",
+      "titleHighlight": "propósito.",
+      "description": "CFit ta wòrdu diseñá rònt di akseso apropiá, strukturanan kla di informashon i partisipashon responsabel. E maneho final i rekisitonan di konsentimentu lo sigui e standarnan aprobá di e plataforma.",
+      "items": {
+        "structured": {
+          "title": "Informashon strukturá",
+          "description": "Informashon di hugadó ta organisá den sekshonnan di perfil kla i útil."
+        },
+        "roleBased": {
+          "title": "Akseso segun ròl",
+          "description": "Partisipantenan tin akseso na informashon segun nan ròl i permiso den e plataforma."
+        },
+        "verification": {
+          "title": "Verifikashon organisá",
+          "description": "Informashon entregá ta sigui un proseso definí di revishon i verifikashon."
+        },
+        "participation": {
+          "title": "Partisipashon responsabel",
+          "description": "Proseso di konsentimentu apropiá ta wòrdu tuma na kuenta, spesialmente ora mucha menor ta enbolbí."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Drenta e ekosistema",
+      "title": "Bira parti di e futuro di futbòl karibense.",
+      "titleHighlight": "",
+      "description": "Sea bo ta hugadó, entrenador of akademia, CFit ta ofresé un manera pa bira parti di un ekosistema di futbòl mas konektá.",
+      "join": "Drenta CFit",
+      "explore": "Eksplorá hugadónan"
+    }
+  },
+  "partners": {
+    "cta": {
+      "eyebrow": "Un futuro di futbòl kompartí",
+      "title": "Laga nos traha e futuro di futbòl karibense",
+      "titleHighlight": "huntu",
+      "description": "Konektá ku CFit i eksplorá kon bo organisashon por kontribuí na un ekosistema di futbòl mas fuerte i konektá.",
+      "becomePartner": "Bira socio",
+      "contact": "Kontaktá CFit"
     }
   }
 }

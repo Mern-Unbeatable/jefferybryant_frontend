@@ -472,6 +472,131 @@
           "answer": "No. Las recomendaciones añaden contexto al perfil, pero las evaluaciones privadas y la inteligencia interna de CFit siguen siendo confidenciales."
         }
       }
+    },
+    "cta": {
+      "eyebrow": "El próximo capítulo comienza contigo",
+      "title": "Tu academia es parte de",
+      "titleHighlight": "algo más grande.",
+      "description": "Únete a CFit y ayuda a conectar a tus jugadores con un ecosistema futbolístico caribeño más organizado.",
+      "register": "Registra tu academia",
+      "learnMore": "Conoce más sobre CFit"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Sobre CFit Talent",
+      "titleLine1": "Conectando",
+      "titleLine2": "el talento",
+      "titleLine3": "futbolístico caribeño",
+      "titleLine4": "con un futuro",
+      "titleHighlight": "mayor.",
+      "description": "CFit está construyendo una plataforma conectada de inteligencia futbolística que une a jugadores, entrenadores, academias y ojeadores profesionales mediante información estructurada y conexiones significativas.",
+      "explore": "Explora CFit",
+      "join": "Únete a CFit"
+    },
+    "whoWeAre": {
+      "eyebrow": "Quiénes somos",
+      "titleLine1": "Construido en torno al",
+      "titleLine2": "ecosistema",
+      "titleLine3": "futbolístico",
+      "titleHighlight": "caribeño.",
+      "description": "CFit está diseñado para aportar estructura y conectividad al fútbol caribeño. Al organizar la información de los jugadores y conectar a atletas, entrenadores, academias y ojeadores profesionales, CFit busca que el talento futbolístico sea más fácil de entender, seguir y evaluar.",
+      "cta": "Descubre nuestra misión",
+      "imageAlt": "Ciudad costera caribeña al atardecer"
+    },
+    "mission": {
+      "eyebrow": "Nuestra misión",
+      "titleLine1": "Creando mejores",
+      "titleLine2": "conexiones para el",
+      "titleHighlight1": "fútbol",
+      "titleHighlight2": "caribeño",
+      "description": "Nuestra misión es ofrecer un entorno estructurado donde los jugadores puedan crear perfiles futbolísticos, los entrenadores y academias puedan presentar talento, y los ojeadores profesionales autorizados puedan acceder a información relevante y aprobada.",
+      "tags": {
+        "profiles": "Perfiles de jugadores",
+        "connections": "Conexiones con organizaciones",
+        "scouting": "Acceso relevante para ojeadores"
+      },
+      "cta": "Descubre nuestra misión",
+      "imageAlt": "Jugador de fútbol con el balón al atardecer"
+    },
+    "flow": {
+      "eyebrow": "Cómo funciona CFit",
+      "titleLine1": "Entra información.",
+      "titleLine2": "Inteligencia",
+      "titleHighlight": "organizada.",
+      "description": "Un resumen sencillo de cómo la información de los jugadores avanza de forma responsable por la plataforma.",
+      "stepLabel": "Paso",
+      "steps": {
+        "information": {
+          "title": "Información del jugador",
+          "description": "Los jugadores envían sus perfiles futbolísticos e información relevante."
+        },
+        "verification": {
+          "title": "Verificación",
+          "description": "CFit revisa y verifica la información enviada."
+        },
+        "intelligence": {
+          "title": "Inteligencia futbolística",
+          "description": "La información relevante se organiza y gestiona dentro de la plataforma."
+        },
+        "scouting": {
+          "title": "Acceso para ojeadores",
+          "description": "Ojeadores profesionales autorizados revisan la información aprobada."
+        }
+      }
+    },
+    "commitment": {
+      "eyebrow": "Nuestro compromiso con el fútbol caribeño",
+      "titleLine1": "Cada jugador tiene",
+      "titleLine2": "una historia",
+      "titleLine3": "que vale la pena",
+      "titleHighlight": "entender.",
+      "description": "CFit está comprometido con un ecosistema futbolístico caribeño más conectado, estructurado y visible, donde los caminos de los jugadores, las relaciones con entrenadores y el desarrollo de las academias se representen con mayor claridad.",
+      "cta": "Forma parte del ecosistema"
+    },
+    "trust": {
+      "eyebrow": "Confianza, privacidad y responsabilidad",
+      "titleLine1": "Información",
+      "titleLine2": "gestionada",
+      "titleLine3": "con",
+      "titleHighlight": "propósito.",
+      "description": "CFit se está diseñando en torno a un acceso adecuado, estructuras de información claras y una participación responsable. Las políticas finales y los requisitos de consentimiento seguirán los estándares aprobados de la plataforma.",
+      "items": {
+        "structured": {
+          "title": "Información estructurada",
+          "description": "La información del jugador se organiza en secciones de perfil claras y útiles."
+        },
+        "roleBased": {
+          "title": "Acceso según el rol",
+          "description": "Los participantes acceden a la información según su rol y permisos en la plataforma."
+        },
+        "verification": {
+          "title": "Verificación organizada",
+          "description": "La información enviada sigue un proceso definido de revisión y verificación."
+        },
+        "participation": {
+          "title": "Participación responsable",
+          "description": "Se consideran procesos de consentimiento adecuados, especialmente cuando hay menores involucrados."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Únete al ecosistema",
+      "title": "Forma parte del futuro del fútbol caribeño.",
+      "titleHighlight": "",
+      "description": "Seas jugador, entrenador o academia, CFit te ofrece una forma de formar parte de un ecosistema futbolístico más conectado.",
+      "join": "Únete a CFit",
+      "explore": "Explorar jugadores"
+    }
+  },
+  "partners": {
+    "cta": {
+      "eyebrow": "Un futuro futbolístico compartido",
+      "title": "Construyamos el futuro del fútbol caribeño",
+      "titleHighlight": "juntos",
+      "description": "Conecta con CFit y descubre cómo tu organización puede contribuir a un ecosistema futbolístico más fuerte y conectado.",
+      "becomePartner": "Hazte socio",
+      "contact": "Contacta a CFit"
     }
   }
 }
