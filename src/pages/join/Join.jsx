@@ -1,8 +1,9 @@
 import { useRef } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { FiChevronLeft, FiUser } from "react-icons/fi";
+import { FiUser } from "react-icons/fi";
 import { LuBuilding2 } from "react-icons/lu";
+import BackButton from "@/components/common/BackButton";
 import Logo from "@/components/common/Logo";
 import { usePageAnimations } from "@/hooks/usePageAnimations";
 
@@ -13,26 +14,9 @@ const roles = [
 
 const Join = () => {
   const { t } = useTranslation();
-  const navigate = useNavigate();
   const pageRef = useRef(null);
 
   usePageAnimations(pageRef, "/join");
-
-  const goBack = () => {
-    if (window.history.state?.idx > 0) navigate(-1);
-    else navigate("/");
-  };
-
-  const backButton = (className) => (
-    <button
-      type="button"
-      onClick={goBack}
-      aria-label={t("join.back")}
-      className={`flex h-10 w-10 items-center justify-center rounded-full bg-white text-xl text-primary shadow-lg transition hover:bg-btn-primary ${className}`}
-    >
-      <FiChevronLeft />
-    </button>
-  );
 
   return (
     <div ref={pageRef}>
@@ -43,11 +27,11 @@ const Join = () => {
             alt=""
             className="absolute inset-0 h-full w-full object-cover"
           />
-          {backButton("absolute left-10 top-10")}
+          <BackButton className="absolute left-10 top-10" />
         </div>
 
         <div className="relative flex items-center px-4 py-24 sm:px-10">
-          {backButton("absolute left-4 top-6 sm:left-10 lg:hidden")}
+          <BackButton className="absolute left-4 top-6 sm:left-10 lg:hidden" />
 
           <div className="mx-auto flex w-full max-w-md flex-col items-center">
             <Link to="/" aria-label="CFit Talent">

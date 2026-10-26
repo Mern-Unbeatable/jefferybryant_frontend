@@ -1,7 +1,8 @@
 import { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { FiArrowLeft, FiArrowRight, FiEye, FiEyeOff } from "react-icons/fi";
+import { FiArrowRight, FiEye, FiEyeOff } from "react-icons/fi";
+import BackButton from "@/components/common/BackButton";
 import { usePageAnimations } from "@/hooks/usePageAnimations";
 
 const labelClass = "text-[10px] text-white/80";
@@ -28,15 +29,11 @@ const Login = () => {
             alt=""
             className="absolute inset-0 h-full w-full object-cover"
           />
+          <BackButton className="absolute left-10 top-10" />
         </div>
 
         <div className="relative flex items-center px-4 py-24 sm:px-10 lg:px-16">
-          <Link
-            to="/"
-            className="absolute left-4 top-6 flex items-center gap-2 text-xs text-white/70 transition-colors hover:text-btn-primary sm:left-10 lg:left-16"
-          >
-            <FiArrowLeft className="text-sm" /> {t("login.backHome")}
-          </Link>
+          <BackButton className="absolute left-4 top-6 sm:left-10 lg:hidden" />
 
           <div className="mx-auto w-full max-w-xl">
             <p className="text-[10px] uppercase tracking-[0.2em] text-btn-primary">
