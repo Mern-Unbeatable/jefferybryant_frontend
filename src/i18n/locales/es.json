@@ -9,7 +9,8 @@
     "join": "Únete a CFit",
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú",
-    "language": "Idioma"
+    "language": "Idioma",
+    "dashboard": "Panel"
   },
   "footer": {
     "description": "Una plataforma de inteligencia futbolística más inteligente que conecta el talento caribeño con las personas que están dando forma al futuro del juego.",
@@ -816,7 +817,16 @@
     "forgot": "¿Olvidaste tu contraseña?",
     "submit": "Entrar al panel",
     "newTo": "¿Nuevo en CFit?",
-    "register": "Registra tu organización"
+    "register": "Registra tu organización",
+    "invalid": "Correo o contraseña incorrectos.",
+    "demoTitle": "Cuentas de demostración",
+    "demoHint": "Haz clic en un rol para completar sus credenciales y luego inicia sesión.",
+    "roles": {
+      "admin": "Admin",
+      "player": "Jugador",
+      "coach": "Entrenador",
+      "scout": "Scout"
+    }
   },
   "join": {
     "title": "Elige cómo quieres unirte a CFit",
@@ -999,5 +1009,46 @@
     },
     "home": "Volver al inicio",
     "explore": "Explorar entrenadores y academias"
+  },
+  "dashboard": {
+    "portals": {
+      "admin": "Portal de administración",
+      "player": "Portal del jugador",
+      "coach": "Portal de entrenador/academia",
+      "scout": "Portal del scout"
+    },
+    "status": {
+      "admin": "Superadministrador",
+      "player": "Jugador verificado",
+      "coach": "Academia aprobada",
+      "scout": "Scout verificado"
+    },
+    "menu": {
+      "overview": "Resumen",
+      "users": "Usuarios",
+      "approvals": "Aprobación de academias",
+      "players": "Jugadores",
+      "scouts": "Scouts",
+      "reports": "Reportes",
+      "myProfile": "Mi perfil",
+      "highlights": "Medios y jugadas",
+      "stats": "Estadísticas",
+      "sharedProfile": "Perfil compartido",
+      "myPlayers": "Mis jugadores",
+      "invitePlayers": "Invitar jugadores",
+      "recommendPlayer": "Recomendar jugador",
+      "myOrganization": "Mi organización",
+      "discover": "Descubrir jugadores",
+      "shortlist": "Lista corta",
+      "scoutingReports": "Informes de scouting",
+      "messages": "Mensajes",
+      "notifications": "Notificaciones",
+      "settings": "Configuración"
+    },
+    "welcome": "Bienvenido de nuevo, {{name}}",
+    "placeholder": "Esta sección está lista para su diseño.",
+    "logout": "Cerrar sesión",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
   }
 }

@@ -15,6 +15,11 @@ import Join from "@/pages/join/Join";
 import PlayerSignup from "@/pages/join/PlayerSignup";
 import CoachSignup from "@/pages/join/CoachSignup";
 import CoachPending from "@/pages/join/CoachPending";
+import DashboardLayout from "@/layouts/DashboardLayout";
+import DashboardPage from "@/pages/dashboard/DashboardPage";
+import RequireAuth, { DashboardRedirect } from "@/routes/RequireAuth";
+import { ROLES } from "@/constants/dummyUsers";
+import { DASHBOARD_MENUS } from "@/constants/dashboardMenus";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -24,6 +29,22 @@ export const router = createBrowserRouter(
       <Route path="join/player" element={<PlayerSignup />} />
       <Route path="join/coach" element={<CoachSignup />} />
       <Route path="join/coach/pending" element={<CoachPending />} />
+      <Route path="dashboard" element={<RequireAuth />}>
+        <Route index element={<DashboardRedirect />} />
+        {ROLES.map((role) => (
+          <Route key={role} path={role} element={<RequireAuth role={role} />}>
+            <Route element={<DashboardLayout />}>
+              {DASHBOARD_MENUS[role].map(({ key, path }) =>
+                path ? (
+                  <Route key={key} path={path} element={<DashboardPage menuKey={key} />} />
+                ) : (
+                  <Route key={key} index element={<DashboardPage menuKey={key} />} />
+                )
+              )}
+            </Route>
+          </Route>
+        ))}
+      </Route>
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
         <Route path="players" element={<Player />} />

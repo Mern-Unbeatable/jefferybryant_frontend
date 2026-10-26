@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { FiArrowUpRight, FiMenu, FiX } from "react-icons/fi";
 import LanguageSwitcher from "@/components/common/LanguageSwitcher";
 import Logo from "@/components/common/Logo";
-
+import { useAuth } from "@/hooks/useAuth";
 const navLinks = [
   { key: "nav.home", to: "/" },
   { key: "nav.players", to: "/players" },
@@ -21,7 +21,10 @@ const linkClass = ({ isActive }) =>
 const Navbar = () => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
-
+  const { user } = useAuth();
+  const accountLink = user
+    ? { to: `/dashboard/${user.role}`, label: "nav.dashboard" }
+    : { to: "/login", label: "nav.login" };
   const closeMenu = () => setIsOpen(false);
 
   return (
@@ -41,28 +44,24 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="hidden items-center gap-5 xl:flex">
+        <div className="flex items-center gap-4 lg:gap-5">
           <LanguageSwitcher />
           <Link
-            to="/login"
-            className="whitespace-nowrap text-lg font-light leading-[19.5px] text-white transition-colors hover:text-btn-primary"
+            to={accountLink.to}
+            className="hidden whitespace-nowrap text-lg font-light leading-[19.5px] text-white transition-colors hover:text-btn-primary lg:inline"
           >
-            {t("nav.login")}
+            {t(accountLink.label)}
           </Link>
           <Link
             to="/join"
-            className="flex items-center gap-1 whitespace-nowrap rounded-sm bg-btn-primary px-4 py-2 text-sm font-medium uppercase text-primary transition hover:bg-btn-primary/90"
+            className="hidden items-center gap-1 whitespace-nowrap rounded-sm bg-btn-primary px-4 py-2 text-sm font-medium uppercase text-primary transition hover:bg-btn-primary/90 lg:flex"
           >
             {t("nav.join")} <FiArrowUpRight />
           </Link>
-        </div>
-
-        <div className="flex items-center gap-4 xl:hidden">
-          <LanguageSwitcher />
           <button
             type="button"
             onClick={() => setIsOpen((prev) => !prev)}
-            className="text-2xl text-white"
+            className="text-2xl text-white xl:hidden"
             aria-label={isOpen ? t("nav.closeMenu") : t("nav.openMenu")}
             aria-expanded={isOpen}
           >
@@ -87,13 +86,13 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className="mt-6 flex flex-col items-start gap-4">
+          <div className="mt-6 flex flex-col items-start gap-4 lg:hidden">
             <Link
-              to="/login"
+              to={accountLink.to}
               onClick={closeMenu}
               className="text-sm text-white hover:text-btn-primary"
             >
-              {t("nav.login")}
+              {t(accountLink.label)}
             </Link>
             <Link
               to="/join"

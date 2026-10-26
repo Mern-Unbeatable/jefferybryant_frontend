@@ -1,8 +1,10 @@
 import { useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { FiArrowRight, FiEye, FiEyeOff } from "react-icons/fi";
+import { FiAlertCircle, FiArrowRight, FiEye, FiEyeOff } from "react-icons/fi";
 import BackButton from "@/components/common/BackButton";
+import { DUMMY_USERS } from "@/constants/dummyUsers";
+import { useAuth } from "@/hooks/useAuth";
 import { usePageAnimations } from "@/hooks/usePageAnimations";
 
 const labelClass = "text-[10px] text-white/80";
@@ -12,13 +14,29 @@ const inputClass =
 const Login = () => {
   const { t } = useTranslation();
   const pageRef = useRef(null);
+  const emailRef = useRef(null);
+  const passwordRef = useRef(null);
   const [showPassword, setShowPassword] = useState(false);
+  const [error, setError] = useState(false);
+  const { user, login } = useAuth();
+  const location = useLocation();
 
   usePageAnimations(pageRef, "/login");
 
+  const fillDemo = ({ email, password }) => {
+    emailRef.current.value = email;
+    passwordRef.current.value = password;
+    setError(false);
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    const loggedIn = login(data.get("email"), data.get("password"), data.get("remember") === "on");
+    setError(!loggedIn);
   };
+
+  if (user) return <Navigate to={location.state?.from ?? `/dashboard/${user.role}`} replace />;
 
   return (
     <div ref={pageRef}>
@@ -49,6 +67,7 @@ const Login = () => {
                 {t("login.email")}
               </label>
               <input
+                ref={emailRef}
                 id="email"
                 name="email"
                 type="email"
@@ -63,6 +82,7 @@ const Login = () => {
               </label>
               <div className="relative">
                 <input
+                  ref={passwordRef}
                   id="password"
                   name="password"
                   type={showPassword ? "text" : "password"}
@@ -95,6 +115,12 @@ const Login = () => {
                 </Link>
               </div>
 
+              {error && (
+                <p role="alert" className="mt-4 flex items-center gap-2 text-[11px] text-red-400">
+                  <FiAlertCircle className="shrink-0 text-sm" /> {t("login.invalid")}
+                </p>
+              )}
+
               <button
                 type="submit"
                 className="mt-6 flex w-full items-center justify-center gap-2 bg-btn-primary py-3 text-xs text-primary transition hover:bg-btn-primary/90"
@@ -115,6 +141,25 @@ const Login = () => {
             >
               {t("login.register")}
             </Link>
+
+            <div className="mt-8 border border-dashed border-white/15 p-4">
+              <p className="text-[10px] uppercase tracking-[0.15em] text-white/60">
+                {t("login.demoTitle")}
+              </p>
+              <p className="mt-1 text-[10px] text-white/40">{t("login.demoHint")}</p>
+              <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-4">
+                {DUMMY_USERS.map((demo) => (
+                  <button
+                    key={demo.role}
+                    type="button"
+                    onClick={() => fillDemo(demo)}
+                    className="border border-white/10 px-3 py-2 text-[11px] text-white/80 transition hover:border-accent hover:text-accent"
+                  >
+                    {t(`login.roles.${demo.role}`)}
+                  </button>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>

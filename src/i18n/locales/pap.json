@@ -9,7 +9,8 @@
     "join": "Uni ku CFit",
     "openMenu": "Habri menu",
     "closeMenu": "Sera menu",
-    "language": "Idioma"
+    "language": "Idioma",
+    "dashboard": "Dashboard"
   },
   "footer": {
     "description": "Un plataforma di inteligensia di futbòl mas inteligente ku ta konektá talento karibense ku e hendenan ku ta formando e futuro di e deporte.",
@@ -816,7 +817,16 @@
     "forgot": "Lubidá bo kontraseña?",
     "submit": "Drenta dashboard",
     "newTo": "Nobo na CFit?",
-    "register": "Registrá bo organisashon"
+    "register": "Registrá bo organisashon",
+    "invalid": "Email òf kontraseña no ta korekto.",
+    "demoTitle": "Kuenta di demostrashon",
+    "demoHint": "Klek riba un ròl pa yena su datonan, despues drenta.",
+    "roles": {
+      "admin": "Admin",
+      "player": "Hugadó",
+      "coach": "Entrenadó",
+      "scout": "Scout"
+    }
   },
   "join": {
     "title": "Skohe kon bo ke djòin CFit",
@@ -999,5 +1009,46 @@
     },
     "home": "Bolbe na inisio",
     "explore": "Eksplorá Entrenadó i Akademia"
+  },
+  "dashboard": {
+    "portals": {
+      "admin": "Portal di Admin",
+      "player": "Portal di Hugadó",
+      "coach": "Portal di Entrenadó/Akademia",
+      "scout": "Portal di Scout"
+    },
+    "status": {
+      "admin": "Super Admin",
+      "player": "Hugadó verifiká",
+      "coach": "Akademia aprobá",
+      "scout": "Scout verifiká"
+    },
+    "menu": {
+      "overview": "Resumen",
+      "users": "Usuarionan",
+      "approvals": "Aprobashon di akademia",
+      "players": "Hugadónan",
+      "scouts": "Scoutnan",
+      "reports": "Raportnan",
+      "myProfile": "Mi perfil",
+      "highlights": "Media i highlights",
+      "stats": "Estadístika",
+      "sharedProfile": "Perfil kompartí",
+      "myPlayers": "Mi hugadónan",
+      "invitePlayers": "Invitá hugadó",
+      "recommendPlayer": "Rekomendá hugadó",
+      "myOrganization": "Mi organisashon",
+      "discover": "Deskubrí hugadó",
+      "shortlist": "Lista kòrt",
+      "scoutingReports": "Raport di scouting",
+      "messages": "Mensahenan",
+      "notifications": "Notifikashon",
+      "settings": "Ajustenan"
+    },
+    "welcome": "Bon bini bèk, {{name}}",
+    "placeholder": "E sekshon aki ta kla pa su diseño.",
+    "logout": "Sali",
+    "openMenu": "Habri menu",
+    "closeMenu": "Sera menu"
   }
 }
