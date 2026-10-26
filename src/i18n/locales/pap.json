@@ -802,5 +802,35 @@
     "home": "Bolbe na inisio",
     "back": "Bai bèk",
     "explore": "Òf eksplorá"
+  },
+  "login": {
+    "backHome": "Bolbe na inisio",
+    "eyebrow": "Bon bini bèk",
+    "title": "Drenta bo portal",
+    "subtitle": "Haña akseso na bo network di hugadó i e hèrmèntnan di bo organisashon.",
+    "email": "Email registrá",
+    "password": "Kontraseña",
+    "passwordPlaceholder": "Pone bo kontraseña",
+    "show": "Mustra",
+    "hide": "Skonde",
+    "remember": "Kòrda mi",
+    "forgot": "Lubidá bo kontraseña?",
+    "submit": "Drenta dashboard",
+    "newTo": "Nobo na CFit?",
+    "register": "Registrá bo organisashon"
+  },
+  "join": {
+    "title": "Skohe kon bo ke djòin CFit",
+    "back": "Bai bèk",
+    "roles": {
+      "player": {
+        "title": "Mi ta hugadó",
+        "description": "Buska i konektá ku entrenadó"
+      },
+      "coach": {
+        "title": "Mi ta entrenadó",
+        "description": "Laga bo akademia krese i yega na mas hende"
+      }
+    }
   }
 }

@@ -1,6 +1,7 @@
 const sizes = {
   sm: { globe: "h-10", text: "h-7" },
   md: { globe: "h-14", text: "h-9" },
+  lg: { globe: "h-20 sm:h-24", text: "h-10 sm:h-12" },
 };
 
 const Logo = ({ size = "sm", stacked = false, className = "" }) => {

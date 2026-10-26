@@ -802,5 +802,35 @@
     "home": "Volver al inicio",
     "back": "Regresar",
     "explore": "O explora"
+  },
+  "login": {
+    "backHome": "Volver al inicio",
+    "eyebrow": "Bienvenido de nuevo",
+    "title": "Inicia sesión en tu portal",
+    "subtitle": "Accede a tu red de jugadores y a las herramientas de tu organización.",
+    "email": "Correo electrónico registrado",
+    "password": "Contraseña",
+    "passwordPlaceholder": "Ingresa tu contraseña",
+    "show": "Mostrar",
+    "hide": "Ocultar",
+    "remember": "Recordarme",
+    "forgot": "¿Olvidaste tu contraseña?",
+    "submit": "Entrar al panel",
+    "newTo": "¿Nuevo en CFit?",
+    "register": "Registra tu organización"
+  },
+  "join": {
+    "title": "Elige cómo quieres unirte a CFit",
+    "back": "Regresar",
+    "roles": {
+      "player": {
+        "title": "Soy jugador",
+        "description": "Encuentra y conecta con entrenadores"
+      },
+      "coach": {
+        "title": "Soy entrenador",
+        "description": "Haz crecer tu academia y llega a más personas"
+      }
+    }
   }
 }

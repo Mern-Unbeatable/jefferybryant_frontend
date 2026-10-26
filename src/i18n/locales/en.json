@@ -802,5 +802,35 @@
     "home": "Back to home",
     "back": "Go back",
     "explore": "Or explore"
+  },
+  "login": {
+    "backHome": "Back to home",
+    "eyebrow": "Welcome back",
+    "title": "Sign in to your portal",
+    "subtitle": "Access your player network and organization tools.",
+    "email": "Registered Email Address",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "show": "Show",
+    "hide": "Hide",
+    "remember": "Remember me",
+    "forgot": "Forgot password?",
+    "submit": "Sign in to dashboard",
+    "newTo": "New to CFit?",
+    "register": "Register your organization"
+  },
+  "join": {
+    "title": "Choose how you want to join CFit",
+    "back": "Go back",
+    "roles": {
+      "player": {
+        "title": "I'm a player",
+        "description": "Find and connect with Coach"
+      },
+      "coach": {
+        "title": "I'm a coach",
+        "description": "Grow your academy and reach more customers"
+      }
+    }
   }
 }
