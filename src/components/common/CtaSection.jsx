@@ -50,7 +50,7 @@ const CtaSection = () => {
   const { ns, primary, secondary, highlightBlock } = pageCtas[pathname] ?? defaultCta;
 
   return (
-    <section className="py-20 lg:py-28">
+    <section className="py-16 lg:py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative isolate overflow-hidden border border-btn-primary/20 px-6 py-14 sm:px-10 lg:px-12 lg:py-16">
           <img

@@ -6,7 +6,7 @@ const HowItWorksSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="border-y border-white/10 py-20 lg:py-28">
+    <section className="border-y border-white/10 py-16 lg:py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div>

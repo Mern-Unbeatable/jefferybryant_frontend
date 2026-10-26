@@ -6,7 +6,7 @@ const RootedSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative isolate overflow-hidden py-24 lg:py-32">
+    <section className="relative isolate overflow-hidden py-16 lg:py-20">
       <img
         src="/home/caribbeanPitch.png"
         alt=""
