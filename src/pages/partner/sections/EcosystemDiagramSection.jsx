@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { FiBarChart2, FiSearch, FiUser, FiUsers, FiVideo } from "react-icons/fi";
 import { LuShieldCheck } from "react-icons/lu";
+import Logo from "@/components/common/Logo";
 
 const nodes = [
   { key: "clubs", icon: FiUsers, x: 22, y: 12 },
@@ -57,10 +58,9 @@ const EcosystemDiagramSection = () => {
             ))}
           </svg>
 
-          <img
-            src="/logo.jpg"
-            alt="CFit Talent"
-            className="absolute left-1/2 top-1/2 h-10 w-auto -translate-x-1/2 -translate-y-1/2 sm:h-12"
+          <Logo
+            stacked
+            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
           />
 
           {nodes.map(({ key, icon, x, y }) => {

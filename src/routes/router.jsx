@@ -9,6 +9,7 @@ import Player from "@/pages/player/Player";
 import CoachesAcademies from "@/pages/coaches&Academies/Coaches&Academies";
 import About from "@/pages/about/About";
 import Partner from "@/pages/partner/Partner";
+import NotFound from "@/pages/notFound/NotFound";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,6 +19,7 @@ export const router = createBrowserRouter(
       <Route path="coaches-academies" element={<CoachesAcademies />} />
       <Route path="about" element={<About />} />
       <Route path="partners" element={<Partner />} />
+      <Route path="*" element={<NotFound />} handle={{ hideCta: true }} />
     </Route>
   )
 );

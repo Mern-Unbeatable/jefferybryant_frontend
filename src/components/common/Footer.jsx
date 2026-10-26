@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { FiArrowRight } from "react-icons/fi";
+import Logo from "@/components/common/Logo";
 
 const footerColumns = [
   {
@@ -35,7 +36,7 @@ const Footer = () => {
         <div className="grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <Link to="/" className="inline-block">
-              <img src="/logo.jpg" alt="CFit Talent" className="h-9 w-auto" />
+              <Logo size="md" />
             </Link>
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-white/80">
               {t("footer.description")}

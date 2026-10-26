@@ -794,5 +794,13 @@
         }
       }
     }
+  },
+  "notFound": {
+    "eyebrow": "Error 404 · Offside",
+    "title": "This page is offside.",
+    "description": "The page you are looking for has moved, no longer exists, or never made the squad. Let's get you back into play.",
+    "home": "Back to home",
+    "back": "Go back",
+    "explore": "Or explore"
   }
 }

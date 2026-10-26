@@ -794,5 +794,13 @@
         }
       }
     }
+  },
+  "notFound": {
+    "eyebrow": "Error 404 · Fuera de juego",
+    "title": "Esta página está en fuera de juego.",
+    "description": "La página que buscas se ha movido, ya no existe o nunca entró en la convocatoria. Volvamos al juego.",
+    "home": "Volver al inicio",
+    "back": "Regresar",
+    "explore": "O explora"
   }
 }

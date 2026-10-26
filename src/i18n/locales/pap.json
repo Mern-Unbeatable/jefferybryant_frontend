@@ -794,5 +794,13 @@
         }
       }
     }
+  },
+  "notFound": {
+    "eyebrow": "Eror 404 · Offside",
+    "title": "E página aki ta offside.",
+    "description": "E página ku bo ta buska a move, no ta eksistí mas, òf nunka a drenta e selekshon. Laga nos bolbe den wega.",
+    "home": "Bolbe na inisio",
+    "back": "Bai bèk",
+    "explore": "Òf eksplorá"
   }
 }
