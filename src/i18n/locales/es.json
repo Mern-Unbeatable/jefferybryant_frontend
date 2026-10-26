@@ -891,5 +891,113 @@
     "successTitle": "Cuenta creada",
     "successText": "Bienvenido a CFit. Tu cuenta de jugador está lista: inicia sesión para completar tu perfil.",
     "signIn": "Iniciar sesión"
+  },
+  "coachSignup": {
+    "portal": "Portal de entrenadores / academias",
+    "eyebrow": "Únete a la red",
+    "titleLine1": "Únete a la red caribeña",
+    "titleHighlight": "de fútbol CFit",
+    "description": "Conecta tu organización con una red creciente de talento futbolístico caribeño. Invita jugadores, gestiona registros y ayuda a los atletas a construir sus perfiles profesionales.",
+    "journey": {
+      "submit": "Envía los datos de tu organización",
+      "review": "CFit revisa tu solicitud",
+      "approved": "Obtén acceso aprobado al panel",
+      "invite": "Invita y sigue a tus jugadores"
+    },
+    "blocks": {
+      "organization": {
+        "title": "Información de la organización",
+        "description": "Cuéntanos sobre la organización que se une a CFit."
+      },
+      "director": {
+        "title": "Información del director / entrenador",
+        "description": "Agrega el contacto principal que gestionará esta cuenta."
+      },
+      "network": {
+        "title": "Información de la red de jugadores",
+        "description": "Ayúdanos a entender el tamaño de tu red de jugadores juveniles."
+      },
+      "additional": {
+        "title": "Información adicional",
+        "description": "Estos datos son opcionales y pueden actualizarse después."
+      }
+    },
+    "fields": {
+      "organization": "Nombre de la organización / academia",
+      "organizationType": "Tipo de organización",
+      "country": "País / Isla",
+      "city": "Ciudad",
+      "fullName": "Nombre completo del director / entrenador",
+      "role": "Cargo / Rol",
+      "email": "Correo electrónico",
+      "phone": "WhatsApp / Número móvil",
+      "playerCount": "Número aproximado de jugadores de 15 a 18 años",
+      "website": "Sitio web",
+      "social": "Redes sociales",
+      "ageGroups": "Categorías atendidas",
+      "additionalContact": "Información de contacto adicional"
+    },
+    "placeholders": {
+      "select": "Selecciona el tipo",
+      "range": "Selecciona un rango",
+      "additionalContact": "Contacto secundario o notas"
+    },
+    "orgTypes": {
+      "academy": "Academia",
+      "club": "Club",
+      "school": "Escuela",
+      "league": "Liga",
+      "federation": "Federación",
+      "independentCoach": "Entrenador independiente"
+    },
+    "playerRanges": {
+      "1-15": "1-15 jugadores",
+      "16-30": "16-30 jugadores",
+      "31-50": "31-50 jugadores",
+      "51-100": "51-100 jugadores",
+      "100+": "Más de 100 jugadores"
+    },
+    "optional": "Opcional",
+    "acknowledge": "Reconozco que CFit revisará esta solicitud y que el acceso al panel solo se activa después de la aprobación.",
+    "privacyNote": "Tu información se usa solo para revisar y gestionar la cuenta CFit de tu organización.",
+    "submit": "Enviar registro",
+    "alreadyRegistered": "¿Ya estás registrado?",
+    "signIn": "Inicia sesión en la cuenta de tu organización"
+  },
+  "coachPending": {
+    "eyebrow": "Solicitud recibida",
+    "titleLine1": "Estás en la",
+    "titleHighlight": "lista de espera",
+    "description": "Gracias por registrarte. El equipo de CFit está revisando tu solicitud. El acceso al panel se activará en cuanto tu organización sea aprobada.",
+    "descriptionNamed": "Gracias, {{organization}}. El equipo de CFit está revisando tu solicitud. El acceso al panel se activará en cuanto tu organización sea aprobada.",
+    "statusTitle": "Estado de la solicitud",
+    "badge": "En revisión",
+    "steps": {
+      "submitted": {
+        "title": "Enviada",
+        "text": "Hemos recibido los datos de tu organización."
+      },
+      "review": {
+        "title": "En revisión",
+        "text": "Nuestro equipo está verificando tu organización y datos de contacto."
+      },
+      "approved": {
+        "title": "Aprobación",
+        "text": "Una vez aprobada, se activa tu acceso al panel."
+      },
+      "invite": {
+        "title": "Invitar jugadores",
+        "text": "Comienza a invitar y seguir a tus jugadores en CFit."
+      }
+    },
+    "info": {
+      "time": "Tiempo habitual de revisión",
+      "timeValue": "2–3 días hábiles",
+      "notify": "Te avisaremos en",
+      "notifyFallback": "Tu correo registrado",
+      "help": "¿Necesitas ayuda?"
+    },
+    "home": "Volver al inicio",
+    "explore": "Explorar entrenadores y academias"
   }
 }

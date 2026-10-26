@@ -891,5 +891,113 @@
     "successTitle": "Account created",
     "successText": "Welcome to CFit. Your player account is ready — sign in to complete your profile.",
     "signIn": "Sign in"
+  },
+  "coachSignup": {
+    "portal": "Coach / Academy Portal",
+    "eyebrow": "Join the network",
+    "titleLine1": "Join the CFit Caribbean",
+    "titleHighlight": "Football Network",
+    "description": "Connect your organization with a growing network of Caribbean football talent. Invite players, manage registrations, and help athletes build their professional football profiles.",
+    "journey": {
+      "submit": "Submit organization details",
+      "review": "CFit reviews your application",
+      "approved": "Get approved dashboard access",
+      "invite": "Invite and track your players"
+    },
+    "blocks": {
+      "organization": {
+        "title": "Organization Information",
+        "description": "Tell us about the organization joining CFit."
+      },
+      "director": {
+        "title": "Director / Coach Information",
+        "description": "Add the primary contact who will manage this account."
+      },
+      "network": {
+        "title": "Player Network Information",
+        "description": "Help us understand the size of your youth player network."
+      },
+      "additional": {
+        "title": "Additional Information",
+        "description": "These details are optional and can be updated later."
+      }
+    },
+    "fields": {
+      "organization": "Organization / Academy name",
+      "organizationType": "Organization type",
+      "country": "Country / Island",
+      "city": "City",
+      "fullName": "Director / Coach full name",
+      "role": "Position / Role",
+      "email": "Email address",
+      "phone": "WhatsApp / Mobile number",
+      "playerCount": "Approximate number of players ages 15-18",
+      "website": "Website",
+      "social": "Social media links",
+      "ageGroups": "Age groups served",
+      "additionalContact": "Additional contact information"
+    },
+    "placeholders": {
+      "select": "Select type",
+      "range": "Select a range",
+      "additionalContact": "Secondary contact or notes"
+    },
+    "orgTypes": {
+      "academy": "Academy",
+      "club": "Club",
+      "school": "School",
+      "league": "League",
+      "federation": "Federation",
+      "independentCoach": "Independent Coach"
+    },
+    "playerRanges": {
+      "1-15": "1-15 Players",
+      "16-30": "16-30 Players",
+      "31-50": "31-50 Players",
+      "51-100": "51-100 Players",
+      "100+": "More than 100 players"
+    },
+    "optional": "Optional",
+    "acknowledge": "I acknowledge that CFit will review this application and that dashboard access is only activated after approval.",
+    "privacyNote": "Your information is used only to review and manage your organization's CFit account.",
+    "submit": "Submit registration",
+    "alreadyRegistered": "Already registered?",
+    "signIn": "Sign in to your organization account"
+  },
+  "coachPending": {
+    "eyebrow": "Application received",
+    "titleLine1": "You're on the",
+    "titleHighlight": "waiting list",
+    "description": "Thank you for registering. The CFit team is now reviewing your application. Dashboard access will be activated as soon as your organization is approved.",
+    "descriptionNamed": "Thank you, {{organization}}. The CFit team is now reviewing your application. Dashboard access will be activated as soon as your organization is approved.",
+    "statusTitle": "Application status",
+    "badge": "Under review",
+    "steps": {
+      "submitted": {
+        "title": "Submitted",
+        "text": "Your organization details have been received."
+      },
+      "review": {
+        "title": "Under review",
+        "text": "Our team is verifying your organization and contact details."
+      },
+      "approved": {
+        "title": "Approval",
+        "text": "Once approved, your dashboard access is activated."
+      },
+      "invite": {
+        "title": "Invite players",
+        "text": "Start inviting and tracking your players on CFit."
+      }
+    },
+    "info": {
+      "time": "Typical review time",
+      "timeValue": "2–3 business days",
+      "notify": "We'll notify you at",
+      "notifyFallback": "Your registered email",
+      "help": "Need help?"
+    },
+    "home": "Back to home",
+    "explore": "Explore Coaches & Academies"
   }
 }

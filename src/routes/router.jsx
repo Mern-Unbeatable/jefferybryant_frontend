@@ -13,6 +13,8 @@ import NotFound from "@/pages/notFound/NotFound";
 import Login from "@/pages/login/Login";
 import Join from "@/pages/join/Join";
 import PlayerSignup from "@/pages/join/PlayerSignup";
+import CoachSignup from "@/pages/join/CoachSignup";
+import CoachPending from "@/pages/join/CoachPending";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,6 +22,8 @@ export const router = createBrowserRouter(
       <Route path="login" element={<Login />} />
       <Route path="join" element={<Join />} />
       <Route path="join/player" element={<PlayerSignup />} />
+      <Route path="join/coach" element={<CoachSignup />} />
+      <Route path="join/coach/pending" element={<CoachPending />} />
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
         <Route path="players" element={<Player />} />

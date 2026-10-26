@@ -891,5 +891,113 @@
     "successTitle": "Kuenta kreá",
     "successText": "Bon bini na CFit. Bo kuenta di hugadó ta kla — drenta pa kompletá bo perfil.",
     "signIn": "Drenta"
+  },
+  "coachSignup": {
+    "portal": "Portal di Entrenadó / Akademia",
+    "eyebrow": "Djòin e network",
+    "titleLine1": "Djòin e network karibense",
+    "titleHighlight": "di futbòl CFit",
+    "description": "Konektá bo organisashon ku un network ku ta krese di talento di futbòl karibense. Invitá hugadó, maneha registrashon i yuda atleta konstruí nan perfil profesional.",
+    "journey": {
+      "submit": "Manda detayenan di bo organisashon",
+      "review": "CFit ta revisá bo aplikashon",
+      "approved": "Haña akseso aprobá na dashboard",
+      "invite": "Invitá i sigui bo hugadónan"
+    },
+    "blocks": {
+      "organization": {
+        "title": "Informashon di organisashon",
+        "description": "Konta nos tokante e organisashon ku ta djòin CFit."
+      },
+      "director": {
+        "title": "Informashon di direktor / entrenadó",
+        "description": "Agregá e kontakto prinsipal ku lo maneha e kuenta aki."
+      },
+      "network": {
+        "title": "Informashon di network di hugadó",
+        "description": "Yuda nos kompronde e tamaño di bo network di hugadó hóben."
+      },
+      "additional": {
+        "title": "Informashon adishonal",
+        "description": "E detayenan aki ta opshonal i por wòrdu aktualisá despues."
+      }
+    },
+    "fields": {
+      "organization": "Nòmber di organisashon / akademia",
+      "organizationType": "Tipo di organisashon",
+      "country": "Pais / Isla",
+      "city": "Siudat",
+      "fullName": "Nòmber kompleto di direktor / entrenadó",
+      "role": "Posishon / Ròl",
+      "email": "Email",
+      "phone": "WhatsApp / Número di selular",
+      "playerCount": "Kantidat aproksimá di hugadó di 15-18 aña",
+      "website": "Website",
+      "social": "Link di medio sosial",
+      "ageGroups": "Grupo di edat atendí",
+      "additionalContact": "Informashon di kontakto adishonal"
+    },
+    "placeholders": {
+      "select": "Skohe tipo",
+      "range": "Skohe un rango",
+      "additionalContact": "Kontakto sekundario òf nota"
+    },
+    "orgTypes": {
+      "academy": "Akademia",
+      "club": "Klub",
+      "school": "Skol",
+      "league": "Liga",
+      "federation": "Federashon",
+      "independentCoach": "Entrenadó independiente"
+    },
+    "playerRanges": {
+      "1-15": "1-15 hugadó",
+      "16-30": "16-30 hugadó",
+      "31-50": "31-50 hugadó",
+      "51-100": "51-100 hugadó",
+      "100+": "Mas ku 100 hugadó"
+    },
+    "optional": "Opshonal",
+    "acknowledge": "Mi ta rekonosé ku CFit lo revisá e aplikashon aki i ku akseso na dashboard ta wòrdu aktivá solamente despues di aprobashon.",
+    "privacyNote": "Bo informashon ta wòrdu usá solamente pa revisá i maneha e kuenta CFit di bo organisashon.",
+    "submit": "Manda registrashon",
+    "alreadyRegistered": "Bo ta registrá caba?",
+    "signIn": "Drenta e kuenta di bo organisashon"
+  },
+  "coachPending": {
+    "eyebrow": "Aplikashon risibí",
+    "titleLine1": "Bo ta riba e",
+    "titleHighlight": "lista di espera",
+    "description": "Danki pa registrá. E tim di CFit ta revisando bo aplikashon. Akseso na dashboard lo wòrdu aktivá apenas bo organisashon wòrdu aprobá.",
+    "descriptionNamed": "Danki, {{organization}}. E tim di CFit ta revisando bo aplikashon. Akseso na dashboard lo wòrdu aktivá apenas bo organisashon wòrdu aprobá.",
+    "statusTitle": "Estado di aplikashon",
+    "badge": "Den revishon",
+    "steps": {
+      "submitted": {
+        "title": "Mandá",
+        "text": "Nos a risibí e detayenan di bo organisashon."
+      },
+      "review": {
+        "title": "Den revishon",
+        "text": "Nos tim ta verifiká bo organisashon i detayenan di kontakto."
+      },
+      "approved": {
+        "title": "Aprobashon",
+        "text": "Ora e wòrdu aprobá, bo akseso na dashboard ta wòrdu aktivá."
+      },
+      "invite": {
+        "title": "Invitá hugadó",
+        "text": "Kuminsá invitá i sigui bo hugadónan riba CFit."
+      }
+    },
+    "info": {
+      "time": "Tempu di revishon normal",
+      "timeValue": "2–3 dia di trabou",
+      "notify": "Nos lo avisá bo na",
+      "notifyFallback": "Bo email registrá",
+      "help": "Bo mester yudansa?"
+    },
+    "home": "Bolbe na inisio",
+    "explore": "Eksplorá Entrenadó i Akademia"
   }
 }
