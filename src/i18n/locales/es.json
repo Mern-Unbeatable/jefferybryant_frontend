@@ -831,5 +831,65 @@
         "description": "Haz crecer tu academia y llega a más personas"
       }
     }
+  },
+  "playerSignup": {
+    "title": "Crea tu cuenta de jugador",
+    "subtitle": "Completa tu perfil para comenzar en la red de scouting de CFit.",
+    "step": "Paso {{number}}",
+    "steps": {
+      "personal": "Datos personales",
+      "football": "Perfil futbolístico y cuenta"
+    },
+    "fields": {
+      "fullName": "Nombre completo",
+      "dateOfBirth": "Fecha de nacimiento",
+      "country": "País de residencia",
+      "nationality": "Nacionalidad",
+      "email": "Correo electrónico",
+      "position": "Posición principal",
+      "club": "Club o academia actual",
+      "password": "Contraseña",
+      "confirmPassword": "Confirmar contraseña"
+    },
+    "placeholders": {
+      "country": "Selecciona un país",
+      "nationality": "Selecciona nacionalidad"
+    },
+    "dobHint": "Los jugadores menores de 18 años requieren la confirmación de un padre o tutor.",
+    "continue": "Continuar al perfil futbolístico",
+    "positions": {
+      "goalkeeper": "Portero",
+      "centreBack": "Defensa central",
+      "fullBack": "Lateral",
+      "defMidfielder": "Mediocentro def.",
+      "centralMid": "Mediocentro",
+      "attackingMid": "Mediapunta",
+      "winger": "Extremo (LW/RW)",
+      "striker": "Delantero (CF)"
+    },
+    "rules": {
+      "length": "Al menos 8 caracteres",
+      "upper": "Al menos 1 mayúscula (A-Z)",
+      "lower": "Al menos 1 minúscula (a-z)",
+      "number": "Al menos 1 número (0-9)",
+      "special": "Al menos 1 carácter especial (!@#$)"
+    },
+    "errors": {
+      "weakPassword": "La contraseña no cumple todos los requisitos.",
+      "mismatch": "Las contraseñas no coinciden."
+    },
+    "terms": {
+      "prefix": "Acepto los",
+      "service": "Términos de servicio",
+      "privacy": "Política de privacidad de scouting",
+      "suffix": " de CFit, y doy mi consentimiento para el análisis de video de rendimiento."
+    },
+    "back": "Atrás",
+    "submit": "Crear cuenta de jugador",
+    "haveAccount": "¿Ya tienes una cuenta de jugador?",
+    "signInHere": "Inicia sesión aquí",
+    "successTitle": "Cuenta creada",
+    "successText": "Bienvenido a CFit. Tu cuenta de jugador está lista: inicia sesión para completar tu perfil.",
+    "signIn": "Iniciar sesión"
   }
 }

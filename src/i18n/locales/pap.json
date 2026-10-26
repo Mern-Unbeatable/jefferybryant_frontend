@@ -831,5 +831,65 @@
         "description": "Laga bo akademia krese i yega na mas hende"
       }
     }
+  },
+  "playerSignup": {
+    "title": "Krea bo kuenta di hugadó",
+    "subtitle": "Kompletá bo perfil pa kuminsá ku e network di scouting di CFit.",
+    "step": "Paso {{number}}",
+    "steps": {
+      "personal": "Detayenan personal",
+      "football": "Perfil di futbòl i kuenta"
+    },
+    "fields": {
+      "fullName": "Nòmber kompleto",
+      "dateOfBirth": "Fecha di nasementu",
+      "country": "Pais di residensia",
+      "nationality": "Nashonalidat",
+      "email": "Email",
+      "position": "Posishon prinsipal",
+      "club": "Klub òf akademia aktual",
+      "password": "Kontraseña",
+      "confirmPassword": "Konfirmá kontraseña"
+    },
+    "placeholders": {
+      "country": "Skohe pais",
+      "nationality": "Skohe nashonalidat"
+    },
+    "dobHint": "Hugadónan bou di 18 aña mester di konfirmashon di un mayor òf tutor.",
+    "continue": "Sigui na perfil di futbòl",
+    "positions": {
+      "goalkeeper": "Keeper",
+      "centreBack": "Defensa sentral",
+      "fullBack": "Lateral",
+      "defMidfielder": "Mid defensivo",
+      "centralMid": "Mid sentral",
+      "attackingMid": "Mid atakante",
+      "winger": "Wing (LW/RW)",
+      "striker": "Atakante (CF)"
+    },
+    "rules": {
+      "length": "Por lo ménos 8 karakter",
+      "upper": "Por lo ménos 1 lèter grandi (A-Z)",
+      "lower": "Por lo ménos 1 lèter chikí (a-z)",
+      "number": "Por lo ménos 1 número (0-9)",
+      "special": "Por lo ménos 1 karakter spesial (!@#$)"
+    },
+    "errors": {
+      "weakPassword": "E kontraseña no ta kumpli ku tur e rekisitonan.",
+      "mismatch": "E kontraseñanan no ta kuadra."
+    },
+    "terms": {
+      "prefix": "Mi ta di akuerdo ku",
+      "service": "Términonan di Servisio",
+      "privacy": "Maneho di Privasidat di Scouting",
+      "suffix": " di CFit, i mi ta duna pèrmit pa análisis di video di rendimentu."
+    },
+    "back": "Bèk",
+    "submit": "Krea kuenta di hugadó",
+    "haveAccount": "Bo tin un kuenta di hugadó caba?",
+    "signInHere": "Drenta aki",
+    "successTitle": "Kuenta kreá",
+    "successText": "Bon bini na CFit. Bo kuenta di hugadó ta kla — drenta pa kompletá bo perfil.",
+    "signIn": "Drenta"
   }
 }

@@ -12,12 +12,14 @@ import Partner from "@/pages/partner/Partner";
 import NotFound from "@/pages/notFound/NotFound";
 import Login from "@/pages/login/Login";
 import Join from "@/pages/join/Join";
+import PlayerSignup from "@/pages/join/PlayerSignup";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route path="login" element={<Login />} />
       <Route path="join" element={<Join />} />
+      <Route path="join/player" element={<PlayerSignup />} />
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
         <Route path="players" element={<Player />} />
