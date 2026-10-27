@@ -61,7 +61,7 @@ const InvitePlayers = () => {
     "flex flex-col items-center gap-2 rounded-md border border-white/10 bg-black/20 p-4 text-center transition hover:border-white/25";
 
   return (
-    <div className="mx-auto flex max-w-7xl flex-col gap-5">
+    <div className="mx-auto flex flex-col gap-5">
       <PageHeader eyebrow={t(`${base}.eyebrow`)} title={t(`${base}.title`)} subtitle={t(`${base}.subtitle`)} />
 
       <div className="grid gap-5 lg:grid-cols-[1fr_20rem]">

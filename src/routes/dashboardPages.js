@@ -13,6 +13,14 @@ import MyOrganization from "@/pages/dashboard/coach/myOrganization/MyOrganizatio
 import SharedProfile from "@/pages/dashboard/coach/sharedProfile/SharedProfile";
 import CoachNotifications from "@/pages/dashboard/coach/notifications/Notifications";
 import CoachSettings from "@/pages/dashboard/coach/settings/CoachSettings";
+import ScoutOverview from "@/pages/dashboard/scout/overview/Overview";
+import ScoutPlayers from "@/pages/dashboard/scout/players/Players";
+import PlayerDetail from "@/pages/dashboard/scout/playerDetail/PlayerDetail";
+import Watchlist from "@/pages/dashboard/scout/watchlist/Watchlist";
+import Reviews from "@/pages/dashboard/scout/reviews/Reviews";
+import AssignedPlayers from "@/pages/dashboard/scout/assignedPlayers/AssignedPlayers";
+import ScoutNotifications from "@/pages/dashboard/scout/notifications/Notifications";
+import ScoutSettings from "@/pages/dashboard/scout/settings/ScoutSettings";
 
 const ROLE_PAGES = {
   player: {
@@ -33,8 +41,21 @@ const ROLE_PAGES = {
     notifications: CoachNotifications,
     settings: CoachSettings,
   },
+  scout: {
+    overview: ScoutOverview,
+    players: ScoutPlayers,
+    watchlist: Watchlist,
+    myReviews: Reviews,
+    assignedPlayers: AssignedPlayers,
+    notifications: ScoutNotifications,
+    settings: ScoutSettings,
+  },
 };
 
 const SHARED_PAGES = { settings: AccountSettings };
+
+export const EXTRA_ROUTES = {
+  scout: [{ path: "players/:playerId", Page: PlayerDetail }],
+};
 
 export const getDashboardPage = (role, key) => ROLE_PAGES[role]?.[key] ?? SHARED_PAGES[key];

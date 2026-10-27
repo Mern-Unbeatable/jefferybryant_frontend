@@ -1048,7 +1048,10 @@
       "personalPhysical": "Datos personales y físicos",
       "footballBackground": "Trayectoria futbolística",
       "highlightVideo": "Video destacado",
-      "contactRecruiting": "Contacto y reclutamiento"
+      "contactRecruiting": "Contacto y reclutamiento",
+      "watchlist": "Mi lista de seguimiento",
+      "myReviews": "Mis revisiones",
+      "assignedPlayers": "Jugadores asignados"
     },
     "welcome": "Bienvenido de nuevo, {{name}}",
     "placeholder": "Esta sección está lista para su diseño.",
@@ -1326,12 +1329,6 @@
       "school": "Escuela",
       "federation": "Federación"
     },
-    "time": {
-      "today": "Hoy",
-      "yesterday": "Ayer",
-      "minutesAgo": "Hace {{count}} minutos",
-      "hoursAgo": "Hace {{count}} horas"
-    },
     "overview": {
       "eyebrow": "Resumen de la organización",
       "welcome": "Bienvenido de nuevo,",
@@ -1510,41 +1507,6 @@
       },
       "reviewNotice": "Los cambios de nombre legal, tipo de organización o país pueden requerir revisión del administrador de CFit. Tus datos aprobados actuales seguirán visibles hasta completar la revisión."
     },
-    "shared": {
-      "title": "Registros de entregas por hito",
-      "subtitle": "Presentaciones de jugadores confirmadas a Nashville SC",
-      "tabs": {
-        "milestone1": "Hito 1: primeros 25 jugadores",
-        "milestone2": "Hito 2: 50 jugadores adicionales"
-      },
-      "filters": {
-        "allCountries": "Todos los países",
-        "allPositions": "Todas las posiciones",
-        "date": "Fecha de presentación",
-        "newest": "Presentación: más reciente",
-        "oldest": "Presentación: más antigua"
-      },
-      "export": {
-        "csv": "CSV",
-        "excel": "Excel"
-      },
-      "columns": {
-        "player": "Jugador",
-        "country": "País",
-        "position": "Posición",
-        "reviewReady": "Aprobación Review Ready",
-        "presented": "Presentado a Nashville SC",
-        "milestone": "Hito",
-        "actions": "Acciones"
-      },
-      "milestoneBadge": {
-        "milestone1": "Hito 1",
-        "milestone2": "Hito 2"
-      },
-      "viewProfile": "Ver perfil",
-      "empty": "Ningún registro coincide con estos filtros.",
-      "close": "Cerrar"
-    },
     "notifications": {
       "eyebrow": "Novedades",
       "title": "Notificaciones",
@@ -1569,29 +1531,333 @@
           "text": "{{name}} ha sido aprobada para acceder al portal."
         }
       }
+    }
+  },
+  "dashboardTime": {
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "minutesAgo": "Hace {{count}} minutos",
+    "hoursAgo": "Hace {{count}} horas"
+  },
+  "accountDetailsSettings": {
+    "eyebrow": "Tu cuenta",
+    "title": "Configuración de la cuenta",
+    "subtitle": "Gestiona tus datos de acceso, seguridad y preferencias de comunicación.",
+    "accountTitle": "Datos de la cuenta",
+    "passwordTitle": "Cambiar contraseña",
+    "fields": {
+      "accountName": "Nombre de la cuenta",
+      "email": "Correo electrónico",
+      "phone": "WhatsApp / móvil",
+      "currentPassword": "Contraseña actual",
+      "newPassword": "Nueva contraseña",
+      "confirmPassword": "Confirmar nueva contraseña"
     },
-    "settings": {
-      "eyebrow": "Tu cuenta",
-      "title": "Configuración de la cuenta",
-      "subtitle": "Gestiona tus datos de acceso, seguridad y preferencias de comunicación.",
-      "accountTitle": "Datos de la cuenta",
-      "passwordTitle": "Cambiar contraseña",
+    "placeholders": {
+      "currentPassword": "Introduce la contraseña actual",
+      "newPassword": "Al menos 8 caracteres",
+      "confirmPassword": "Repite la nueva contraseña"
+    },
+    "saveAccount": "Guardar datos de la cuenta",
+    "updatePassword": "Actualizar contraseña",
+    "accountSaved": "Datos de la cuenta guardados para esta sesión de demostración."
+  },
+  "milestoneRecords": {
+    "title": "Registros de entregas por hito",
+    "subtitle": "Presentaciones de jugadores confirmadas a Nashville SC",
+    "tabs": {
+      "milestone1": "Hito 1: primeros 25 jugadores",
+      "milestone2": "Hito 2: 50 jugadores adicionales"
+    },
+    "filters": {
+      "allCountries": "Todos los países",
+      "allPositions": "Todas las posiciones",
+      "date": "Fecha de presentación",
+      "newest": "Presentación: más reciente",
+      "oldest": "Presentación: más antigua"
+    },
+    "export": {
+      "csv": "CSV",
+      "excel": "Excel"
+    },
+    "columns": {
+      "player": "Jugador",
+      "country": "País",
+      "position": "Posición",
+      "reviewReady": "Aprobación Review Ready",
+      "presented": "Presentado a Nashville SC",
+      "milestone": "Hito",
+      "actions": "Acciones",
+      "delivery": "Estado de entrega"
+    },
+    "milestoneBadge": {
+      "milestone1": "Hito 1",
+      "milestone2": "Hito 2"
+    },
+    "viewProfile": "Ver perfil",
+    "empty": "Ningún registro coincide con estos filtros.",
+    "close": "Cerrar",
+    "delivery": {
+      "pending": "Pendiente de revisión",
+      "reviewed": "Revisado",
+      "forwarded": "Enviado al club"
+    },
+    "menu": {
+      "label": "Acciones de la fila",
+      "seeDetails": "Ver detalles",
+      "deliveryStatus": "Estado de entrega"
+    },
+    "deliveryUpdated": "{{name}} marcado como {{status}}."
+  },
+  "scoutDashboard": {
+    "card": {
+      "priority": "Prioridad",
+      "verified": "Jugador verificado",
+      "age": "Edad",
+      "height": "Altura",
+      "foot": "Pie",
+      "club": "Club actual",
+      "video": "Video",
+      "reviewReady": "Listo para revisión",
+      "shared": "Compartido {{date}}",
+      "viewProfile": "Ver perfil",
+      "addWatchlist": "Añadir a seguimiento",
+      "removeWatchlist": "Quitar de seguimiento"
+    },
+    "actions": {
+      "eyebrow": "Acciones del ojeador",
+      "title": "Registra tu decisión",
+      "text": "Las acciones se envían al equipo de CFit. Nunca se contacta directamente a jugadores ni clubes.",
+      "close": "Cerrar",
+      "cancel": "Cancelar",
+      "topicLabel": "¿Qué necesitas?",
+      "topicError": "Elige un tipo de solicitud.",
+      "messagePlaceholder": "Añade contexto para el equipo de CFit...",
+      "topics": {
+        "registrationStatus": "Estado de registro",
+        "footballBackground": "Trayectoria futbolística",
+        "currentClub": "Información del club actual",
+        "measurements": "Medidas del jugador",
+        "other": "Otro"
+      },
+      "continueMonitoring": {
+        "label": "Seguir observando",
+        "hint": "Añade este jugador a tu lista"
+      },
+      "monitoring": {
+        "label": "En seguimiento",
+        "hint": "En tu lista — haz clic para quitar"
+      },
+      "requestInformation": {
+        "label": "Solicitar información",
+        "hint": "Pide más detalles a CFit",
+        "title": "Solicitar información",
+        "text": "El equipo de CFit revisará tu solicitud antes de compartir cualquier información.",
+        "messageLabel": "Mensaje (opcional)",
+        "submit": "Enviar solicitud"
+      },
+      "furtherEvaluation": {
+        "label": "Evaluación adicional",
+        "hint": "Marcar para una revisión más profunda",
+        "title": "Evaluación adicional",
+        "text": "Explica al equipo de CFit por qué este jugador debe evaluarse más.",
+        "messageLabel": "Motivo",
+        "submit": "Enviar a evaluación"
+      },
+      "passOnPlayer": {
+        "label": "Descartar jugador",
+        "hint": "Registra que no continúas",
+        "title": "Descartar jugador",
+        "text": "Esta decisión se registra en privado para CFit. El jugador no será notificado.",
+        "messageLabel": "Motivo (opcional)",
+        "submit": "Confirmar descarte"
+      }
+    },
+    "overview": {
+      "welcome": "Bienvenido de nuevo,",
+      "subtitle": "Revisa jugadores caribeños verificados compartidos con tu organización y registra tus decisiones.",
+      "role": "Ojeador de desarrollo",
+      "verifiedAccess": "Acceso verificado",
+      "secureTitle": "Espacio de scouting seguro",
+      "secureText": "Todas las solicitudes pasan por CFit. Los datos de contacto nunca se comparten directamente.",
+      "stats": {
+        "available": "Jugadores disponibles",
+        "priority": "Jugadores prioritarios",
+        "watchlist": "En seguimiento",
+        "pending": "Solicitudes pendientes"
+      },
+      "playersEyebrow": "Compartidos contigo",
+      "playersTitle": "Jugadores disponibles",
+      "viewAll": "Ver todo",
+      "priorityEyebrow": "Destacados por CFit",
+      "priorityTitle": "Jugadores prioritarios",
+      "activityEyebrow": "Tu actividad",
+      "activityTitle": "Actividad reciente",
+      "watchlistEyebrow": "Seguimiento",
+      "watchlistTitle": "Mi lista de seguimiento",
+      "watchlistEmpty": "Aún no hay jugadores en tu lista."
+    },
+    "players": {
+      "eyebrow": "Scouting",
+      "title": "Jugadores",
+      "subtitle": "Explora perfiles verificados compartidos con tu organización.",
+      "accessible": "Jugadores accesibles",
+      "search": "Buscar por nombre, club o país",
+      "filterTitle": "Filtrar jugadores",
+      "filterText": "Acota la lista por detalles del perfil.",
+      "filters": {
+        "country": "País",
+        "position": "Posición",
+        "video": "Video",
+        "status": "Estado",
+        "age": "Edad",
+        "club": "Club"
+      },
+      "all": {
+        "country": "Todos los países",
+        "position": "Todas las posiciones",
+        "video": "Cualquier video",
+        "status": "Cualquier estado",
+        "age": "Cualquier edad",
+        "club": "Todos los clubes"
+      },
+      "options": {
+        "available": "Con video",
+        "unavailable": "Sin video",
+        "reviewReady": "Listo para revisión",
+        "inReview": "En revisión",
+        "under18": "Menores de 18",
+        "18plus": "18 o más"
+      },
+      "matchCount_one": "{{count}} jugador coincide",
+      "matchCount_other": "{{count}} jugadores coinciden",
+      "permission": "Solo se muestran perfiles aprobados para tu organización",
+      "empty": "Ningún jugador coincide con tu búsqueda.",
+      "loadMore": "Cargar más jugadores"
+    },
+    "detail": {
+      "back": "Volver a jugadores",
+      "notFound": "Este perfil no está disponible.",
+      "moreActions": "Más acciones",
+      "feedback": {
+        "watched": "Jugador añadido a tu lista.",
+        "unwatched": "Jugador quitado de tu lista.",
+        "requestInformation": "Solicitud de información enviada a CFit.",
+        "furtherEvaluation": "Solicitud de evaluación enviada a CFit.",
+        "passOnPlayer": "Tu decisión de descarte ha sido registrada."
+      },
+      "stats": {
+        "age": "Edad",
+        "height": "Altura",
+        "weight": "Peso",
+        "foot": "Pie preferido"
+      },
       "fields": {
-        "accountName": "Nombre de la cuenta",
-        "email": "Correo electrónico",
-        "phone": "WhatsApp / móvil",
-        "currentPassword": "Contraseña actual",
-        "newPassword": "Nueva contraseña",
-        "confirmPassword": "Confirmar nueva contraseña"
+        "nationality": "Nacionalidad",
+        "residence": "Residencia",
+        "positions": "Posiciones",
+        "club": "Club actual",
+        "league": "Liga / competición",
+        "shared": "Compartido contigo",
+        "currentClub": "Club / academia actual",
+        "history": "Historial deportivo",
+        "nationalTeam": "Selección nacional",
+        "statistics": "Estadísticas",
+        "achievements": "Logros"
       },
-      "placeholders": {
-        "currentPassword": "Introduce la contraseña actual",
-        "newPassword": "Al menos 8 caracteres",
-        "confirmPassword": "Repite la nueva contraseña"
+      "tabs": {
+        "overview": "Resumen",
+        "background": "Trayectoria",
+        "media": "Fotos y videos",
+        "notes": "Notas aprobadas"
       },
-      "saveAccount": "Guardar datos de la cuenta",
-      "updatePassword": "Actualizar contraseña",
-      "accountSaved": "Datos de la cuenta guardados para esta sesión de demostración."
+      "overviewTitle": "Resumen del jugador",
+      "backgroundTitle": "Trayectoria futbolística",
+      "timeline": "Historial de clubes",
+      "mediaTitle": "Fotos y videos",
+      "submitted": "Enviado {{date}}",
+      "noMedia": "Aún no hay contenido aprobado para este jugador.",
+      "notesTitle": "Notas de scouting aprobadas",
+      "notesText": "Notas revisadas y aprobadas por el equipo de CFit."
+    },
+    "watchlist": {
+      "eyebrow": "Seguimiento",
+      "title": "Mi lista de seguimiento",
+      "subtitle": "Jugadores que sigues observando.",
+      "count": "Jugadores seguidos",
+      "search": "Buscar en tu lista",
+      "empty": "Tu lista de seguimiento está vacía.",
+      "browse": "Explorar jugadores"
+    },
+    "reviews": {
+      "eyebrow": "Tus decisiones",
+      "title": "Mis revisiones",
+      "subtitle": "Sigue cada solicitud y decisión enviada a CFit.",
+      "stats": {
+        "total": "Revisiones totales",
+        "pending": "Pendientes",
+        "responses": "Respuestas",
+        "passed": "Jugadores descartados"
+      },
+      "tableTitle": "Historial de revisiones",
+      "tableText": "Las solicitudes las gestiona el equipo de CFit.",
+      "columns": {
+        "player": "Jugador",
+        "action": "Tipo de acción",
+        "submitted": "Enviado",
+        "status": "Estado",
+        "updated": "Última actualización",
+        "actions": "Acciones"
+      },
+      "actionTypes": {
+        "continueMonitoring": "Seguir observando",
+        "requestInformation": "Solicitar información",
+        "requestFilm": "Solicitar video",
+        "furtherEvaluation": "Evaluación adicional",
+        "passOnPlayer": "Descartar jugador"
+      },
+      "statuses": {
+        "underReview": "En revisión",
+        "responded": "Respondido",
+        "completed": "Completado",
+        "recorded": "Registrado"
+      },
+      "viewDetails": "Ver detalles",
+      "empty": "Aún no hay revisiones.",
+      "modal": {
+        "title": "Detalles de la revisión",
+        "close": "Cerrar",
+        "message": "Tu mensaje",
+        "noMessage": "No se añadió mensaje.",
+        "response": "Respuesta de CFit",
+        "noResponse": "Aún sin respuesta.",
+        "closeDetails": "Cerrar detalles"
+      }
+    },
+    "notifications": {
+      "eyebrow": "Novedades",
+      "title": "Notificaciones",
+      "subtitle": "Mantente al día sobre jugadores compartidos y respuestas a tus solicitudes.",
+      "markAll": "Marcar todo como leído",
+      "new": "Nuevo",
+      "items": {
+        "playerShared": {
+          "title": "Nuevo jugador compartido",
+          "text": "{{name}} ha sido compartido con tu organización."
+        },
+        "requestResponded": {
+          "title": "Solicitud respondida",
+          "text": "CFit respondió a tu solicitud sobre {{name}}."
+        },
+        "platform": {
+          "title": "Actualización de CFit",
+          "text": "Las tarjetas ahora muestran etiquetas de revisión y video."
+        },
+        "accessApproved": {
+          "title": "Acceso de ojeador aprobado",
+          "text": "Tu acceso verificado está activo."
+        }
+      }
     }
   }
 }

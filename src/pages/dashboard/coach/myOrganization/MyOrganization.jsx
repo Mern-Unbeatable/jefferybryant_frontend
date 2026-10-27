@@ -111,7 +111,7 @@ const MyOrganization = () => {
     );
 
   return (
-    <div className="mx-auto flex max-w-7xl flex-col gap-5">
+    <div className="mx-auto flex flex-col gap-5">
       <PageHeader
         eyebrow={t(`${base}.eyebrow`)}
         title={t(`${base}.title`)}

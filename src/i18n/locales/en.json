@@ -1048,7 +1048,10 @@
       "personalPhysical": "Personal & Physical",
       "footballBackground": "Football Background",
       "highlightVideo": "Highlight Video",
-      "contactRecruiting": "Contact & Recruiting"
+      "contactRecruiting": "Contact & Recruiting",
+      "watchlist": "My Watchlist",
+      "myReviews": "My Reviews",
+      "assignedPlayers": "Assigned Players"
     },
     "welcome": "Welcome back, {{name}}",
     "placeholder": "This section is ready for its design.",
@@ -1326,12 +1329,6 @@
       "school": "School",
       "federation": "Federation"
     },
-    "time": {
-      "today": "Today",
-      "yesterday": "Yesterday",
-      "minutesAgo": "{{count}} minutes ago",
-      "hoursAgo": "{{count}} hours ago"
-    },
     "overview": {
       "eyebrow": "Organization overview",
       "welcome": "Welcome back,",
@@ -1510,41 +1507,6 @@
       },
       "reviewNotice": "Changes to legal name, organization type, or country may require CFit admin review. Your current approved details stay visible until the review is complete."
     },
-    "shared": {
-      "title": "Milestone delivery records",
-      "subtitle": "Confirmed player presentations to Nashville SC",
-      "tabs": {
-        "milestone1": "Milestone 1: First 25 players",
-        "milestone2": "Milestone 2: Additional 50 players"
-      },
-      "filters": {
-        "allCountries": "All countries",
-        "allPositions": "All positions",
-        "date": "Presentation date",
-        "newest": "Presentation: newest",
-        "oldest": "Presentation: oldest"
-      },
-      "export": {
-        "csv": "CSV",
-        "excel": "Excel"
-      },
-      "columns": {
-        "player": "Player",
-        "country": "Country",
-        "position": "Position",
-        "reviewReady": "Review ready approval",
-        "presented": "Presented to Nashville SC",
-        "milestone": "Milestone",
-        "actions": "Actions"
-      },
-      "milestoneBadge": {
-        "milestone1": "Milestone 1",
-        "milestone2": "Milestone 2"
-      },
-      "viewProfile": "View profile",
-      "empty": "No records match these filters.",
-      "close": "Close"
-    },
     "notifications": {
       "eyebrow": "Updates",
       "title": "Notifications",
@@ -1569,29 +1531,333 @@
           "text": "{{name}} has been approved for portal access."
         }
       }
+    }
+  },
+  "dashboardTime": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "minutesAgo": "{{count}} minutes ago",
+    "hoursAgo": "{{count}} hours ago"
+  },
+  "accountDetailsSettings": {
+    "eyebrow": "Your account",
+    "title": "Account settings",
+    "subtitle": "Manage sign-in details, security, and communication preferences.",
+    "accountTitle": "Account details",
+    "passwordTitle": "Change password",
+    "fields": {
+      "accountName": "Account name",
+      "email": "Email address",
+      "phone": "WhatsApp / mobile",
+      "currentPassword": "Current password",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm new password"
     },
-    "settings": {
-      "eyebrow": "Your account",
-      "title": "Account settings",
-      "subtitle": "Manage sign-in details, security, and communication preferences.",
-      "accountTitle": "Account details",
-      "passwordTitle": "Change password",
+    "placeholders": {
+      "currentPassword": "Enter current password",
+      "newPassword": "At least 8 characters",
+      "confirmPassword": "Repeat new password"
+    },
+    "saveAccount": "Save account details",
+    "updatePassword": "Update password",
+    "accountSaved": "Account details saved for this demo session."
+  },
+  "milestoneRecords": {
+    "title": "Milestone delivery records",
+    "subtitle": "Confirmed player presentations to Nashville SC",
+    "tabs": {
+      "milestone1": "Milestone 1: First 25 players",
+      "milestone2": "Milestone 2: Additional 50 players"
+    },
+    "filters": {
+      "allCountries": "All countries",
+      "allPositions": "All positions",
+      "date": "Presentation date",
+      "newest": "Presentation: newest",
+      "oldest": "Presentation: oldest"
+    },
+    "export": {
+      "csv": "CSV",
+      "excel": "Excel"
+    },
+    "columns": {
+      "player": "Player",
+      "country": "Country",
+      "position": "Position",
+      "reviewReady": "Review ready approval",
+      "presented": "Presented to Nashville SC",
+      "milestone": "Milestone",
+      "actions": "Actions",
+      "delivery": "Delivery status"
+    },
+    "milestoneBadge": {
+      "milestone1": "Milestone 1",
+      "milestone2": "Milestone 2"
+    },
+    "viewProfile": "View profile",
+    "empty": "No records match these filters.",
+    "close": "Close",
+    "delivery": {
+      "pending": "Pending review",
+      "reviewed": "Reviewed",
+      "forwarded": "Forwarded to club"
+    },
+    "menu": {
+      "label": "Row actions",
+      "seeDetails": "See details",
+      "deliveryStatus": "Delivery status"
+    },
+    "deliveryUpdated": "{{name}} marked as {{status}}."
+  },
+  "scoutDashboard": {
+    "card": {
+      "priority": "Priority",
+      "verified": "Verified player",
+      "age": "Age",
+      "height": "Height",
+      "foot": "Foot",
+      "club": "Current club",
+      "video": "Video",
+      "reviewReady": "Review ready",
+      "shared": "Shared {{date}}",
+      "viewProfile": "View profile",
+      "addWatchlist": "Add to watchlist",
+      "removeWatchlist": "Remove from watchlist"
+    },
+    "actions": {
+      "eyebrow": "Scout actions",
+      "title": "Record your decision",
+      "text": "Actions are sent to the CFit admin team. Players and clubs are never contacted directly.",
+      "close": "Close",
+      "cancel": "Cancel",
+      "topicLabel": "What do you need?",
+      "topicError": "Please choose a request type.",
+      "messagePlaceholder": "Add context for the CFit admin team...",
+      "topics": {
+        "registrationStatus": "Registration status",
+        "footballBackground": "Football background",
+        "currentClub": "Current club information",
+        "measurements": "Player measurements",
+        "other": "Other"
+      },
+      "continueMonitoring": {
+        "label": "Continue monitoring",
+        "hint": "Add this player to your watchlist"
+      },
+      "monitoring": {
+        "label": "Monitoring",
+        "hint": "On your watchlist — click to remove"
+      },
+      "requestInformation": {
+        "label": "Request information",
+        "hint": "Ask CFit for more details",
+        "title": "Request information",
+        "text": "Your request will be reviewed by the CFit admin team before any information is shared.",
+        "messageLabel": "Message (optional)",
+        "submit": "Send request"
+      },
+      "furtherEvaluation": {
+        "label": "Further evaluation",
+        "hint": "Flag for deeper review",
+        "title": "Further evaluation",
+        "text": "Tell the CFit team why this player should be evaluated further.",
+        "messageLabel": "Reason",
+        "submit": "Submit for evaluation"
+      },
+      "passOnPlayer": {
+        "label": "Pass on player",
+        "hint": "Record that you are not progressing",
+        "title": "Pass on player",
+        "text": "This decision is recorded privately for CFit. The player will not be notified.",
+        "messageLabel": "Reason (optional)",
+        "submit": "Confirm pass"
+      }
+    },
+    "overview": {
+      "welcome": "Welcome back,",
+      "subtitle": "Review verified Caribbean players shared with your organization and record your scouting decisions.",
+      "role": "Development scout",
+      "verifiedAccess": "Verified access",
+      "secureTitle": "Secure scouting workspace",
+      "secureText": "All requests go through CFit. Player contact details are never shared directly.",
+      "stats": {
+        "available": "Players available",
+        "priority": "Priority players",
+        "watchlist": "On watchlist",
+        "pending": "Pending requests"
+      },
+      "playersEyebrow": "Shared with you",
+      "playersTitle": "Players available",
+      "viewAll": "View all",
+      "priorityEyebrow": "Highlighted by CFit",
+      "priorityTitle": "Priority players",
+      "activityEyebrow": "Your activity",
+      "activityTitle": "Recent scout activity",
+      "watchlistEyebrow": "Monitoring",
+      "watchlistTitle": "My watchlist",
+      "watchlistEmpty": "No players on your watchlist yet."
+    },
+    "players": {
+      "eyebrow": "Scouting",
+      "title": "Players",
+      "subtitle": "Browse verified player profiles shared with your organization.",
+      "accessible": "Accessible players",
+      "search": "Search by name, club or country",
+      "filterTitle": "Filter players",
+      "filterText": "Narrow the list by profile details.",
+      "filters": {
+        "country": "Country",
+        "position": "Position",
+        "video": "Video",
+        "status": "Status",
+        "age": "Age",
+        "club": "Club"
+      },
+      "all": {
+        "country": "All countries",
+        "position": "All positions",
+        "video": "Any video",
+        "status": "Any status",
+        "age": "Any age",
+        "club": "All clubs"
+      },
+      "options": {
+        "available": "Video available",
+        "unavailable": "No video",
+        "reviewReady": "Review ready",
+        "inReview": "In review",
+        "under18": "Under 18",
+        "18plus": "18 and over"
+      },
+      "matchCount_one": "{{count}} player matches",
+      "matchCount_other": "{{count}} players match",
+      "permission": "Only profiles approved for your organization are shown",
+      "empty": "No players match your search.",
+      "loadMore": "Load more players"
+    },
+    "detail": {
+      "back": "Back to players",
+      "notFound": "This player profile is not available.",
+      "moreActions": "More actions",
+      "feedback": {
+        "watched": "Player added to your watchlist.",
+        "unwatched": "Player removed from your watchlist.",
+        "requestInformation": "Information request sent to CFit.",
+        "furtherEvaluation": "Further evaluation request sent to CFit.",
+        "passOnPlayer": "Your pass decision has been recorded."
+      },
+      "stats": {
+        "age": "Age",
+        "height": "Height",
+        "weight": "Weight",
+        "foot": "Preferred foot"
+      },
       "fields": {
-        "accountName": "Account name",
-        "email": "Email address",
-        "phone": "WhatsApp / mobile",
-        "currentPassword": "Current password",
-        "newPassword": "New password",
-        "confirmPassword": "Confirm new password"
+        "nationality": "Nationality",
+        "residence": "Residence",
+        "positions": "Positions",
+        "club": "Current club",
+        "league": "League / competition",
+        "shared": "Shared with you",
+        "currentClub": "Current club / academy",
+        "history": "Playing history",
+        "nationalTeam": "National team involvement",
+        "statistics": "Statistics",
+        "achievements": "Achievements"
       },
-      "placeholders": {
-        "currentPassword": "Enter current password",
-        "newPassword": "At least 8 characters",
-        "confirmPassword": "Repeat new password"
+      "tabs": {
+        "overview": "Overview",
+        "background": "Football background",
+        "media": "Photos & videos",
+        "notes": "Approved scout notes"
       },
-      "saveAccount": "Save account details",
-      "updatePassword": "Update password",
-      "accountSaved": "Account details saved for this demo session."
+      "overviewTitle": "Player overview",
+      "backgroundTitle": "Football background",
+      "timeline": "Club timeline",
+      "mediaTitle": "Photos & videos",
+      "submitted": "Submitted {{date}}",
+      "noMedia": "No media has been approved for this player yet.",
+      "notesTitle": "Approved scout notes",
+      "notesText": "Notes reviewed and approved by the CFit admin team."
+    },
+    "watchlist": {
+      "eyebrow": "Monitoring",
+      "title": "My watchlist",
+      "subtitle": "Players you are continuing to monitor.",
+      "count": "Players watched",
+      "search": "Search your watchlist",
+      "empty": "Your watchlist is empty.",
+      "browse": "Browse players"
+    },
+    "reviews": {
+      "eyebrow": "Your decisions",
+      "title": "My reviews",
+      "subtitle": "Track every request and decision you have sent to CFit.",
+      "stats": {
+        "total": "Total reviews",
+        "pending": "Pending",
+        "responses": "Responses",
+        "passed": "Players passed"
+      },
+      "tableTitle": "Review history",
+      "tableText": "Requests are handled by the CFit admin team.",
+      "columns": {
+        "player": "Player",
+        "action": "Action type",
+        "submitted": "Submitted",
+        "status": "Status",
+        "updated": "Last updated",
+        "actions": "Actions"
+      },
+      "actionTypes": {
+        "continueMonitoring": "Continue monitoring",
+        "requestInformation": "Request information",
+        "requestFilm": "Request film",
+        "furtherEvaluation": "Further evaluation",
+        "passOnPlayer": "Pass on player"
+      },
+      "statuses": {
+        "underReview": "Under review",
+        "responded": "Responded",
+        "completed": "Completed",
+        "recorded": "Recorded"
+      },
+      "viewDetails": "View details",
+      "empty": "No reviews yet.",
+      "modal": {
+        "title": "Review details",
+        "close": "Close",
+        "message": "Your message",
+        "noMessage": "No message was added.",
+        "response": "CFit admin response",
+        "noResponse": "No response yet.",
+        "closeDetails": "Close details"
+      }
+    },
+    "notifications": {
+      "eyebrow": "Updates",
+      "title": "Notifications",
+      "subtitle": "Stay informed about players shared with you and responses to your requests.",
+      "markAll": "Mark all as read",
+      "new": "New",
+      "items": {
+        "playerShared": {
+          "title": "New player shared",
+          "text": "{{name}} has been shared with your organization."
+        },
+        "requestResponded": {
+          "title": "Request answered",
+          "text": "CFit responded to your request about {{name}}."
+        },
+        "platform": {
+          "title": "CFit platform update",
+          "text": "Player cards now show review-ready and video tags."
+        },
+        "accessApproved": {
+          "title": "Scout access approved",
+          "text": "Your verified scout access is active."
+        }
+      }
     }
   }
 }

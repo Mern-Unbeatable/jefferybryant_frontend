@@ -1027,7 +1027,7 @@
       "overview": "Resumen",
       "users": "Usuarionan",
       "approvals": "Aprobashon di akademia",
-      "players": "Hugadónan",
+      "players": "Hugadó",
       "scouts": "Scoutnan",
       "reports": "Raportnan",
       "myProfile": "Mi perfil",
@@ -1048,7 +1048,10 @@
       "personalPhysical": "Personal i físiko",
       "footballBackground": "Historia di futbòl",
       "highlightVideo": "Video di highlight",
-      "contactRecruiting": "Kontakto i rekrutamentu"
+      "contactRecruiting": "Kontakto i rekrutamentu",
+      "watchlist": "Mi lista di vigilansia",
+      "myReviews": "Mi revishonnan",
+      "assignedPlayers": "Hugadó asigná"
     },
     "welcome": "Bon bini bèk, {{name}}",
     "placeholder": "E sekshon aki ta kla pa su diseño.",
@@ -1326,12 +1329,6 @@
       "school": "Skol",
       "federation": "Federashon"
     },
-    "time": {
-      "today": "Awe",
-      "yesterday": "Ayera",
-      "minutesAgo": "{{count}} minüt pasá",
-      "hoursAgo": "{{count}} ora pasá"
-    },
     "overview": {
       "eyebrow": "Resúmen di organisashon",
       "welcome": "Bon bini bèk,",
@@ -1510,41 +1507,6 @@
       },
       "reviewNotice": "Kambio na nòmber legal, tipo di organisashon òf pais por rekerí revishon di admin di CFit. Bo detayenan aprobá aktual ta keda visibel te ora e revishon kaba."
     },
-    "shared": {
-      "title": "Registro di entrega pa meta",
-      "subtitle": "Presentashon di hugador konfirmá na Nashville SC",
-      "tabs": {
-        "milestone1": "Meta 1: Promé 25 hugador",
-        "milestone2": "Meta 2: 50 hugador adishonal"
-      },
-      "filters": {
-        "allCountries": "Tur pais",
-        "allPositions": "Tur posishon",
-        "date": "Fecha di presentashon",
-        "newest": "Presentashon: mas resien",
-        "oldest": "Presentashon: mas bieu"
-      },
-      "export": {
-        "csv": "CSV",
-        "excel": "Excel"
-      },
-      "columns": {
-        "player": "Hugador",
-        "country": "Pais",
-        "position": "Posishon",
-        "reviewReady": "Aprobashon Review Ready",
-        "presented": "Presentá na Nashville SC",
-        "milestone": "Meta",
-        "actions": "Akshon"
-      },
-      "milestoneBadge": {
-        "milestone1": "Meta 1",
-        "milestone2": "Meta 2"
-      },
-      "viewProfile": "Mira perfil",
-      "empty": "Niun registro no ta kuadra ku e filternan aki.",
-      "close": "Sera"
-    },
     "notifications": {
       "eyebrow": "Aktualisashon",
       "title": "Notifikashon",
@@ -1569,29 +1531,333 @@
           "text": "{{name}} a wòrdu aprobá pa akseso na e portal."
         }
       }
+    }
+  },
+  "dashboardTime": {
+    "today": "Awe",
+    "yesterday": "Ayera",
+    "minutesAgo": "{{count}} minüt pasá",
+    "hoursAgo": "{{count}} ora pasá"
+  },
+  "accountDetailsSettings": {
+    "eyebrow": "Bo kuenta",
+    "title": "Configurashon di kuenta",
+    "subtitle": "Maneha detaye di login, seguridat i preferensia di komunikashon.",
+    "accountTitle": "Detaye di kuenta",
+    "passwordTitle": "Kambia kontraseña",
+    "fields": {
+      "accountName": "Nòmber di kuenta",
+      "email": "Adrès di email",
+      "phone": "WhatsApp / selular",
+      "currentPassword": "Kontraseña aktual",
+      "newPassword": "Kontraseña nobo",
+      "confirmPassword": "Konfirmá kontraseña nobo"
     },
-    "settings": {
-      "eyebrow": "Bo kuenta",
-      "title": "Configurashon di kuenta",
-      "subtitle": "Maneha detaye di login, seguridat i preferensia di komunikashon.",
-      "accountTitle": "Detaye di kuenta",
-      "passwordTitle": "Kambia kontraseña",
+    "placeholders": {
+      "currentPassword": "Pone kontraseña aktual",
+      "newPassword": "Por lo ménos 8 karakter",
+      "confirmPassword": "Ripití kontraseña nobo"
+    },
+    "saveAccount": "Warda detaye di kuenta",
+    "updatePassword": "Aktualisá kontraseña",
+    "accountSaved": "Detaye di kuenta wardá pa e seshon di demostrashon aki."
+  },
+  "milestoneRecords": {
+    "title": "Registro di entrega pa meta",
+    "subtitle": "Presentashon di hugador konfirmá na Nashville SC",
+    "tabs": {
+      "milestone1": "Meta 1: Promé 25 hugador",
+      "milestone2": "Meta 2: 50 hugador adishonal"
+    },
+    "filters": {
+      "allCountries": "Tur pais",
+      "allPositions": "Tur posishon",
+      "date": "Fecha di presentashon",
+      "newest": "Presentashon: mas resien",
+      "oldest": "Presentashon: mas bieu"
+    },
+    "export": {
+      "csv": "CSV",
+      "excel": "Excel"
+    },
+    "columns": {
+      "player": "Hugador",
+      "country": "Pais",
+      "position": "Posishon",
+      "reviewReady": "Aprobashon Review Ready",
+      "presented": "Presentá na Nashville SC",
+      "milestone": "Meta",
+      "actions": "Akshon",
+      "delivery": "Status di entrega"
+    },
+    "milestoneBadge": {
+      "milestone1": "Meta 1",
+      "milestone2": "Meta 2"
+    },
+    "viewProfile": "Mira perfil",
+    "empty": "Niun registro no ta kuadra ku e filternan aki.",
+    "close": "Sera",
+    "delivery": {
+      "pending": "Te warda revishon",
+      "reviewed": "Revisá",
+      "forwarded": "Mandá pa klup"
+    },
+    "menu": {
+      "label": "Akshonnan di fila",
+      "seeDetails": "Mira detaye",
+      "deliveryStatus": "Status di entrega"
+    },
+    "deliveryUpdated": "{{name}} marká komo {{status}}."
+  },
+  "scoutDashboard": {
+    "card": {
+      "priority": "Prioridat",
+      "verified": "Hugadó verifiká",
+      "age": "Edat",
+      "height": "Altura",
+      "foot": "Pia",
+      "club": "Klup aktual",
+      "video": "Video",
+      "reviewReady": "Kla pa revishon",
+      "shared": "Kompartí {{date}}",
+      "viewProfile": "Mira perfil",
+      "addWatchlist": "Agregá na lista",
+      "removeWatchlist": "Kita for di lista"
+    },
+    "actions": {
+      "eyebrow": "Akshonnan di skout",
+      "title": "Registrá bo desishon",
+      "text": "Akshonnan ta bai na e tim di CFit. Nunka nos ta kontaktá hugadó òf klup direkt.",
+      "close": "Sera",
+      "cancel": "Kansela",
+      "topicLabel": "Kiko bo mester?",
+      "topicError": "Por fabor skohe un tipo di petishon.",
+      "messagePlaceholder": "Agregá konteksto pa e tim di CFit...",
+      "topics": {
+        "registrationStatus": "Status di registrashon",
+        "footballBackground": "Historia di futbol",
+        "currentClub": "Informashon di klup aktual",
+        "measurements": "Medidanan di hugadó",
+        "other": "Otro"
+      },
+      "continueMonitoring": {
+        "label": "Sigui vigilá",
+        "hint": "Agregá e hugadó aki na bo lista"
+      },
+      "monitoring": {
+        "label": "Ta vigilá",
+        "hint": "Riba bo lista — klek pa kita"
+      },
+      "requestInformation": {
+        "label": "Pidi informashon",
+        "hint": "Pidi CFit mas detaye",
+        "title": "Pidi informashon",
+        "text": "E tim di CFit lo revisá bo petishon promé ku kompartí informashon.",
+        "messageLabel": "Mensahe (opshonal)",
+        "submit": "Manda petishon"
+      },
+      "furtherEvaluation": {
+        "label": "Evaluashon adishonal",
+        "hint": "Marka pa un revishon mas profundo",
+        "title": "Evaluashon adishonal",
+        "text": "Splika e tim di CFit dikon e hugadó aki mester evaluashon adishonal.",
+        "messageLabel": "Motibu",
+        "submit": "Manda pa evaluashon"
+      },
+      "passOnPlayer": {
+        "label": "Pasa riba hugadó",
+        "hint": "Registrá ku bo no ta sigui",
+        "title": "Pasa riba hugadó",
+        "text": "E desishon aki ta keda registrá privá pa CFit. E hugadó no lo haña notifikashon.",
+        "messageLabel": "Motibu (opshonal)",
+        "submit": "Konfirmá pasa"
+      }
+    },
+    "overview": {
+      "welcome": "Bon bini bèk,",
+      "subtitle": "Revisá hugadónan karibense verifiká kompartí ku bo organisashon i registrá bo desishonnan.",
+      "role": "Skout di desaroyo",
+      "verifiedAccess": "Akseso verifiká",
+      "secureTitle": "Espasio di skouting sigur",
+      "secureText": "Tur petishon ta pasa via CFit. Nunka nos ta kompartí datonan di kontakto direkt.",
+      "stats": {
+        "available": "Hugadó disponibel",
+        "priority": "Hugadó di prioridat",
+        "watchlist": "Riba lista",
+        "pending": "Petishon pendiente"
+      },
+      "playersEyebrow": "Kompartí ku bo",
+      "playersTitle": "Hugadó disponibel",
+      "viewAll": "Mira tur",
+      "priorityEyebrow": "Destaká pa CFit",
+      "priorityTitle": "Hugadó di prioridat",
+      "activityEyebrow": "Bo aktividat",
+      "activityTitle": "Aktividat resien",
+      "watchlistEyebrow": "Vigilansia",
+      "watchlistTitle": "Mi lista di vigilansia",
+      "watchlistEmpty": "Ainda no tin hugadó riba bo lista."
+    },
+    "players": {
+      "eyebrow": "Skouting",
+      "title": "Hugadó",
+      "subtitle": "Eksplorá perfilnan verifiká kompartí ku bo organisashon.",
+      "accessible": "Hugadó aksesibel",
+      "search": "Buska pa nòmber, klup òf pais",
+      "filterTitle": "Filtra hugadó",
+      "filterText": "Hasi e lista mas chikí segun detaye di perfil.",
+      "filters": {
+        "country": "Pais",
+        "position": "Posishon",
+        "video": "Video",
+        "status": "Status",
+        "age": "Edat",
+        "club": "Klup"
+      },
+      "all": {
+        "country": "Tur pais",
+        "position": "Tur posishon",
+        "video": "Kualke video",
+        "status": "Kualke status",
+        "age": "Kualke edat",
+        "club": "Tur klup"
+      },
+      "options": {
+        "available": "Ku video",
+        "unavailable": "Sin video",
+        "reviewReady": "Kla pa revishon",
+        "inReview": "Den revishon",
+        "under18": "Bou di 18",
+        "18plus": "18 òf mas"
+      },
+      "matchCount_one": "{{count}} hugadó ta kuadra",
+      "matchCount_other": "{{count}} hugadó ta kuadra",
+      "permission": "Ta mustra solamente perfilnan aprobá pa bo organisashon",
+      "empty": "Ningun hugadó no ta kuadra ku bo búsketa.",
+      "loadMore": "Karga mas hugadó"
+    },
+    "detail": {
+      "back": "Bai bèk na hugadó",
+      "notFound": "E perfil aki no ta disponibel.",
+      "moreActions": "Mas akshon",
+      "feedback": {
+        "watched": "Hugadó agregá na bo lista.",
+        "unwatched": "Hugadó kitá for di bo lista.",
+        "requestInformation": "Petishon di informashon mandá na CFit.",
+        "furtherEvaluation": "Petishon di evaluashon mandá na CFit.",
+        "passOnPlayer": "Bo desishon a keda registrá."
+      },
+      "stats": {
+        "age": "Edat",
+        "height": "Altura",
+        "weight": "Peso",
+        "foot": "Pia preferí"
+      },
       "fields": {
-        "accountName": "Nòmber di kuenta",
-        "email": "Adrès di email",
-        "phone": "WhatsApp / selular",
-        "currentPassword": "Kontraseña aktual",
-        "newPassword": "Kontraseña nobo",
-        "confirmPassword": "Konfirmá kontraseña nobo"
+        "nationality": "Nashonalidat",
+        "residence": "Residensia",
+        "positions": "Posishonnan",
+        "club": "Klup aktual",
+        "league": "Liga / kompetensia",
+        "shared": "Kompartí ku bo",
+        "currentClub": "Klup / akademia aktual",
+        "history": "Historia di hunga",
+        "nationalTeam": "Seleshon nashonal",
+        "statistics": "Estadístika",
+        "achievements": "Logro"
       },
-      "placeholders": {
-        "currentPassword": "Pone kontraseña aktual",
-        "newPassword": "Por lo ménos 8 karakter",
-        "confirmPassword": "Ripití kontraseña nobo"
+      "tabs": {
+        "overview": "Resúmen",
+        "background": "Historia di futbol",
+        "media": "Potrèt i video",
+        "notes": "Nota aprobá"
       },
-      "saveAccount": "Warda detaye di kuenta",
-      "updatePassword": "Aktualisá kontraseña",
-      "accountSaved": "Detaye di kuenta wardá pa e seshon di demostrashon aki."
+      "overviewTitle": "Resúmen di hugadó",
+      "backgroundTitle": "Historia di futbol",
+      "timeline": "Historia di klup",
+      "mediaTitle": "Potrèt i video",
+      "submitted": "Mandá {{date}}",
+      "noMedia": "Ainda no tin media aprobá pa e hugadó aki.",
+      "notesTitle": "Nota di skout aprobá",
+      "notesText": "Nota revisá i aprobá pa e tim di CFit."
+    },
+    "watchlist": {
+      "eyebrow": "Vigilansia",
+      "title": "Mi lista di vigilansia",
+      "subtitle": "Hugadónan ku bo ta sigui vigilá.",
+      "count": "Hugadó vigilá",
+      "search": "Buska den bo lista",
+      "empty": "Bo lista ta bashí.",
+      "browse": "Eksplorá hugadó"
+    },
+    "reviews": {
+      "eyebrow": "Bo desishonnan",
+      "title": "Mi revishonnan",
+      "subtitle": "Sigui tur petishon i desishon ku bo a manda CFit.",
+      "stats": {
+        "total": "Total di revishon",
+        "pending": "Pendiente",
+        "responses": "Kontesta",
+        "passed": "Hugadó pasá"
+      },
+      "tableTitle": "Historia di revishon",
+      "tableText": "E tim di CFit ta atendé ku e petishonnan.",
+      "columns": {
+        "player": "Hugadó",
+        "action": "Tipo di akshon",
+        "submitted": "Mandá",
+        "status": "Status",
+        "updated": "Último aktualisashon",
+        "actions": "Akshon"
+      },
+      "actionTypes": {
+        "continueMonitoring": "Sigui vigilá",
+        "requestInformation": "Pidi informashon",
+        "requestFilm": "Pidi video",
+        "furtherEvaluation": "Evaluashon adishonal",
+        "passOnPlayer": "Pasa riba hugadó"
+      },
+      "statuses": {
+        "underReview": "Den revishon",
+        "responded": "Kontestá",
+        "completed": "Kompletá",
+        "recorded": "Registrá"
+      },
+      "viewDetails": "Mira detaye",
+      "empty": "Ainda no tin revishon.",
+      "modal": {
+        "title": "Detaye di revishon",
+        "close": "Sera",
+        "message": "Bo mensahe",
+        "noMessage": "No a agregá mensahe.",
+        "response": "Kontesta di CFit",
+        "noResponse": "Ainda no tin kontesta.",
+        "closeDetails": "Sera detaye"
+      }
+    },
+    "notifications": {
+      "eyebrow": "Novedat",
+      "title": "Notifikashon",
+      "subtitle": "Keda na haltura di hugadónan kompartí i kontesta riba bo petishonnan.",
+      "markAll": "Marka tur komo lesá",
+      "new": "Nobo",
+      "items": {
+        "playerShared": {
+          "title": "Hugadó nobo kompartí",
+          "text": "{{name}} a keda kompartí ku bo organisashon."
+        },
+        "requestResponded": {
+          "title": "Petishon kontestá",
+          "text": "CFit a kontestá bo petishon tokante {{name}}."
+        },
+        "platform": {
+          "title": "Aktualisashon di CFit",
+          "text": "Kartanan awor ta mustra etiketa di revishon i video."
+        },
+        "accessApproved": {
+          "title": "Akseso di skout aprobá",
+          "text": "Bo akseso verifiká ta aktivo."
+        }
+      }
     }
   }
 }

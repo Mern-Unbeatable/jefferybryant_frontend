@@ -62,7 +62,7 @@ const Overview = () => {
   const completionRate = Math.round((PLAYER_SUMMARY.complete / PLAYER_SUMMARY.registered) * 100);
 
   return (
-    <div className="mx-auto flex max-w-7xl flex-col gap-5">
+    <div className="mx-auto flex flex-col gap-5">
       <section className={`${cardClass} flex flex-col gap-5 sm:flex-row sm:items-center`}>
         <span className="flex h-20 w-20 shrink-0 items-center justify-center rounded-md bg-btn-primary font-ethnocentric text-xl text-primary">
           {getInitials(ORGANIZATION.name)}
@@ -157,7 +157,7 @@ const Overview = () => {
                     <span className="block text-[10px] text-white/45">{t(`${base}.activity.${type}`)}</span>
                   </span>
                   <span className="shrink-0 text-[10px] text-white/40">
-                    {date ? formatDate(date, i18n.language, { month: "short", day: "numeric" }) : t(`coachDashboard.time.${time}`)}
+                    {date ? formatDate(date, i18n.language, { month: "short", day: "numeric" }) : t(`dashboardTime.${time}`)}
                   </span>
                 </li>
               );

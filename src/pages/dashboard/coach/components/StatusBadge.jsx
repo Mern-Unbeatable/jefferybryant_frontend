@@ -2,6 +2,7 @@ const tones = {
   accent: "border-accent/40 bg-accent/10 text-accent",
   yellow: "border-btn-primary/40 bg-btn-primary/10 text-btn-primary",
   green: "border-green-500/60 bg-green-500/15 text-green-400",
+  red: "border-red-500/50 bg-red-500/10 text-red-400",
 };
 
 const STATUS_TONES = {
@@ -11,6 +12,13 @@ const STATUS_TONES = {
   incomplete: "yellow",
   milestone: "yellow",
   approved: "green",
+  pending: "yellow",
+  reviewed: "accent",
+  forwarded: "green",
+  underReview: "yellow",
+  responded: "accent",
+  completed: "green",
+  recorded: "red",
 };
 
 const StatusBadge = ({ status, children }) => (

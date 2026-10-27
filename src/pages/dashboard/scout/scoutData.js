@@ -1,6 +1,7 @@
 export const SCOUT_PROFILE = {
   organization: "Nashville SC",
   role: "Development scout",
+  phone: "+1 615 555 0148",
 };
 
 const timeline = [
@@ -214,6 +215,8 @@ export const INITIAL_REVIEWS = [
   },
   { id: 3, playerId: "nathan-clarke", action: "continueMonitoring", submitted: "2026-10-02", updated: "2026-10-02", status: "completed" },
 ];
+
+export const ASSIGNED_DELIVERY = { 1: "reviewed", 2: "forwarded", 4: "reviewed" };
 
 export const REQUEST_TOPICS = ["registrationStatus", "footballBackground", "currentClub", "measurements", "other"];
 
