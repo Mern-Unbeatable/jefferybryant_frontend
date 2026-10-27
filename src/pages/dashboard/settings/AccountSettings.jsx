@@ -56,7 +56,7 @@ const AccountSettings = () => {
   );
 
   return (
-    <div className="mx-auto flex max-w-6xl flex-col gap-5">
+    <div className="mx-auto flex flex-col gap-5">
       <section>
         <h1 className="font-ethnocentric text-xl uppercase sm:text-3xl">{t(`${base}.title`)}</h1>
         <p className="mt-2 text-xs text-white/60">{t(`${base}.subtitle`)}</p>

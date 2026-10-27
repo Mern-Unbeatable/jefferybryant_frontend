@@ -111,7 +111,7 @@ const Overview = () => {
   const nextSteps = [...profileSections].sort((a, b) => a.complete - b.complete);
 
   return (
-    <div className="mx-auto flex max-w-6xl flex-col gap-5">
+    <div className="mx-auto flex flex-col gap-5">
       <section className={`${cardClass} flex flex-col gap-5 sm:flex-row sm:items-center`}>
         <div className="relative h-20 w-20 shrink-0">
           <span className="flex h-full w-full items-center justify-center rounded-md bg-linear-to-br from-accent/30 to-btn-primary/20 font-ethnocentric text-xl">
