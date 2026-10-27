@@ -1305,5 +1305,293 @@
     "changePassword": "Change password",
     "passwordSaved": "Password changed for this demo session.",
     "passwordMismatch": "Passwords do not match."
+  },
+  "dashboardTable": {
+    "pageSummary": "Page {{page}} of {{total}} · {{count}} matching records",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "coachDashboard": {
+    "invitePlayers": "Invite players",
+    "statuses": {
+      "verified": "Verified",
+      "complete": "Complete",
+      "incomplete": "Incomplete",
+      "approved": "Approved",
+      "received": "Received"
+    },
+    "organizationTypes": {
+      "academy": "Academy",
+      "club": "Club",
+      "school": "School",
+      "federation": "Federation"
+    },
+    "time": {
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "minutesAgo": "{{count}} minutes ago",
+      "hoursAgo": "{{count}} hours ago"
+    },
+    "overview": {
+      "eyebrow": "Organization overview",
+      "welcome": "Welcome back,",
+      "subtitle": "Manage your player network, invite new athletes, and track their profile progress.",
+      "stats": {
+        "totalRegistered": "Total registered players",
+        "profilesComplete": "Profiles complete",
+        "profilesIncomplete": "Profiles incomplete",
+        "registrationActivity": "Registration activity"
+      },
+      "progressEyebrow": "Player journey",
+      "progressTitle": "Registration progress",
+      "viewActivity": "View activity",
+      "progress": {
+        "invited": "Invited",
+        "registered": "Registered",
+        "profileComplete": "Profile complete",
+        "verified": "Verified"
+      },
+      "completionRate": "{{percent}}% of registered players have completed their profile",
+      "activityEyebrow": "Live updates",
+      "activityTitle": "Recent activity",
+      "viewAll": "View all",
+      "activity": {
+        "verified": "Profile verified",
+        "complete": "Profile marked complete",
+        "submitted": "Profile information submitted",
+        "registered": "Player registered"
+      },
+      "shortcuts": "Shortcuts",
+      "quickActions": "Quick actions",
+      "actions": {
+        "invite": "Invite players",
+        "inviteText": "Send your unique registration link",
+        "copyLink": "Copy registration link",
+        "copied": "Link copied!",
+        "copyLinkText": "Ready to share anywhere",
+        "qr": "View QR code",
+        "qrText": "Display or download your QR",
+        "recommend": "Recommend a player",
+        "recommendText": "Send a player recommendation"
+      }
+    },
+    "players": {
+      "eyebrow": "Player network",
+      "title": "My players",
+      "subtitle": "View and support players associated with {{organization}}.",
+      "summary": {
+        "registered": "Registered",
+        "complete": "Complete",
+        "incomplete": "Incomplete",
+        "verified": "Verified"
+      },
+      "filters": {
+        "allStatuses": "All statuses",
+        "allPositions": "All positions",
+        "allAgeGroups": "All age groups"
+      },
+      "positions": {
+        "goalkeeper": "Goalkeeper",
+        "defender": "Defender",
+        "midfielder": "Midfielder",
+        "forward": "Forward"
+      },
+      "ageGroups": {
+        "u15": "U15",
+        "u16": "U16",
+        "u17": "U17",
+        "u18": "U18"
+      },
+      "columns": {
+        "player": "Player",
+        "age": "Age",
+        "position": "Position",
+        "country": "Country",
+        "registered": "Registration date",
+        "profile": "Profile",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "viewDetails": "View details for {{name}}",
+      "empty": "No players match these filters.",
+      "yearsOld": "{{age}} years",
+      "missingSections": {
+        "personalDetails": "Personal details",
+        "footballBackground": "Football background",
+        "matchVideo": "Match video",
+        "guardianConsent": "Guardian consent"
+      },
+      "noneMissing": "None",
+      "modal": {
+        "eyebrow": "Player information",
+        "title": "Profile details",
+        "close": "Close",
+        "completion": "Profile completion",
+        "registered": "Registration date",
+        "organization": "Organization",
+        "status": "Current profile status",
+        "missing": "Missing sections",
+        "privacy": "This view only includes profile information available to your organization. Private scouting and CFit review information is not shown.",
+        "sendReminder": "Send completion reminder",
+        "reminderSent": "Reminder sent"
+      }
+    },
+    "invite": {
+      "eyebrow": "Grow your network",
+      "title": "Invite players",
+      "subtitle": "Bring players into CFit with your organization-specific invitation.",
+      "cardEyebrow": "Your unique invitation",
+      "cardTitle": "One link. Your whole player network.",
+      "cardText": "Every athlete who joins through this link is automatically connected to {{organization}}.",
+      "copy": "Copy link",
+      "copied": "Copied!",
+      "associationTitle": "Automatic organization association",
+      "associationText": "Players who register through your unique link are automatically connected to your organization. They do not need to search for you.",
+      "channels": {
+        "whatsapp": "WhatsApp",
+        "whatsappText": "Share message",
+        "email": "Email",
+        "emailText": "Open email app",
+        "sms": "SMS / Text",
+        "smsText": "Open messages",
+        "social": "Social media",
+        "socialText": "Share to any app"
+      },
+      "shareMessage": "Join {{organization}} on CFit Talent: {{link}}",
+      "emailSubject": "Join our academy on CFit Talent",
+      "qrText": "Scan to join our CFit player network",
+      "downloadQr": "Download QR code",
+      "manage": "Manage link & QR"
+    },
+    "recommend": {
+      "eyebrow": "Support your players",
+      "title": "Player recommendations",
+      "subtitle": "Recommend an associated player to CFit with context from your organization.",
+      "formTitle": "New recommendation",
+      "formText": "Recommendations are reviewed by CFit. This is not a scouting evaluation.",
+      "player": "Associated player",
+      "playerPlaceholder": "Select a player",
+      "playerError": "Please select a player.",
+      "message": "Recommendation message",
+      "messagePlaceholder": "Share why you are recommending this player, including relevant character, commitment, or development context…",
+      "characters": "{{count}}/{{max}} characters",
+      "coachName": "Coach / Director name",
+      "submit": "Submit recommendation",
+      "submitted": "Recommendation submitted for this demo session.",
+      "historyEyebrow": "Submission history",
+      "historyTitle": "Recent recommendations",
+      "submittedOn": "Submitted {{date}}",
+      "historyNote": "You can track submission status only. Internal reviews and scouting information remain private to CFit."
+    },
+    "organization": {
+      "eyebrow": "Organization profile",
+      "title": "My organization",
+      "subtitle": "Manage the information connected to your approved CFit organization.",
+      "edit": "Edit information",
+      "orgId": "CFit organization ID",
+      "infoTitle": "Organization information",
+      "infoText": "Public and operational details",
+      "contactTitle": "Primary contact",
+      "contactText": "Director and account contact details",
+      "fields": {
+        "name": "Organization / academy name",
+        "type": "Organization type",
+        "country": "Country / island",
+        "city": "City",
+        "website": "Website",
+        "social": "Social media links",
+        "ageGroups": "Age groups served",
+        "playersCount": "Players aged 13–18",
+        "director": "Director / coach full name",
+        "role": "Position / role",
+        "email": "Email address",
+        "phone": "WhatsApp / mobile number",
+        "additionalContacts": "Additional contacts"
+      },
+      "reviewNotice": "Changes to legal name, organization type, or country may require CFit admin review. Your current approved details stay visible until the review is complete."
+    },
+    "shared": {
+      "title": "Milestone delivery records",
+      "subtitle": "Confirmed player presentations to Nashville SC",
+      "tabs": {
+        "milestone1": "Milestone 1: First 25 players",
+        "milestone2": "Milestone 2: Additional 50 players"
+      },
+      "filters": {
+        "allCountries": "All countries",
+        "allPositions": "All positions",
+        "date": "Presentation date",
+        "newest": "Presentation: newest",
+        "oldest": "Presentation: oldest"
+      },
+      "export": {
+        "csv": "CSV",
+        "excel": "Excel"
+      },
+      "columns": {
+        "player": "Player",
+        "country": "Country",
+        "position": "Position",
+        "reviewReady": "Review ready approval",
+        "presented": "Presented to Nashville SC",
+        "milestone": "Milestone",
+        "actions": "Actions"
+      },
+      "milestoneBadge": {
+        "milestone1": "Milestone 1",
+        "milestone2": "Milestone 2"
+      },
+      "viewProfile": "View profile",
+      "empty": "No records match these filters.",
+      "close": "Close"
+    },
+    "notifications": {
+      "eyebrow": "Updates",
+      "title": "Notifications",
+      "subtitle": "Stay informed about your organization and associated player activity.",
+      "markAll": "Mark all as read",
+      "new": "New",
+      "items": {
+        "registration": {
+          "title": "New player registration",
+          "text": "{{name}} registered through your organization link."
+        },
+        "profileComplete": {
+          "title": "Player profile completed",
+          "text": "{{name}} completed all required profile sections."
+        },
+        "platform": {
+          "title": "CFit platform update",
+          "text": "Organization QR downloads now include your academy name."
+        },
+        "approved": {
+          "title": "Organization registration approved",
+          "text": "{{name}} has been approved for portal access."
+        }
+      }
+    },
+    "settings": {
+      "eyebrow": "Your account",
+      "title": "Account settings",
+      "subtitle": "Manage sign-in details, security, and communication preferences.",
+      "accountTitle": "Account details",
+      "passwordTitle": "Change password",
+      "fields": {
+        "accountName": "Account name",
+        "email": "Email address",
+        "phone": "WhatsApp / mobile",
+        "currentPassword": "Current password",
+        "newPassword": "New password",
+        "confirmPassword": "Confirm new password"
+      },
+      "placeholders": {
+        "currentPassword": "Enter current password",
+        "newPassword": "At least 8 characters",
+        "confirmPassword": "Repeat new password"
+      },
+      "saveAccount": "Save account details",
+      "updatePassword": "Update password",
+      "accountSaved": "Account details saved for this demo session."
+    }
   }
 }

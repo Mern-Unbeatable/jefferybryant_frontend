@@ -5,6 +5,14 @@ import FootballBackground from "@/pages/dashboard/player/footballBackground/Foot
 import HighlightVideo from "@/pages/dashboard/player/highlightVideo/HighlightVideo";
 import ContactRecruiting from "@/pages/dashboard/player/contactRecruiting/ContactRecruiting";
 import AccountSettings from "@/pages/dashboard/settings/AccountSettings";
+import CoachOverview from "@/pages/dashboard/coach/overview/Overview";
+import MyPlayers from "@/pages/dashboard/coach/myPlayers/MyPlayers";
+import InvitePlayers from "@/pages/dashboard/coach/invitePlayers/InvitePlayers";
+import RecommendPlayer from "@/pages/dashboard/coach/recommendPlayer/RecommendPlayer";
+import MyOrganization from "@/pages/dashboard/coach/myOrganization/MyOrganization";
+import SharedProfile from "@/pages/dashboard/coach/sharedProfile/SharedProfile";
+import CoachNotifications from "@/pages/dashboard/coach/notifications/Notifications";
+import CoachSettings from "@/pages/dashboard/coach/settings/CoachSettings";
 
 const ROLE_PAGES = {
   player: {
@@ -14,6 +22,16 @@ const ROLE_PAGES = {
     footballBackground: FootballBackground,
     highlightVideo: HighlightVideo,
     contactRecruiting: ContactRecruiting,
+  },
+  coach: {
+    overview: CoachOverview,
+    myPlayers: MyPlayers,
+    invitePlayers: InvitePlayers,
+    recommendPlayer: RecommendPlayer,
+    myOrganization: MyOrganization,
+    sharedProfile: SharedProfile,
+    notifications: CoachNotifications,
+    settings: CoachSettings,
   },
 };
 

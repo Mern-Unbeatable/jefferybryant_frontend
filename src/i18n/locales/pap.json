@@ -1305,5 +1305,293 @@
     "changePassword": "Kambia kontraseña",
     "passwordSaved": "Kontraseña kambiá pa e seshon di demostrashon aki.",
     "passwordMismatch": "Kontraseñanan no ta kuadra."
+  },
+  "dashboardTable": {
+    "pageSummary": "Página {{page}} di {{total}} · {{count}} registro ku ta kuadra",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "coachDashboard": {
+    "invitePlayers": "Invitá hugador",
+    "statuses": {
+      "verified": "Verifiká",
+      "complete": "Kompletu",
+      "incomplete": "Inkompleto",
+      "approved": "Aprobá",
+      "received": "Risibí"
+    },
+    "organizationTypes": {
+      "academy": "Akademia",
+      "club": "Klup",
+      "school": "Skol",
+      "federation": "Federashon"
+    },
+    "time": {
+      "today": "Awe",
+      "yesterday": "Ayera",
+      "minutesAgo": "{{count}} minüt pasá",
+      "hoursAgo": "{{count}} ora pasá"
+    },
+    "overview": {
+      "eyebrow": "Resúmen di organisashon",
+      "welcome": "Bon bini bèk,",
+      "subtitle": "Maneha bo red di hugador, invitá atleta nobo i sigui e progreso di nan perfil.",
+      "stats": {
+        "totalRegistered": "Total di hugador registrá",
+        "profilesComplete": "Perfil kompletu",
+        "profilesIncomplete": "Perfil inkompleto",
+        "registrationActivity": "Aktividat di registrashon"
+      },
+      "progressEyebrow": "Biahe di hugador",
+      "progressTitle": "Progreso di registrashon",
+      "viewActivity": "Mira aktividat",
+      "progress": {
+        "invited": "Invitá",
+        "registered": "Registrá",
+        "profileComplete": "Perfil kompletu",
+        "verified": "Verifiká"
+      },
+      "completionRate": "{{percent}}% di e hugadornan registrá a kompletá nan perfil",
+      "activityEyebrow": "Aktualisashon na bibu",
+      "activityTitle": "Aktividat resien",
+      "viewAll": "Mira tur",
+      "activity": {
+        "verified": "Perfil verifiká",
+        "complete": "Perfil marká komo kompletu",
+        "submitted": "Informashon di perfil entregá",
+        "registered": "Hugador registrá"
+      },
+      "shortcuts": "Atahonan",
+      "quickActions": "Akshon rápido",
+      "actions": {
+        "invite": "Invitá hugador",
+        "inviteText": "Manda bo link di registrashon úniko",
+        "copyLink": "Kopia link di registrashon",
+        "copied": "Link kopiá!",
+        "copyLinkText": "Kla pa kompartí",
+        "qr": "Mira kódigo QR",
+        "qrText": "Mustra òf baha bo QR",
+        "recommend": "Rekomendá un hugador",
+        "recommendText": "Manda un rekomendashon"
+      }
+    },
+    "players": {
+      "eyebrow": "Red di hugador",
+      "title": "Mi hugadornan",
+      "subtitle": "Mira i sostené hugadornan asosiá ku {{organization}}.",
+      "summary": {
+        "registered": "Registrá",
+        "complete": "Kompletu",
+        "incomplete": "Inkompleto",
+        "verified": "Verifiká"
+      },
+      "filters": {
+        "allStatuses": "Tur status",
+        "allPositions": "Tur posishon",
+        "allAgeGroups": "Tur kategoria di edat"
+      },
+      "positions": {
+        "goalkeeper": "Keeper",
+        "defender": "Defensa",
+        "midfielder": "Mediokampista",
+        "forward": "Delantero"
+      },
+      "ageGroups": {
+        "u15": "U15",
+        "u16": "U16",
+        "u17": "U17",
+        "u18": "U18"
+      },
+      "columns": {
+        "player": "Hugador",
+        "age": "Edat",
+        "position": "Posishon",
+        "country": "Pais",
+        "registered": "Fecha di registrashon",
+        "profile": "Perfil",
+        "status": "Status",
+        "actions": "Akshon"
+      },
+      "viewDetails": "Mira detaye di {{name}}",
+      "empty": "Niun hugador no ta kuadra ku e filternan aki.",
+      "yearsOld": "{{age}} aña",
+      "missingSections": {
+        "personalDetails": "Detaye personal",
+        "footballBackground": "Trayektoria di futbòl",
+        "matchVideo": "Video di wega",
+        "guardianConsent": "Konsentimentu di guardian"
+      },
+      "noneMissing": "Niun",
+      "modal": {
+        "eyebrow": "Informashon di hugador",
+        "title": "Detaye di perfil",
+        "close": "Sera",
+        "completion": "Kompletashon di perfil",
+        "registered": "Fecha di registrashon",
+        "organization": "Organisashon",
+        "status": "Status aktual di perfil",
+        "missing": "Sekshon ku falta",
+        "privacy": "E vista aki ta inkluí solamente informashon di perfil disponibel pa bo organisashon. Informashon privá di scouting i revishon di CFit no ta wòrdu mustrá.",
+        "sendReminder": "Manda rekordatorio",
+        "reminderSent": "Rekordatorio mandá"
+      }
+    },
+    "invite": {
+      "eyebrow": "Laga bo red krese",
+      "title": "Invitá hugador",
+      "subtitle": "Trese hugador na CFit ku e invitashon spesífiko di bo organisashon.",
+      "cardEyebrow": "Bo invitashon úniko",
+      "cardTitle": "Un link. Henter bo red di hugador.",
+      "cardText": "Kada atleta ku djoin via e link aki ta wòrdu konektá outomátikamente ku {{organization}}.",
+      "copy": "Kopia link",
+      "copied": "Kopiá!",
+      "associationTitle": "Asosiashon outomátiko ku organisashon",
+      "associationText": "Hugadornan ku registrá via bo link úniko ta wòrdu konektá outomátikamente ku bo organisashon. Nan no mester buska bo.",
+      "channels": {
+        "whatsapp": "WhatsApp",
+        "whatsappText": "Kompartí mensahe",
+        "email": "Email",
+        "emailText": "Habri email",
+        "sms": "SMS / Tekst",
+        "smsText": "Habri mensahe",
+        "social": "Medio sosial",
+        "socialText": "Kompartí den kualke app"
+      },
+      "shareMessage": "Djoin {{organization}} riba CFit Talent: {{link}}",
+      "emailSubject": "Djoin nos akademia riba CFit Talent",
+      "qrText": "Skan pa djoin nos red di hugador CFit",
+      "downloadQr": "Baha kódigo QR",
+      "manage": "Maneha link i QR"
+    },
+    "recommend": {
+      "eyebrow": "Sostené bo hugadornan",
+      "title": "Rekomendashon di hugador",
+      "subtitle": "Rekomendá un hugador asosiá na CFit ku konteksto di bo organisashon.",
+      "formTitle": "Rekomendashon nobo",
+      "formText": "CFit ta revisá rekomendashonnan. Esaki no ta un evaluashon di scouting.",
+      "player": "Hugador asosiá",
+      "playerPlaceholder": "Skohe un hugador",
+      "playerError": "Por fabor skohe un hugador.",
+      "message": "Mensahe di rekomendashon",
+      "messagePlaceholder": "Splika dikon bo ta rekomendá e hugador aki, inkluyendo karakter, kompromiso òf konteksto di desaroyo…",
+      "characters": "{{count}}/{{max}} karakter",
+      "coachName": "Nòmber di entrenador / direktor",
+      "submit": "Entregá rekomendashon",
+      "submitted": "Rekomendashon entregá pa e seshon di demostrashon aki.",
+      "historyEyebrow": "Historia di entrega",
+      "historyTitle": "Rekomendashon resien",
+      "submittedOn": "Entregá {{date}}",
+      "historyNote": "Bo por sigui solamente e status di entrega. Revishon interno i informashon di scouting ta keda privá pa CFit."
+    },
+    "organization": {
+      "eyebrow": "Perfil di organisashon",
+      "title": "Mi organisashon",
+      "subtitle": "Maneha e informashon konektá ku bo organisashon aprobá den CFit.",
+      "edit": "Editá informashon",
+      "orgId": "ID di organisashon CFit",
+      "infoTitle": "Informashon di organisashon",
+      "infoText": "Detaye públiko i operashonal",
+      "contactTitle": "Kontakto prinsipal",
+      "contactText": "Detaye di kontakto di direktor i kuenta",
+      "fields": {
+        "name": "Nòmber di organisashon / akademia",
+        "type": "Tipo di organisashon",
+        "country": "Pais / isla",
+        "city": "Siudat",
+        "website": "Website",
+        "social": "Link di medio sosial",
+        "ageGroups": "Kategoria di edat atendí",
+        "playersCount": "Hugador di 13–18 aña",
+        "director": "Nòmber kompletu di direktor / entrenador",
+        "role": "Posishon / ròl",
+        "email": "Adrès di email",
+        "phone": "WhatsApp / number di selular",
+        "additionalContacts": "Kontakto adishonal"
+      },
+      "reviewNotice": "Kambio na nòmber legal, tipo di organisashon òf pais por rekerí revishon di admin di CFit. Bo detayenan aprobá aktual ta keda visibel te ora e revishon kaba."
+    },
+    "shared": {
+      "title": "Registro di entrega pa meta",
+      "subtitle": "Presentashon di hugador konfirmá na Nashville SC",
+      "tabs": {
+        "milestone1": "Meta 1: Promé 25 hugador",
+        "milestone2": "Meta 2: 50 hugador adishonal"
+      },
+      "filters": {
+        "allCountries": "Tur pais",
+        "allPositions": "Tur posishon",
+        "date": "Fecha di presentashon",
+        "newest": "Presentashon: mas resien",
+        "oldest": "Presentashon: mas bieu"
+      },
+      "export": {
+        "csv": "CSV",
+        "excel": "Excel"
+      },
+      "columns": {
+        "player": "Hugador",
+        "country": "Pais",
+        "position": "Posishon",
+        "reviewReady": "Aprobashon Review Ready",
+        "presented": "Presentá na Nashville SC",
+        "milestone": "Meta",
+        "actions": "Akshon"
+      },
+      "milestoneBadge": {
+        "milestone1": "Meta 1",
+        "milestone2": "Meta 2"
+      },
+      "viewProfile": "Mira perfil",
+      "empty": "Niun registro no ta kuadra ku e filternan aki.",
+      "close": "Sera"
+    },
+    "notifications": {
+      "eyebrow": "Aktualisashon",
+      "title": "Notifikashon",
+      "subtitle": "Keda informá tokante bo organisashon i aktividat di hugadornan asosiá.",
+      "markAll": "Marka tur komo lesá",
+      "new": "Nobo",
+      "items": {
+        "registration": {
+          "title": "Registrashon di hugador nobo",
+          "text": "{{name}} a registrá via e link di bo organisashon."
+        },
+        "profileComplete": {
+          "title": "Perfil di hugador kompletá",
+          "text": "{{name}} a kompletá tur sekshon obligatorio di perfil."
+        },
+        "platform": {
+          "title": "Aktualisashon di plataforma CFit",
+          "text": "Download di QR di organisashon awor ta inkluí nòmber di bo akademia."
+        },
+        "approved": {
+          "title": "Registrashon di organisashon aprobá",
+          "text": "{{name}} a wòrdu aprobá pa akseso na e portal."
+        }
+      }
+    },
+    "settings": {
+      "eyebrow": "Bo kuenta",
+      "title": "Configurashon di kuenta",
+      "subtitle": "Maneha detaye di login, seguridat i preferensia di komunikashon.",
+      "accountTitle": "Detaye di kuenta",
+      "passwordTitle": "Kambia kontraseña",
+      "fields": {
+        "accountName": "Nòmber di kuenta",
+        "email": "Adrès di email",
+        "phone": "WhatsApp / selular",
+        "currentPassword": "Kontraseña aktual",
+        "newPassword": "Kontraseña nobo",
+        "confirmPassword": "Konfirmá kontraseña nobo"
+      },
+      "placeholders": {
+        "currentPassword": "Pone kontraseña aktual",
+        "newPassword": "Por lo ménos 8 karakter",
+        "confirmPassword": "Ripití kontraseña nobo"
+      },
+      "saveAccount": "Warda detaye di kuenta",
+      "updatePassword": "Aktualisá kontraseña",
+      "accountSaved": "Detaye di kuenta wardá pa e seshon di demostrashon aki."
+    }
   }
 }

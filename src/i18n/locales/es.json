@@ -1305,5 +1305,293 @@
     "changePassword": "Cambiar contraseña",
     "passwordSaved": "Contraseña cambiada para esta sesión de demostración.",
     "passwordMismatch": "Las contraseñas no coinciden."
+  },
+  "dashboardTable": {
+    "pageSummary": "Página {{page}} de {{total}} · {{count}} registros coincidentes",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "coachDashboard": {
+    "invitePlayers": "Invitar jugadores",
+    "statuses": {
+      "verified": "Verificado",
+      "complete": "Completo",
+      "incomplete": "Incompleto",
+      "approved": "Aprobado",
+      "received": "Recibida"
+    },
+    "organizationTypes": {
+      "academy": "Academia",
+      "club": "Club",
+      "school": "Escuela",
+      "federation": "Federación"
+    },
+    "time": {
+      "today": "Hoy",
+      "yesterday": "Ayer",
+      "minutesAgo": "Hace {{count}} minutos",
+      "hoursAgo": "Hace {{count}} horas"
+    },
+    "overview": {
+      "eyebrow": "Resumen de la organización",
+      "welcome": "Bienvenido de nuevo,",
+      "subtitle": "Gestiona tu red de jugadores, invita a nuevos atletas y sigue el progreso de sus perfiles.",
+      "stats": {
+        "totalRegistered": "Jugadores registrados",
+        "profilesComplete": "Perfiles completos",
+        "profilesIncomplete": "Perfiles incompletos",
+        "registrationActivity": "Actividad de registro"
+      },
+      "progressEyebrow": "Recorrido del jugador",
+      "progressTitle": "Progreso de registro",
+      "viewActivity": "Ver actividad",
+      "progress": {
+        "invited": "Invitados",
+        "registered": "Registrados",
+        "profileComplete": "Perfil completo",
+        "verified": "Verificados"
+      },
+      "completionRate": "El {{percent}}% de los jugadores registrados ha completado su perfil",
+      "activityEyebrow": "En directo",
+      "activityTitle": "Actividad reciente",
+      "viewAll": "Ver todo",
+      "activity": {
+        "verified": "Perfil verificado",
+        "complete": "Perfil marcado como completo",
+        "submitted": "Información del perfil enviada",
+        "registered": "Jugador registrado"
+      },
+      "shortcuts": "Accesos directos",
+      "quickActions": "Acciones rápidas",
+      "actions": {
+        "invite": "Invitar jugadores",
+        "inviteText": "Envía tu enlace de registro único",
+        "copyLink": "Copiar enlace de registro",
+        "copied": "¡Enlace copiado!",
+        "copyLinkText": "Listo para compartir",
+        "qr": "Ver código QR",
+        "qrText": "Muestra o descarga tu QR",
+        "recommend": "Recomendar un jugador",
+        "recommendText": "Envía una recomendación"
+      }
+    },
+    "players": {
+      "eyebrow": "Red de jugadores",
+      "title": "Mis jugadores",
+      "subtitle": "Consulta y apoya a los jugadores asociados con {{organization}}.",
+      "summary": {
+        "registered": "Registrados",
+        "complete": "Completos",
+        "incomplete": "Incompletos",
+        "verified": "Verificados"
+      },
+      "filters": {
+        "allStatuses": "Todos los estados",
+        "allPositions": "Todas las posiciones",
+        "allAgeGroups": "Todas las categorías"
+      },
+      "positions": {
+        "goalkeeper": "Portero",
+        "defender": "Defensa",
+        "midfielder": "Centrocampista",
+        "forward": "Delantero"
+      },
+      "ageGroups": {
+        "u15": "Sub-15",
+        "u16": "Sub-16",
+        "u17": "Sub-17",
+        "u18": "Sub-18"
+      },
+      "columns": {
+        "player": "Jugador",
+        "age": "Edad",
+        "position": "Posición",
+        "country": "País",
+        "registered": "Fecha de registro",
+        "profile": "Perfil",
+        "status": "Estado",
+        "actions": "Acciones"
+      },
+      "viewDetails": "Ver detalles de {{name}}",
+      "empty": "Ningún jugador coincide con estos filtros.",
+      "yearsOld": "{{age}} años",
+      "missingSections": {
+        "personalDetails": "Datos personales",
+        "footballBackground": "Trayectoria futbolística",
+        "matchVideo": "Vídeo de partido",
+        "guardianConsent": "Consentimiento del tutor"
+      },
+      "noneMissing": "Ninguna",
+      "modal": {
+        "eyebrow": "Información del jugador",
+        "title": "Detalles del perfil",
+        "close": "Cerrar",
+        "completion": "Finalización del perfil",
+        "registered": "Fecha de registro",
+        "organization": "Organización",
+        "status": "Estado actual del perfil",
+        "missing": "Secciones pendientes",
+        "privacy": "Esta vista solo incluye la información del perfil disponible para tu organización. No se muestra información privada de scouting ni de revisión de CFit.",
+        "sendReminder": "Enviar recordatorio",
+        "reminderSent": "Recordatorio enviado"
+      }
+    },
+    "invite": {
+      "eyebrow": "Haz crecer tu red",
+      "title": "Invitar jugadores",
+      "subtitle": "Trae jugadores a CFit con la invitación específica de tu organización.",
+      "cardEyebrow": "Tu invitación única",
+      "cardTitle": "Un enlace. Toda tu red de jugadores.",
+      "cardText": "Cada atleta que se une con este enlace queda conectado automáticamente a {{organization}}.",
+      "copy": "Copiar enlace",
+      "copied": "¡Copiado!",
+      "associationTitle": "Asociación automática con la organización",
+      "associationText": "Los jugadores que se registran con tu enlace único quedan conectados automáticamente a tu organización. No necesitan buscarte.",
+      "channels": {
+        "whatsapp": "WhatsApp",
+        "whatsappText": "Compartir mensaje",
+        "email": "Correo",
+        "emailText": "Abrir correo",
+        "sms": "SMS / Texto",
+        "smsText": "Abrir mensajes",
+        "social": "Redes sociales",
+        "socialText": "Compartir en cualquier app"
+      },
+      "shareMessage": "Únete a {{organization}} en CFit Talent: {{link}}",
+      "emailSubject": "Únete a nuestra academia en CFit Talent",
+      "qrText": "Escanea para unirte a nuestra red de jugadores CFit",
+      "downloadQr": "Descargar código QR",
+      "manage": "Gestionar enlace y QR"
+    },
+    "recommend": {
+      "eyebrow": "Apoya a tus jugadores",
+      "title": "Recomendaciones de jugadores",
+      "subtitle": "Recomienda a un jugador asociado a CFit con el contexto de tu organización.",
+      "formTitle": "Nueva recomendación",
+      "formText": "CFit revisa las recomendaciones. Esto no es una evaluación de scouting.",
+      "player": "Jugador asociado",
+      "playerPlaceholder": "Selecciona un jugador",
+      "playerError": "Selecciona un jugador.",
+      "message": "Mensaje de recomendación",
+      "messagePlaceholder": "Explica por qué recomiendas a este jugador, incluyendo carácter, compromiso o contexto de desarrollo…",
+      "characters": "{{count}}/{{max}} caracteres",
+      "coachName": "Nombre del entrenador / director",
+      "submit": "Enviar recomendación",
+      "submitted": "Recomendación enviada para esta sesión de demostración.",
+      "historyEyebrow": "Historial de envíos",
+      "historyTitle": "Recomendaciones recientes",
+      "submittedOn": "Enviada el {{date}}",
+      "historyNote": "Solo puedes seguir el estado del envío. Las revisiones internas y la información de scouting son privadas de CFit."
+    },
+    "organization": {
+      "eyebrow": "Perfil de la organización",
+      "title": "Mi organización",
+      "subtitle": "Gestiona la información de tu organización aprobada en CFit.",
+      "edit": "Editar información",
+      "orgId": "ID de organización CFit",
+      "infoTitle": "Información de la organización",
+      "infoText": "Datos públicos y operativos",
+      "contactTitle": "Contacto principal",
+      "contactText": "Datos del director y de la cuenta",
+      "fields": {
+        "name": "Nombre de la organización / academia",
+        "type": "Tipo de organización",
+        "country": "País / isla",
+        "city": "Ciudad",
+        "website": "Sitio web",
+        "social": "Redes sociales",
+        "ageGroups": "Categorías atendidas",
+        "playersCount": "Jugadores de 13 a 18 años",
+        "director": "Nombre completo del director / entrenador",
+        "role": "Cargo / función",
+        "email": "Correo electrónico",
+        "phone": "WhatsApp / móvil",
+        "additionalContacts": "Contactos adicionales"
+      },
+      "reviewNotice": "Los cambios de nombre legal, tipo de organización o país pueden requerir revisión del administrador de CFit. Tus datos aprobados actuales seguirán visibles hasta completar la revisión."
+    },
+    "shared": {
+      "title": "Registros de entregas por hito",
+      "subtitle": "Presentaciones de jugadores confirmadas a Nashville SC",
+      "tabs": {
+        "milestone1": "Hito 1: primeros 25 jugadores",
+        "milestone2": "Hito 2: 50 jugadores adicionales"
+      },
+      "filters": {
+        "allCountries": "Todos los países",
+        "allPositions": "Todas las posiciones",
+        "date": "Fecha de presentación",
+        "newest": "Presentación: más reciente",
+        "oldest": "Presentación: más antigua"
+      },
+      "export": {
+        "csv": "CSV",
+        "excel": "Excel"
+      },
+      "columns": {
+        "player": "Jugador",
+        "country": "País",
+        "position": "Posición",
+        "reviewReady": "Aprobación Review Ready",
+        "presented": "Presentado a Nashville SC",
+        "milestone": "Hito",
+        "actions": "Acciones"
+      },
+      "milestoneBadge": {
+        "milestone1": "Hito 1",
+        "milestone2": "Hito 2"
+      },
+      "viewProfile": "Ver perfil",
+      "empty": "Ningún registro coincide con estos filtros.",
+      "close": "Cerrar"
+    },
+    "notifications": {
+      "eyebrow": "Novedades",
+      "title": "Notificaciones",
+      "subtitle": "Mantente informado sobre tu organización y la actividad de tus jugadores.",
+      "markAll": "Marcar todo como leído",
+      "new": "Nuevo",
+      "items": {
+        "registration": {
+          "title": "Nuevo registro de jugador",
+          "text": "{{name}} se registró con el enlace de tu organización."
+        },
+        "profileComplete": {
+          "title": "Perfil de jugador completado",
+          "text": "{{name}} completó todas las secciones obligatorias."
+        },
+        "platform": {
+          "title": "Actualización de la plataforma CFit",
+          "text": "Las descargas del QR de la organización ahora incluyen el nombre de tu academia."
+        },
+        "approved": {
+          "title": "Registro de organización aprobado",
+          "text": "{{name}} ha sido aprobada para acceder al portal."
+        }
+      }
+    },
+    "settings": {
+      "eyebrow": "Tu cuenta",
+      "title": "Configuración de la cuenta",
+      "subtitle": "Gestiona tus datos de acceso, seguridad y preferencias de comunicación.",
+      "accountTitle": "Datos de la cuenta",
+      "passwordTitle": "Cambiar contraseña",
+      "fields": {
+        "accountName": "Nombre de la cuenta",
+        "email": "Correo electrónico",
+        "phone": "WhatsApp / móvil",
+        "currentPassword": "Contraseña actual",
+        "newPassword": "Nueva contraseña",
+        "confirmPassword": "Confirmar nueva contraseña"
+      },
+      "placeholders": {
+        "currentPassword": "Introduce la contraseña actual",
+        "newPassword": "Al menos 8 caracteres",
+        "confirmPassword": "Repite la nueva contraseña"
+      },
+      "saveAccount": "Guardar datos de la cuenta",
+      "updatePassword": "Actualizar contraseña",
+      "accountSaved": "Datos de la cuenta guardados para esta sesión de demostración."
+    }
   }
 }

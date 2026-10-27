@@ -37,7 +37,7 @@ const ProfileStatusModal = ({ open, onClose }) => {
         aria-modal="true"
         aria-labelledby="status-modal-title"
         onClick={(event) => event.stopPropagation()}
-        className="max-h-[90svh] w-full max-w-lg overflow-y-auto rounded-xl border border-white/10 bg-[#161b1f] p-5 shadow-2xl sm:p-6"
+        className="max-h-[75svh] w-full max-w-lg overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden rounded-xl border border-white/10 bg-[#161b1f] p-5 shadow-2xl sm:p-6"
       >
         <div className="flex items-start gap-3">
           <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-btn-primary/60 text-btn-primary">

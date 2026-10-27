@@ -15,32 +15,11 @@ import {
 import { LuTrophy } from "react-icons/lu";
 import BackButton from "@/components/common/BackButton";
 import { usePageAnimations } from "@/hooks/usePageAnimations";
+import { CARIBBEAN_COUNTRIES } from "@/constants/countries";
 
 const base = "playerSignup";
 
-const countries = [
-  "Antigua and Barbuda",
-  "Aruba",
-  "Bahamas",
-  "Barbados",
-  "Belize",
-  "Bermuda",
-  "Cayman Islands",
-  "Cuba",
-  "Curaçao",
-  "Dominica",
-  "Dominican Republic",
-  "Grenada",
-  "Guyana",
-  "Haiti",
-  "Jamaica",
-  "Puerto Rico",
-  "Saint Kitts and Nevis",
-  "Saint Lucia",
-  "Saint Vincent and the Grenadines",
-  "Suriname",
-  "Trinidad and Tobago",
-];
+const countries = CARIBBEAN_COUNTRIES;
 
 const positions = [
   { code: "GK", key: "goalkeeper" },

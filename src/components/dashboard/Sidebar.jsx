@@ -63,7 +63,7 @@ const Sidebar = ({ isOpen, onClose }) => {
           <p className="px-1 text-xs text-white/80">{t(`dashboard.portals.${user.role}`)}</p>
         </div>
 
-        <nav className="mt-4 flex-1 overflow-y-auto">
+        <nav className="mt-4 flex-1 overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           <ul className="flex flex-col gap-1">
             {menu.map(({ key, path, icon }) => {
               const Icon = icon;
