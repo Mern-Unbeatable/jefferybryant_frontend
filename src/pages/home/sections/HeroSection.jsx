@@ -23,7 +23,7 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-4 py-20 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
-          <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+          <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-xs">
             <span className="h-px w-8 bg-accent" />
             {t("home.hero.eyebrow")}
           </p>
@@ -57,7 +57,7 @@ const HeroSection = () => {
             {features.map((key) => (
               <li
                 key={key}
-                className="flex items-center gap-2 text-xs text-white/80"
+                className="flex items-center gap-2 text-sm text-white/80"
               >
                 <FiCheck className="text-btn-primary" />
                 {t(key)}

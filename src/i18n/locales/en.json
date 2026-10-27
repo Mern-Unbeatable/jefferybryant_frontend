@@ -1043,12 +1043,267 @@
       "scoutingReports": "Scouting Reports",
       "messages": "Messages",
       "notifications": "Notifications",
-      "settings": "Settings"
+      "settings": "Settings",
+      "myPlayerProfile": "My Player Profile",
+      "personalPhysical": "Personal & Physical",
+      "footballBackground": "Football Background",
+      "highlightVideo": "Highlight Video",
+      "contactRecruiting": "Contact & Recruiting"
     },
     "welcome": "Welcome back, {{name}}",
     "placeholder": "This section is ready for its design.",
     "logout": "Log Out",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
+  },
+  "playerDashboard": {
+    "cfitId": "CFit ID: {{id}}",
+    "statuses": {
+      "registered": "Registered",
+      "incomplete": "Incomplete",
+      "complete": "Complete",
+      "verified": "Verified",
+      "reviewReady": "Review Ready"
+    },
+    "welcome": "Welcome back, {{name}}",
+    "welcomeText": "Manage your football profile and keep your information up to date.",
+    "editInformation": "Edit information",
+    "statusInfo": "View profile status terminology",
+    "completion": {
+      "eyebrow": "Profile completion",
+      "title": "Build a scout-ready profile",
+      "count": "{{done}} of {{total}} required sections complete",
+      "hint": "Your completion updates from your saved profile information.",
+      "cta": "Complete your profile",
+      "live": "Live"
+    },
+    "status": {
+      "eyebrow": "CFit profile status",
+      "title": "Current status",
+      "alertText": "Additional required profile details or a highlight video is missing.",
+      "footnote": "Status is managed by CFit admin and updates automatically."
+    },
+    "overview": {
+      "eyebrow": "At a glance",
+      "title": "Profile overview",
+      "viewFull": "View full profile",
+      "edit": "Edit profile",
+      "sampleImage": "Sample profile image"
+    },
+    "fields": {
+      "fullName": "Full legal name",
+      "dateOfBirth": "Date of birth · Age",
+      "nationality": "Nationality",
+      "residence": "Residence",
+      "primaryPosition": "Primary position",
+      "secondaryPosition": "Secondary position",
+      "heightWeight": "Height · Weight",
+      "preferredFoot": "Preferred foot",
+      "club": "Club / Academy"
+    },
+    "nextSteps": {
+      "eyebrow": "Next steps",
+      "title": "Complete your profile",
+      "hint": "Finish required sections to raise the quality of your completion score.",
+      "required": "Required"
+    },
+    "sections": {
+      "personalPhysical": {
+        "title": "Personal & physical information",
+        "short": "Personal & Physical",
+        "text": "Identity, residence, measurements and playing position."
+      },
+      "footballBackground": {
+        "title": "Football background",
+        "short": "Football Background",
+        "text": "Club, league, experience, statistics and achievements."
+      },
+      "highlightVideo": {
+        "title": "Highlight video",
+        "short": "Highlight Videos",
+        "text": "Add a football video (maximum 3 minutes) and an optional full match link."
+      },
+      "contactRecruiting": {
+        "title": "Contacts & recruiting",
+        "short": "Contacts & Recruiting",
+        "text": "Protected recruiting, coach and guardian contacts."
+      }
+    },
+    "modal": {
+      "title": "Official CFit profile review terminology",
+      "subtitle": "Caribbean Football Intelligence Verification Pathway",
+      "notice": "Important Regulatory Notice: Review Ready indicates that the player profile has satisfied all CFit intake criteria, including verified contact information and highlight video screening, preparing it for an initial scouting review. It does NOT mean the player has been evaluated, graded, or assessed as professional-level talent.",
+      "current": "Your current status",
+      "step": "Step {{number}} of {{total}}",
+      "close": "Close",
+      "descriptions": {
+        "registered": "Your initial CFit account has been generated. You must complete all required profile sections and add your highlight video to move to the next stage.",
+        "incomplete": "Some mandatory profile details or your highlight video submission are currently missing. Scout access cannot be granted until all criteria are fulfilled.",
+        "complete": "All mandatory personal details, football history, contacts, and highlight video have been successfully submitted. Your profile is queued for CFit intake verification.",
+        "verified": "CFit Operations has verified your club affiliation, playing background and video credentials. Ready for administrative scout clearance.",
+        "reviewReady": "CFit Admin has approved your profile for registered professional scout and accredited director access. Note: Review Ready means the profile is prepared for an initial scouting review. It does NOT mean the player has been assessed as professional-level talent."
+      }
+    },
+    "profile": {
+      "demoNotice": "Demonstration profile — Sample player content is shown for interface preview only.",
+      "eyebrow": "Player profile",
+      "title": "Manage your profile",
+      "subtitle": "Review your public football information and keep each section accurate.",
+      "scoutingProfile": "Scouting profile",
+      "complete": "{{done}}/{{total}} complete",
+      "sectionComplete": "Section complete",
+      "needsAttention": "Needs attention",
+      "previewEyebrow": "Public profile preview",
+      "previewNote": "Sensitive contacts are never shown in this preview."
+    }
+  },
+  "dashboardForm": {
+    "required": "Required",
+    "optional": "Optional",
+    "requiredField": "Required field",
+    "select": "Select an option",
+    "cancel": "Cancel changes",
+    "save": "Save changes",
+    "notSaved": "Changes are not saved automatically.",
+    "saved": "Changes saved for this demo session. They will reach the server once the backend is connected."
+  },
+  "playerForms": {
+    "positions": {
+      "goalkeeper": "Goalkeeper",
+      "rightBack": "Right Back",
+      "centreBack": "Centre Back",
+      "leftBack": "Left Back",
+      "defensiveMidfielder": "Defensive Midfielder",
+      "centralMidfielder": "Central Midfielder",
+      "attackingMidfielder": "Attacking Midfielder",
+      "rightWinger": "Right Winger",
+      "leftWinger": "Left Winger",
+      "forward": "Forward"
+    },
+    "feet": {
+      "left": "Left",
+      "right": "Right",
+      "both": "Both"
+    },
+    "personal": {
+      "eyebrow": "Profile section 01",
+      "title": "Personal & physical information",
+      "subtitle": "Keep your legal identity, location, measurements and playing details accurate.",
+      "photoTitle": "Player photograph",
+      "photoSubtitle": "Use a clear, recent head-and-shoulders photograph.",
+      "addPhoto": "Add a player photograph",
+      "photoHint": "JPG, PNG or WebP. A recent head-and-shoulders photo works best.",
+      "choosePhoto": "Choose photo",
+      "changePhoto": "Change photo",
+      "age": "Calculated age: {{age}}",
+      "additionalPlaceholder": "e.g. British",
+      "fields": {
+        "fullName": "Full legal name",
+        "dateOfBirth": "Date of birth / age",
+        "nationality": "Nationality",
+        "additionalNationality": "Additional nationality",
+        "country": "Country of residence",
+        "city": "City of residence",
+        "height": "Height (cm)",
+        "weight": "Weight (kg)",
+        "preferredFoot": "Preferred foot",
+        "primaryPosition": "Primary playing position",
+        "secondaryPosition": "Secondary playing position"
+      }
+    },
+    "football": {
+      "eyebrow": "Profile section 02",
+      "title": "Football background",
+      "subtitle": "Build a clear, structured record of your playing experience and achievements.",
+      "cardTitle": "Current football information",
+      "cardSubtitle": "Start with where and how you play today.",
+      "fields": {
+        "currentClub": "Current club or academy",
+        "currentLeague": "Current league or competition",
+        "playingHistory": "Playing history and experience",
+        "nationalTeam": "National or youth national team experience",
+        "nationalTeamPlaceholder": "Team, age group, year, appearances…",
+        "statistics": "Relevant playing statistics",
+        "statisticsHint": "Use statistics you can support with a reliable source.",
+        "achievements": "Achievements"
+      },
+      "previousTitle": "Previous clubs or academies",
+      "previousSubtitle": "Add your most recent experience first.",
+      "addClub": "Add club",
+      "clubName": "Club or academy name",
+      "years": "Years",
+      "remove": "Remove club",
+      "noClubs": "No previous clubs added yet."
+    },
+    "video": {
+      "eyebrow": "Profile section 03 · Priority",
+      "title": "Highlight videos",
+      "subtitle": "Show your strongest moments with a concise, position-relevant highlight reel.",
+      "reqTitle": "Highlight video requirements",
+      "reqText": "Maximum duration: 3 minutes. Show clips that demonstrate your strengths and ability in your primary playing position.",
+      "maxBadge": "03:00 max",
+      "cardTitle": "Video links",
+      "cardSubtitle": "CFit uses approved external links and does not host video files directly.",
+      "highlightUrl": "Highlight video URL",
+      "highlightHint": "Supported links: YouTube, Vimeo or another approved provider.",
+      "fullMatchUrl": "Optional full-match video URL",
+      "fullMatchHint": "A full match is optional and does not affect profile completion.",
+      "previewEyebrow": "Highlight video preview",
+      "emptyTitle": "No highlight video submitted",
+      "emptyText": "Add an approved link above to complete this required section.",
+      "linkTitle": "Video link added",
+      "linkText": "An inline preview is available for YouTube and Vimeo links only.",
+      "openLink": "Open link",
+      "iframeTitle": "Highlight video preview"
+    },
+    "contact": {
+      "eyebrow": "Profile section 04",
+      "title": "Contacts & recruiting",
+      "subtitle": "Maintain accurate, appropriate contacts while keeping personal information protected.",
+      "protectedTitle": "Protected contact information",
+      "protectedText": "Contact details are not shown on your public profile. Access follows CFit privacy permissions.",
+      "cardTitle": "Recruiting & affiliation",
+      "cardSubtitle": "Provide the right pathway for approved football enquiries.",
+      "currentClub": "Current club affiliation",
+      "currentClubHint": "Update this from Football Background.",
+      "recruitingStatus": "Recruiting or registration status",
+      "statuses": {
+        "open": "Open to opportunities",
+        "registered": "Currently registered with a club",
+        "notSeeking": "Not currently seeking opportunities"
+      },
+      "coachTitle": "Coach or academy contact",
+      "coachSubtitle": "Use a current contact who can confirm your football background.",
+      "coachName": "Coach / academy contact name",
+      "coachEmail": "Coach / academy contact email",
+      "directorContact": "Club director / coach contact information",
+      "directorPlaceholder": "Name, role and preferred contact",
+      "references": "References or coach recommendations",
+      "referencesPlaceholder": "Add a brief reference or recommendation…",
+      "guardianTitle": "Player & guardian contact",
+      "guardianSubtitle": "Provide guardian details where applicable.",
+      "playerEmail": "Player or appropriate guardian email",
+      "guardianName": "Parent / guardian name",
+      "guardianEmail": "Parent / guardian email",
+      "consent": "Parental / guardian consent recorded",
+      "consentHint": "Use this only where legally required. The final consent workflow will be supported separately."
+    }
+  },
+  "accountSettings": {
+    "title": "My profile",
+    "subtitle": "Manage your account and security preferences.",
+    "accountTitle": "Account information",
+    "phone": "Phone number",
+    "email": "Email",
+    "updateProfile": "Update profile",
+    "profileSaved": "Profile updated for this demo session.",
+    "passwordTitle": "Change password",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm new password",
+    "passwordHint": "At least 8 characters.",
+    "changePassword": "Change password",
+    "passwordSaved": "Password changed for this demo session.",
+    "passwordMismatch": "Passwords do not match."
   }
 }

@@ -1,10 +1,10 @@
 import {
-  FiActivity,
   FiBarChart2,
   FiBell,
   FiBookmark,
   FiExternalLink,
   FiFileText,
+  FiGrid,
   FiLink,
   FiMessageSquare,
   FiSearch,
@@ -15,6 +15,7 @@ import {
   FiVideo,
 } from "react-icons/fi";
 import { LuBuilding2, LuLayoutGrid, LuShieldCheck } from "react-icons/lu";
+import { PiSoccerBall } from "react-icons/pi";
 
 const overview = { key: "overview", path: "", icon: LuLayoutGrid };
 const notifications = { key: "notifications", path: "notifications", icon: FiBell };
@@ -34,11 +35,11 @@ export const DASHBOARD_MENUS = {
   ],
   player: [
     overview,
-    { key: "myProfile", path: "my-profile", icon: FiUser },
-    { key: "highlights", path: "highlights", icon: FiVideo },
-    { key: "stats", path: "stats", icon: FiActivity },
-    sharedProfile,
-    notifications,
+    { key: "myPlayerProfile", path: "my-profile", icon: FiUser },
+    { key: "personalPhysical", path: "personal-physical", icon: FiGrid },
+    { key: "footballBackground", path: "football-background", icon: PiSoccerBall },
+    { key: "highlightVideo", path: "highlight-video", icon: FiVideo },
+    { key: "contactRecruiting", path: "contact-recruiting", icon: FiUsers },
     settings,
   ],
   coach: [

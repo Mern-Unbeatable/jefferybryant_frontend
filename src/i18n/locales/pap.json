@@ -1043,12 +1043,267 @@
       "scoutingReports": "Raport di scouting",
       "messages": "Mensahenan",
       "notifications": "Notifikashon",
-      "settings": "Ajustenan"
+      "settings": "Ajustenan",
+      "myPlayerProfile": "Mi perfil di hugadó",
+      "personalPhysical": "Personal i físiko",
+      "footballBackground": "Historia di futbòl",
+      "highlightVideo": "Video di highlight",
+      "contactRecruiting": "Kontakto i rekrutamentu"
     },
     "welcome": "Bon bini bèk, {{name}}",
     "placeholder": "E sekshon aki ta kla pa su diseño.",
     "logout": "Sali",
     "openMenu": "Habri menu",
     "closeMenu": "Sera menu"
+  },
+  "playerDashboard": {
+    "cfitId": "ID di CFit: {{id}}",
+    "statuses": {
+      "registered": "Registrá",
+      "incomplete": "Inkompleto",
+      "complete": "Kompleto",
+      "verified": "Verifiká",
+      "reviewReady": "Kla pa revishon"
+    },
+    "welcome": "Bon bini bèk, {{name}}",
+    "welcomeText": "Maneha bo perfil di futbòl i tene bo informashon al dia.",
+    "editInformation": "Editá informashon",
+    "statusInfo": "Mira terminologia di estado di perfil",
+    "completion": {
+      "eyebrow": "Progreso di perfil",
+      "title": "Traha un perfil kla pa scout",
+      "count": "{{done}} di {{total}} sekshon obligatorio kompleto",
+      "hint": "Bo progreso ta aktualisá for di e informashon wardá di bo perfil.",
+      "cta": "Kompletá bo perfil",
+      "live": "Live"
+    },
+    "status": {
+      "eyebrow": "Estado di perfil CFit",
+      "title": "Estado aktual",
+      "alertText": "Ta falta detayenan obligatorio di perfil òf un video di highlight.",
+      "footnote": "E estado ta wòrdu manehá dor di admin di CFit i ta aktualisá outomátikamente."
+    },
+    "overview": {
+      "eyebrow": "Un bista rápido",
+      "title": "Resumen di perfil",
+      "viewFull": "Mira perfil kompleto",
+      "edit": "Editá perfil",
+      "sampleImage": "Imágen di ehempel"
+    },
+    "fields": {
+      "fullName": "Nòmber legal kompleto",
+      "dateOfBirth": "Fecha di nasementu · Edat",
+      "nationality": "Nashonalidat",
+      "residence": "Residensia",
+      "primaryPosition": "Posishon prinsipal",
+      "secondaryPosition": "Posishon sekundario",
+      "heightWeight": "Haltura · Peso",
+      "preferredFoot": "Pia preferí",
+      "club": "Klub / Akademia"
+    },
+    "nextSteps": {
+      "eyebrow": "Siguiente pasonan",
+      "title": "Kompletá bo perfil",
+      "hint": "Kompletá e sekshonnan obligatorio pa subi bo puntuashon.",
+      "required": "Obligatorio"
+    },
+    "sections": {
+      "personalPhysical": {
+        "title": "Informashon personal i físiko",
+        "short": "Personal i físiko",
+        "text": "Identidat, residensia, medida i posishon di wega."
+      },
+      "footballBackground": {
+        "title": "Historia di futbòl",
+        "short": "Historia di futbòl",
+        "text": "Klub, liga, eksperensia, estadístika i logro."
+      },
+      "highlightVideo": {
+        "title": "Video di highlight",
+        "short": "Video di highlight",
+        "text": "Agregá un video di futbòl (máksimo 3 minüt) i un link opshonal di un wega kompleto."
+      },
+      "contactRecruiting": {
+        "title": "Kontakto i rekrutamentu",
+        "short": "Kontakto",
+        "text": "Kontakto protehá di rekrutamentu, entrenadó i tutor."
+      }
+    },
+    "modal": {
+      "title": "Terminologia ofisial di revishon di perfil CFit",
+      "subtitle": "Kaminda di verifikashon di Caribbean Football Intelligence",
+      "notice": "Aviso importante: Kla pa revishon ta indiká ku e perfil di hugadó a kumpli ku tur e kriterionan di CFit, inkluyendo informashon di kontakto verifiká i revishon di video di highlight, i ta kla pa un promé revishon di scouting. E NO ta nifiká ku e hugadó a wòrdu evaluá òf konsiderá talento di nivel profesional.",
+      "current": "Bo estado aktual",
+      "step": "Paso {{number}} di {{total}}",
+      "close": "Sera",
+      "descriptions": {
+        "registered": "Bo kuenta inisial di CFit a wòrdu kreá. Bo mester kompletá tur sekshon obligatorio i agregá bo video di highlight pa pasa na e siguiente etapa.",
+        "incomplete": "Ta falta algun detaye obligatorio di perfil òf bo video di highlight. No por duna akseso na scout te ora tur kriterio ta kumplí.",
+        "complete": "Tur detaye personal, historia di futbòl, kontakto i video di highlight a wòrdu mandá. Bo perfil ta den fila pa verifikashon di CFit.",
+        "verified": "CFit Operations a verifiká bo klub, bo historia di wega i bo video. Kla pa outorisashon atministrativo di scout.",
+        "reviewReady": "Admin di CFit a aprobá bo perfil pa akseso di scout profesional registrá i direktor akreditá. Nota: Kla pa revishon ta nifiká ku e perfil ta kla pa un promé revishon di scouting. E NO ta nifiká ku e hugadó a wòrdu evaluá komo talento profesional."
+      }
+    },
+    "profile": {
+      "demoNotice": "Perfil di demostrashon — Ta mustra kontenido di ehempel solamente pa previsualisá e interfaz.",
+      "eyebrow": "Perfil di hugadó",
+      "title": "Maneha bo perfil",
+      "subtitle": "Revisá bo informashon públiko di futbòl i tene kada sekshon korekto.",
+      "scoutingProfile": "Perfil di scouting",
+      "complete": "{{done}}/{{total}} kompleto",
+      "sectionComplete": "Sekshon kompleto",
+      "needsAttention": "Mester atenshon",
+      "previewEyebrow": "Previsualisashon di perfil públiko",
+      "previewNote": "Kontakto sensitivo nunka ta wòrdu mustrá den e previsualisashon aki."
+    }
+  },
+  "dashboardForm": {
+    "required": "Obligatorio",
+    "optional": "Opshonal",
+    "requiredField": "Kampo obligatorio",
+    "select": "Skohe un opshon",
+    "cancel": "Kanselá kambio",
+    "save": "Warda kambio",
+    "notSaved": "Kambio no ta wòrdu wardá outomátikamente.",
+    "saved": "Kambio wardá pa e seshon di demostrashon aki. Nan lo yega e server ora e backend ta konektá."
+  },
+  "playerForms": {
+    "positions": {
+      "goalkeeper": "Keeper",
+      "rightBack": "Bèk drechi",
+      "centreBack": "Defensa sentral",
+      "leftBack": "Bèk robes",
+      "defensiveMidfielder": "Mediokampista defensivo",
+      "centralMidfielder": "Mediokampista sentral",
+      "attackingMidfielder": "Mediokampista atakante",
+      "rightWinger": "Wing drechi",
+      "leftWinger": "Wing robes",
+      "forward": "Delantero"
+    },
+    "feet": {
+      "left": "Robes",
+      "right": "Drechi",
+      "both": "Tur dos"
+    },
+    "personal": {
+      "eyebrow": "Sekshon di perfil 01",
+      "title": "Informashon personal i físiko",
+      "subtitle": "Tene bo identidat legal, lokalidat, medida i detaye di wega korekto.",
+      "photoTitle": "Potrèt di hugador",
+      "photoSubtitle": "Usa un potrèt kla i resien di kabes i skouder.",
+      "addPhoto": "Agregá un potrèt di hugador",
+      "photoHint": "JPG, PNG òf WebP. Un potrèt resien di kabes i skouder ta funshoná mihó.",
+      "choosePhoto": "Skohe potrèt",
+      "changePhoto": "Kambia potrèt",
+      "age": "Edat kalkulá: {{age}}",
+      "additionalPlaceholder": "p.e. Britániko",
+      "fields": {
+        "fullName": "Nòmber legal kompletu",
+        "dateOfBirth": "Fecha di nasementu / edat",
+        "nationality": "Nashonalidat",
+        "additionalNationality": "Nashonalidat adishonal",
+        "country": "Pais di residensia",
+        "city": "Siudat di residensia",
+        "height": "Altura (cm)",
+        "weight": "Peso (kg)",
+        "preferredFoot": "Pia preferí",
+        "primaryPosition": "Posishon prinsipal",
+        "secondaryPosition": "Posishon sekundario"
+      }
+    },
+    "football": {
+      "eyebrow": "Sekshon di perfil 02",
+      "title": "Trayektoria di futbòl",
+      "subtitle": "Traha un registro kla i struktur di bo eksperensia i logro.",
+      "cardTitle": "Informashon di futbòl aktual",
+      "cardSubtitle": "Kuminsá ku unda i kon bo ta hunga awe.",
+      "fields": {
+        "currentClub": "Klup òf akademia aktual",
+        "currentLeague": "Liga òf kompetensia aktual",
+        "playingHistory": "Historia i eksperensia di wega",
+        "nationalTeam": "Eksperensia ku seleshon nashonal òf hubenil",
+        "nationalTeamPlaceholder": "Tim, kategoria, aña, wega…",
+        "statistics": "Estadístika relevante",
+        "statisticsHint": "Usa estadístika ku bo por sostené ku un fuente konfiabel.",
+        "achievements": "Logro"
+      },
+      "previousTitle": "Klup òf akademia anterior",
+      "previousSubtitle": "Agregá bo eksperensia mas resien promé.",
+      "addClub": "Agregá klup",
+      "clubName": "Nòmber di klup òf akademia",
+      "years": "Aña",
+      "remove": "Kita klup",
+      "noClubs": "Ainda no a agregá klup anterior."
+    },
+    "video": {
+      "eyebrow": "Sekshon di perfil 03 · Prioridat",
+      "title": "Video destaká",
+      "subtitle": "Mustra bo mihó momentonan ku un video kòrtiku i relevante pa bo posishon.",
+      "reqTitle": "Rekisito di video destaká",
+      "reqText": "Durashon máksimo: 3 minüt. Mustra klip ku ta demostrá bo forsa i abilidat den bo posishon prinsipal.",
+      "maxBadge": "03:00 máks.",
+      "cardTitle": "Link di video",
+      "cardSubtitle": "CFit ta usa link eksterno aprobá i no ta warda archivo di video direktamente.",
+      "highlightUrl": "URL di video destaká",
+      "highlightHint": "Link soportá: YouTube, Vimeo òf otro proveedor aprobá.",
+      "fullMatchUrl": "URL opshonal di wega kompletu",
+      "fullMatchHint": "Un wega kompletu ta opshonal i no ta afektá kompletashon di perfil.",
+      "previewEyebrow": "Vista previo di video",
+      "emptyTitle": "Niun video destaká no a wòrdu entregá",
+      "emptyText": "Agregá un link aprobá ariba pa kompletá e sekshon obligatorio aki.",
+      "linkTitle": "Link di video agregá",
+      "linkText": "Vista previo ta disponibel solamente pa link di YouTube i Vimeo.",
+      "openLink": "Habri link",
+      "iframeTitle": "Vista previo di video destaká"
+    },
+    "contact": {
+      "eyebrow": "Sekshon di perfil 04",
+      "title": "Kontakto i rekrutamentu",
+      "subtitle": "Mantené kontakto korekto i apropiá miéntras bo ta protehá informashon personal.",
+      "protectedTitle": "Informashon di kontakto protehá",
+      "protectedText": "Detaye di kontakto no ta wòrdu mustrá riba bo perfil públiko. Akseso ta sigui e permisonan di privasidat di CFit.",
+      "cardTitle": "Rekrutamentu i afiliashon",
+      "cardSubtitle": "Duna e kaminda korekto pa pregunta di futbòl aprobá.",
+      "currentClub": "Afiliashon di klup aktual",
+      "currentClubHint": "Aktualisá esaki for di Trayektoria di futbòl.",
+      "recruitingStatus": "Status di rekrutamentu òf registrashon",
+      "statuses": {
+        "open": "Habrí pa oportunidat",
+        "registered": "Aktualmente registrá ku un klup",
+        "notSeeking": "No ta buska oportunidat aktualmente"
+      },
+      "coachTitle": "Kontakto di entrenador òf akademia",
+      "coachSubtitle": "Usa un kontakto aktual ku por konfirmá bo trayektoria di futbòl.",
+      "coachName": "Nòmber di kontakto di entrenador / akademia",
+      "coachEmail": "Email di kontakto di entrenador / akademia",
+      "directorContact": "Informashon di kontakto di direktor / entrenador",
+      "directorPlaceholder": "Nòmber, ròl i kontakto preferí",
+      "references": "Referensia òf rekomendashon di entrenador",
+      "referencesPlaceholder": "Agregá un referensia òf rekomendashon kòrtiku…",
+      "guardianTitle": "Kontakto di hugador i guardian",
+      "guardianSubtitle": "Duna detaye di guardian unda ta aplikabel.",
+      "playerEmail": "Email di hugador òf guardian apropiá",
+      "guardianName": "Nòmber di mayor / guardian",
+      "guardianEmail": "Email di mayor / guardian",
+      "consent": "Konsentimentu di mayor / guardian registrá",
+      "consentHint": "Usa esaki solamente unda ta legalmente nesesario. E proseso final di konsentimentu lo wòrdu soportá separadamente."
+    }
+  },
+  "accountSettings": {
+    "title": "Mi perfil",
+    "subtitle": "Maneha bo kuenta i preferensia di seguridat.",
+    "accountTitle": "Informashon di kuenta",
+    "phone": "Number di telefòn",
+    "email": "Email",
+    "updateProfile": "Aktualisá perfil",
+    "profileSaved": "Perfil aktualisá pa e seshon di demostrashon aki.",
+    "passwordTitle": "Kambia kontraseña",
+    "currentPassword": "Kontraseña aktual",
+    "newPassword": "Kontraseña nobo",
+    "confirmPassword": "Konfirmá kontraseña nobo",
+    "passwordHint": "Por lo ménos 8 karakter.",
+    "changePassword": "Kambia kontraseña",
+    "passwordSaved": "Kontraseña kambiá pa e seshon di demostrashon aki.",
+    "passwordMismatch": "Kontraseñanan no ta kuadra."
   }
 }

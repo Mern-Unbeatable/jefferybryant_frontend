@@ -1043,12 +1043,267 @@
       "scoutingReports": "Informes de scouting",
       "messages": "Mensajes",
       "notifications": "Notificaciones",
-      "settings": "Configuración"
+      "settings": "Configuración",
+      "myPlayerProfile": "Mi perfil de jugador",
+      "personalPhysical": "Datos personales y físicos",
+      "footballBackground": "Trayectoria futbolística",
+      "highlightVideo": "Video destacado",
+      "contactRecruiting": "Contacto y reclutamiento"
     },
     "welcome": "Bienvenido de nuevo, {{name}}",
     "placeholder": "Esta sección está lista para su diseño.",
     "logout": "Cerrar sesión",
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú"
+  },
+  "playerDashboard": {
+    "cfitId": "ID CFit: {{id}}",
+    "statuses": {
+      "registered": "Registrado",
+      "incomplete": "Incompleto",
+      "complete": "Completo",
+      "verified": "Verificado",
+      "reviewReady": "Listo para revisión"
+    },
+    "welcome": "Bienvenido de nuevo, {{name}}",
+    "welcomeText": "Gestiona tu perfil futbolístico y mantén tu información actualizada.",
+    "editInformation": "Editar información",
+    "statusInfo": "Ver terminología del estado del perfil",
+    "completion": {
+      "eyebrow": "Progreso del perfil",
+      "title": "Crea un perfil listo para scouts",
+      "count": "{{done}} de {{total}} secciones obligatorias completas",
+      "hint": "Tu progreso se actualiza con la información guardada de tu perfil.",
+      "cta": "Completa tu perfil",
+      "live": "En vivo"
+    },
+    "status": {
+      "eyebrow": "Estado del perfil CFit",
+      "title": "Estado actual",
+      "alertText": "Faltan datos obligatorios del perfil o un video destacado.",
+      "footnote": "El estado lo gestiona el administrador de CFit y se actualiza automáticamente."
+    },
+    "overview": {
+      "eyebrow": "De un vistazo",
+      "title": "Resumen del perfil",
+      "viewFull": "Ver perfil completo",
+      "edit": "Editar perfil",
+      "sampleImage": "Imagen de perfil de ejemplo"
+    },
+    "fields": {
+      "fullName": "Nombre legal completo",
+      "dateOfBirth": "Fecha de nacimiento · Edad",
+      "nationality": "Nacionalidad",
+      "residence": "Residencia",
+      "primaryPosition": "Posición principal",
+      "secondaryPosition": "Posición secundaria",
+      "heightWeight": "Altura · Peso",
+      "preferredFoot": "Pie preferido",
+      "club": "Club / Academia"
+    },
+    "nextSteps": {
+      "eyebrow": "Próximos pasos",
+      "title": "Completa tu perfil",
+      "hint": "Completa las secciones obligatorias para mejorar tu puntuación.",
+      "required": "Obligatorio"
+    },
+    "sections": {
+      "personalPhysical": {
+        "title": "Información personal y física",
+        "short": "Personal y físico",
+        "text": "Identidad, residencia, medidas y posición de juego."
+      },
+      "footballBackground": {
+        "title": "Trayectoria futbolística",
+        "short": "Trayectoria",
+        "text": "Club, liga, experiencia, estadísticas y logros."
+      },
+      "highlightVideo": {
+        "title": "Video destacado",
+        "short": "Videos destacados",
+        "text": "Agrega un video de fútbol (máximo 3 minutos) y un enlace opcional a un partido completo."
+      },
+      "contactRecruiting": {
+        "title": "Contactos y reclutamiento",
+        "short": "Contactos",
+        "text": "Contactos protegidos de reclutamiento, entrenador y tutor."
+      }
+    },
+    "modal": {
+      "title": "Terminología oficial de revisión de perfiles CFit",
+      "subtitle": "Ruta de verificación de Caribbean Football Intelligence",
+      "notice": "Aviso importante: Listo para revisión indica que el perfil del jugador cumple todos los criterios de admisión de CFit, incluida la información de contacto verificada y la revisión del video destacado, y está preparado para una primera revisión de scouting. NO significa que el jugador haya sido evaluado, calificado o valorado como talento de nivel profesional.",
+      "current": "Tu estado actual",
+      "step": "Paso {{number}} de {{total}}",
+      "close": "Cerrar",
+      "descriptions": {
+        "registered": "Tu cuenta CFit inicial ha sido creada. Debes completar todas las secciones obligatorias y agregar tu video destacado para pasar a la siguiente etapa.",
+        "incomplete": "Faltan algunos datos obligatorios del perfil o tu video destacado. No se puede otorgar acceso a scouts hasta cumplir todos los criterios.",
+        "complete": "Todos los datos personales, la trayectoria, los contactos y el video destacado se han enviado correctamente. Tu perfil está en cola para la verificación de CFit.",
+        "verified": "CFit Operations ha verificado tu club, tu trayectoria y tus credenciales de video. Listo para la autorización administrativa de scouts.",
+        "reviewReady": "El administrador de CFit ha aprobado tu perfil para el acceso de scouts profesionales registrados y directores acreditados. Nota: Listo para revisión significa que el perfil está preparado para una primera revisión de scouting. NO significa que el jugador haya sido valorado como talento profesional."
+      }
+    },
+    "profile": {
+      "demoNotice": "Perfil de demostración: se muestra contenido de ejemplo solo para vista previa de la interfaz.",
+      "eyebrow": "Perfil del jugador",
+      "title": "Gestiona tu perfil",
+      "subtitle": "Revisa tu información futbolística pública y mantén cada sección al día.",
+      "scoutingProfile": "Perfil de scouting",
+      "complete": "{{done}}/{{total}} completo",
+      "sectionComplete": "Sección completa",
+      "needsAttention": "Requiere atención",
+      "previewEyebrow": "Vista previa del perfil público",
+      "previewNote": "Los contactos sensibles nunca se muestran en esta vista previa."
+    }
+  },
+  "dashboardForm": {
+    "required": "Obligatorio",
+    "optional": "Opcional",
+    "requiredField": "Campo obligatorio",
+    "select": "Selecciona una opción",
+    "cancel": "Cancelar cambios",
+    "save": "Guardar cambios",
+    "notSaved": "Los cambios no se guardan automáticamente.",
+    "saved": "Cambios guardados para esta sesión de demostración. Llegarán al servidor cuando el backend esté conectado."
+  },
+  "playerForms": {
+    "positions": {
+      "goalkeeper": "Portero",
+      "rightBack": "Lateral derecho",
+      "centreBack": "Defensa central",
+      "leftBack": "Lateral izquierdo",
+      "defensiveMidfielder": "Mediocentro defensivo",
+      "centralMidfielder": "Mediocentro",
+      "attackingMidfielder": "Mediapunta",
+      "rightWinger": "Extremo derecho",
+      "leftWinger": "Extremo izquierdo",
+      "forward": "Delantero"
+    },
+    "feet": {
+      "left": "Izquierdo",
+      "right": "Derecho",
+      "both": "Ambos"
+    },
+    "personal": {
+      "eyebrow": "Sección del perfil 01",
+      "title": "Información personal y física",
+      "subtitle": "Mantén precisos tu identidad legal, ubicación, medidas y datos de juego.",
+      "photoTitle": "Fotografía del jugador",
+      "photoSubtitle": "Usa una foto reciente y clara de cabeza y hombros.",
+      "addPhoto": "Añadir fotografía del jugador",
+      "photoHint": "JPG, PNG o WebP. Funciona mejor una foto reciente de cabeza y hombros.",
+      "choosePhoto": "Elegir foto",
+      "changePhoto": "Cambiar foto",
+      "age": "Edad calculada: {{age}}",
+      "additionalPlaceholder": "p. ej. Británica",
+      "fields": {
+        "fullName": "Nombre legal completo",
+        "dateOfBirth": "Fecha de nacimiento / edad",
+        "nationality": "Nacionalidad",
+        "additionalNationality": "Nacionalidad adicional",
+        "country": "País de residencia",
+        "city": "Ciudad de residencia",
+        "height": "Altura (cm)",
+        "weight": "Peso (kg)",
+        "preferredFoot": "Pie preferido",
+        "primaryPosition": "Posición principal",
+        "secondaryPosition": "Posición secundaria"
+      }
+    },
+    "football": {
+      "eyebrow": "Sección del perfil 02",
+      "title": "Trayectoria futbolística",
+      "subtitle": "Crea un registro claro y estructurado de tu experiencia y logros.",
+      "cardTitle": "Información futbolística actual",
+      "cardSubtitle": "Empieza por dónde y cómo juegas hoy.",
+      "fields": {
+        "currentClub": "Club o academia actual",
+        "currentLeague": "Liga o competición actual",
+        "playingHistory": "Historial y experiencia de juego",
+        "nationalTeam": "Experiencia con la selección nacional o juvenil",
+        "nationalTeamPlaceholder": "Equipo, categoría, año, partidos…",
+        "statistics": "Estadísticas relevantes",
+        "statisticsHint": "Usa estadísticas que puedas respaldar con una fuente fiable.",
+        "achievements": "Logros"
+      },
+      "previousTitle": "Clubes o academias anteriores",
+      "previousSubtitle": "Añade primero tu experiencia más reciente.",
+      "addClub": "Añadir club",
+      "clubName": "Nombre del club o academia",
+      "years": "Años",
+      "remove": "Eliminar club",
+      "noClubs": "Aún no has añadido clubes anteriores."
+    },
+    "video": {
+      "eyebrow": "Sección del perfil 03 · Prioridad",
+      "title": "Vídeos destacados",
+      "subtitle": "Muestra tus mejores momentos con un vídeo breve y relevante para tu posición.",
+      "reqTitle": "Requisitos del vídeo destacado",
+      "reqText": "Duración máxima: 3 minutos. Muestra jugadas que demuestren tus fortalezas en tu posición principal.",
+      "maxBadge": "03:00 máx.",
+      "cardTitle": "Enlaces de vídeo",
+      "cardSubtitle": "CFit usa enlaces externos aprobados y no aloja archivos de vídeo directamente.",
+      "highlightUrl": "URL del vídeo destacado",
+      "highlightHint": "Enlaces admitidos: YouTube, Vimeo u otro proveedor aprobado.",
+      "fullMatchUrl": "URL opcional de partido completo",
+      "fullMatchHint": "El partido completo es opcional y no afecta a la finalización del perfil.",
+      "previewEyebrow": "Vista previa del vídeo",
+      "emptyTitle": "No se ha enviado ningún vídeo",
+      "emptyText": "Añade un enlace aprobado arriba para completar esta sección obligatoria.",
+      "linkTitle": "Enlace de vídeo añadido",
+      "linkText": "La vista previa solo está disponible para enlaces de YouTube y Vimeo.",
+      "openLink": "Abrir enlace",
+      "iframeTitle": "Vista previa del vídeo destacado"
+    },
+    "contact": {
+      "eyebrow": "Sección del perfil 04",
+      "title": "Contactos y reclutamiento",
+      "subtitle": "Mantén contactos precisos y adecuados mientras proteges tu información personal.",
+      "protectedTitle": "Información de contacto protegida",
+      "protectedText": "Los datos de contacto no se muestran en tu perfil público. El acceso sigue los permisos de privacidad de CFit.",
+      "cardTitle": "Reclutamiento y afiliación",
+      "cardSubtitle": "Ofrece la vía adecuada para consultas futbolísticas aprobadas.",
+      "currentClub": "Afiliación actual del club",
+      "currentClubHint": "Actualízalo desde Trayectoria futbolística.",
+      "recruitingStatus": "Estado de reclutamiento o registro",
+      "statuses": {
+        "open": "Abierto a oportunidades",
+        "registered": "Actualmente registrado en un club",
+        "notSeeking": "No busco oportunidades actualmente"
+      },
+      "coachTitle": "Contacto del entrenador o academia",
+      "coachSubtitle": "Usa un contacto actual que pueda confirmar tu trayectoria.",
+      "coachName": "Nombre del contacto del entrenador / academia",
+      "coachEmail": "Correo del contacto del entrenador / academia",
+      "directorContact": "Información de contacto del director / entrenador",
+      "directorPlaceholder": "Nombre, cargo y contacto preferido",
+      "references": "Referencias o recomendaciones del entrenador",
+      "referencesPlaceholder": "Añade una breve referencia o recomendación…",
+      "guardianTitle": "Contacto del jugador y tutor",
+      "guardianSubtitle": "Proporciona los datos del tutor cuando corresponda.",
+      "playerEmail": "Correo del jugador o del tutor correspondiente",
+      "guardianName": "Nombre del padre / tutor",
+      "guardianEmail": "Correo del padre / tutor",
+      "consent": "Consentimiento del padre / tutor registrado",
+      "consentHint": "Úsalo solo cuando sea legalmente necesario. El proceso final de consentimiento se gestionará por separado."
+    }
+  },
+  "accountSettings": {
+    "title": "Mi perfil",
+    "subtitle": "Gestiona tu cuenta y tus preferencias de seguridad.",
+    "accountTitle": "Información de la cuenta",
+    "phone": "Número de teléfono",
+    "email": "Correo electrónico",
+    "updateProfile": "Actualizar perfil",
+    "profileSaved": "Perfil actualizado para esta sesión de demostración.",
+    "passwordTitle": "Cambiar contraseña",
+    "currentPassword": "Contraseña actual",
+    "newPassword": "Nueva contraseña",
+    "confirmPassword": "Confirmar nueva contraseña",
+    "passwordHint": "Al menos 8 caracteres.",
+    "changePassword": "Cambiar contraseña",
+    "passwordSaved": "Contraseña cambiada para esta sesión de demostración.",
+    "passwordMismatch": "Las contraseñas no coinciden."
   }
 }

@@ -20,6 +20,7 @@ import DashboardPage from "@/pages/dashboard/DashboardPage";
 import RequireAuth, { DashboardRedirect } from "@/routes/RequireAuth";
 import { ROLES } from "@/constants/dummyUsers";
 import { DASHBOARD_MENUS } from "@/constants/dashboardMenus";
+import { getDashboardPage } from "@/routes/dashboardPages";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -34,13 +35,15 @@ export const router = createBrowserRouter(
         {ROLES.map((role) => (
           <Route key={role} path={role} element={<RequireAuth role={role} />}>
             <Route element={<DashboardLayout />}>
-              {DASHBOARD_MENUS[role].map(({ key, path }) =>
-                path ? (
-                  <Route key={key} path={path} element={<DashboardPage menuKey={key} />} />
+              {DASHBOARD_MENUS[role].map(({ key, path }) => {
+                const Page = getDashboardPage(role, key);
+                const element = Page ? <Page /> : <DashboardPage menuKey={key} />;
+                return path ? (
+                  <Route key={key} path={path} element={element} />
                 ) : (
-                  <Route key={key} index element={<DashboardPage menuKey={key} />} />
-                )
-              )}
+                  <Route key={key} index element={element} />
+                );
+              })}
             </Route>
           </Route>
         ))}
