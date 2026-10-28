@@ -53,10 +53,10 @@ const Join = () => {
                         <Icon />
                       </span>
                       <span>
-                        <span className="block font-ethnocentric text-sm uppercase">
+                        <span className="block font-ethnocentric text-base uppercase">
                           {t(`join.roles.${key}.title`)}
                         </span>
-                        <span className="mt-1.5 block text-xs leading-relaxed text-white/60">
+                        <span className="mt-1.5 block text-sm leading-relaxed text-white/60">
                           {t(`join.roles.${key}.description`)}
                         </span>
                       </span>
