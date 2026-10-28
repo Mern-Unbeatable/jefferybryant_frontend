@@ -10,7 +10,7 @@ const HowItWorksSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+            <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
               <span className="h-px w-8 bg-accent" />
               {t("home.howItWorks.eyebrow")}
             </p>
@@ -21,7 +21,7 @@ const HowItWorksSection = () => {
               </span>
             </h2>
           </div>
-          <p className="max-w-sm text-sm leading-relaxed text-white/80 lg:pb-2">
+          <p className="max-w-sm text-base leading-relaxed text-white/80 lg:pb-2">
             {t("home.howItWorks.description")}
           </p>
         </div>
@@ -36,10 +36,10 @@ const HowItWorksSection = () => {
                 <span className="h-2.5 w-2.5 shrink-0 rounded-full bg-accent ring-4 ring-accent/20" />
                 <span className="h-px flex-1 bg-accent/20" />
               </div>
-              <h3 className="mt-6 text-sm uppercase">
+              <h3 className="mt-6 text-lg uppercase">
                 {t(`home.howItWorks.steps.${key}.title`)}
               </h3>
-              <p className="mt-4 max-w-60 text-xs leading-relaxed text-white/70">
+              <p className="mt-4 max-w-60 text-sm leading-relaxed text-white/70">
                 {t(`home.howItWorks.steps.${key}.description`)}
               </p>
             </li>

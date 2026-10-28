@@ -51,7 +51,7 @@ const EcosystemDiagramSection = () => {
                 y1="50"
                 x2={x}
                 y2={y}
-                stroke="rgba(41, 211, 242, 0.15)"
+                stroke="rgba(1, 239, 253, 0.15)"
                 strokeWidth="1"
                 vectorEffect="non-scaling-stroke"
               />

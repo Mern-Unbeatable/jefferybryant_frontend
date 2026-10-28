@@ -9,7 +9,7 @@ const WhatIsCFitSection = () => {
     <section className="overflow-hidden py-16 lg:py-20">
       <div className="container mx-auto grid items-center gap-12 px-4 sm:px-6 lg:grid-cols-[2fr_3fr] lg:px-8">
         <div className="max-w-xl">
-          <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+          <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
             <span className="h-px w-8 bg-accent" />
             {t("home.whatIs.eyebrow")}
           </p>

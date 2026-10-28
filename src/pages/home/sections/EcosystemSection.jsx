@@ -31,7 +31,7 @@ const EcosystemSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+            <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
               <span className="h-px w-8 bg-accent" />
               {t("home.ecosystem.eyebrow")}
             </p>
@@ -42,7 +42,7 @@ const EcosystemSection = () => {
               </span>
             </h2>
           </div>
-          <p className="max-w-sm text-sm leading-relaxed text-white/80 lg:pb-2">
+          <p className="max-w-sm text-base leading-relaxed text-white/80 lg:pb-2">
             {t("home.ecosystem.description")}
           </p>
         </div>
@@ -63,22 +63,22 @@ const EcosystemSection = () => {
                 />
                 <div className="absolute inset-0 -z-10 bg-linear-to-b from-transparent via-primary/60 to-primary" />
 
-                <span className="absolute left-6 top-6 text-xs text-white/70">
+                <span className="absolute left-6 top-6 text-sm text-white/70">
                   {String(index + 1).padStart(2, "0")}
                 </span>
-                <span className="absolute right-6 top-6 flex h-10 w-10 items-center justify-center border border-accent/40 bg-primary/60 text-accent">
+                <span className="absolute right-6 top-6 flex h-12 w-12 items-center justify-center border border-accent/40 bg-primary/60 text-accent">
                   <Icon />
                 </span>
 
-                <h3 className="text-lg uppercase">
+                <h3 className="text-xl uppercase">
                   {t(`home.ecosystem.${key}.title`)}
                 </h3>
-                <p className="mt-4 text-sm leading-relaxed text-white/80">
+                <p className="mt-4 text-base leading-relaxed text-white/80">
                   {t(`home.ecosystem.${key}.description`)}
                 </p>
                 <Link
                   to={to}
-                  className="mt-6 inline-flex w-fit items-center gap-3 text-xs uppercase tracking-wider text-btn-primary transition-colors hover:text-white"
+                  className="mt-6 inline-flex w-fit items-center gap-3 text-sm uppercase tracking-wider text-btn-primary transition-colors hover:text-white"
                 >
                   {t(`home.ecosystem.${key}.cta`)} <FiArrowRight />
                 </Link>
