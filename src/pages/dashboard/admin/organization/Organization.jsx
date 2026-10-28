@@ -1,74 +1,15 @@
 import { useMemo, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { FiCheckCircle, FiMoreHorizontal } from "react-icons/fi";
+import { FiCheckCircle } from "react-icons/fi";
 import { LuBuilding2 } from "react-icons/lu";
 import Pagination from "@/components/dashboard/Pagination";
 import SelectField from "@/components/dashboard/form/SelectField";
 import { ADMIN_ORGANIZATIONS } from "@/pages/dashboard/admin/adminData";
 import AdminStatusBadge from "@/pages/dashboard/admin/components/AdminStatusBadge";
+import AdminHeader from "@/pages/dashboard/admin/components/AdminHeader";
+import OrganizationActionMenu from "./components/OrganizationActionMenu";
 
 const PAGE_SIZE = 5;
-
-const OrganizationActionMenu = ({ org, onSeeDetails, onUpdateStatus }) => {
-  const [open, setOpen] = useState(false);
-
-  return (
-    <div className="relative inline-block text-left">
-      <button
-        type="button"
-        onClick={() => setOpen((prev) => !prev)}
-        className="flex h-7 w-7 items-center justify-center rounded border border-white/10 bg-white/5 text-white/60 transition hover:border-white/30 hover:bg-white/10 hover:text-white"
-      >
-        <FiMoreHorizontal />
-      </button>
-
-      {open && (
-        <div className="absolute right-0 z-50 mt-1.5 w-40 rounded-md border border-white/15 bg-[#161b1f] p-1.5 shadow-2xl backdrop-blur-md">
-          <button
-            type="button"
-            onClick={() => {
-              setOpen(false);
-              onSeeDetails(org);
-            }}
-            className="w-full rounded bg-btn-primary px-3 py-1.5 text-left text-xs font-semibold text-primary transition hover:bg-btn-primary/90"
-          >
-            See Details
-          </button>
-
-          <div className="mt-2 border-t border-white/10 pt-2">
-            <p className="px-2 pb-1 text-[9px] font-semibold uppercase tracking-wider text-white/40">
-              Status
-            </p>
-            {["Approved", "Under Review", "Pending"].map((status) => {
-              const isSelected =
-                org.status.toLowerCase() === status.toLowerCase();
-              return (
-                <button
-                  key={status}
-                  type="button"
-                  onClick={() => {
-                    setOpen(false);
-                    onUpdateStatus(org.id, status);
-                  }}
-                  className={`flex w-full items-center justify-between rounded px-2 py-1 text-left text-xs transition ${
-                    isSelected
-                      ? "bg-white/10 font-medium text-accent"
-                      : "text-white/70 hover:bg-white/5 hover:text-white"
-                  }`}
-                >
-                  <span>{status}</span>
-                  {isSelected && (
-                    <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-                  )}
-                </button>
-              );
-            })}
-          </div>
-        </div>
-      )}
-    </div>
-  );
-};
 
 const Organization = () => {
   const navigate = useNavigate();
@@ -133,17 +74,11 @@ const Organization = () => {
   return (
     <div className="mx-auto flex flex-col gap-6">
       {/* Header */}
-      <div>
-        <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/45">
-          Recruitment Network
-        </p>
-        <h1 className="mt-1 font-ethnocentric text-xl tracking-wider text-white sm:text-2xl">
-          Organizations
-        </h1>
-        <p className="mt-1 text-xs text-white/50">
-          Review applications and manage approved recruitment partners.
-        </p>
-      </div>
+      <AdminHeader
+        eyebrow="Recruitment Network"
+        title="Organizations"
+        subtitle="Review applications and manage approved recruitment partners."
+      />
 
       {/* Feedback Toast */}
       {feedback && (

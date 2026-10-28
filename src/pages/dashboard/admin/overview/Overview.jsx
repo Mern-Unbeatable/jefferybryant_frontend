@@ -11,22 +11,17 @@ import {
 import MilestoneProgressCard from "@/pages/dashboard/admin/components/MilestoneProgressCard";
 import PipelineProgress from "@/pages/dashboard/admin/components/PipelineProgress";
 import StatCard from "@/pages/dashboard/admin/components/StatCard";
+import AdminHeader from "@/pages/dashboard/admin/components/AdminHeader";
 
 const Overview = () => {
   return (
     <div className="mx-auto flex flex-col gap-6">
       {/* Welcome Banner */}
-      <section className="flex flex-col gap-1">
-        <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/45">
-          {ADMIN_PROFILE.dateString}
-        </p>
-        <h1 className="mt-1 font-ethnocentric text-xl tracking-wider text-white sm:text-2xl">
-          Welcome Back, Admin
-        </h1>
-        <p className="mt-1 text-xs text-white/60">
-          Manage Caribbean football talent, organization recruitment, and platform intelligence from one place.
-        </p>
-      </section>
+      <AdminHeader
+        eyebrow={ADMIN_PROFILE.dateString}
+        title="Welcome Back, Admin"
+        subtitle="Manage Caribbean football talent, organization recruitment, and platform intelligence from one place."
+      />
 
       {/* Top 8 Stats Grid */}
       <section className="grid grid-cols-2 gap-3 sm:grid-cols-2 lg:grid-cols-4">

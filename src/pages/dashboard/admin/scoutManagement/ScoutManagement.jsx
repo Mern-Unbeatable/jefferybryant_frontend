@@ -17,6 +17,7 @@ import Modal from "@/components/dashboard/Modal";
 import { primaryButtonClass, secondaryButtonClass } from "@/components/dashboard/form/formStyles";
 import { ADMIN_SCOUTS_LIST, SCOUT_METRICS } from "@/pages/dashboard/admin/adminData";
 import AdminStatusBadge from "@/pages/dashboard/admin/components/AdminStatusBadge";
+import AdminHeader from "@/pages/dashboard/admin/components/AdminHeader";
 import ScoutDetailsModal from "@/pages/dashboard/admin/scoutManagement/components/ScoutDetailsModal";
 import ScoutPlayerAccessTab from "@/pages/dashboard/admin/scoutManagement/components/ScoutPlayerAccessTab";
 import ScoutFeedbackTab from "@/pages/dashboard/admin/scoutManagement/components/ScoutFeedbackTab";
@@ -273,28 +274,21 @@ const ScoutManagement = () => {
   return (
     <div className="mx-auto flex flex-col gap-6">
       {/* Top Header */}
-      <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
-        <div>
-          <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/45">
-            Controlled Professional Access
-          </p>
-          <h1 className="mt-1 font-ethnocentric text-xl tracking-wider text-white sm:text-2xl">
-            Scout Management
-          </h1>
-          <p className="mt-1 text-xs text-white/50">
-            Manage professional scout accounts, organization assignments, approved player access, and scout activity.
-          </p>
-        </div>
-
-        <button
-          type="button"
-          onClick={() => setInviteModalOpen(true)}
-          className={`${primaryButtonClass} flex items-center gap-2 self-start text-xs sm:self-auto`}
-        >
-          <FiPlus />
-          <span>Invite Scout</span>
-        </button>
-      </div>
+      <AdminHeader
+        eyebrow="Controlled Professional Access"
+        title="Scout Management"
+        subtitle="Manage professional scout accounts, organization assignments, approved player access, and scout activity."
+        action={
+          <button
+            type="button"
+            onClick={() => setInviteModalOpen(true)}
+            className={`${primaryButtonClass} flex items-center gap-2 text-xs`}
+          >
+            <FiPlus />
+            <span>Invite Scout</span>
+          </button>
+        }
+      />
 
       {/* Admin Controlled Prototype Notice Banner */}
       <div className="flex items-start gap-3 rounded-lg border border-amber-400/20 bg-amber-400/5 p-4 text-xs text-amber-300">

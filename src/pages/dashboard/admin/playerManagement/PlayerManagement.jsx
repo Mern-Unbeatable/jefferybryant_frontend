@@ -6,6 +6,7 @@ import SelectField from "@/components/dashboard/form/SelectField";
 import { primaryButtonClass } from "@/components/dashboard/form/formStyles";
 import { ADMIN_PLAYERS } from "@/pages/dashboard/admin/adminData";
 import AdminStatusBadge from "@/pages/dashboard/admin/components/AdminStatusBadge";
+import AdminHeader from "@/pages/dashboard/admin/components/AdminHeader";
 import PlayerActionMenu from "@/pages/dashboard/admin/components/PlayerActionMenu";
 import PlayerDetailModal from "@/pages/dashboard/admin/components/PlayerDetailModal";
 import ShareProfileModal from "@/pages/dashboard/admin/components/ShareProfileModal";
@@ -126,28 +127,21 @@ const PlayerManagement = () => {
   return (
     <div className="mx-auto flex flex-col gap-6">
       {/* Top Header */}
-      <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
-        <div>
-          <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/45">
-            Talent Operations
-          </p>
-          <h1 className="mt-1 font-ethnocentric text-xl tracking-wider text-white sm:text-2xl">
-            Player Management
-          </h1>
-          <p className="mt-1 text-xs text-white/50">
-            Search, review and manage all registered player profiles.
-          </p>
-        </div>
-
-        <button
-          type="button"
-          onClick={() => setShareModalOpen(true)}
-          className={`${primaryButtonClass} flex items-center gap-2 self-start text-xs sm:self-auto`}
-        >
-          <FiShare2 />
-          <span>Share Profile</span>
-        </button>
-      </div>
+      <AdminHeader
+        eyebrow="Talent Operations"
+        title="Player Management"
+        subtitle="Search, review and manage all registered player profiles."
+        action={
+          <button
+            type="button"
+            onClick={() => setShareModalOpen(true)}
+            className={`${primaryButtonClass} flex items-center gap-2 text-xs`}
+          >
+            <FiShare2 />
+            <span>Share Profile</span>
+          </button>
+        }
+      />
 
       {/* Notification Toast */}
       {feedback && (
