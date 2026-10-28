@@ -7,7 +7,7 @@ import { DUMMY_USERS } from "@/constants/dummyUsers";
 import { useAuth } from "@/hooks/useAuth";
 import { usePageAnimations } from "@/hooks/usePageAnimations";
 
-const labelClass = "text-[10px] text-white/80";
+const labelClass = "text-sm text-white/80";
 const inputClass =
   "mt-2 w-full border border-white/10 bg-black/30 px-3 py-2.5 text-xs text-white placeholder:text-white/30 outline-none transition focus:border-accent/60";
 
@@ -54,13 +54,13 @@ const Login = () => {
           <BackButton className="absolute left-4 top-6 sm:left-10 lg:hidden" />
 
           <div className="mx-auto w-full max-w-xl">
-            <p className="text-[10px] uppercase tracking-[0.2em] text-btn-primary">
+            <p className="text-xs uppercase tracking-[0.2em] text-btn-primary">
               {t("login.eyebrow")}
             </p>
             <h1 className="mt-3 font-ethnocentric text-xl uppercase leading-tight sm:text-2xl">
               {t("login.title")}
             </h1>
-            <p className="mt-3 text-xs text-white/50">{t("login.subtitle")}</p>
+            <p className="mt-3 text-base text-white/50">{t("login.subtitle")}</p>
 
             <form onSubmit={handleSubmit} className="mt-8">
               <label htmlFor="email" className={labelClass}>
@@ -103,33 +103,33 @@ const Login = () => {
               </div>
 
               <div className="mt-4 flex items-center justify-between">
-                <label className="flex cursor-pointer items-center gap-2 text-[10px] text-white/60">
+                <label className="flex cursor-pointer items-center gap-2 text-sm text-white/60">
                   <input type="checkbox" name="remember" className="h-3.5 w-3.5 accent-btn-primary" />
                   {t("login.remember")}
                 </label>
                 <Link
                   to="/forgot-password"
-                  className="text-[10px] text-btn-primary transition-colors hover:text-btn-primary/80"
+                  className="text-sm text-btn-primary transition-colors hover:text-btn-primary/80"
                 >
                   {t("login.forgot")}
                 </Link>
               </div>
 
               {error && (
-                <p role="alert" className="mt-4 flex items-center gap-2 text-[11px] text-red-400">
+                <p role="alert" className="mt-4 flex items-center gap-2 text-xs text-red-400">
                   <FiAlertCircle className="shrink-0 text-sm" /> {t("login.invalid")}
                 </p>
               )}
 
               <button
                 type="submit"
-                className="mt-6 flex w-full items-center justify-center gap-2 bg-btn-primary py-3 text-xs text-primary transition hover:bg-btn-primary/90"
+                className="mt-6 flex w-full items-center justify-center gap-2 bg-btn-primary py-3 text-sm text-primary transition hover:bg-btn-primary/90"
               >
                 {t("login.submit")} <FiArrowRight className="text-sm" />
               </button>
             </form>
 
-            <div className="mt-6 flex items-center gap-3 text-[10px] text-white/40">
+            <div className="mt-6 flex items-center gap-3 text-xs text-white/40">
               <span className="h-px flex-1 bg-white/10" />
               {t("login.newTo")}
               <span className="h-px flex-1 bg-white/10" />
@@ -137,7 +137,7 @@ const Login = () => {
 
             <Link
               to="/join/coach"
-              className="mt-6 flex w-full items-center justify-center border border-btn-primary py-3 text-xs text-btn-primary transition hover:bg-btn-primary hover:text-primary"
+              className="mt-6 flex w-full items-center justify-center border border-btn-primary py-3 text-sm text-btn-primary transition hover:bg-btn-primary hover:text-primary"
             >
               {t("login.register")}
             </Link>
@@ -168,3 +168,4 @@ const Login = () => {
 };
 
 export default Login;
+F
