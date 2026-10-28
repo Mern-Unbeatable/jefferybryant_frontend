@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { FiMoreHorizontal } from "react-icons/fi";
 
-const VERIFICATION_OPTIONS = ["Verified", "Pending", "Ready To Review"];
+const VERIFICATION_OPTIONS = ["Verified", "Pending"];
 const INTELLIGENCE_OPTIONS = [
   "Submitted",
   "Verification",
@@ -9,6 +9,7 @@ const INTELLIGENCE_OPTIONS = [
   "Review",
   "Priority",
   "Pass",
+  "Archived",
 ];
 
 const PlayerActionMenu = ({
@@ -43,7 +44,7 @@ const PlayerActionMenu = ({
       </button>
 
       {open && (
-        <div className="absolute right-0 z-50 mt-1.5 w-44 rounded-md border border-white/15 bg-[#161b1f] p-1.5 shadow-2xl backdrop-blur-md">
+        <div className="absolute right-0 z-50 mt-1.5 w-44 overflow-hidden rounded-lg border border-gray-200 bg-white p-2 text-gray-800 shadow-2xl">
           {/* See Details button */}
           <button
             type="button"
@@ -51,14 +52,14 @@ const PlayerActionMenu = ({
               setOpen(false);
               onSeeDetails?.(player);
             }}
-            className="w-full rounded bg-btn-primary px-3 py-1.5 text-left text-xs font-semibold text-primary transition hover:bg-btn-primary/90"
+            className="w-full rounded bg-btn-primary px-3 py-2 text-left text-xs font-bold uppercase tracking-wider text-primary shadow transition hover:bg-btn-primary/90"
           >
             See Details
           </button>
 
           {/* Verification section */}
-          <div className="mt-2 border-t border-white/10 pt-2">
-            <p className="px-2 pb-1 text-[9px] font-semibold uppercase tracking-wider text-white/40">
+          <div className="mt-2.5 border-t border-gray-100 pt-2">
+            <p className="px-2 pb-1 text-[10px] font-bold uppercase tracking-wider text-gray-900">
               Verification
             </p>
             <div className="space-y-0.5">
@@ -74,12 +75,12 @@ const PlayerActionMenu = ({
                     }}
                     className={`flex w-full items-center justify-between rounded px-2 py-1 text-left text-xs transition ${
                       isSelected
-                        ? "bg-white/10 font-medium text-accent"
-                        : "text-white/70 hover:bg-white/5 hover:text-white"
+                        ? "bg-gray-100 font-semibold text-emerald-600"
+                        : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
                     }`}
                   >
                     <span>{status}</span>
-                    {isSelected && <span className="h-1.5 w-1.5 rounded-full bg-accent" />}
+                    {isSelected && <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />}
                   </button>
                 );
               })}
@@ -87,8 +88,8 @@ const PlayerActionMenu = ({
           </div>
 
           {/* Intelligence section */}
-          <div className="mt-2 border-t border-white/10 pt-2">
-            <p className="px-2 pb-1 text-[9px] font-semibold uppercase tracking-wider text-white/40">
+          <div className="mt-2.5 border-t border-gray-100 pt-2">
+            <p className="px-2 pb-1 text-[10px] font-bold uppercase tracking-wider text-gray-900">
               Intelligence
             </p>
             <div className="space-y-0.5">
@@ -104,12 +105,12 @@ const PlayerActionMenu = ({
                     }}
                     className={`flex w-full items-center justify-between rounded px-2 py-1 text-left text-xs transition ${
                       isSelected
-                        ? "bg-white/10 font-medium text-amber-300"
-                        : "text-white/70 hover:bg-white/5 hover:text-white"
+                        ? "bg-amber-50 font-semibold text-amber-700"
+                        : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
                     }`}
                   >
                     <span>{stage}</span>
-                    {isSelected && <span className="h-1.5 w-1.5 rounded-full bg-amber-400" />}
+                    {isSelected && <span className="h-1.5 w-1.5 rounded-full bg-amber-500" />}
                   </button>
                 );
               })}

@@ -179,3 +179,4 @@ const ScoutFeedbackDetailModal = ({ feedback, open, onClose, onUpdateStatus }) =
 };
 
 export default ScoutFeedbackDetailModal;
+

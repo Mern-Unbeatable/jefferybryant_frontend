@@ -208,3 +208,4 @@ const ScoutActivityTab = ({ onViewHistory, onOpenCreateDelivery }) => {
 };
 
 export default ScoutActivityTab;
+
