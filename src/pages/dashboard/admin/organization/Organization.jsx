@@ -40,7 +40,8 @@ const OrganizationActionMenu = ({ org, onSeeDetails, onUpdateStatus }) => {
               Status
             </p>
             {["Approved", "Under Review", "Pending"].map((status) => {
-              const isSelected = org.status.toLowerCase() === status.toLowerCase();
+              const isSelected =
+                org.status.toLowerCase() === status.toLowerCase();
               return (
                 <button
                   key={status}
@@ -56,7 +57,9 @@ const OrganizationActionMenu = ({ org, onSeeDetails, onUpdateStatus }) => {
                   }`}
                 >
                   <span>{status}</span>
-                  {isSelected && <span className="h-1.5 w-1.5 rounded-full bg-accent" />}
+                  {isSelected && (
+                    <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+                  )}
                 </button>
               );
             })}
@@ -79,31 +82,42 @@ const Organization = () => {
 
   const countries = useMemo(() => {
     const list = [...new Set(organizations.map((org) => org.country))];
-    return [{ value: "all", label: "All countries" }, ...list.map((c) => ({ value: c, label: c }))];
+    return [
+      { value: "all", label: "All countries" },
+      ...list.map((c) => ({ value: c, label: c })),
+    ];
   }, [organizations]);
 
   const types = useMemo(() => {
     const list = [...new Set(organizations.map((org) => org.type))];
-    return [{ value: "all", label: "All organization types" }, ...list.map((t) => ({ value: t, label: t }))];
+    return [
+      { value: "all", label: "All organization types" },
+      ...list.map((t) => ({ value: t, label: t })),
+    ];
   }, [organizations]);
 
   const filtered = useMemo(() => {
     return organizations.filter((org) => {
-      const matchCountry = countryFilter === "all" || org.country === countryFilter;
+      const matchCountry =
+        countryFilter === "all" || org.country === countryFilter;
       const matchType = typeFilter === "all" || org.type === typeFilter;
       const matchStatus =
-        statusFilter === "all" || org.status.toLowerCase() === statusFilter.toLowerCase();
+        statusFilter === "all" ||
+        org.status.toLowerCase() === statusFilter.toLowerCase();
       return matchCountry && matchType && matchStatus;
     });
   }, [organizations, countryFilter, typeFilter, statusFilter]);
 
   const totalPages = Math.max(Math.ceil(filtered.length / PAGE_SIZE), 1);
   const currentPage = Math.min(page, totalPages);
-  const pageRows = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
+  const pageRows = filtered.slice(
+    (currentPage - 1) * PAGE_SIZE,
+    currentPage * PAGE_SIZE,
+  );
 
   const handleUpdateStatus = (id, newStatus) => {
     setOrganizations((prev) =>
-      prev.map((org) => (org.id === id ? { ...org, status: newStatus } : org))
+      prev.map((org) => (org.id === id ? { ...org, status: newStatus } : org)),
     );
     setFeedback(`Organization status updated to "${newStatus}".`);
     setTimeout(() => setFeedback(""), 4000);
@@ -117,7 +131,7 @@ const Organization = () => {
   };
 
   return (
-    <div className="mx-auto flex max-w-7xl flex-col gap-6">
+    <div className="mx-auto flex flex-col gap-6">
       {/* Header */}
       <div>
         <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/45">
@@ -192,13 +206,27 @@ const Organization = () => {
           <table className="w-full min-w-220 whitespace-nowrap text-left text-xs">
             <thead>
               <tr className="border-b border-white/10 text-[9px] uppercase tracking-[0.15em] text-white/45">
-                <th scope="col" className="px-4 py-3.5 font-normal">Organization</th>
-                <th scope="col" className="px-4 py-3.5 font-normal">Type</th>
-                <th scope="col" className="px-4 py-3.5 font-normal">Country / Island</th>
-                <th scope="col" className="px-4 py-3.5 font-normal">Director / Coach</th>
-                <th scope="col" className="px-4 py-3.5 font-normal">Associated Players</th>
-                <th scope="col" className="px-4 py-3.5 font-normal">Approval Status</th>
-                <th scope="col" className="px-4 py-3.5 font-normal">Registered</th>
+                <th scope="col" className="px-4 py-3.5 font-normal">
+                  Organization
+                </th>
+                <th scope="col" className="px-4 py-3.5 font-normal">
+                  Type
+                </th>
+                <th scope="col" className="px-4 py-3.5 font-normal">
+                  Country / Island
+                </th>
+                <th scope="col" className="px-4 py-3.5 font-normal">
+                  Director / Coach
+                </th>
+                <th scope="col" className="px-4 py-3.5 font-normal">
+                  Associated Players
+                </th>
+                <th scope="col" className="px-4 py-3.5 font-normal">
+                  Approval Status
+                </th>
+                <th scope="col" className="px-4 py-3.5 font-normal">
+                  Registered
+                </th>
                 <th scope="col" className="relative px-4 py-3.5 text-right">
                   <span className="sr-only">Actions</span>
                 </th>
@@ -232,7 +260,9 @@ const Organization = () => {
                   <td className="px-4 py-3.5 text-white/80">{org.director}</td>
 
                   {/* Associated Players */}
-                  <td className="px-4 py-3.5 text-white/70">{org.playersCount}</td>
+                  <td className="px-4 py-3.5 text-white/70">
+                    {org.playersCount}
+                  </td>
 
                   {/* Approval Status */}
                   <td className="px-4 py-3.5">
@@ -240,13 +270,17 @@ const Organization = () => {
                   </td>
 
                   {/* Registered */}
-                  <td className="px-4 py-3.5 text-[11px] text-white/50">{org.registered}</td>
+                  <td className="px-4 py-3.5 text-[11px] text-white/50">
+                    {org.registered}
+                  </td>
 
                   {/* Actions */}
                   <td className="px-4 py-3.5 text-right">
                     <OrganizationActionMenu
                       org={org}
-                      onSeeDetails={(item) => navigate(`/dashboard/admin/organization/${item.id}`)}
+                      onSeeDetails={(item) =>
+                        navigate(`/dashboard/admin/organization/${item.id}`)
+                      }
                       onUpdateStatus={handleUpdateStatus}
                     />
                   </td>
@@ -255,7 +289,10 @@ const Organization = () => {
 
               {pageRows.length === 0 && (
                 <tr>
-                  <td colSpan={8} className="px-4 py-12 text-center text-xs text-white/40">
+                  <td
+                    colSpan={8}
+                    className="px-4 py-12 text-center text-xs text-white/40"
+                  >
                     No organizations match the selected criteria.
                   </td>
                 </tr>
