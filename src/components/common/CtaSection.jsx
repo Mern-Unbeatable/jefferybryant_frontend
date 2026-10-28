@@ -62,7 +62,7 @@ const CtaSection = () => {
           <div className="absolute inset-0 -z-10 bg-linear-to-r from-primary/90 via-primary/50 to-transparent" />
 
           <div className="max-w-xl">
-            <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+            <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
               <span className="h-px w-8 bg-accent" />
               {t(`${ns}.eyebrow`)}
             </p>
@@ -74,7 +74,7 @@ const CtaSection = () => {
               </span>
             </h2>
 
-            <p className="mt-6 text-sm leading-relaxed text-white/80">
+            <p className="mt-6 text-base leading-relaxed text-white/80">
               {t(`${ns}.description`)}
             </p>
 

@@ -21,8 +21,23 @@ import Reviews from "@/pages/dashboard/scout/reviews/Reviews";
 import AssignedPlayers from "@/pages/dashboard/scout/assignedPlayers/AssignedPlayers";
 import ScoutNotifications from "@/pages/dashboard/scout/notifications/Notifications";
 import ScoutSettings from "@/pages/dashboard/scout/settings/ScoutSettings";
+import AdminOverview from "@/pages/dashboard/admin/overview/Overview";
+import AdminPlayerManagement from "@/pages/dashboard/admin/playerManagement/PlayerManagement";
+import AdminOrganization from "@/pages/dashboard/admin/organization/Organization";
+import AdminScoutManagement from "@/pages/dashboard/admin/scoutManagement/ScoutManagement";
+import AdminNotifications from "@/pages/dashboard/admin/notifications/Notifications";
+import AdminSettings from "@/pages/dashboard/admin/settings/AdminSettings";
+import AdminMilestones from "@/pages/dashboard/admin/milestones/Milestones";
 
 const ROLE_PAGES = {
+  admin: {
+    overview: AdminOverview,
+    playerManagement: AdminPlayerManagement,
+    organization: AdminOrganization,
+    scoutManagement: AdminScoutManagement,
+    notifications: AdminNotifications,
+    settings: AdminSettings,
+  },
   player: {
     overview: PlayerOverview,
     myPlayerProfile: MyPlayerProfile,
@@ -55,6 +70,11 @@ const ROLE_PAGES = {
 const SHARED_PAGES = { settings: AccountSettings };
 
 export const EXTRA_ROUTES = {
+  admin: [
+    { path: "milestones", Page: AdminMilestones },
+    { path: "players", Page: AdminPlayerManagement },
+    { path: "scouts", Page: AdminScoutManagement },
+  ],
   scout: [{ path: "players/:playerId", Page: PlayerDetail }],
 };
 

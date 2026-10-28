@@ -1051,7 +1051,10 @@
       "contactRecruiting": "Contact & Recruiting",
       "watchlist": "My Watchlist",
       "myReviews": "My Reviews",
-      "assignedPlayers": "Assigned Players"
+      "assignedPlayers": "Assigned Players",
+      "playerManagement": "Player Management",
+      "organization": "Organization",
+      "scoutManagement": "Scout Management"
     },
     "welcome": "Welcome back, {{name}}",
     "placeholder": "This section is ready for its design.",

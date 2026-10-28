@@ -1051,7 +1051,10 @@
       "contactRecruiting": "Contacto y reclutamiento",
       "watchlist": "Mi lista de seguimiento",
       "myReviews": "Mis revisiones",
-      "assignedPlayers": "Jugadores asignados"
+      "assignedPlayers": "Jugadores asignados",
+      "playerManagement": "Gestión de Jugadores",
+      "organization": "Organización",
+      "scoutManagement": "Gestión de Ojeadores"
     },
     "welcome": "Bienvenido de nuevo, {{name}}",
     "placeholder": "Esta sección está lista para su diseño.",

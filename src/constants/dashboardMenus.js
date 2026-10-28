@@ -23,11 +23,9 @@ const sharedProfile = { key: "sharedProfile", path: "shared-profile", icon: FiEx
 export const DASHBOARD_MENUS = {
   admin: [
     overview,
-    { key: "users", path: "users", icon: FiUsers },
-    { key: "approvals", path: "approvals", icon: LuShieldCheck },
-    { key: "players", path: "players", icon: FiUser },
-    { key: "scouts", path: "scouts", icon: FiSearch },
-    { key: "reports", path: "reports", icon: FiBarChart2 },
+    { key: "playerManagement", path: "player-management", icon: FiUser },
+    { key: "organization", path: "organization", icon: LuBuilding2 },
+    { key: "scoutManagement", path: "scout-management", icon: FiEye },
     notifications,
     settings,
   ],

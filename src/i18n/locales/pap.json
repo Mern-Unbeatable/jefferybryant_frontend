@@ -1051,7 +1051,10 @@
       "contactRecruiting": "Kontakto i rekrutamentu",
       "watchlist": "Mi lista di vigilansia",
       "myReviews": "Mi revishonnan",
-      "assignedPlayers": "Hugadó asigná"
+      "assignedPlayers": "Hugadó asigná",
+      "playerManagement": "Maneho di Hugadónan",
+      "organization": "Organisashon",
+      "scoutManagement": "Maneho di Oheador"
     },
     "welcome": "Bon bini bèk, {{name}}",
     "placeholder": "E sekshon aki ta kla pa su diseño.",
