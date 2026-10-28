@@ -18,16 +18,18 @@ const mapStatusToTone = (status) => {
     case "active":
     case "presented":
     case "complete":
+    case "accepted":
       return "green";
 
     case "ready to review":
     case "ready_to_review":
+    case "under review":
+    case "under_review":
     case "in progress":
     case "in_progress":
-      return "yellow";
-
     case "pending":
     case "submitted":
+    case "invitation pending":
       return "yellow";
 
     case "priority":
@@ -44,6 +46,8 @@ const mapStatusToTone = (status) => {
 
     case "pass":
     case "inactive":
+    case "suspended":
+    case "archived":
       return "gray";
 
     default:

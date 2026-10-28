@@ -28,6 +28,8 @@ import AdminScoutManagement from "@/pages/dashboard/admin/scoutManagement/ScoutM
 import AdminNotifications from "@/pages/dashboard/admin/notifications/Notifications";
 import AdminSettings from "@/pages/dashboard/admin/settings/AdminSettings";
 import AdminMilestones from "@/pages/dashboard/admin/milestones/Milestones";
+import AdminPlayerDetail from "@/pages/dashboard/admin/playerManagement/playerDetail/PlayerDetail";
+import AdminOrganizationDetail from "@/pages/dashboard/admin/organization/OrganizationDetail";
 
 const ROLE_PAGES = {
   admin: {
@@ -73,6 +75,9 @@ export const EXTRA_ROUTES = {
   admin: [
     { path: "milestones", Page: AdminMilestones },
     { path: "players", Page: AdminPlayerManagement },
+    { path: "player-management/:playerId", Page: AdminPlayerDetail },
+    { path: "players/:playerId", Page: AdminPlayerDetail },
+    { path: "organization/:orgId", Page: AdminOrganizationDetail },
     { path: "scouts", Page: AdminScoutManagement },
   ],
   scout: [{ path: "players/:playerId", Page: PlayerDetail }],

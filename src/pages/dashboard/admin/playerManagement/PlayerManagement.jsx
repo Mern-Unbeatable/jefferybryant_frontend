@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { FiCheckCircle, FiPlus, FiShare2 } from "react-icons/fi";
 import Pagination from "@/components/dashboard/Pagination";
 import SelectField from "@/components/dashboard/form/SelectField";
@@ -31,6 +31,7 @@ const INTELLIGENCE_FILTER_OPTIONS = [
 ];
 
 const PlayerManagement = () => {
+  const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const initialIntelligence = searchParams.get("intelligence") || "all";
   const initialFilter = searchParams.get("filter") || "";
@@ -108,8 +109,7 @@ const PlayerManagement = () => {
   };
 
   const handleSeeDetails = (player) => {
-    setSelectedPlayer(player);
-    setDetailModalOpen(true);
+    navigate(`/dashboard/admin/player-management/${player.id}`);
   };
 
   const handleShareSuccess = ({ scout, player }) => {
@@ -226,17 +226,22 @@ const PlayerManagement = () => {
                 <tr key={player.id} className="transition hover:bg-white/2">
                   {/* Player Info */}
                   <td className="px-4 py-3">
-                    <div className="flex items-center gap-3">
-                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-white/15 bg-white/5 text-[10px] font-semibold text-white/80">
+                    <Link
+                      to={`/dashboard/admin/player-management/${player.id}`}
+                      className="group/player flex items-center gap-3"
+                    >
+                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-white/15 bg-white/5 text-[10px] font-semibold text-white/80 transition group-hover/player:border-accent group-hover/player:text-accent">
                         {getInitials(player.name)}
                       </span>
                       <div>
-                        <p className="font-medium text-white">{player.name}</p>
+                        <p className="font-medium text-white transition group-hover/player:text-accent">
+                          {player.name}
+                        </p>
                         <p className="text-[10px] text-white/40">
                           {player.cfitId} · Age {player.age}
                         </p>
                       </div>
-                    </div>
+                    </Link>
                   </td>
 
                   {/* Location */}
