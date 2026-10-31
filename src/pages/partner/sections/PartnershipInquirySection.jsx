@@ -7,9 +7,9 @@ const base = "partners.inquiry";
 const orgTypes = ["club", "academy", "association", "youth", "development", "other"];
 const interests = ["talent", "development", "ecosystem", "sponsorship", "other"];
 
-const labelClass = "text-[10px] uppercase tracking-[0.15em] text-white/50";
+const labelClass = "text-sm uppercase tracking-[0.15em] text-white/50";
 const inputClass =
-  "mt-2 w-full border border-white/10 bg-white/2 px-3 py-3 text-xs text-white placeholder:text-white/30 outline-none transition focus:border-accent/60";
+  "mt-2 w-full border border-white/10 bg-white/2 px-3 py-3 text-sm text-white placeholder:text-white/30 outline-none transition focus:border-accent/60";
 
 const Field = ({ id, label, required, children }) => (
   <div>
@@ -58,11 +58,11 @@ const PartnershipInquirySection = () => {
   };
 
   return (
-    <section id="partnership-inquiry" className="scroll-mt-16 pt-20 lg:pt-28">
+    <section id="partnership-inquiry" className="scroll-mt-16 pt-16 lg:pt-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+            <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
               <span className="h-px w-8 bg-accent" />
               {t(`${base}.eyebrow`)}
             </p>
@@ -72,7 +72,7 @@ const PartnershipInquirySection = () => {
               <span className="block text-accent">{t(`${base}.titleHighlight`)}</span>
             </h2>
           </div>
-          <p className="max-w-xs text-sm leading-relaxed text-white/70 lg:pb-2">
+          <p className="max-w-xs text-base leading-relaxed text-white/70 lg:pb-2">
             {t(`${base}.description`)}
           </p>
         </div>
@@ -166,7 +166,7 @@ const PartnershipInquirySection = () => {
               </div>
 
               <div className="mt-6 flex flex-col gap-4 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
-                <p className="flex items-center gap-2 text-[10px] text-white/50">
+                <p className="flex items-center gap-2 text-sm text-white/50">
                   <LuShieldCheck className="shrink-0 text-sm text-accent" />
                   {t(`${base}.note`)}
                 </p>

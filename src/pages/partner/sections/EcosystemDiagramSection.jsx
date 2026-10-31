@@ -16,10 +16,10 @@ const EcosystemDiagramSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="pt-20 lg:pt-28">
+    <section className="pt-16 lg:pt-20">
       <div className="container mx-auto grid items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
         <div className="max-w-xl">
-          <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+          <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
             <span className="h-px w-8 bg-accent" />
             {t("partners.ecosystem.eyebrow")}
           </p>
@@ -31,7 +31,7 @@ const EcosystemDiagramSection = () => {
               {t("partners.ecosystem.titleHighlight")}
             </span>
           </h2>
-          <p className="mt-6 text-sm leading-relaxed text-white/70">
+          <p className="mt-6 text-base leading-relaxed text-white/70">
             {t("partners.ecosystem.description")}
           </p>
         </div>
@@ -71,7 +71,7 @@ const EcosystemDiagramSection = () => {
                 style={{ left: `${x}%`, top: `${y}%` }}
                 className="absolute flex -translate-x-1/2 -translate-y-1/2 items-center gap-2 whitespace-nowrap border border-white/10 bg-primary px-2 py-1.5 sm:px-3 sm:py-2"
               >
-                <span className="flex h-5 w-5 items-center justify-center border border-accent/30 text-[10px] text-accent">
+                <span className="flex h-8 w-8 items-center justify-center border border-accent/30 text-sm text-accent">
                   <Icon />
                 </span>
                 <span className="text-[8px] uppercase tracking-wide text-white/70 sm:text-[9px]">

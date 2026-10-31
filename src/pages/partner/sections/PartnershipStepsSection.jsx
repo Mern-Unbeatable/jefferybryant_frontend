@@ -7,11 +7,11 @@ const PartnershipStepsSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="pt-20 lg:pt-28">
+    <section className="pt-16 lg:pt-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+            <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
               <span className="h-px w-8 bg-accent" />
               {t("partners.steps.eyebrow")}
             </p>
@@ -19,10 +19,12 @@ const PartnershipStepsSection = () => {
               <span className="block">{t("partners.steps.titleLine1")}</span>
               <span className="block">{t("partners.steps.titleLine2")}</span>
               <span className="block">{t("partners.steps.titleLine3")}</span>
-              <span className="block text-accent">{t("partners.steps.titleHighlight")}</span>
+              <span className="block text-accent">
+                {t("partners.steps.titleHighlight")}
+              </span>
             </h2>
           </div>
-          <p className="max-w-xs text-sm leading-relaxed text-white/70 lg:pb-2">
+          <p className="max-w-xs text-base leading-relaxed text-white/70 lg:pb-2">
             {t("partners.steps.description")}
           </p>
         </div>
@@ -34,22 +36,22 @@ const PartnershipStepsSection = () => {
               className="relative min-h-44 border border-white/10 bg-white/2 p-6"
             >
               {index > 0 && (
-                <span className="absolute -left-2 top-1/2 hidden h-5 w-5 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-white/10 bg-primary text-[10px] text-accent md:flex">
+                <span className="absolute -left-2 top-1/2 hidden h-8 w-8 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-white/10 bg-primary text-sm text-accent md:flex">
                   <FiArrowRight />
                 </span>
               )}
               <div className="flex items-end gap-2">
-                <span className="text-[8px] uppercase tracking-[0.2em] text-white/50">
+                <span className="text-xs uppercase tracking-[0.2em] text-white/50">
                   {t("partners.steps.stepLabel")}
                 </span>
                 <span className="text-xl leading-none text-btn-primary">
                   {String(index + 1).padStart(2, "0")}
                 </span>
               </div>
-              <h3 className="mt-8 text-xs uppercase tracking-wide">
+              <h3 className="mt-8 text-base uppercase tracking-wide">
                 {t(`partners.steps.items.${key}.title`)}
               </h3>
-              <p className="mt-3 text-xs leading-relaxed text-white/60">
+              <p className="mt-4 text-sm leading-relaxed text-white/60">
                 {t(`partners.steps.items.${key}.description`)}
               </p>
             </li>
