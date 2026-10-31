@@ -17,7 +17,7 @@ const AboutHeroSection = () => {
 
       <div className="container mx-auto px-4 py-20 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
-          <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+          <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
             <span className="h-px w-8 bg-accent" />
             {t("about.hero.eyebrow")}
           </p>
@@ -30,7 +30,7 @@ const AboutHeroSection = () => {
             <span className="block text-accent">{t("about.hero.titleHighlight")}</span>
           </h1>
 
-          <p className="mt-6 max-w-md text-sm leading-relaxed text-white/80">
+          <p className="mt-6 max-w-md text-base leading-relaxed text-white/80">
             {t("about.hero.description")}
           </p>
 

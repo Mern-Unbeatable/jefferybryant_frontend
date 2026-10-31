@@ -12,7 +12,7 @@ const MissionSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="our-mission" className="scroll-mt-16 overflow-x-clip pt-20 lg:pt-28">
+    <section id="our-mission" className="scroll-mt-16 overflow-x-clip pt-16 lg:pt-20">
       <div className="container mx-auto grid items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
         <img
           src="/about/missionPlayer.png"
@@ -22,7 +22,7 @@ const MissionSection = () => {
         />
 
         <div className="order-1 max-w-xl lg:order-2">
-          <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+          <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
             <span className="h-px w-8 bg-accent" />
             {t("about.mission.eyebrow")}
           </p>
@@ -32,7 +32,7 @@ const MissionSection = () => {
             <span className="block text-accent">{t("about.mission.titleHighlight1")}</span>
             <span className="block text-accent">{t("about.mission.titleHighlight2")}</span>
           </h2>
-          <p className="mt-6 text-sm leading-relaxed text-white/80">
+          <p className="mt-6 text-base leading-relaxed text-white/80">
             {t("about.mission.description")}
           </p>
 
@@ -42,9 +42,9 @@ const MissionSection = () => {
               return (
                 <li
                   key={key}
-                  className="flex items-center gap-2 border border-white/10 px-3 py-2 text-[9px] uppercase tracking-wide text-white/70"
+                  className="flex items-center gap-2 border border-white/10 px-3 py-2 text-xs uppercase tracking-wide text-white/70"
                 >
-                  <Icon className="text-xs text-accent" />
+                  <Icon className="text-sm text-accent" />
                   {t(`about.mission.tags.${key}`)}
                 </li>
               );

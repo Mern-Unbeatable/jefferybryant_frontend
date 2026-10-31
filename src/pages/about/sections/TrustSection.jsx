@@ -13,11 +13,11 @@ const TrustSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="pt-20 lg:pt-28">
+    <section className="pt-16 lg:pt-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+            <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
               <span className="h-px w-8 bg-accent" />
               {t("about.trust.eyebrow")}
             </p>
@@ -30,7 +30,7 @@ const TrustSection = () => {
               </span>
             </h2>
           </div>
-          <p className="max-w-lg text-sm leading-relaxed text-white/80 lg:pb-2">
+          <p className="max-w-lg text-base leading-relaxed text-white/80 lg:pb-2">
             {t("about.trust.description")}
           </p>
         </div>
@@ -44,17 +44,17 @@ const TrustSection = () => {
                 className="flex flex-col border-b border-r border-white/10 bg-white/2 p-6 transition-colors hover:bg-white/4"
               >
                 <div className="flex items-start justify-between">
-                  <span className="text-xs text-white/50">
+                  <span className="text-sm text-white/50">
                     {String(index + 1).padStart(2, "0")}
                   </span>
-                  <span className="flex h-10 w-10 items-center justify-center border border-btn-primary/40 text-btn-primary">
+                  <span className="flex h-12 w-12 items-center justify-center border border-btn-primary/40 text-btn-primary">
                     <Icon />
                   </span>
                 </div>
-                <h3 className="mt-10 text-xs uppercase tracking-wide">
+                <h3 className="mt-10 text-base uppercase tracking-wide">
                   {t(`about.trust.items.${key}.title`)}
                 </h3>
-                <p className="mt-4 text-xs leading-relaxed text-white/60">
+                <p className="mt-4 text-[13px] leading-relaxed text-white/60">
                   {t(`about.trust.items.${key}.description`)}
                 </p>
               </li>

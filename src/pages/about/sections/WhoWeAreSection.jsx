@@ -5,10 +5,10 @@ const WhoWeAreSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="overflow-x-clip pt-20 lg:pt-28">
+    <section className="overflow-x-clip pt-16 lg:pt-20">
       <div className="container mx-auto grid items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
         <div className="max-w-xl">
-          <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+          <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
             <span className="h-px w-8 bg-accent" />
             {t("about.whoWeAre.eyebrow")}
           </p>
@@ -18,7 +18,7 @@ const WhoWeAreSection = () => {
             <span className="block">{t("about.whoWeAre.titleLine3")}</span>
             <span className="block text-accent">{t("about.whoWeAre.titleHighlight")}</span>
           </h2>
-          <p className="mt-6 text-sm leading-relaxed text-white/80">
+          <p className="mt-6 text-base leading-relaxed text-white/80">
             {t("about.whoWeAre.description")}
           </p>
           <a

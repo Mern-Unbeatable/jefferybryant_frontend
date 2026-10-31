@@ -6,7 +6,7 @@ const CommitmentSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative isolate overflow-hidden py-24 lg:py-32">
+    <section className="relative isolate overflow-hidden py-16 lg:py-20">
       <img
         src="/about/caribbeanCommitment.png"
         alt=""
@@ -17,7 +17,7 @@ const CommitmentSection = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-xl">
-          <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+          <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
             <span className="h-px w-8 bg-accent" />
             {t("about.commitment.eyebrow")}
           </p>
@@ -31,7 +31,7 @@ const CommitmentSection = () => {
             </span>
           </h2>
 
-          <p className="mt-6 max-w-lg text-sm leading-relaxed text-white/80">
+          <p className="mt-6 max-w-lg text-base leading-relaxed text-white/80">
             {t("about.commitment.description")}
           </p>
 
