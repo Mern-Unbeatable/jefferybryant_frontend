@@ -16,7 +16,7 @@ const RegistrationJourneySection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+            <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
               <span className="h-px w-8 bg-accent" />
               {t("coaches.journey.eyebrow")}
             </p>
@@ -30,7 +30,7 @@ const RegistrationJourneySection = () => {
               </span>
             </h2>
           </div>
-          <p className="max-w-sm text-sm leading-relaxed text-white/80 lg:pb-2">
+          <p className="max-w-sm text-base leading-relaxed text-white/80 lg:pb-2">
             {t("coaches.journey.description")}
           </p>
         </div>
@@ -50,8 +50,8 @@ const RegistrationJourneySection = () => {
               </div>
 
               <div className="mt-5 flex items-center">
-                <span className="flex h-2.5 w-2.5 shrink-0 items-center justify-center rounded-full border border-accent">
-                  <span className="h-1 w-1 rounded-full bg-accent" />
+                <span className="flex h-3.5 w-3.5 shrink-0 items-center justify-center rounded-full border border-accent">
+                  <span className="h-2 w-2 rounded-full bg-accent" />
                 </span>
                 <span className="h-px flex-1 bg-white/10 lg:mr-4" />
               </div>

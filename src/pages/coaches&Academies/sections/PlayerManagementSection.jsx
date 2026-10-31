@@ -32,7 +32,7 @@ const PlayerManagementSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+            <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
               <span className="h-px w-8 bg-accent" />
               {t("coaches.management.eyebrow")}
             </p>
@@ -50,7 +50,7 @@ const PlayerManagementSection = () => {
               {statuses.map((status) => (
                 <li
                   key={status}
-                  className="flex items-center gap-2 text-[10px] uppercase tracking-wide text-white/60"
+                  className="flex items-center gap-2 text-sm uppercase tracking-wide text-white/60"
                 >
                   <span className={`h-1.5 w-1.5 rounded-full ${statusStyles[status].dot}`} />
                   {t(`coaches.management.statuses.${status}`)}
@@ -58,7 +58,7 @@ const PlayerManagementSection = () => {
               ))}
             </ul>
           </div>
-          <p className="max-w-md text-sm leading-relaxed text-white/80 lg:pb-14">
+          <p className="max-w-md text-base leading-relaxed text-white/80 lg:pb-14">
             {t("coaches.management.description")}
           </p>
         </div>
@@ -66,11 +66,11 @@ const PlayerManagementSection = () => {
         <div className="mt-10 border border-white/10 bg-white/2">
           <div className="flex items-center gap-4 border-b border-white/10 bg-primary px-4 py-3">
             <div className="flex gap-1.5">
-              <span className="h-1.5 w-1.5 rounded-full bg-btn-primary" />
-              <span className="h-1.5 w-1.5 rounded-full bg-white/30" />
-              <span className="h-1.5 w-1.5 rounded-full bg-white/30" />
+              <span className="h-2.5 w-2.5 rounded-full bg-btn-primary" />
+              <span className="h-2.5 w-2.5 rounded-full bg-white/30" />
+              <span className="h-2.5 w-2.5 rounded-full bg-white/30" />
             </div>
-            <span className="text-[10px] uppercase tracking-[0.15em] text-white/40">
+            <span className="text-xs uppercase tracking-[0.15em] text-white/40">
               {t("coaches.management.windowTitle")}
             </span>
           </div>
@@ -78,12 +78,12 @@ const PlayerManagementSection = () => {
           <div className="p-4 sm:p-6">
             <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
               <div>
-                <p className="text-[10px] uppercase tracking-[0.15em] text-white/50">
+                <p className="text-xs uppercase tracking-[0.15em] text-white/50">
                   {t("coaches.management.overview")}
                 </p>
                 <p className="mt-3 text-lg uppercase tracking-wide">Kingston Future FC</p>
               </div>
-              <span className="inline-flex items-center gap-2 self-start border border-accent/40 px-4 py-2 text-[10px] uppercase tracking-wide text-accent">
+              <span className="inline-flex items-center gap-2 self-start border border-accent/40 px-4 py-2 text-xs uppercase tracking-wide text-accent">
                 <FiCheck /> {t("coaches.management.approved")}
               </span>
             </div>
@@ -91,7 +91,7 @@ const PlayerManagementSection = () => {
             <dl className="mt-6 grid grid-cols-2 gap-3 lg:grid-cols-4">
               {stats.map(({ key, value }) => (
                 <div key={key} className="relative border border-white/10 bg-white/2 p-4">
-                  <dt className="text-[10px] uppercase tracking-[0.15em] text-white/50">
+                  <dt className="text-xs uppercase tracking-[0.15em] text-white/50">
                     {t(`coaches.management.stats.${key}`)}
                   </dt>
                   <dd className="mt-4 text-2xl">{value}</dd>
@@ -102,7 +102,7 @@ const PlayerManagementSection = () => {
 
             <div className="mt-3 overflow-x-auto border border-white/10">
               <table className="w-full min-w-[640px] text-left text-xs">
-                <thead className="text-[10px] uppercase tracking-[0.15em] text-white/40">
+                <thead className="text-xs uppercase tracking-[0.15em] text-white/40">
                   <tr className="border-b border-white/10">
                     <th className="px-3 py-3 font-normal">{t("coaches.management.columns.player")}</th>
                     <th className="px-3 py-3 font-normal">{t("coaches.management.columns.age")}</th>
