@@ -16,14 +16,14 @@ const FaqSection = ({
     <section className="pt-20 lg:pt-28">
       <div className="container mx-auto grid gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8">
         <div>
-          <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+          <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
             <span className="h-px w-8 bg-accent" />
             {t(`${ns}.eyebrow`)}
           </p>
           <h2 className={`mt-6 font-ethnocentric uppercase leading-tight ${titleClassName}`}>
             {title}
           </h2>
-          <p className="mt-10 max-w-sm text-sm leading-relaxed text-white/80">
+          <p className="mt-10 max-w-sm text-base leading-relaxed text-white/80">
             {t(`${ns}.description`)}
           </p>
         </div>

@@ -16,7 +16,7 @@ const WhyProfileSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+            <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
               <span className="h-px w-8 bg-accent" />
               {t("player.whyProfile.eyebrow")}
             </p>
@@ -27,7 +27,7 @@ const WhyProfileSection = () => {
               </span>
             </h2>
           </div>
-          <p className="max-w-sm text-sm leading-relaxed text-white/80 lg:pb-2">
+          <p className="max-w-sm text-base leading-relaxed text-white/80 lg:pb-2">
             {t("player.whyProfile.description")}
           </p>
         </div>
@@ -41,17 +41,17 @@ const WhyProfileSection = () => {
                 className="flex flex-col border-b border-r border-white/10 bg-white/2 p-6 transition-colors hover:bg-white/4"
               >
                 <div className="flex items-start justify-between">
-                  <span className="text-xs text-white/50">
+                  <span className="text-sm text-white/50">
                     {String(index + 1).padStart(2, "0")}
                   </span>
-                  <span className="flex h-10 w-10 items-center justify-center border border-accent/40 text-accent">
+                  <span className="flex h-12 w-12 items-center justify-center border border-accent/40 text-accent">
                     <Icon />
                   </span>
                 </div>
-                <h3 className="mt-14 text-xs uppercase tracking-wide">
+                <h3 className="mt-14 text-[15px] uppercase tracking-wide">
                   {t(`player.whyProfile.items.${key}.title`)}
                 </h3>
-                <p className="mt-4 text-xs leading-relaxed text-white/70">
+                <p className="mt-4 text-sm leading-relaxed text-white/70">
                   {t(`player.whyProfile.items.${key}.description`)}
                 </p>
               </li>

@@ -22,7 +22,7 @@ const ProfilePreviewSection = () => {
     <section className="pt-20 lg:pt-28">
       <div className="container mx-auto grid items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
         <div className="max-w-xl">
-          <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+          <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
             <span className="h-px w-8 bg-accent" />
             {t(`${base}.eyebrow`)}
           </p>
@@ -34,7 +34,7 @@ const ProfilePreviewSection = () => {
             <span className="text-accent">{t(`${base}.titleHighlight`)}</span>
           </h2>
 
-          <p className="mt-6 text-sm leading-relaxed text-white/80">
+          <p className="mt-6 text-base leading-relaxed text-white/80">
             {t(`${base}.description`)}
           </p>
 
@@ -42,7 +42,7 @@ const ProfilePreviewSection = () => {
             {checks.map((key) => (
               <li
                 key={key}
-                className="flex items-center gap-3 text-xs text-white/80"
+                className="flex items-center gap-3 text-sm text-white/80"
               >
                 <FiCheck className="text-btn-primary" />
                 {t(`${base}.checks.${key}`)}
@@ -78,7 +78,7 @@ const ProfilePreviewSection = () => {
           <div className="p-6">
             <div className="flex items-start justify-between gap-4">
               <div>
-                <p className="text-[10px] uppercase tracking-wider text-white/50">
+                <p className="text-xs uppercase tracking-wider text-white/50">
                   {t(`${base}.card.label`)}
                 </p>
                 <h3 className="mt-2 text-xl uppercase">Micah Joseph</h3>
@@ -94,10 +94,10 @@ const ProfilePreviewSection = () => {
             <dl className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 border-y border-white/10 py-5">
               {fields.map((key) => (
                 <div key={key}>
-                  <dt className="text-[10px] uppercase tracking-wider text-white/50">
+                  <dt className="text-xs uppercase tracking-wider text-white/50">
                     {t(`${base}.card.fields.${key}`)}
                   </dt>
-                  <dd className="mt-1 text-xs">
+                  <dd className="mt-1 text-sm">
                     {t(`${base}.card.values.${key}`)}
                   </dd>
                 </div>
@@ -113,10 +113,10 @@ const ProfilePreviewSection = () => {
                     className="flex items-start justify-between gap-2 border border-white/10 p-3"
                   >
                     <div>
-                      <p className="text-[10px] uppercase tracking-wider text-white/50">
+                      <p className="text-xs uppercase tracking-wider text-white/50">
                         {t(`${base}.card.blocks.${key}`)}
                       </p>
-                      <p className="mt-1 text-xs">
+                      <p className="mt-1 text-sm">
                         {t(`${base}.card.blocks.${key}Value`)}
                       </p>
                     </div>
@@ -126,7 +126,7 @@ const ProfilePreviewSection = () => {
               })}
             </div>
 
-            <p className="mt-4 text-[10px] leading-relaxed text-white/40">
+            <p className="mt-4 text-xs leading-relaxed text-white/40">
               {t(`${base}.card.note`)}
             </p>
           </div>
