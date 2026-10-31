@@ -1,14 +1,14 @@
 import { FiGrid, FiUsers, FiVideo } from "react-icons/fi";
 import { PiSoccerBall } from "react-icons/pi";
 
-export const PLAYER_ID = "CFT-2026-JM-0042";
+export const PLAYER_ID = "CFT-2026-JM-0842";
 
 export const PROFILE_STATUSES = ["registered", "incomplete", "complete", "verified", "reviewReady"];
 export const CURRENT_STATUS = "incomplete";
 
 export const welcomeMeta = {
   positionCode: "LW",
-  position: "LW · Left Winger",
+  position: "LW - Left Winger",
   location: "Jamaica (Kingston)",
   club: "Harbour View FC Academy",
 };
