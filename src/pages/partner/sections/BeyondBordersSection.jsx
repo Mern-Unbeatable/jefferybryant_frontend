@@ -6,7 +6,7 @@ const BeyondBordersSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative isolate mt-20 overflow-hidden py-24 lg:mt-28 lg:py-32">
+    <section className="relative isolate mt-16 overflow-hidden py-16 lg:mt-20 lg:py-20">
       <img
         src="/partner/partnerStadium.png"
         alt=""
@@ -17,7 +17,7 @@ const BeyondBordersSection = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-xl">
-          <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+          <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
             <span className="h-px w-8 bg-accent" />
             {t("partners.borders.eyebrow")}
           </p>
@@ -31,7 +31,7 @@ const BeyondBordersSection = () => {
             </span>
           </h2>
 
-          <p className="mt-6 max-w-lg text-sm leading-relaxed text-white/70">
+          <p className="mt-6 max-w-lg text-base leading-relaxed text-white/70">
             {t("partners.borders.description")}
           </p>
 
