@@ -12,44 +12,44 @@ const RecommendPlayerSection = () => {
       <div className="container mx-auto grid items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8">
         <div className="order-2 border border-white/10 bg-white/2 p-5 sm:p-6 lg:order-1">
           <div className="flex items-center justify-between border-b border-white/10 pb-4">
-            <p className="text-xs uppercase tracking-wide">{t(`${base}.form.title`)}</p>
-            <span className="text-[9px] uppercase tracking-wide text-white/40">
+            <p className="text-sm uppercase tracking-wide">{t(`${base}.form.title`)}</p>
+            <span className="text-xs uppercase tracking-wide text-white/40">
               {t(`${base}.form.preview`)}
             </span>
           </div>
 
-          <p className="mt-5 text-[10px] uppercase tracking-[0.15em] text-white/50">
+          <p className="mt-5 text-sm uppercase tracking-[0.15em] text-white/50">
             {t(`${base}.form.playerLabel`)}
           </p>
-          <div className="mt-2 flex items-center justify-between border border-white/10 bg-primary px-3 py-3 text-xs">
+          <div className="mt-2 flex items-center justify-between border border-white/10 bg-primary px-3 py-3 text-sm">
             Daniel Williams <FiChevronDown className="text-white/50" />
           </div>
 
-          <p className="mt-4 text-[10px] uppercase tracking-[0.15em] text-white/50">
+          <p className="mt-4 text-sm uppercase tracking-[0.15em] text-white/50">
             {t(`${base}.form.typeLabel`)}
           </p>
-          <div className="mt-2 flex items-center justify-between border border-white/10 bg-primary px-3 py-3 text-xs">
+          <div className="mt-2 flex items-center justify-between border border-white/10 bg-primary px-3 py-3 text-sm">
             {t(`${base}.form.typeValue`)} <FiChevronDown className="text-white/50" />
           </div>
 
-          <p className="mt-4 text-[10px] uppercase tracking-[0.15em] text-white/50">
+          <p className="mt-4 text-sm uppercase tracking-[0.15em] text-white/50">
             {t(`${base}.form.commentsLabel`)}
           </p>
-          <div className="mt-2 min-h-20 border border-white/10 bg-primary px-3 py-3 text-xs text-white/50">
+          <div className="mt-2 min-h-20 border border-white/10 bg-primary px-3 py-3 text-sm text-white/50">
             {t(`${base}.form.commentsValue`)}
           </div>
 
           <button
             type="button"
-            className="mt-5 flex w-full items-center justify-center gap-2 bg-btn-primary px-4 py-3 text-xs uppercase text-primary transition hover:bg-btn-primary/90"
+            className="mt-5 flex w-full items-center justify-center gap-2 bg-btn-primary px-4 py-3 text-sm uppercase text-primary transition hover:bg-btn-primary/90"
           >
             {t(`${base}.form.submit`)} <FiArrowRight />
           </button>
-          <p className="mt-4 text-center text-[9px] text-white/40">{t(`${base}.form.note`)}</p>
+          <p className="mt-4 text-center text-xs text-white/40">{t(`${base}.form.note`)}</p>
         </div>
 
         <div className="order-1 lg:order-2">
-          <p className="flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-accent sm:text-xs">
+          <p className="flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-accent sm:text-sm">
             <span className="h-px w-8 bg-accent" />
             {t(`${base}.eyebrow`)}
           </p>
@@ -59,7 +59,7 @@ const RecommendPlayerSection = () => {
             <span className="block">{t(`${base}.titleLine3`)}</span>
             <span className="block text-accent">{t(`${base}.titleHighlight`)}</span>
           </h2>
-          <p className="mt-6 text-sm leading-relaxed text-white/80">
+          <p className="mt-6 text-base leading-relaxed text-white/80">
             {t(`${base}.description`)}
           </p>
           <Link
