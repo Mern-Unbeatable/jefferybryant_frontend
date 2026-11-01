@@ -75,7 +75,7 @@ const MyPlayers = () => {
         {Object.entries(PLAYER_SUMMARY).map(([key, value]) => (
           <p key={key} className="flex items-baseline gap-2 border-white/10 px-5 py-4 not-last:border-r">
             <span className="font-ethnocentric text-lg text-accent">{value}</span>
-            <span className="text-[9px] uppercase tracking-[0.15em] text-white/50">{t(`${base}.summary.${key}`)}</span>
+            <span className="text-xs uppercase tracking-[0.15em] text-white/50">{t(`${base}.summary.${key}`)}</span>
           </p>
         ))}
       </section>
@@ -88,9 +88,9 @@ const MyPlayers = () => {
         </div>
 
         <div className="overflow-x-auto">
-          <table className="w-full min-w-200 whitespace-nowrap text-left text-[11px]">
+          <table className="w-full min-w-200 whitespace-nowrap text-left text-xs sm:text-sm">
             <thead>
-              <tr className="border-b border-white/10 text-[9px] uppercase tracking-[0.15em] text-white/45">
+              <tr className="border-b border-white/10 text-xs uppercase tracking-[0.15em] text-white/45">
                 {["player", "age", "position", "country", "registered", "profile", "status"].map((key) => (
                   <th key={key} scope="col" className="px-4 py-3 font-normal">
                     {t(`${base}.columns.${key}`)}
@@ -106,10 +106,10 @@ const MyPlayers = () => {
                 <tr key={player.id} className="border-b border-white/5 transition hover:bg-white/3">
                   <td className="px-4 py-3">
                     <span className="flex items-center gap-2.5">
-                      <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-white/15 bg-white/5 text-[9px] text-white/70">
+                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-white/15 bg-white/5 text-xs font-medium text-white/70">
                         {getInitials(player.name)}
                       </span>
-                      {player.name}
+                      <span className="font-medium text-white">{player.name}</span>
                     </span>
                   </td>
                   <td className="px-4 py-3 text-white/70">{player.age}</td>
@@ -118,10 +118,10 @@ const MyPlayers = () => {
                   <td className="px-4 py-3 text-white/70">{formatDate(player.registered, i18n.language)}</td>
                   <td className="px-4 py-3">
                     <span className="flex items-center gap-2">
-                      <span className="h-1 w-16 rounded-full bg-white/10">
+                      <span className="h-1.5 w-16 rounded-full bg-white/10">
                         <span className="block h-full rounded-full bg-accent" style={{ width: `${player.profile}%` }} />
                       </span>
-                      <span className="text-[9px] text-white/45">{player.profile}%</span>
+                      <span className="text-xs text-white/50 font-medium">{player.profile}%</span>
                     </span>
                   </td>
                   <td className="px-4 py-3">
@@ -132,7 +132,7 @@ const MyPlayers = () => {
                       type="button"
                       onClick={() => setSelectedId(player.id)}
                       aria-label={t(`${base}.viewDetails`, { name: player.name })}
-                      className="inline-flex h-7 w-7 items-center justify-center rounded-sm border border-white/10 text-white/60 transition hover:border-white/30 hover:text-white"
+                      className="inline-flex h-8 w-8 items-center justify-center rounded-sm border border-white/10 text-white/60 transition hover:border-white/30 hover:text-white"
                     >
                       <FiChevronRight />
                     </button>
@@ -141,7 +141,7 @@ const MyPlayers = () => {
               ))}
               {rows.length === 0 && (
                 <tr>
-                  <td colSpan={8} className="px-4 py-10 text-center text-white/45">
+                  <td colSpan={8} className="px-4 py-10 text-center text-xs sm:text-sm text-white/45">
                     {t(`${base}.empty`)}
                   </td>
                 </tr>
