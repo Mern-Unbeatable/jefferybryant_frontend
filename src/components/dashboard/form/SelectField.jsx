@@ -2,7 +2,15 @@ import { useEffect, useRef, useState } from "react";
 import { FiChevronDown } from "react-icons/fi";
 import { inputClass } from "@/components/dashboard/form/formStyles";
 
-const SelectField = ({ id, name, value, options, onChange, placeholder }) => {
+const SelectField = ({
+  id,
+  name,
+  value,
+  options,
+  onChange,
+  placeholder,
+  className,
+}) => {
   const [open, setOpen] = useState(false);
   const rootRef = useRef(null);
   const selected = options.find((option) => option.value === value);
@@ -36,7 +44,7 @@ const SelectField = ({ id, name, value, options, onChange, placeholder }) => {
         aria-haspopup="listbox"
         aria-expanded={open}
         onClick={() => setOpen((current) => !current)}
-        className={`${inputClass} flex items-center justify-between gap-3 text-left`}
+        className={`${className || inputClass} flex items-center justify-between gap-3 text-left`}
       >
         <span className={selected ? "" : "text-white/30"}>{selected?.label ?? placeholder}</span>
         <FiChevronDown className={`shrink-0 text-white/50 transition ${open ? "rotate-180" : ""}`} />
