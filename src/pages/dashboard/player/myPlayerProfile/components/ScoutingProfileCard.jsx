@@ -25,16 +25,16 @@ const ScoutingProfileCard = () => {
         {sampleProfile.initials}
       </span>
       <div className="min-w-0 flex-1">
-        <p className="text-[10px] uppercase tracking-[0.2em] text-accent">
+        <p className="text-xs uppercase tracking-[0.2em] text-accent">
           {t(`${base}.profile.scoutingProfile`)}
         </p>
-        <h2 className="mt-1 font-ethnocentric text-lg uppercase sm:text-xl">
+        <h2 className="mt-1 font-ethnocentric text-xl uppercase sm:text-2xl">
           {sampleProfile.name}
         </h2>
-        <p className="mt-1 text-xs text-white/70">
+        <p className="mt-1 text-sm text-white/70">
           {sampleProfile.position} · {sampleProfile.club}
         </p>
-        <p className="mt-2 flex flex-wrap items-center gap-x-2 text-[11px] text-white/50">
+        <p className="mt-2 flex flex-wrap items-center gap-x-2 text-sm text-white/50">
           <span>{sampleProfile.location}</span>
           <span className="text-white/20">|</span>
           <span>
