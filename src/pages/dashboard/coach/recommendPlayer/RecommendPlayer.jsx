@@ -61,8 +61,8 @@ const RecommendPlayer = () => {
                 <FiStar />
               </span>
               <div>
-                <h2 className="text-base">{t(`${base}.formTitle`)}</h2>
-                <p className="mt-1 text-[10px] text-white/45">{t(`${base}.formText`)}</p>
+                <h2 className="text-base font-medium">{t(`${base}.formTitle`)}</h2>
+                <p className="mt-1 text-xs text-white/50">{t(`${base}.formText`)}</p>
               </div>
             </div>
 
@@ -75,7 +75,7 @@ const RecommendPlayer = () => {
                 onChange={setField}
                 placeholder={t(`${base}.playerPlaceholder`)}
               />
-              {error && <p className="mt-1.5 text-[10px] text-red-400">{t(`${base}.playerError`)}</p>}
+              {error && <p className="mt-1.5 text-xs text-red-400">{t(`${base}.playerError`)}</p>}
             </Field>
 
             <Field id="message" label={`${t(`${base}.message`)} *`}>
@@ -89,7 +89,7 @@ const RecommendPlayer = () => {
                 placeholder={t(`${base}.messagePlaceholder`)}
                 className={`${inputClass} min-h-32 resize-y leading-relaxed`}
               />
-              <p className="mt-1.5 text-right text-[10px] text-white/40">
+              <p className="mt-1.5 text-right text-xs text-white/50">
                 {t(`${base}.characters`, { count: values.message.length, max: RECOMMENDATION_MAX_LENGTH })}
               </p>
             </Field>
@@ -107,11 +107,11 @@ const RecommendPlayer = () => {
 
             <div className="flex flex-wrap items-center justify-end gap-3">
               {submitted && (
-                <p role="status" className="text-[10px] text-accent">
+                <p role="status" className="text-xs text-accent">
                   {t(`${base}.submitted`)}
                 </p>
               )}
-              <button type="submit" className={`${primaryButtonClass} flex items-center gap-2`}>
+              <button type="submit" className={`${primaryButtonClass} flex items-center gap-2 text-xs`}>
                 <FiSend /> {t(`${base}.submit`)}
               </button>
             </div>
@@ -119,17 +119,17 @@ const RecommendPlayer = () => {
         </section>
 
         <section className={cardClass}>
-          <p className="text-[10px] uppercase tracking-[0.2em] text-btn-primary/80">{t(`${base}.historyEyebrow`)}</p>
-          <h2 className="mt-1.5 text-base">{t(`${base}.historyTitle`)}</h2>
+          <p className="text-xs uppercase tracking-[0.2em] text-btn-primary/80">{t(`${base}.historyEyebrow`)}</p>
+          <h2 className="mt-1.5 text-base font-medium">{t(`${base}.historyTitle`)}</h2>
           <ul className="mt-4 flex flex-col">
             {history.map(({ id, name, date, status }) => (
               <li key={id} className="flex items-center gap-3 border-b border-white/5 py-3">
-                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-white/15 bg-white/5 text-[9px] text-white/70">
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-white/15 bg-white/5 text-xs font-medium text-white/70">
                   {getInitials(name)}
                 </span>
                 <span className="min-w-0 flex-1">
-                  <span className="block truncate text-[11px]">{name}</span>
-                  <span className="block text-[9px] text-white/40">
+                  <span className="block truncate text-xs sm:text-sm font-medium text-white">{name}</span>
+                  <span className="block text-xs text-white/50">
                     {t(`${base}.submittedOn`, { date: formatDate(date, i18n.language) })}
                   </span>
                 </span>
@@ -137,8 +137,8 @@ const RecommendPlayer = () => {
               </li>
             ))}
           </ul>
-          <p className="mt-4 flex gap-2.5 rounded-sm bg-white/5 p-3 text-[10px] leading-relaxed text-white/55">
-            <FiEye className="mt-0.5 shrink-0 text-accent" />
+          <p className="mt-4 flex gap-2.5 rounded-sm bg-white/5 p-3 text-xs leading-relaxed text-white/60">
+            <FiEye className="mt-0.5 shrink-0 text-accent text-sm" />
             {t(`${base}.historyNote`)}
           </p>
         </section>

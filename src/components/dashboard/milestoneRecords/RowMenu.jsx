@@ -57,7 +57,7 @@ const RowMenu = ({ statuses, current, onView, onStatusChange }) => {
         aria-haspopup="menu"
         aria-expanded={Boolean(position)}
         aria-label={t(`${base}.menu.label`)}
-        className="inline-flex h-7 w-7 items-center justify-center rounded-sm text-white/60 transition hover:bg-white/10 hover:text-white"
+        className="inline-flex h-8 w-8 items-center justify-center rounded-sm text-white/60 transition hover:bg-white/10 hover:text-white"
       >
         <FiMoreVertical />
       </button>
@@ -66,14 +66,14 @@ const RowMenu = ({ statuses, current, onView, onStatusChange }) => {
           ref={menuRef}
           role="menu"
           style={{ ...position, width: MENU_WIDTH }}
-          className="fixed z-50 overflow-hidden rounded-sm bg-white py-1 text-left text-[11px] text-primary shadow-xl"
+          className="fixed z-50 overflow-hidden rounded-sm bg-white py-1 text-left text-xs text-primary shadow-xl"
         >
           <li role="none">
             <button type="button" role="menuitem" onClick={() => select(onView)} className="flex w-full items-center gap-2 px-3 py-2 hover:bg-black/5">
               <FiEye /> {t(`${base}.menu.seeDetails`)}
             </button>
           </li>
-          <li role="none" className="mt-1 border-t border-black/10 px-3 pb-1 pt-2 text-[9px] uppercase tracking-wider text-black/45">
+          <li role="none" className="mt-1 border-t border-black/10 px-3 pb-1 pt-2 text-xs uppercase tracking-wider text-black/50">
             {t(`${base}.menu.deliveryStatus`)}
           </li>
           {statuses.map((status) => (

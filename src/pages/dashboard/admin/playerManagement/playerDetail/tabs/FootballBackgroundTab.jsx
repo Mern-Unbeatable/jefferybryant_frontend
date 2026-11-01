@@ -8,7 +8,7 @@ const FootballBackgroundTab = ({ player }) => {
         <h2 className="font-ethnocentric text-xs tracking-wider text-white">
           Football Background
         </h2>
-        <p className="mt-1 text-[11px] text-white/50">
+        <p className="mt-1 text-xs text-white/50">
           Chronological playing and development history.
         </p>
       </div>
@@ -19,19 +19,19 @@ const FootballBackgroundTab = ({ player }) => {
           {/* Left Column */}
           <div className="space-y-4">
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">Current Club/Academy</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Current Club/Academy</p>
               <p className="mt-1 font-semibold uppercase text-white">
                 {bg.currentClub || player.club}
               </p>
             </div>
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">Playing History/Experience</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Playing History/Experience</p>
               <p className="mt-1 font-semibold uppercase text-white">
                 {bg.history || "COMPETITIVE ACADEMY FOOTBALL SINCE 2019"}
               </p>
             </div>
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">Relevant Playing Statistics</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Relevant Playing Statistics</p>
               <p className="mt-1 font-semibold uppercase text-white">
                 {bg.stats || "2024 SEASON: 18 APPEARANCES, 5 GOALS, 7 ASSISTS"}
               </p>
@@ -41,19 +41,19 @@ const FootballBackgroundTab = ({ player }) => {
           {/* Right Column */}
           <div className="space-y-4">
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">Current league / competition</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Current league / competition</p>
               <p className="mt-1 font-semibold uppercase text-white">
                 {bg.currentLeague || "JAMAICA U19 YOUTH LEAGUE"}
               </p>
             </div>
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">National / youth team experience</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">National / youth team experience</p>
               <p className="mt-1 font-semibold uppercase text-white">
                 {bg.nationalTeam || "JAMAICA U17 TRAINING CAMP"}
               </p>
             </div>
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">Achievements</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Achievements</p>
               <p className="mt-1 font-semibold uppercase text-white">
                 {bg.achievements || "ACADEMY PLAYERS' PLAYER OF THE YEAR, 2024"}
               </p>
@@ -78,12 +78,12 @@ const FootballBackgroundTab = ({ player }) => {
               <span className="relative z-10 mt-1.5 h-3 w-3 shrink-0 rounded-full border-2 border-cyan-400 bg-[#12171b]" />
 
               <div className="flex-1">
-                <span className="text-[10px] font-semibold text-cyan-300">{item.years}</span>
+                <span className="text-xs font-semibold text-cyan-300">{item.years}</span>
                 <p className="mt-0.5 font-ethnocentric text-xs tracking-wider text-white">
                   {item.club}
                 </p>
-                <p className="text-[11px] text-white/60">{item.squad}</p>
-                <p className="mt-0.5 text-[10px] text-white/40">{item.competition}</p>
+                <p className="text-xs text-white/60">{item.squad}</p>
+                <p className="mt-0.5 text-xs text-white/40">{item.competition}</p>
               </div>
             </div>
           ))}

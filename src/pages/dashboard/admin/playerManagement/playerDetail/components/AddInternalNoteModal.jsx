@@ -34,7 +34,7 @@ const AddInternalNoteModal = ({ open, onClose, onSaveNote }) => {
         </div>
 
         <form onSubmit={handleSubmit} className="mt-4 flex flex-col gap-4">
-          <p className="text-[11px] text-white/50">
+          <p className="text-xs text-white/50">
             Internal notes are only visible to CFit administrators and assigned technical scouts.
           </p>
 

@@ -22,7 +22,7 @@ const PipelineProgress = ({ data }) => {
         onClick={() => handleStageClick(item.key)}
         className="group cursor-pointer py-1.5 transition"
       >
-        <div className="flex items-center justify-between text-[10px]">
+        <div className="flex items-center justify-between text-xs">
           <span className="tracking-widest text-white/50 transition group-hover:text-white">
             {item.key}
           </span>
@@ -48,13 +48,13 @@ const PipelineProgress = ({ data }) => {
             <h2 className="text-xs font-semibold uppercase tracking-wider text-white">
               Player Intelligence Pipeline
             </h2>
-            <p className="mt-0.5 text-[10px] text-white/40">
+            <p className="mt-0.5 text-xs text-white/40">
               Internal classification · {data.totalRecords} active records
             </p>
           </div>
           <Link
             to="/dashboard/admin/player-management"
-            className="flex items-center gap-1 text-[10px] text-accent hover:underline"
+            className="flex items-center gap-1 text-xs text-accent hover:underline"
           >
             Open workspace <FiChevronRight />
           </Link>
@@ -66,7 +66,7 @@ const PipelineProgress = ({ data }) => {
         </div>
       </div>
 
-      <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-3 text-[10px] text-white/40">
+      <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-3 text-xs text-white/40">
         <div className="flex items-center gap-4">
           <span className="flex items-center gap-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-amber-400" />

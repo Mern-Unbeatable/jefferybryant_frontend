@@ -41,7 +41,7 @@ const PlayerDetailHeader = ({ player, onChangeStageClick }) => {
               <div className="flex flex-wrap items-center gap-2">
                 <AdminStatusBadge status={player.verification} />
                 <AdminStatusBadge status={player.intelligence} />
-                <span className="rounded-sm border border-white/20 bg-white/5 px-2 py-0.5 text-[9px] font-semibold uppercase tracking-wider text-white/50">
+                <span className="rounded-sm border border-white/20 bg-white/5 px-2 py-0.5 text-xs font-semibold uppercase tracking-wider text-white/50">
                   {player.scoutVisibility === "Enabled" ? "Scout Access On" : "Scout Access Off"}
                 </span>
               </div>

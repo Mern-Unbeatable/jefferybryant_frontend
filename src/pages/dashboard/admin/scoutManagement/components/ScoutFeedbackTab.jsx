@@ -78,7 +78,7 @@ const ScoutFeedbackTab = () => {
             className="rounded-lg border border-white/10 bg-[#12171b] p-4 text-xs"
           >
             <p className="text-xl font-bold text-white">{metric.value}</p>
-            <p className="mt-1 text-[10px] text-white/50">{metric.label}</p>
+            <p className="mt-1 text-xs text-white/50">{metric.label}</p>
           </div>
         ))}
       </div>
@@ -111,7 +111,7 @@ const ScoutFeedbackTab = () => {
         <div className="overflow-x-auto">
           <table className="w-full min-w-220 whitespace-nowrap text-left text-xs">
             <thead>
-              <tr className="border-b border-white/10 text-[9px] uppercase tracking-[0.15em] text-white/45">
+              <tr className="border-b border-white/10 text-xs uppercase tracking-[0.15em] text-white/45">
                 <th className="px-4 py-3.5 font-normal">Scout</th>
                 <th className="px-4 py-3.5 font-normal">Organization / Team</th>
                 <th className="px-4 py-3.5 font-normal">Player</th>
@@ -131,15 +131,15 @@ const ScoutFeedbackTab = () => {
                   <td className="px-4 py-3.5 text-white/90">{row.player}</td>
                   <td className="px-4 py-3.5 text-white/50">{row.playerId}</td>
                   <td className="px-4 py-3.5">
-                    <span className="rounded-sm border border-cyan-400/40 bg-cyan-400/10 px-1.5 py-0.5 text-[8px] font-bold uppercase tracking-wider text-cyan-300">
+                    <span className="rounded-sm border border-cyan-400/40 bg-cyan-400/10 px-1.5 py-0.5 text-xs font-bold uppercase tracking-wider text-cyan-300">
                       {row.actionType}
                     </span>
                   </td>
                   <td className="px-4 py-3.5 text-white/80">{row.feedback}</td>
-                  <td className="px-4 py-3.5 text-[11px] text-white/50">{row.date}</td>
+                  <td className="px-4 py-3.5 text-xs text-white/50">{row.date}</td>
                   <td className="px-4 py-3.5">
                     <span
-                      className={`rounded-sm px-1.5 py-0.5 text-[8px] font-bold uppercase tracking-wider ${
+                      className={`rounded-sm px-1.5 py-0.5 text-xs font-bold uppercase tracking-wider ${
                         row.followUp === "Recorded" || row.followUp === "Resolved"
                           ? "border border-emerald-500/40 bg-emerald-500/10 text-emerald-400"
                           : "border border-amber-400/40 bg-amber-400/10 text-amber-300"
@@ -152,7 +152,7 @@ const ScoutFeedbackTab = () => {
                     <button
                       type="button"
                       onClick={() => setSelectedFeedback(row)}
-                      className="text-[11px] font-medium text-btn-primary hover:underline"
+                      className="text-xs font-medium text-btn-primary hover:underline"
                     >
                       Review
                     </button>

@@ -50,9 +50,9 @@ const CfitIntelligenceTab = ({ player, onChangeStageClick, onAddNoteClick }) => 
         {/* Admin Access Only Banner */}
         <div className="mt-4 flex items-center gap-3 rounded-md border border-cyan-400/30 bg-cyan-400/5 p-3 text-cyan-300">
           <FiShield className="shrink-0 text-base" />
-          <div className="text-[11px]">
+          <div className="text-xs">
             <p className="font-semibold uppercase tracking-wider">Authorized Admin access only</p>
-            <p className="text-[10px] text-cyan-300/70">
+            <p className="text-xs text-cyan-300/70">
               This information is never visible to players, coaches, academies, or scouts.
             </p>
           </div>
@@ -61,12 +61,12 @@ const CfitIntelligenceTab = ({ player, onChangeStageClick, onAddNoteClick }) => 
         {/* Manual Classification Banner */}
         <div className="mt-4 flex flex-col justify-between gap-3 rounded-md border border-white/10 bg-white/2 p-3 text-xs sm:flex-row sm:items-center">
           <div className="flex items-center gap-2.5">
-            <span className="rounded-sm border border-amber-400/40 bg-amber-400/10 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-amber-300">
+            <span className="rounded-sm border border-amber-400/40 bg-amber-400/10 px-2 py-0.5 text-xs font-bold uppercase tracking-wider text-amber-300">
               {currentStage}
             </span>
-            <span className="text-[11px] text-white/70">Internal recruitment classification</span>
+            <span className="text-xs text-white/70">Internal recruitment classification</span>
           </div>
-          <span className="text-[10px] text-white/40">
+          <span className="text-xs text-white/40">
             Managed manually by CFit Admin. No automated or AI evaluation.
           </span>
         </div>
@@ -80,7 +80,7 @@ const CfitIntelligenceTab = ({ player, onChangeStageClick, onAddNoteClick }) => 
             <button
               type="button"
               onClick={onChangeStageClick}
-              className="rounded bg-btn-primary px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-primary shadow transition hover:bg-btn-primary/90"
+              className="rounded bg-btn-primary px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-primary shadow transition hover:bg-btn-primary/90"
             >
               Change stage
             </button>
@@ -106,7 +106,7 @@ const CfitIntelligenceTab = ({ player, onChangeStageClick, onAddNoteClick }) => 
                     />
                     {/* Label */}
                     <span
-                      className={`mt-3 text-[9px] font-semibold tracking-wider ${
+                      className={`mt-3 text-xs font-semibold tracking-wider ${
                         isCurrent ? "text-amber-300" : "text-white/40"
                       }`}
                     >
@@ -126,14 +126,14 @@ const CfitIntelligenceTab = ({ player, onChangeStageClick, onAddNoteClick }) => 
               <h3 className="font-ethnocentric text-xs tracking-wider text-white">
                 Internal Notes
               </h3>
-              <p className="mt-0.5 text-[10px] text-white/40">
+              <p className="mt-0.5 text-xs text-white/40">
                 {notes.length} confidential notes
               </p>
             </div>
             <button
               type="button"
               onClick={onAddNoteClick}
-              className="flex items-center gap-1.5 rounded bg-btn-primary px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-primary shadow transition hover:bg-btn-primary/90"
+              className="flex items-center gap-1.5 rounded bg-btn-primary px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-primary shadow transition hover:bg-btn-primary/90"
             >
               <FiPlus /> Add Internal note
             </button>
@@ -148,15 +148,15 @@ const CfitIntelligenceTab = ({ player, onChangeStageClick, onAddNoteClick }) => 
               >
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex items-center gap-3">
-                    <span className="flex h-7 w-7 items-center justify-center rounded-full bg-amber-400/20 text-[10px] font-bold text-amber-300">
+                    <span className="flex h-7 w-7 items-center justify-center rounded-full bg-amber-400/20 text-xs font-bold text-amber-300">
                       {note.initials}
                     </span>
                     <div>
                       <p className="font-semibold text-white">{note.author}</p>
-                      <p className="text-[10px] text-white/40">{note.date}</p>
+                      <p className="text-xs text-white/40">{note.date}</p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3 text-[10px]">
+                  <div className="flex items-center gap-3 text-xs">
                     <button
                       type="button"
                       className="text-white/50 transition hover:text-white hover:underline"

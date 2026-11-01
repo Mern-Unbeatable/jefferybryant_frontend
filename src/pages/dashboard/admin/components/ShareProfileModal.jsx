@@ -55,7 +55,7 @@ const ShareProfileModal = ({ open, onClose, players = [], onShareSuccess }) => {
               <h2 id="share-profile-title" className="font-ethnocentric text-sm uppercase tracking-wider text-white">
                 Share Profile
               </h2>
-              <p className="mt-0.5 text-[11px] text-white/50">
+              <p className="mt-0.5 text-xs text-white/50">
                 Recipient: <span className="text-white/80">{selectedScout || "James Mitchell"}</span>
               </p>
             </div>
@@ -73,7 +73,7 @@ const ShareProfileModal = ({ open, onClose, players = [], onShareSuccess }) => {
         {/* Form */}
         <form onSubmit={handleShare} className="mt-6 flex flex-col gap-4">
           <div>
-            <label htmlFor="scoutName" className="mb-1.5 block text-[10px] uppercase tracking-wider text-white/60">
+            <label htmlFor="scoutName" className="mb-1.5 block text-xs uppercase tracking-wider text-white/60">
               Scout Name
             </label>
             <SelectField
@@ -86,7 +86,7 @@ const ShareProfileModal = ({ open, onClose, players = [], onShareSuccess }) => {
           </div>
 
           <div>
-            <label htmlFor="clubName" className="mb-1.5 block text-[10px] uppercase tracking-wider text-white/60">
+            <label htmlFor="clubName" className="mb-1.5 block text-xs uppercase tracking-wider text-white/60">
               Club Name
             </label>
             <SelectField
@@ -99,7 +99,7 @@ const ShareProfileModal = ({ open, onClose, players = [], onShareSuccess }) => {
           </div>
 
           <div>
-            <label htmlFor="playerName" className="mb-1.5 block text-[10px] uppercase tracking-wider text-white/60">
+            <label htmlFor="playerName" className="mb-1.5 block text-xs uppercase tracking-wider text-white/60">
               Player name
             </label>
             <SelectField

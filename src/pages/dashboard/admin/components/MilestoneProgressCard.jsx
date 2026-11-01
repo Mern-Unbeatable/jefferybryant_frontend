@@ -32,7 +32,7 @@ const MilestoneProgressCard = ({
             <span className="flex h-8 w-8 items-center justify-center rounded-md border border-white/10 bg-white/5 text-cyan-400">
               {CustomIcon ? <CustomIcon className="text-base" /> : label?.includes("OVERALL") ? <LuTarget className="text-base" /> : <LuLayoutGrid className="text-base" />}
             </span>
-            <span className="rounded-full border border-amber-400/40 bg-amber-400/10 px-2 py-0.5 text-[9px] font-medium uppercase tracking-wider text-amber-300">
+            <span className="rounded-full border border-amber-400/40 bg-amber-400/10 px-2 py-0.5 text-xs font-medium uppercase tracking-wider text-amber-300">
               {status || "IN PROGRESS"}
             </span>
           </div>
@@ -43,7 +43,7 @@ const MilestoneProgressCard = ({
           <h3 className="font-ethnocentric text-xs tracking-wider text-white">
             {label}
           </h3>
-          <p className="mt-1 text-[11px] text-white/50">{title}</p>
+          <p className="mt-1 text-xs text-white/50">{title}</p>
         </div>
       </div>
 
@@ -63,7 +63,7 @@ const MilestoneProgressCard = ({
           />
         </div>
 
-        <div className="mt-3 flex items-center justify-between text-[10px] text-white/45">
+        <div className="mt-3 flex items-center justify-between text-xs text-white/45">
           <span>Remaining</span>
           <span className="font-medium text-white/70">{remaining} Players</span>
         </div>

@@ -77,11 +77,11 @@ const MilestoneRecords = ({ records, milestones, initialDelivery }) => {
   };
 
   return (
-    <div className="mx-auto flex max-w-7xl flex-col gap-5">
+    <div className="mx-auto flex flex-col gap-5">
       <section className="rounded-lg border border-white/10 bg-white/3">
         <div className="p-5 pb-0">
-          <h1 className="text-lg">{t(`${base}.title`)}</h1>
-          <p className="mt-1 text-[11px] text-white/50">{t(`${base}.subtitle`)}</p>
+          <h1 className="text-lg font-medium">{t(`${base}.title`)}</h1>
+          <p className="mt-1 text-xs text-white/50">{t(`${base}.subtitle`)}</p>
         </div>
 
         <div role="tablist" className="mt-4 flex gap-6 overflow-x-auto border-b border-white/10 px-5">
@@ -98,12 +98,12 @@ const MilestoneRecords = ({ records, milestones, initialDelivery }) => {
                   setMilestone(key);
                   setPage(1);
                 }}
-                className={`flex shrink-0 items-center gap-2 border-b-2 pb-3 text-[11px] transition ${
+                className={`flex shrink-0 items-center gap-2 border-b-2 pb-3 text-xs sm:text-sm font-medium transition ${
                   isActive ? "border-btn-primary text-white" : "border-transparent text-white/45 hover:text-white"
                 }`}
               >
                 {t(`${base}.tabs.${key}`)}
-                <span className={`rounded-full px-1.5 text-[9px] ${isActive ? "bg-btn-primary/20 text-btn-primary" : "bg-white/10"}`}>
+                <span className={`rounded-full px-2 py-0.5 text-xs font-semibold ${isActive ? "bg-btn-primary/20 text-btn-primary" : "bg-white/10"}`}>
                   {count}
                 </span>
               </button>
@@ -142,7 +142,7 @@ const MilestoneRecords = ({ records, milestones, initialDelivery }) => {
           />
           <div className="flex gap-2">
             {["csv", "excel"].map((type) => (
-              <button key={type} type="button" onClick={() => handleExport(type)} className={`${secondaryButtonClass} flex items-center gap-1.5`}>
+              <button key={type} type="button" onClick={() => handleExport(type)} className={`${secondaryButtonClass} flex items-center gap-1.5 text-xs`}>
                 <FiDownload /> {t(`${base}.export.${type}`)}
               </button>
             ))}
@@ -150,15 +150,15 @@ const MilestoneRecords = ({ records, milestones, initialDelivery }) => {
         </div>
 
         {feedback && (
-          <p role="status" className="border-b border-white/10 bg-accent/10 px-5 py-2.5 text-[10px] text-accent">
+          <p role="status" className="border-b border-white/10 bg-accent/10 px-5 py-2.5 text-xs text-accent">
             {feedback}
           </p>
         )}
 
         <div className="overflow-x-auto">
-          <table className="w-full min-w-200 whitespace-nowrap text-left text-[11px]">
+          <table className="w-full min-w-200 whitespace-nowrap text-left text-xs sm:text-sm">
             <thead>
-              <tr className="border-b border-white/10 text-[9px] uppercase tracking-[0.15em] text-white/45">
+              <tr className="border-b border-white/10 text-xs uppercase tracking-[0.15em] text-white/45">
                 {columns.map((key) => (
                   <th key={key} scope="col" className="px-4 py-3 font-normal">
                     {t(`${base}.columns.${key}`)}
@@ -174,17 +174,17 @@ const MilestoneRecords = ({ records, milestones, initialDelivery }) => {
                 <tr key={player.id} className="border-b border-white/5 transition hover:bg-white/3">
                   <td className="px-4 py-3">
                     <span className="flex items-center gap-2.5">
-                      <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-white/15 bg-white/5 text-[9px] text-white/70">
+                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-white/15 bg-white/5 text-xs font-medium text-white/70">
                         {getInitials(player.name)}
                       </span>
                       <span>
-                        <span className="block">{player.name}</span>
-                        <span className="block text-[9px] text-white/40">{player.cfitId}</span>
+                        <span className="block font-medium text-white">{player.name}</span>
+                        <span className="block text-xs text-white/50">{player.cfitId}</span>
                       </span>
                     </span>
                   </td>
                   <td className="px-4 py-3 text-white/70">
-                    <span className="mr-2 rounded-sm bg-white/10 px-1 py-0.5 text-[8px]">{player.countryCode}</span>
+                    <span className="mr-2 rounded-sm bg-white/10 px-1.5 py-0.5 text-xs font-medium text-white/80">{player.countryCode}</span>
                     {player.country}
                   </td>
                   <td className="px-4 py-3 text-white/70">{positionLabel(player.position)}</td>
@@ -210,7 +210,7 @@ const MilestoneRecords = ({ records, milestones, initialDelivery }) => {
                       <button
                         type="button"
                         onClick={() => setViewing(player)}
-                        className="inline-flex items-center gap-1.5 text-[10px] text-btn-primary hover:underline"
+                        className="inline-flex items-center gap-1.5 text-xs text-btn-primary hover:underline"
                       >
                         <FiEye /> {t(`${base}.viewProfile`)}
                       </button>
@@ -220,7 +220,7 @@ const MilestoneRecords = ({ records, milestones, initialDelivery }) => {
               ))}
               {pageRows.length === 0 && (
                 <tr>
-                  <td colSpan={columns.length + 1} className="px-4 py-10 text-center text-white/45">
+                  <td colSpan={columns.length + 1} className="px-4 py-10 text-center text-xs sm:text-sm text-white/45">
                     {t(`${base}.empty`)}
                   </td>
                 </tr>
@@ -237,14 +237,14 @@ const MilestoneRecords = ({ records, milestones, initialDelivery }) => {
           <div className="p-5">
             <div className="flex items-start justify-between gap-4">
               <div className="flex items-center gap-3">
-                <span className="flex h-11 w-11 items-center justify-center rounded-full border border-accent/40 bg-accent/10 text-xs text-accent">
+                <span className="flex h-11 w-11 items-center justify-center rounded-full border border-accent/40 bg-accent/10 text-xs sm:text-sm font-medium text-accent">
                   {getInitials(viewing.name)}
                 </span>
                 <div>
-                  <h2 id="milestone-player-title" className="font-ethnocentric text-sm uppercase">
+                  <h2 id="milestone-player-title" className="font-ethnocentric text-sm uppercase sm:text-base">
                     {viewing.name}
                   </h2>
-                  <p className="mt-0.5 text-[10px] text-white/45">{viewing.cfitId}</p>
+                  <p className="mt-0.5 text-xs text-white/50">{viewing.cfitId}</p>
                 </div>
               </div>
               <button type="button" onClick={closeViewing} aria-label={t(`${base}.close`)} className="text-white/60 hover:text-white">
@@ -260,8 +260,8 @@ const MilestoneRecords = ({ records, milestones, initialDelivery }) => {
                 ...(withDelivery ? [["delivery", t(`${base}.delivery.${deliveryOf(viewing)}`)]] : []),
               ].map(([key, value]) => (
                 <div key={key} className="rounded-sm border border-white/10 p-3">
-                  <dt className="text-[9px] uppercase tracking-[0.15em] text-white/40">{t(`${base}.columns.${key}`)}</dt>
-                  <dd className="mt-1.5 text-[11px]">{value}</dd>
+                  <dt className="text-xs uppercase tracking-[0.15em] text-white/40">{t(`${base}.columns.${key}`)}</dt>
+                  <dd className="mt-1.5 text-xs sm:text-sm font-medium text-white">{value}</dd>
                 </div>
               ))}
             </dl>

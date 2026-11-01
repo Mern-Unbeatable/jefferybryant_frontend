@@ -22,7 +22,7 @@ const StatCard = ({ stat }) => {
 
       <div className="mt-4">
         <p className="text-2xl font-bold tracking-tight text-white">{value}</p>
-        <p className="mt-1 text-[11px] text-white/50">{label}</p>
+        <p className="mt-1 text-xs text-white/50">{label}</p>
       </div>
     </div>
   );

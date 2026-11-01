@@ -17,7 +17,7 @@ const AdminActionsSidebar = ({
 }) => {
   return (
     <div className="rounded-lg border border-white/10 bg-[#12171b] p-4 text-xs">
-      <h2 className="text-[10px] font-semibold uppercase tracking-widest text-white/50">
+      <h2 className="text-xs font-semibold uppercase tracking-widest text-white/50">
         Admin Actions
       </h2>
 
@@ -32,7 +32,7 @@ const AdminActionsSidebar = ({
 
       {/* Verification section */}
       <div className="mt-5 border-t border-white/10 pt-4">
-        <p className="text-[9px] font-semibold uppercase tracking-widest text-white/40">
+        <p className="text-xs font-semibold uppercase tracking-widest text-white/40">
           Verification
         </p>
         <div className="mt-2 space-y-2">
@@ -58,7 +58,7 @@ const AdminActionsSidebar = ({
 
       {/* Intelligence section */}
       <div className="mt-5 border-t border-white/10 pt-4">
-        <p className="text-[9px] font-semibold uppercase tracking-widest text-white/40">
+        <p className="text-xs font-semibold uppercase tracking-widest text-white/40">
           Intelligence
         </p>
         <div className="mt-2 space-y-1.5">

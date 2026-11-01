@@ -43,12 +43,12 @@ const ChangeStageModal = ({ open, onClose, currentStage, onUpdateStage }) => {
         </div>
 
         <form onSubmit={handleSubmit} className="mt-4 flex flex-col gap-4">
-          <p className="text-[11px] text-white/50">
+          <p className="text-xs text-white/50">
             Select the new pipeline intelligence stage for this player profile.
           </p>
 
           <div>
-            <label htmlFor="pipelineStage" className="mb-1.5 block text-[10px] uppercase tracking-wider text-white/60">
+            <label htmlFor="pipelineStage" className="mb-1.5 block text-xs uppercase tracking-wider text-white/60">
               Pipeline Stage
             </label>
             <SelectField

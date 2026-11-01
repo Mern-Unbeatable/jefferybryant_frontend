@@ -62,7 +62,7 @@ const ScoutActivityTab = ({ onViewHistory, onOpenCreateDelivery }) => {
           <h2 className="font-ethnocentric text-xs tracking-wider text-white">
             Shared Player Profiles
           </h2>
-          <p className="mt-0.5 text-[10px] text-white/40">
+          <p className="mt-0.5 text-xs text-white/40">
             Read-only first-share and review history
           </p>
 
@@ -92,7 +92,7 @@ const ScoutActivityTab = ({ onViewHistory, onOpenCreateDelivery }) => {
         <div className="overflow-x-auto">
           <table className="w-full min-w-220 whitespace-nowrap text-left">
             <thead>
-              <tr className="border-b border-white/10 text-[9px] uppercase tracking-[0.15em] text-white/45">
+              <tr className="border-b border-white/10 text-xs uppercase tracking-[0.15em] text-white/45">
                 <th className="px-4 py-3.5 font-normal">Player</th>
                 <th className="px-4 py-3.5 font-normal">Player ID</th>
                 <th className="px-4 py-3.5 font-normal">Scout / Organization</th>
@@ -110,11 +110,11 @@ const ScoutActivityTab = ({ onViewHistory, onOpenCreateDelivery }) => {
                   <td className="px-4 py-3.5 text-white/50">{rec.playerId}</td>
                   <td className="px-4 py-3.5">
                     <p className="text-white/80">{rec.scout}</p>
-                    <p className="text-[10px] text-white/40">{rec.accessType}</p>
+                    <p className="text-xs text-white/40">{rec.accessType}</p>
                   </td>
                   <td className="px-4 py-3.5">
                     <span
-                      className={`rounded-sm px-1.5 py-0.5 text-[8px] font-bold uppercase tracking-wider ${
+                      className={`rounded-sm px-1.5 py-0.5 text-xs font-bold uppercase tracking-wider ${
                         rec.readiness === "Review Ready"
                           ? "border border-emerald-500/40 bg-emerald-500/10 text-emerald-400"
                           : "border border-white/20 bg-white/5 text-white/40"
@@ -123,10 +123,10 @@ const ScoutActivityTab = ({ onViewHistory, onOpenCreateDelivery }) => {
                       {rec.readiness}
                     </span>
                   </td>
-                  <td className="px-4 py-3.5 text-[11px] text-white/50">{rec.sharedDateTime}</td>
+                  <td className="px-4 py-3.5 text-xs text-white/50">{rec.sharedDateTime}</td>
                   <td className="px-4 py-3.5">
                     <span
-                      className={`rounded-sm px-1.5 py-0.5 text-[8px] font-bold uppercase tracking-wider ${
+                      className={`rounded-sm px-1.5 py-0.5 text-xs font-bold uppercase tracking-wider ${
                         rec.currentAccess === "Shared / Accessible"
                           ? "border border-emerald-500/40 bg-emerald-500/10 text-emerald-400"
                           : "border border-white/20 bg-white/5 text-white/40"
@@ -140,7 +140,7 @@ const ScoutActivityTab = ({ onViewHistory, onOpenCreateDelivery }) => {
                     <button
                       type="button"
                       onClick={() => onViewHistory(rec)}
-                      className="text-[11px] font-medium text-cyan-400 hover:underline"
+                      className="text-xs font-medium text-cyan-400 hover:underline"
                     >
                       View history
                     </button>
@@ -166,7 +166,7 @@ const ScoutActivityTab = ({ onViewHistory, onOpenCreateDelivery }) => {
             <h2 className="font-ethnocentric text-xs tracking-wider text-white">
               Review-Ready Profile Deliveries
             </h2>
-            <p className="mt-0.5 text-[10px] text-white/40">
+            <p className="mt-0.5 text-xs text-white/40">
               Historical delivery records remain available after access changes.
             </p>
           </div>
@@ -194,7 +194,7 @@ const ScoutActivityTab = ({ onViewHistory, onOpenCreateDelivery }) => {
                 <p className="font-semibold text-white transition group-hover:text-accent">
                   Caribbean Review Batch — October 2026
                 </p>
-                <p className="mt-0.5 text-[10px] text-white/40">
+                <p className="mt-0.5 text-xs text-white/40">
                   Nashville SC · 3 profiles · 18 Oct 2026 · 09:00
                 </p>
               </div>

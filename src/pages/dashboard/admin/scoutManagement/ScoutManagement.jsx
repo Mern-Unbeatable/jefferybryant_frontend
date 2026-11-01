@@ -64,7 +64,7 @@ const InviteScoutModal = ({ open, onClose, onInviteSuccess }) => {
               <h3 id="invite-scout-title" className="font-ethnocentric text-xs uppercase tracking-wider text-white sm:text-sm">
                 Invite Professional Scout
               </h3>
-              <p className="mt-0.5 text-[10px] text-white/50">
+              <p className="mt-0.5 text-xs text-white/50">
                 Admin-only invitation. No public registration is available.
               </p>
             </div>
@@ -83,7 +83,7 @@ const InviteScoutModal = ({ open, onClose, onInviteSuccess }) => {
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             {/* Full Name */}
             <div>
-              <label className="mb-1.5 block text-[10px] uppercase tracking-wider text-white/60">
+              <label className="mb-1.5 block text-xs uppercase tracking-wider text-white/60">
                 Full Name *
               </label>
               <input
@@ -98,7 +98,7 @@ const InviteScoutModal = ({ open, onClose, onInviteSuccess }) => {
 
             {/* Email Address */}
             <div>
-              <label className="mb-1.5 block text-[10px] uppercase tracking-wider text-white/60">
+              <label className="mb-1.5 block text-xs uppercase tracking-wider text-white/60">
                 Email Address *
               </label>
               <input
@@ -113,7 +113,7 @@ const InviteScoutModal = ({ open, onClose, onInviteSuccess }) => {
 
             {/* Organization / Team */}
             <div>
-              <label className="mb-1.5 block text-[10px] uppercase tracking-wider text-white/60">
+              <label className="mb-1.5 block text-xs uppercase tracking-wider text-white/60">
                 Organization / Team *
               </label>
               <div className="relative">
@@ -142,7 +142,7 @@ const InviteScoutModal = ({ open, onClose, onInviteSuccess }) => {
 
             {/* Position / Title */}
             <div>
-              <label className="mb-1.5 block text-[10px] uppercase tracking-wider text-white/60">
+              <label className="mb-1.5 block text-xs uppercase tracking-wider text-white/60">
                 Position / Title *
               </label>
               <input
@@ -297,7 +297,7 @@ const ScoutManagement = () => {
           <p className="font-semibold uppercase tracking-wider">
             Admin-controlled prototype workspace
           </p>
-          <p className="mt-0.5 text-[11px] text-amber-300/70">
+          <p className="mt-0.5 text-xs text-amber-300/70">
             Pictorial demonstration data. Scouts cannot self-register and never receive automatic access to the player database.
           </p>
         </div>
@@ -316,11 +316,11 @@ const ScoutManagement = () => {
                 <span className="flex h-7 w-7 items-center justify-center rounded border border-white/10 bg-white/5 text-cyan-400">
                   <Icon className="text-xs" />
                 </span>
-                <FiChevronRight className="text-[10px] text-white/30" />
+                <FiChevronRight className="text-xs text-white/30" />
               </div>
               <div className="mt-3">
                 <p className="text-xl font-bold text-white">{metric.value}</p>
-                <p className="mt-0.5 text-[10px] text-white/45">{metric.label}</p>
+                <p className="mt-0.5 text-xs text-white/45">{metric.label}</p>
               </div>
             </div>
           );
@@ -426,7 +426,7 @@ const ScoutManagement = () => {
           <div className="overflow-x-auto">
             <table className="w-full min-w-220 whitespace-nowrap text-left text-xs">
               <thead>
-                <tr className="border-b border-white/10 text-[9px] uppercase tracking-[0.15em] text-white/45">
+                <tr className="border-b border-white/10 text-xs uppercase tracking-[0.15em] text-white/45">
                   <th scope="col" className="px-4 py-3.5 font-normal">Scout</th>
                   <th scope="col" className="px-4 py-3.5 font-normal">Organization / Team</th>
                   <th scope="col" className="px-4 py-3.5 font-normal">Position / Title</th>
@@ -444,12 +444,12 @@ const ScoutManagement = () => {
                     {/* Scout avatar + name */}
                     <td className="px-4 py-3.5">
                       <div className="flex items-center gap-3">
-                        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-white/15 bg-white/5 text-[10px] font-semibold text-white/80">
+                        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-white/15 bg-white/5 text-xs font-semibold text-white/80">
                           {getInitials(scout.name)}
                         </span>
                         <div>
                           <p className="font-semibold text-white">{scout.name}</p>
-                          <p className="text-[10px] text-white/40">{scout.scoutId}</p>
+                          <p className="text-xs text-white/40">{scout.scoutId}</p>
                         </div>
                       </div>
                     </td>
@@ -477,14 +477,14 @@ const ScoutManagement = () => {
                     <td className="px-4 py-3.5 text-white/70">{scout.sharedPlayers}</td>
 
                     {/* Last Active */}
-                    <td className="px-4 py-3.5 text-[11px] text-white/50">{scout.lastActive}</td>
+                    <td className="px-4 py-3.5 text-xs text-white/50">{scout.lastActive}</td>
 
                     {/* Action Link */}
                     <td className="px-4 py-3.5 text-right">
                       <button
                         type="button"
                         onClick={() => setDetailsScout(scout)}
-                        className="text-[11px] font-medium text-btn-primary hover:underline"
+                        className="text-xs font-medium text-btn-primary hover:underline"
                       >
                         View profile
                       </button>

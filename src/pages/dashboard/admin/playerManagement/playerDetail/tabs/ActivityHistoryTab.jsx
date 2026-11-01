@@ -45,7 +45,7 @@ const ActivityHistoryTab = ({ player }) => {
         <h2 className="font-ethnocentric text-xs tracking-wider text-white">
           Activity History
         </h2>
-        <p className="mt-1 text-[11px] text-white/50">
+        <p className="mt-1 text-xs text-white/50">
           {events.length} recorded events this season and before
         </p>
       </div>
@@ -64,12 +64,12 @@ const ActivityHistoryTab = ({ player }) => {
             <span className="relative z-10 mt-1 h-3 w-3 shrink-0 rounded-full border-2 border-cyan-400 bg-[#12171b]" />
 
             <div className="flex-1">
-              <span className="rounded-sm border border-cyan-400/40 bg-cyan-400/10 px-1.5 py-0.5 text-[8px] font-bold uppercase tracking-wider text-cyan-300">
+              <span className="rounded-sm border border-cyan-400/40 bg-cyan-400/10 px-1.5 py-0.5 text-xs font-bold uppercase tracking-wider text-cyan-300">
                 {item.tag}
               </span>
               <p className="mt-1 text-xs font-semibold text-white">{item.title}</p>
-              <p className="mt-0.5 text-[11px] text-white/70">{item.subtitle}</p>
-              <p className="mt-1 text-[10px] text-white/40">{item.authorMeta}</p>
+              <p className="mt-0.5 text-xs text-white/70">{item.subtitle}</p>
+              <p className="mt-1 text-xs text-white/40">{item.authorMeta}</p>
             </div>
           </div>
         ))}

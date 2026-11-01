@@ -26,7 +26,7 @@ const NotificationsPage = ({ initialItems, icons, base }) => {
             type="button"
             onClick={markAllRead}
             disabled={!hasUnread}
-            className={`${secondaryButtonClass} flex items-center gap-2 disabled:cursor-not-allowed disabled:opacity-50`}
+            className={`${secondaryButtonClass} flex items-center gap-2 text-xs disabled:cursor-not-allowed disabled:opacity-50`}
           >
             <FiCheck /> {t(`${base}.markAll`)}
           </button>
@@ -44,18 +44,22 @@ const NotificationsPage = ({ initialItems, icons, base }) => {
                   onClick={() => markRead(item.id)}
                   className={`flex w-full items-start gap-4 p-5 text-left transition hover:bg-white/3 ${item.unread ? "bg-accent/3" : ""}`}
                 >
-                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-accent/10 text-accent">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-accent/10 text-base text-accent">
                     <Icon />
                   </span>
                   <span className="min-w-0 flex-1">
-                    <span className="flex flex-wrap items-center gap-2 text-xs">
+                    <span className="flex flex-wrap items-center gap-2 text-sm font-medium text-white">
                       {t(`${base}.items.${item.type}.title`)}
                       {item.unread && (
-                        <span className="rounded-sm bg-btn-primary px-1.5 py-0.5 text-[8px] uppercase text-primary">{t(`${base}.new`)}</span>
+                        <span className="rounded-sm bg-btn-primary px-2 py-0.5 text-xs font-semibold uppercase text-primary">
+                          {t(`${base}.new`)}
+                        </span>
                       )}
                     </span>
-                    <span className="mt-1 block text-[11px] text-white/50">{t(`${base}.items.${item.type}.text`, { name: item.name })}</span>
-                    <span className="mt-2 block text-[10px] text-white/35">{timeLabel(item)}</span>
+                    <span className="mt-1 block text-xs sm:text-sm text-white/60">
+                      {t(`${base}.items.${item.type}.text`, { name: item.name })}
+                    </span>
+                    <span className="mt-2 block text-xs text-white/45">{timeLabel(item)}</span>
                   </span>
                 </button>
               </li>

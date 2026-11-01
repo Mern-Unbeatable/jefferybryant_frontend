@@ -49,7 +49,7 @@ const OrganizationDetail = () => {
 
       {/* Title Header */}
       <div>
-        <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/45">
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/45">
           Organization Record
         </p>
         <h1 className="mt-1 font-ethnocentric text-xl uppercase tracking-wider text-white sm:text-2xl">
@@ -81,55 +81,55 @@ const OrganizationDetail = () => {
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
             {/* Field 1 */}
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">Organization Name</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Organization Name</p>
               <p className="mt-1 font-semibold uppercase text-white">{org.name}</p>
             </div>
 
             {/* Field 2 */}
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">Organization Type</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Organization Type</p>
               <p className="mt-1 font-semibold uppercase text-white">{org.type}</p>
             </div>
 
             {/* Field 3 */}
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">Country</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Country</p>
               <p className="mt-1 font-semibold uppercase text-white">{org.country}</p>
             </div>
 
             {/* Field 4 */}
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">City</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">City</p>
               <p className="mt-1 font-semibold uppercase text-white">{org.city}</p>
             </div>
 
             {/* Field 5 */}
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">Director/Coach Full Name</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Director/Coach Full Name</p>
               <p className="mt-1 font-semibold uppercase text-white">{org.director}</p>
             </div>
 
             {/* Field 6 */}
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">Position/Role</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Position/Role</p>
               <p className="mt-1 font-semibold uppercase text-white">{org.role || "ACADEMY DIRECTOR"}</p>
             </div>
 
             {/* Field 7 */}
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">Email address</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Email address</p>
               <p className="mt-1 font-semibold uppercase text-white">{org.email}</p>
             </div>
 
             {/* Field 8 */}
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">Phone Number</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Phone Number</p>
               <p className="mt-1 font-semibold uppercase text-white">{org.phone}</p>
             </div>
 
             {/* Field 9 */}
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">
+              <p className="text-xs uppercase tracking-wider text-white/40">
                 Approximate Number of Players Ages 15-18 *
               </p>
               <p className="mt-1 font-semibold uppercase text-white">{org.approxPlayers || "12-20"}</p>
@@ -137,25 +137,25 @@ const OrganizationDetail = () => {
 
             {/* Field 10 */}
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">Website links</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Website links</p>
               <p className="mt-1 font-semibold uppercase text-white">{org.website || "—"}</p>
             </div>
 
             {/* Field 11 */}
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">Social Media links</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Social Media links</p>
               <p className="mt-1 font-semibold uppercase text-white">{org.social || "—"}</p>
             </div>
 
             {/* Field 12 */}
             <div>
-              <p className="text-[10px] uppercase tracking-wider text-white/40">Aged group served</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Aged group served</p>
               <p className="mt-1 font-semibold uppercase text-white">{org.ageGroup || "U13 - U19"}</p>
             </div>
 
             {/* Field 13 */}
             <div className="sm:col-span-2">
-              <p className="text-[10px] uppercase tracking-wider text-white/40">Additional contact information</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Additional contact information</p>
               <p className="mt-1 font-semibold uppercase text-white">{org.additionalContact || "—"}</p>
             </div>
           </div>
@@ -172,7 +172,7 @@ const OrganizationDetail = () => {
           <div className="mt-5 space-y-4">
             <div>
               <AdminStatusBadge status={org.status} />
-              <p className="mt-2 text-[11px] leading-relaxed text-white/50">
+              <p className="mt-2 text-xs leading-relaxed text-white/50">
                 Dashboard access remains disabled until CFit Admin approves.
               </p>
             </div>

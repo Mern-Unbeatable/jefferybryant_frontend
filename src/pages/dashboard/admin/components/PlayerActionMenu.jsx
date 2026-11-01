@@ -59,7 +59,7 @@ const PlayerActionMenu = ({
 
           {/* Verification section */}
           <div className="mt-2.5 border-t border-gray-100 pt-2">
-            <p className="px-2 pb-1 text-[10px] font-bold uppercase tracking-wider text-gray-900">
+            <p className="px-2 pb-1 text-xs font-bold uppercase tracking-wider text-gray-900">
               Verification
             </p>
             <div className="space-y-0.5">
@@ -89,7 +89,7 @@ const PlayerActionMenu = ({
 
           {/* Intelligence section */}
           <div className="mt-2.5 border-t border-gray-100 pt-2">
-            <p className="px-2 pb-1 text-[10px] font-bold uppercase tracking-wider text-gray-900">
+            <p className="px-2 pb-1 text-xs font-bold uppercase tracking-wider text-gray-900">
               Intelligence
             </p>
             <div className="space-y-0.5">

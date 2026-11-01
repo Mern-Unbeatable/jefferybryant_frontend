@@ -67,16 +67,16 @@ const InvitePlayers = () => {
       <div className="grid gap-5 lg:grid-cols-[1fr_20rem]">
         <section className={`${cardClass} flex flex-col gap-5`}>
           <div>
-            <p className="text-[10px] uppercase tracking-[0.2em] text-accent">{t(`${base}.cardEyebrow`)}</p>
+            <p className="text-xs uppercase tracking-[0.2em] text-accent">{t(`${base}.cardEyebrow`)}</p>
             <h2 className="mt-2 font-ethnocentric text-base uppercase sm:text-lg">{t(`${base}.cardTitle`)}</h2>
-            <p className="mt-2 max-w-md text-xs text-white/55">
+            <p className="mt-2 max-w-md text-xs sm:text-sm text-white/60">
               {t(`${base}.cardText`, { organization: ORGANIZATION.name })}
             </p>
           </div>
 
           <div className="flex flex-col gap-3 rounded-md border border-white/10 bg-black/30 p-2 pl-4 sm:flex-row sm:items-center">
             <FiLink className="hidden shrink-0 text-accent sm:block" />
-            <code className="min-w-0 flex-1 truncate text-xs text-white/80">{ORGANIZATION.inviteLink}</code>
+            <code className="min-w-0 flex-1 truncate text-xs sm:text-sm text-white/80">{ORGANIZATION.inviteLink}</code>
             <button type="button" onClick={() => copy(ORGANIZATION.inviteLink)} className={`${primaryButtonClass} flex items-center justify-center gap-2`}>
               {copied ? <FiCheck /> : <FiCopy />}
               {t(`${base}.${copied ? "copied" : "copy"}`)}
@@ -86,8 +86,8 @@ const InvitePlayers = () => {
           <div className="flex gap-3 border-l-2 border-accent bg-accent/5 p-4">
             <FiCheck className="mt-0.5 shrink-0 text-accent" />
             <div>
-              <p className="text-[11px] text-white">{t(`${base}.associationTitle`)}</p>
-              <p className="mt-1 text-[10px] text-white/50">{t(`${base}.associationText`)}</p>
+              <p className="text-xs sm:text-sm font-medium text-white">{t(`${base}.associationTitle`)}</p>
+              <p className="mt-1 text-xs text-white/60">{t(`${base}.associationText`)}</p>
             </div>
           </div>
 
@@ -96,11 +96,11 @@ const InvitePlayers = () => {
               const Icon = icon;
               const content = (
                 <>
-                  <span className="flex h-8 w-8 items-center justify-center rounded-full bg-accent/10 text-accent">
+                  <span className="flex h-9 w-9 items-center justify-center rounded-full bg-accent/10 text-base text-accent">
                     <Icon />
                   </span>
-                  <span className="text-[11px]">{t(`${base}.channels.${key}`)}</span>
-                  <span className="text-[9px] text-white/40">{t(`${base}.channels.${key}Text`)}</span>
+                  <span className="text-xs sm:text-sm font-medium text-white">{t(`${base}.channels.${key}`)}</span>
+                  <span className="text-xs text-white/50">{t(`${base}.channels.${key}Text`)}</span>
                 </>
               );
               return href ? (
@@ -117,18 +117,18 @@ const InvitePlayers = () => {
         </section>
 
         <section className={`${cardClass} flex flex-col items-center gap-4 text-center`}>
-          <span className="self-start rounded-sm bg-btn-primary px-2 py-1 font-ethnocentric text-[9px] text-primary">CFIT</span>
+          <span className="self-start rounded-sm bg-btn-primary px-2.5 py-1 font-ethnocentric text-xs text-primary">CFIT</span>
           <div className="rounded-md bg-white p-3">
             <QRCodeCanvas ref={qrRef} value={ORGANIZATION.inviteLink} size={168} marginSize={1} />
           </div>
           <div>
-            <p className="text-xs">{ORGANIZATION.name}</p>
-            <p className="mt-1 text-[10px] text-white/45">{t(`${base}.qrText`)}</p>
+            <p className="text-xs sm:text-sm font-medium text-white">{ORGANIZATION.name}</p>
+            <p className="mt-1 text-xs text-white/50">{t(`${base}.qrText`)}</p>
           </div>
-          <button type="button" onClick={downloadQr} className={`${secondaryButtonClass} flex items-center gap-2`}>
+          <button type="button" onClick={downloadQr} className={`${secondaryButtonClass} flex items-center gap-2 text-xs`}>
             <FiDownload /> {t(`${base}.downloadQr`)}
           </button>
-          <Link to="/dashboard/coach/my-organization" className="flex items-center gap-1.5 text-[11px] text-accent hover:underline">
+          <Link to="/dashboard/coach/my-organization" className="flex items-center gap-1.5 text-xs text-accent hover:underline">
             {t(`${base}.manage`)} <FiArrowRight />
           </Link>
         </section>

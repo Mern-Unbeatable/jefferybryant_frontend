@@ -25,8 +25,8 @@ const SectionTitle = ({ icon, title, text }) => {
         <Icon />
       </span>
       <div>
-        <h2 className="text-xs">{title}</h2>
-        <p className="mt-0.5 text-[10px] text-white/45">{text}</p>
+        <h2 className="text-sm font-medium text-white">{title}</h2>
+        <p className="mt-0.5 text-xs text-white/50">{text}</p>
       </div>
     </div>
   );
@@ -103,8 +103,8 @@ const MyOrganization = () => {
       <dl className="grid gap-x-6 gap-y-5 sm:grid-cols-2 lg:grid-cols-3">
         {keys.map((key) => (
           <div key={key}>
-            <dt className="text-[9px] uppercase tracking-[0.15em] text-white/40">{t(`${base}.fields.${key}`)}</dt>
-            <dd className="mt-1.5 text-[11px]">{displayValue(key)}</dd>
+            <dt className="text-xs uppercase tracking-[0.15em] text-white/40">{t(`${base}.fields.${key}`)}</dt>
+            <dd className="mt-1.5 text-xs sm:text-sm font-medium text-white">{displayValue(key)}</dd>
           </div>
         ))}
       </dl>
@@ -118,7 +118,7 @@ const MyOrganization = () => {
         subtitle={t(`${base}.subtitle`)}
         action={
           !isEditing && (
-            <button type="button" onClick={startEditing} className={`${primaryButtonClass} flex items-center gap-2`}>
+            <button type="button" onClick={startEditing} className={`${primaryButtonClass} flex items-center gap-2 text-xs`}>
               <FiEdit2 /> {t(`${base}.edit`)}
             </button>
           )
@@ -130,8 +130,8 @@ const MyOrganization = () => {
           {getInitials(organization.name)}
         </span>
         <div className="min-w-0 flex-1">
-          <p className="text-base">{organization.name}</p>
-          <p className="mt-0.5 text-[10px] text-white/45">
+          <p className="text-base font-medium text-white">{organization.name}</p>
+          <p className="mt-0.5 text-xs text-white/50">
             {t(`coachDashboard.organizationTypes.${organization.type}`)} · {organization.city}, {organization.country}
           </p>
           <div className="mt-2">
@@ -139,8 +139,8 @@ const MyOrganization = () => {
           </div>
         </div>
         <div className="text-right">
-          <p className="text-[9px] uppercase tracking-[0.15em] text-white/40">{t(`${base}.orgId`)}</p>
-          <p className="mt-1 font-ethnocentric text-xs text-accent">{organization.id}</p>
+          <p className="text-xs uppercase tracking-[0.15em] text-white/40">{t(`${base}.orgId`)}</p>
+          <p className="mt-1 font-ethnocentric text-xs sm:text-sm text-accent">{organization.id}</p>
         </div>
       </section>
 
@@ -156,15 +156,15 @@ const MyOrganization = () => {
 
           {isEditing && (
             <>
-              <p className="flex gap-2.5 border-l-2 border-accent bg-accent/5 p-3 text-[10px] text-white/55">
-                <FiClock className="mt-0.5 shrink-0 text-accent" />
+              <p className="flex gap-2.5 border-l-2 border-accent bg-accent/5 p-3 text-xs leading-relaxed text-white/60">
+                <FiClock className="mt-0.5 shrink-0 text-accent text-sm" />
                 {t(`${base}.reviewNotice`)}
               </p>
               <div className="flex justify-end gap-3">
                 <button type="button" onClick={() => setIsEditing(false)} className="px-3 py-2.5 text-xs text-white/60 transition hover:text-white">
                   {t("dashboardForm.cancel")}
                 </button>
-                <button type="submit" className={`${primaryButtonClass} flex items-center gap-2`}>
+                <button type="submit" className={`${primaryButtonClass} flex items-center gap-2 text-xs`}>
                   <FiCheck /> {t("dashboardForm.save")}
                 </button>
               </div>

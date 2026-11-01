@@ -1,14 +1,14 @@
 import { useTranslation } from "react-i18next";
 
 const pageButton =
-  "flex h-8 min-w-8 items-center justify-center rounded-sm border border-white/10 px-2.5 text-[11px] transition disabled:cursor-not-allowed disabled:opacity-40";
+  "flex h-8 min-w-8 items-center justify-center rounded-sm border border-white/10 px-2.5 text-xs font-medium transition disabled:cursor-not-allowed disabled:opacity-40";
 
 const Pagination = ({ page, totalPages, totalItems, onChange }) => {
   const { t } = useTranslation();
 
   return (
     <div className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
-      <p className="text-[10px] text-white/45">
+      <p className="text-xs text-white/50">
         {t("dashboardTable.pageSummary", { page, total: Math.max(totalPages, 1), count: totalItems })}
       </p>
       <div className="flex items-center gap-1.5">

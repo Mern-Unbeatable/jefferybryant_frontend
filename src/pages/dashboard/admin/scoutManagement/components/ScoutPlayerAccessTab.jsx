@@ -116,7 +116,7 @@ const ScoutPlayerAccessTab = ({
           <h2 className="font-ethnocentric text-xs tracking-wider text-white">
             1 — Select Scout or Organization
           </h2>
-          <p className="mt-0.5 text-[10px] text-white/40">
+          <p className="mt-0.5 text-xs text-white/40">
             Access is explicit and never inherited from the full player database.
           </p>
 
@@ -148,7 +148,7 @@ const ScoutPlayerAccessTab = ({
 
           {/* Select Dropdown */}
           <div className="mt-4">
-            <label className="mb-1.5 block text-[10px] uppercase tracking-wider text-white/40">
+            <label className="mb-1.5 block text-xs uppercase tracking-wider text-white/40">
               Search and select scout
             </label>
             <select className="w-full rounded border border-white/15 bg-white/5 p-2.5 text-xs text-white focus:outline-none">
@@ -167,10 +167,10 @@ const ScoutPlayerAccessTab = ({
               </span>
               <div>
                 <p className="font-semibold text-white">James Mitchell</p>
-                <p className="text-[10px] text-white/40">Professional Scout · Active</p>
+                <p className="text-xs text-white/40">Professional Scout · Active</p>
               </div>
             </div>
-            <span className="rounded-sm border border-emerald-500/40 bg-emerald-500/10 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-emerald-400">
+            <span className="rounded-sm border border-emerald-500/40 bg-emerald-500/10 px-2 py-0.5 text-xs font-bold uppercase tracking-wider text-emerald-400">
               Eligible
             </span>
           </div>
@@ -184,23 +184,23 @@ const ScoutPlayerAccessTab = ({
               Scout-visible information
             </h3>
           </div>
-          <p className="mt-0.5 text-[10px] text-white/40">Preview of approved profile fields</p>
+          <p className="mt-0.5 text-xs text-white/40">Preview of approved profile fields</p>
 
           <div className="mt-4 space-y-4">
             <div className="rounded border border-emerald-500/20 bg-emerald-500/5 p-3">
-              <p className="text-[9px] font-bold uppercase tracking-wider text-emerald-400">
+              <p className="text-xs font-bold uppercase tracking-wider text-emerald-400">
                 Approved for Scout View
               </p>
-              <p className="mt-1 text-[11px] leading-relaxed text-white/70">
+              <p className="mt-1 text-xs leading-relaxed text-white/70">
                 Biography and approved football information: Playing history, relevant statistics, and highlights. Only notes explicitly marked scout-visible.
               </p>
             </div>
 
             <div className="rounded border border-white/10 bg-white/2 p-3">
-              <p className="text-[9px] font-bold uppercase tracking-wider text-white/40">
+              <p className="text-xs font-bold uppercase tracking-wider text-white/40">
                 Private — Admin Only
               </p>
-              <p className="mt-1 text-[11px] leading-relaxed text-white/50">
+              <p className="mt-1 text-xs leading-relaxed text-white/50">
                 Internal intelligence and relationship notes. Operational information and unapproved evaluations. Guardian or private contact details.
               </p>
             </div>
@@ -216,34 +216,34 @@ const ScoutPlayerAccessTab = ({
             <h2 className="font-ethnocentric text-xs tracking-wider text-white">
               2 — Player Profile Access
             </h2>
-            <p className="mt-0.5 text-[10px] text-white/40">
+            <p className="mt-0.5 text-xs text-white/40">
               James Mitchell · {players.filter((p) => p.shared).length} currently accessible
             </p>
           </div>
 
           <div className="flex flex-wrap items-center gap-2">
-            <select className="rounded border border-white/10 bg-white/5 p-2 text-[10px] text-white/70 focus:outline-none">
+            <select className="rounded border border-white/10 bg-white/5 p-2 text-xs text-white/70 focus:outline-none">
               <option>All countries</option>
             </select>
-            <select className="rounded border border-white/10 bg-white/5 p-2 text-[10px] text-white/70 focus:outline-none">
+            <select className="rounded border border-white/10 bg-white/5 p-2 text-xs text-white/70 focus:outline-none">
               <option>All positions</option>
             </select>
-            <select className="rounded border border-white/10 bg-white/5 p-2 text-[10px] text-white/70 focus:outline-none">
+            <select className="rounded border border-white/10 bg-white/5 p-2 text-xs text-white/70 focus:outline-none">
               <option>All clubs</option>
             </select>
-            <select className="rounded border border-white/10 bg-white/5 p-2 text-[10px] text-white/70 focus:outline-none">
+            <select className="rounded border border-white/10 bg-white/5 p-2 text-xs text-white/70 focus:outline-none">
               <option>All stages</option>
             </select>
             <button
               type="button"
-              className="rounded border border-white/10 bg-white/5 px-2.5 py-1.5 text-[10px] text-white/60 hover:text-white"
+              className="rounded border border-white/10 bg-white/5 px-2.5 py-1.5 text-xs text-white/60 hover:text-white"
             >
               Clear
             </button>
             <button
               type="button"
               onClick={onOpenShareModal}
-              className="flex items-center gap-1.5 rounded bg-btn-primary px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-primary shadow transition hover:bg-btn-primary/90"
+              className="flex items-center gap-1.5 rounded bg-btn-primary px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-primary shadow transition hover:bg-btn-primary/90"
             >
               <FiPlus /> Share Player Profiles
             </button>
@@ -254,7 +254,7 @@ const ScoutPlayerAccessTab = ({
         <div className="overflow-x-auto">
           <table className="w-full min-w-220 whitespace-nowrap text-left text-xs">
             <thead>
-              <tr className="border-b border-white/10 text-[9px] uppercase tracking-[0.15em] text-white/45">
+              <tr className="border-b border-white/10 text-xs uppercase tracking-[0.15em] text-white/45">
                 <th className="px-4 py-3 font-normal">Player</th>
                 <th className="px-4 py-3 font-normal">Player ID</th>
                 <th className="px-4 py-3 font-normal">Age</th>
@@ -282,7 +282,7 @@ const ScoutPlayerAccessTab = ({
                   </td>
                   <td className="px-4 py-3">
                     <span
-                      className={`rounded-sm px-1.5 py-0.5 text-[8px] font-bold uppercase tracking-wider ${
+                      className={`rounded-sm px-1.5 py-0.5 text-xs font-bold uppercase tracking-wider ${
                         player.readiness === "Review Ready"
                           ? "border border-emerald-500/40 bg-emerald-500/10 text-emerald-400"
                           : "border border-white/20 bg-white/5 text-white/40"
@@ -293,7 +293,7 @@ const ScoutPlayerAccessTab = ({
                   </td>
                   <td className="px-4 py-3">
                     <span
-                      className={`rounded-sm px-1.5 py-0.5 text-[8px] font-bold uppercase tracking-wider ${
+                      className={`rounded-sm px-1.5 py-0.5 text-xs font-bold uppercase tracking-wider ${
                         player.shared
                           ? "border border-emerald-500/40 bg-emerald-500/10 text-emerald-400"
                           : "border border-white/20 bg-white/5 text-white/40"
@@ -302,12 +302,12 @@ const ScoutPlayerAccessTab = ({
                       {player.accessStatus}
                     </span>
                   </td>
-                  <td className="px-4 py-3 text-[11px] text-white/50">{player.sharedDate}</td>
+                  <td className="px-4 py-3 text-xs text-white/50">{player.sharedDate}</td>
                   <td className="px-4 py-3 text-right">
                     <button
                       type="button"
                       onClick={() => toggleShare(player.id)}
-                      className={`text-[11px] font-semibold transition ${
+                      className={`text-xs font-semibold transition ${
                         player.shared
                           ? "text-red-400 hover:text-red-300 hover:underline"
                           : "text-btn-primary hover:underline"
@@ -332,14 +332,14 @@ const ScoutPlayerAccessTab = ({
               <h2 className="font-ethnocentric text-xs tracking-wider text-white">
                 Approved Scout Notes
               </h2>
-              <p className="mt-0.5 text-[10px] text-white/40">
+              <p className="mt-0.5 text-xs text-white/40">
                 Notes remain private unless explicitly approved.
               </p>
             </div>
             <button
               type="button"
               onClick={onOpenAddNoteModal}
-              className="flex items-center gap-1 rounded bg-btn-primary px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-primary shadow transition hover:bg-btn-primary/90"
+              className="flex items-center gap-1 rounded bg-btn-primary px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-primary shadow transition hover:bg-btn-primary/90"
             >
               <FiPlus /> Add scout-visible note
             </button>
@@ -353,20 +353,20 @@ const ScoutPlayerAccessTab = ({
               >
                 <div className="flex items-start justify-between gap-3">
                   <div className="flex items-start gap-3">
-                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-amber-400/20 text-[10px] font-bold text-amber-300">
+                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-amber-400/20 text-xs font-bold text-amber-300">
                       AM
                     </span>
                     <div>
                       <div className="flex items-center gap-2">
                         <span className="font-semibold text-white">{note.type}</span>
-                        <span className="text-[10px] text-white/40">{note.target}</span>
+                        <span className="text-xs text-white/40">{note.target}</span>
                       </div>
                       <p className="mt-1.5 leading-relaxed text-white/80">{note.text}</p>
                     </div>
                   </div>
 
                   <span
-                    className={`rounded-sm px-1.5 py-0.5 text-[8px] font-bold uppercase tracking-wider ${
+                    className={`rounded-sm px-1.5 py-0.5 text-xs font-bold uppercase tracking-wider ${
                       note.visible
                         ? "border border-emerald-500/40 bg-emerald-500/10 text-emerald-400"
                         : "border border-white/20 bg-white/5 text-white/40"
@@ -376,7 +376,7 @@ const ScoutPlayerAccessTab = ({
                   </span>
                 </div>
 
-                <div className="mt-3 flex items-center justify-end gap-3 border-t border-white/5 pt-2 text-[10px]">
+                <div className="mt-3 flex items-center justify-end gap-3 border-t border-white/5 pt-2 text-xs">
                   <button
                     type="button"
                     onClick={() => toggleNoteVisibility(note.id)}
@@ -405,7 +405,7 @@ const ScoutPlayerAccessTab = ({
           <div className="mt-5 space-y-4">
             <div className="flex items-start gap-2.5 rounded border border-cyan-400/20 bg-cyan-400/5 p-3 text-cyan-300">
               <FiShield className="mt-0.5 shrink-0 text-sm" />
-              <div className="text-[10px]">
+              <div className="text-xs">
                 <p className="font-bold uppercase tracking-wider">Explicit approval required</p>
                 <p className="mt-1 leading-relaxed text-cyan-300/80">
                   Priority status does not mean review-ready, and review-ready does not automatically grant scout access.
@@ -413,7 +413,7 @@ const ScoutPlayerAccessTab = ({
               </div>
             </div>
 
-            <p className="text-[10px] leading-relaxed text-white/50">
+            <p className="text-xs leading-relaxed text-white/50">
               Suspended and removed scouts cannot access previously shared profiles. Historical sharing records remain available to Admin.
             </p>
           </div>

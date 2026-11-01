@@ -61,7 +61,7 @@ const AdminStatusBadge = ({ status, tone: customTone, children, dot = true }) =>
 
   return (
     <span
-      className={`inline-flex items-center gap-1.5 whitespace-nowrap rounded-sm border px-2 py-0.5 text-[9px] uppercase tracking-wider ${toneClasses}`}
+      className={`inline-flex items-center gap-1.5 whitespace-nowrap rounded-sm border px-2 py-0.5 text-xs uppercase tracking-wider ${toneClasses}`}
     >
       {dot && <span className="h-1 w-1 rounded-full bg-current" />}
       {children || status}

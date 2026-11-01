@@ -76,7 +76,7 @@ const SharePlayerProfilesModal = ({ open, onClose, scoutName = "James Mitchell",
               <h3 id="share-player-profiles-title" className="font-ethnocentric text-xs uppercase tracking-wider text-white sm:text-sm">
                 Share Player Profiles
               </h3>
-              <p className="mt-0.5 text-[10px] text-white/50">
+              <p className="mt-0.5 text-xs text-white/50">
                 Recipient: {scoutName}
               </p>
             </div>
@@ -93,15 +93,15 @@ const SharePlayerProfilesModal = ({ open, onClose, scoutName = "James Mitchell",
         {/* Top Summary Row */}
         <div className="mt-4 grid grid-cols-3 gap-3 rounded-lg border border-white/5 bg-[#12171b] p-3 text-xs">
           <div>
-            <p className="text-[9px] uppercase tracking-wider text-white/40">Recipient</p>
+            <p className="text-xs uppercase tracking-wider text-white/40">Recipient</p>
             <p className="mt-0.5 font-semibold text-white">{scoutName}</p>
           </div>
           <div>
-            <p className="text-[9px] uppercase tracking-wider text-white/40">Selected profiles</p>
+            <p className="text-xs uppercase tracking-wider text-white/40">Selected profiles</p>
             <p className="mt-0.5 font-semibold text-amber-300">{selectedIds.length}</p>
           </div>
           <div>
-            <p className="text-[9px] uppercase tracking-wider text-white/40">Eligible recipients</p>
+            <p className="text-xs uppercase tracking-wider text-white/40">Eligible recipients</p>
             <p className="mt-0.5 font-semibold text-white">1</p>
           </div>
         </div>
@@ -120,16 +120,16 @@ const SharePlayerProfilesModal = ({ open, onClose, scoutName = "James Mitchell",
 
         {/* Filters */}
         <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-4">
-          <select className="rounded border border-white/10 bg-[#12171b] p-2 text-[11px] text-white/70 focus:outline-none">
+          <select className="rounded border border-white/10 bg-[#12171b] p-2 text-xs text-white/70 focus:outline-none">
             <option>All countries</option>
           </select>
-          <select className="rounded border border-white/10 bg-[#12171b] p-2 text-[11px] text-white/70 focus:outline-none">
+          <select className="rounded border border-white/10 bg-[#12171b] p-2 text-xs text-white/70 focus:outline-none">
             <option>All positions</option>
           </select>
-          <select className="rounded border border-white/10 bg-[#12171b] p-2 text-[11px] text-white/70 focus:outline-none">
+          <select className="rounded border border-white/10 bg-[#12171b] p-2 text-xs text-white/70 focus:outline-none">
             <option>All clubs</option>
           </select>
-          <select className="rounded border border-white/10 bg-[#12171b] p-2 text-[11px] text-white/70 focus:outline-none">
+          <select className="rounded border border-white/10 bg-[#12171b] p-2 text-xs text-white/70 focus:outline-none">
             <option>All stages</option>
           </select>
         </div>
@@ -158,7 +158,7 @@ const SharePlayerProfilesModal = ({ open, onClose, scoutName = "James Mitchell",
                   <div className="flex items-center justify-between">
                     <p className="font-semibold text-white">{player.name}</p>
                     <span
-                      className={`rounded-sm px-1.5 py-0.5 text-[8px] font-bold uppercase tracking-wider ${
+                      className={`rounded-sm px-1.5 py-0.5 text-xs font-bold uppercase tracking-wider ${
                         player.readiness === "Review Ready"
                           ? "border border-emerald-500/40 bg-emerald-500/10 text-emerald-400"
                           : "border border-white/20 bg-white/5 text-white/40"
@@ -167,11 +167,11 @@ const SharePlayerProfilesModal = ({ open, onClose, scoutName = "James Mitchell",
                       {player.readiness}
                     </span>
                   </div>
-                  <p className="mt-0.5 text-[10px] text-white/40">
+                  <p className="mt-0.5 text-xs text-white/40">
                     {player.cfitId} · {player.position}
                   </p>
-                  <p className="text-[10px] text-white/40">{player.country}</p>
-                  <p className="mt-1 text-[9px] text-amber-300/80">{player.statusNote}</p>
+                  <p className="text-xs text-white/40">{player.country}</p>
+                  <p className="mt-1 text-xs text-amber-300/80">{player.statusNote}</p>
                 </div>
               </label>
             );
@@ -181,7 +181,7 @@ const SharePlayerProfilesModal = ({ open, onClose, scoutName = "James Mitchell",
         {/* Approved Information Notice Box */}
         <div className="mt-4 flex items-start gap-2.5 rounded border border-cyan-400/20 bg-cyan-400/5 p-3 text-xs text-cyan-300">
           <FiShield className="mt-0.5 shrink-0 text-sm" />
-          <div className="text-[10px]">
+          <div className="text-xs">
             <p className="font-bold uppercase tracking-wider">Approved information only</p>
             <p className="mt-0.5 text-cyan-300/70 leading-relaxed">
               Biography, football background, playing history, statistics, highlights, and selected scout-visible notes. Private Admin data remains hidden.

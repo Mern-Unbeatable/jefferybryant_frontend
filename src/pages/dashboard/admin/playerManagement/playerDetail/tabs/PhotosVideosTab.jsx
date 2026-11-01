@@ -9,7 +9,7 @@ const PhotosVideosTab = ({ player }) => {
         <h2 className="font-ethnocentric text-xs tracking-wider text-white">
           Photos & Videos
         </h2>
-        <p className="mt-1 text-[11px] text-white/50">
+        <p className="mt-1 text-xs text-white/50">
           Player-submitted media. Highlight videos must not exceed five minutes.
         </p>
       </div>
@@ -24,7 +24,7 @@ const PhotosVideosTab = ({ player }) => {
               </span>
 
               {/* Duration badge */}
-              <span className="absolute bottom-2.5 right-2.5 rounded bg-black/80 px-1.5 py-0.5 text-[9px] font-mono text-white/80">
+              <span className="absolute bottom-2.5 right-2.5 rounded bg-black/80 px-1.5 py-0.5 text-xs font-mono text-white/80">
                 {item.duration}
               </span>
             </div>
@@ -34,7 +34,7 @@ const PhotosVideosTab = ({ player }) => {
               <h3 className="font-semibold text-white transition group-hover:text-accent">
                 {item.title}
               </h3>
-              <p className="mt-0.5 text-[10px] text-white/40">{item.submitted}</p>
+              <p className="mt-0.5 text-xs text-white/40">{item.submitted}</p>
             </div>
           </div>
         ))}

@@ -40,19 +40,19 @@ const PlayerDetailModal = ({ player, open, onClose }) => {
         {/* Quick Stats Grid */}
         <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
           <div className="rounded border border-white/10 bg-white/3 p-3">
-            <p className="text-[9px] uppercase tracking-wider text-white/40">Position</p>
+            <p className="text-xs uppercase tracking-wider text-white/40">Position</p>
             <p className="mt-1 text-xs font-semibold text-white">{player.mainPosition}</p>
           </div>
           <div className="rounded border border-white/10 bg-white/3 p-3">
-            <p className="text-[9px] uppercase tracking-wider text-white/40">Secondary</p>
+            <p className="text-xs uppercase tracking-wider text-white/40">Secondary</p>
             <p className="mt-1 text-xs font-semibold text-white">{player.subPosition || "—"}</p>
           </div>
           <div className="rounded border border-white/10 bg-white/3 p-3">
-            <p className="text-[9px] uppercase tracking-wider text-white/40">Intelligence</p>
+            <p className="text-xs uppercase tracking-wider text-white/40">Intelligence</p>
             <p className="mt-1 text-xs font-semibold text-amber-300">{player.intelligence}</p>
           </div>
           <div className="rounded border border-white/10 bg-white/3 p-3">
-            <p className="text-[9px] uppercase tracking-wider text-white/40">Profile</p>
+            <p className="text-xs uppercase tracking-wider text-white/40">Profile</p>
             <p className="mt-1 text-xs font-semibold text-cyan-300">{player.profileCompletion}%</p>
           </div>
         </div>
@@ -86,7 +86,7 @@ const PlayerDetailModal = ({ player, open, onClose }) => {
         {/* Scout Notes */}
         {player.notes && (
           <div className="mt-4 rounded-md border border-white/10 bg-white/3 p-3.5">
-            <p className="text-[10px] font-semibold uppercase tracking-wider text-white/50">
+            <p className="text-xs font-semibold uppercase tracking-wider text-white/50">
               Admin & Scout Notes
             </p>
             <p className="mt-1 text-xs leading-relaxed text-white/80">{player.notes}</p>

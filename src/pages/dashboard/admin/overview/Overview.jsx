@@ -34,7 +34,7 @@ const Overview = () => {
       <section className="rounded-lg border border-white/10 bg-[#12171b] p-5 sm:p-6">
         <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-start">
           <div>
-            <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-amber-400">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-400">
               Nashville SC Partnership
             </p>
             <h2 className="mt-1 font-ethnocentric text-base tracking-wider text-white sm:text-lg">
@@ -46,7 +46,7 @@ const Overview = () => {
           </div>
           <div className="flex items-center gap-2 self-start rounded-md border border-amber-400/30 bg-amber-400/10 px-3 py-1.5 text-xs text-amber-300">
             <FiTarget className="text-sm" />
-            <span className="text-[10px] font-semibold uppercase tracking-wider">Target: 75 Unique Players</span>
+            <span className="text-xs font-semibold uppercase tracking-wider">Target: 75 Unique Players</span>
           </div>
         </div>
 
@@ -72,7 +72,7 @@ const Overview = () => {
               <h2 className="text-xs font-semibold uppercase tracking-wider text-white">
                 Quick Actions
               </h2>
-              <p className="mt-0.5 text-[10px] text-white/40">
+              <p className="mt-0.5 text-xs text-white/40">
                 Frequently used admin workflows
               </p>
             </div>
@@ -94,7 +94,7 @@ const Overview = () => {
                         <p className="text-xs font-medium text-white transition group-hover:text-accent">
                           {action.title}
                         </p>
-                        <p className="text-[10px] text-white/40">{action.subtitle}</p>
+                        <p className="text-xs text-white/40">{action.subtitle}</p>
                       </div>
                     </div>
                     <FiChevronRight className="text-white/30 transition group-hover:translate-x-0.5 group-hover:text-white" />
@@ -113,13 +113,13 @@ const Overview = () => {
             <h2 className="text-xs font-semibold uppercase tracking-wider text-white">
               Recent Operational Activity
             </h2>
-            <p className="mt-0.5 text-[10px] text-white/40">
+            <p className="mt-0.5 text-xs text-white/40">
               Latest actions across the CFit platform
             </p>
           </div>
           <Link
             to="/dashboard/admin/notifications"
-            className="flex items-center gap-1 text-[10px] text-accent hover:underline"
+            className="flex items-center gap-1 text-xs text-accent hover:underline"
           >
             View activity log <FiChevronRight />
           </Link>
@@ -143,10 +143,10 @@ const Overview = () => {
                 <span
                   className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full border text-xs ${badgeClasses}`}
                 >
-                  <Icon className="text-[10px]" />
+                  <Icon className="text-xs" />
                 </span>
                 <span
-                  className={`rounded-sm border px-1.5 py-0.5 text-[9px] uppercase tracking-wider ${badgeClasses}`}
+                  className={`rounded-sm border px-1.5 py-0.5 text-xs uppercase tracking-wider ${badgeClasses}`}
                 >
                   {item.tag}
                 </span>

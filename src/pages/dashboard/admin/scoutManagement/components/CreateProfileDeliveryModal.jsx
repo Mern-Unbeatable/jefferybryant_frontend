@@ -81,7 +81,7 @@ const CreateProfileDeliveryModal = ({ open, onClose, onConfirm }) => {
               <h3 id="delivery-modal-title" className="font-ethnocentric text-xs uppercase tracking-wider text-white sm:text-sm">
                 Create Profile Delivery
               </h3>
-              <p className="mt-0.5 text-[10px] text-white/50">Recipient: James Mitchell</p>
+              <p className="mt-0.5 text-xs text-white/50">Recipient: James Mitchell</p>
             </div>
           </div>
           <button
@@ -96,7 +96,7 @@ const CreateProfileDeliveryModal = ({ open, onClose, onConfirm }) => {
         <form onSubmit={handleSubmit} className="mt-5 flex flex-col gap-4 text-xs">
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div>
-              <label className="mb-1 block text-[10px] uppercase tracking-wider text-white/50">
+              <label className="mb-1 block text-xs uppercase tracking-wider text-white/50">
                 Delivery Name / Reference *
               </label>
               <input
@@ -108,7 +108,7 @@ const CreateProfileDeliveryModal = ({ open, onClose, onConfirm }) => {
               />
             </div>
             <div>
-              <label className="mb-1 block text-[10px] uppercase tracking-wider text-white/50">
+              <label className="mb-1 block text-xs uppercase tracking-wider text-white/50">
                 Delivery Date *
               </label>
               <input
@@ -122,7 +122,7 @@ const CreateProfileDeliveryModal = ({ open, onClose, onConfirm }) => {
           </div>
 
           <div>
-            <label className="mb-1 block text-[10px] uppercase tracking-wider text-white/50">
+            <label className="mb-1 block text-xs uppercase tracking-wider text-white/50">
               Optional Admin delivery note
             </label>
             <textarea
@@ -137,31 +137,31 @@ const CreateProfileDeliveryModal = ({ open, onClose, onConfirm }) => {
           {/* Summary Row */}
           <div className="grid grid-cols-3 gap-3 rounded-lg border border-white/5 bg-[#12171b] p-3">
             <div>
-              <p className="text-[9px] uppercase tracking-wider text-white/40">Recipient</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Recipient</p>
               <p className="mt-0.5 font-semibold text-white">James Mitchell</p>
             </div>
             <div>
-              <p className="text-[9px] uppercase tracking-wider text-white/40">Selected profiles</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Selected profiles</p>
               <p className="mt-0.5 font-semibold text-amber-300">{selectedIds.length}</p>
             </div>
             <div>
-              <p className="text-[9px] uppercase tracking-wider text-white/40">Eligible recipients</p>
+              <p className="text-xs uppercase tracking-wider text-white/40">Eligible recipients</p>
               <p className="mt-0.5 font-semibold text-white">1</p>
             </div>
           </div>
 
           {/* Filter dropdowns */}
           <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-            <select className="rounded border border-white/10 bg-[#12171b] p-2 text-[11px] text-white/70 focus:outline-none">
+            <select className="rounded border border-white/10 bg-[#12171b] p-2 text-xs text-white/70 focus:outline-none">
               <option>All countries</option>
             </select>
-            <select className="rounded border border-white/10 bg-[#12171b] p-2 text-[11px] text-white/70 focus:outline-none">
+            <select className="rounded border border-white/10 bg-[#12171b] p-2 text-xs text-white/70 focus:outline-none">
               <option>All positions</option>
             </select>
-            <select className="rounded border border-white/10 bg-[#12171b] p-2 text-[11px] text-white/70 focus:outline-none">
+            <select className="rounded border border-white/10 bg-[#12171b] p-2 text-xs text-white/70 focus:outline-none">
               <option>All clubs</option>
             </select>
-            <select className="rounded border border-white/10 bg-[#12171b] p-2 text-[11px] text-white/70 focus:outline-none">
+            <select className="rounded border border-white/10 bg-[#12171b] p-2 text-xs text-white/70 focus:outline-none">
               <option>All stages</option>
             </select>
           </div>
@@ -190,7 +190,7 @@ const CreateProfileDeliveryModal = ({ open, onClose, onConfirm }) => {
                     <div className="flex items-center justify-between">
                       <p className="font-semibold text-white">{player.name}</p>
                       <span
-                        className={`rounded-sm px-1.5 py-0.5 text-[8px] font-bold uppercase tracking-wider ${
+                        className={`rounded-sm px-1.5 py-0.5 text-xs font-bold uppercase tracking-wider ${
                           player.readiness === "Review Ready"
                             ? "border border-emerald-500/40 bg-emerald-500/10 text-emerald-400"
                             : "border border-white/20 bg-white/5 text-white/40"
@@ -199,11 +199,11 @@ const CreateProfileDeliveryModal = ({ open, onClose, onConfirm }) => {
                         {player.readiness}
                       </span>
                     </div>
-                    <p className="mt-0.5 text-[10px] text-white/40">
+                    <p className="mt-0.5 text-xs text-white/40">
                       {player.cfitId} · {player.position}
                     </p>
-                    <p className="text-[10px] text-white/40">{player.country}</p>
-                    <p className="mt-1 text-[9px] text-amber-300/80">{player.statusNote}</p>
+                    <p className="text-xs text-white/40">{player.country}</p>
+                    <p className="mt-1 text-xs text-amber-300/80">{player.statusNote}</p>
                   </div>
                 </label>
               );
@@ -213,7 +213,7 @@ const CreateProfileDeliveryModal = ({ open, onClose, onConfirm }) => {
           {/* Notice */}
           <div className="flex items-start gap-2.5 rounded border border-cyan-400/20 bg-cyan-400/5 p-3 text-cyan-300">
             <FiShield className="mt-0.5 shrink-0 text-sm" />
-            <div className="text-[10px]">
+            <div className="text-xs">
               <p className="font-bold uppercase tracking-wider">Approved Information only</p>
               <p className="mt-0.5 text-cyan-300/70 leading-relaxed">
                 Biography, football background, playing history, statistics, highlights, and selected scout-visible notes. Private Admin data remains hidden.

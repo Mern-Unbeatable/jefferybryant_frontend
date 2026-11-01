@@ -20,7 +20,7 @@ const ScoutFeedbackDetailModal = ({ feedback, open, onClose, onUpdateStatus }) =
         {/* Header */}
         <div className="flex items-start justify-between gap-4 border-b border-white/10 pb-4">
           <div>
-            <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/45">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/45">
               Scout Feedback
             </p>
             <h2 id="feedback-detail-title" className="mt-1 font-ethnocentric text-xl uppercase tracking-wider text-white">
@@ -45,15 +45,15 @@ const ScoutFeedbackDetailModal = ({ feedback, open, onClose, onUpdateStatus }) =
             </h3>
             <div className="mt-4 grid grid-cols-1 gap-6 sm:grid-cols-3">
               <div>
-                <p className="text-[10px] uppercase tracking-wider text-white/40">Name</p>
+                <p className="text-xs uppercase tracking-wider text-white/40">Name</p>
                 <p className="mt-1 font-semibold uppercase text-white">{feedback.scout}</p>
               </div>
               <div>
-                <p className="text-[10px] uppercase tracking-wider text-white/40">Organization</p>
+                <p className="text-xs uppercase tracking-wider text-white/40">Organization</p>
                 <p className="mt-1 font-semibold uppercase text-white">{feedback.organization}</p>
               </div>
               <div>
-                <p className="text-[10px] uppercase tracking-wider text-white/40">Position / Title</p>
+                <p className="text-xs uppercase tracking-wider text-white/40">Position / Title</p>
                 <p className="mt-1 font-semibold uppercase text-white">TALENT SCOUT</p>
               </div>
             </div>
@@ -66,23 +66,23 @@ const ScoutFeedbackDetailModal = ({ feedback, open, onClose, onUpdateStatus }) =
             </h3>
             <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-5">
               <div>
-                <p className="text-[10px] uppercase tracking-wider text-white/40">Player</p>
+                <p className="text-xs uppercase tracking-wider text-white/40">Player</p>
                 <p className="mt-1 font-semibold text-white">{feedback.player}</p>
               </div>
               <div>
-                <p className="text-[10px] uppercase tracking-wider text-white/40">Player ID</p>
+                <p className="text-xs uppercase tracking-wider text-white/40">Player ID</p>
                 <p className="mt-1 font-semibold text-white">{feedback.playerId}</p>
               </div>
               <div>
-                <p className="text-[10px] uppercase tracking-wider text-white/40">Position</p>
+                <p className="text-xs uppercase tracking-wider text-white/40">Position</p>
                 <p className="mt-1 font-semibold text-white">Centre Back</p>
               </div>
               <div>
-                <p className="text-[10px] uppercase tracking-wider text-white/40">Country</p>
+                <p className="text-xs uppercase tracking-wider text-white/40">Country</p>
                 <p className="mt-1 font-semibold text-white">Barbados</p>
               </div>
               <div>
-                <p className="text-[10px] uppercase tracking-wider text-white/40">Intelligence Stage</p>
+                <p className="text-xs uppercase tracking-wider text-white/40">Intelligence Stage</p>
                 <p className="mt-1 font-semibold text-amber-300">Review</p>
               </div>
             </div>
@@ -94,7 +94,7 @@ const ScoutFeedbackDetailModal = ({ feedback, open, onClose, onUpdateStatus }) =
               Scout Action
             </h3>
             <div className="mt-3">
-              <span className="rounded-sm border border-cyan-400/40 bg-cyan-400/10 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-cyan-300">
+              <span className="rounded-sm border border-cyan-400/40 bg-cyan-400/10 px-2 py-0.5 text-xs font-bold uppercase tracking-wider text-cyan-300">
                 {feedback.actionType}
               </span>
               <p className="mt-3 text-xs leading-relaxed text-white/80">{feedback.feedback}</p>
@@ -108,7 +108,7 @@ const ScoutFeedbackDetailModal = ({ feedback, open, onClose, onUpdateStatus }) =
                 Admin Follow-Up
               </h3>
               <span
-                className={`rounded-sm px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider ${
+                className={`rounded-sm px-2 py-0.5 text-xs font-bold uppercase tracking-wider ${
                   currentStatus === "Resolved" || currentStatus === "Recorded"
                     ? "border border-emerald-500/40 bg-emerald-500/10 text-emerald-400"
                     : "border border-amber-400/40 bg-amber-400/10 text-amber-300"
@@ -119,7 +119,7 @@ const ScoutFeedbackDetailModal = ({ feedback, open, onClose, onUpdateStatus }) =
             </div>
 
             <div className="mt-4">
-              <label className="mb-1.5 block text-[10px] uppercase tracking-wider text-white/40">
+              <label className="mb-1.5 block text-xs uppercase tracking-wider text-white/40">
                 Internal Admin note
               </label>
               <textarea

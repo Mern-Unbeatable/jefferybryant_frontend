@@ -201,7 +201,7 @@ const PlayerManagement = () => {
         <div className="overflow-x-auto">
           <table className="w-full min-w-220 whitespace-nowrap text-left text-xs">
             <thead>
-              <tr className="border-b border-white/10 text-[9px] uppercase tracking-[0.15em] text-white/45">
+              <tr className="border-b border-white/10 text-xs uppercase tracking-[0.15em] text-white/45">
                 <th scope="col" className="px-4 py-3.5 font-normal">Player</th>
                 <th scope="col" className="px-4 py-3.5 font-normal">Location</th>
                 <th scope="col" className="px-4 py-3.5 font-normal">Position</th>
@@ -224,14 +224,14 @@ const PlayerManagement = () => {
                       to={`/dashboard/admin/player-management/${player.id}`}
                       className="group/player flex items-center gap-3"
                     >
-                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-white/15 bg-white/5 text-[10px] font-semibold text-white/80 transition group-hover/player:border-accent group-hover/player:text-accent">
+                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-white/15 bg-white/5 text-xs font-semibold text-white/80 transition group-hover/player:border-accent group-hover/player:text-accent">
                         {getInitials(player.name)}
                       </span>
                       <div>
                         <p className="font-medium text-white transition group-hover/player:text-accent">
                           {player.name}
                         </p>
-                        <p className="text-[10px] text-white/40">
+                        <p className="text-xs text-white/40">
                           {player.cfitId} · Age {player.age}
                         </p>
                       </div>
@@ -241,13 +241,13 @@ const PlayerManagement = () => {
                   {/* Location */}
                   <td className="px-4 py-3">
                     <p className="text-white/80">{player.country}</p>
-                    <p className="text-[10px] text-white/40">{player.city}</p>
+                    <p className="text-xs text-white/40">{player.city}</p>
                   </td>
 
                   {/* Position */}
                   <td className="px-4 py-3">
                     <p className="text-white/80">{player.mainPosition}</p>
-                    <p className="text-[10px] text-white/40">{player.subPosition}</p>
+                    <p className="text-xs text-white/40">{player.subPosition}</p>
                   </td>
 
                   {/* Club */}
@@ -264,7 +264,7 @@ const PlayerManagement = () => {
                           style={{ width: `${player.profileCompletion}%` }}
                         />
                       </div>
-                      <span className="text-[10px] font-semibold text-white/70">
+                      <span className="text-xs font-semibold text-white/70">
                         {player.profileCompletion}%
                       </span>
                     </div>
@@ -281,7 +281,7 @@ const PlayerManagement = () => {
                   </td>
 
                   {/* Submitted Date */}
-                  <td className="px-4 py-3 text-[11px] text-white/50">
+                  <td className="px-4 py-3 text-xs text-white/50">
                     {player.submitted}
                   </td>
 

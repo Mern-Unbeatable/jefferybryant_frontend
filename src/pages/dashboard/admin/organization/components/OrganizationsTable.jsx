@@ -29,7 +29,7 @@ const OrganizationsTable = ({
     <div className="overflow-x-auto">
       <table className="w-full min-w-220 whitespace-nowrap text-left text-xs">
         <thead>
-          <tr className="border-b border-white/10 text-[9px] uppercase tracking-[0.15em] text-white/45">
+          <tr className="border-b border-white/10 text-xs uppercase tracking-[0.15em] text-white/45">
             <th scope="col" className="px-4 py-3.5 font-normal">
               Organization
             </th>
@@ -94,7 +94,7 @@ const OrganizationsTable = ({
               </td>
 
               {/* Registered */}
-              <td className="px-4 py-3.5 text-[11px] text-white/50">
+              <td className="px-4 py-3.5 text-xs text-white/50">
                 {org.registered}
               </td>
 
