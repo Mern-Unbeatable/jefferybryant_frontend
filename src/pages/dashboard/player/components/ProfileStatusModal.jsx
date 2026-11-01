@@ -47,7 +47,7 @@ const ProfileStatusModal = ({ open, onClose }) => {
             <h2 id="status-modal-title" className="font-ethnocentric text-sm uppercase leading-snug">
               {t("playerDashboard.modal.title")}
             </h2>
-            <p className="mt-1 text-[11px] text-accent">{t("playerDashboard.modal.subtitle")}</p>
+            <p className="mt-1 text-sm text-accent">{t("playerDashboard.modal.subtitle")}</p>
           </div>
           <button
             ref={closeRef}
@@ -60,7 +60,7 @@ const ProfileStatusModal = ({ open, onClose }) => {
           </button>
         </div>
 
-        <p className="mt-5 rounded-md border border-btn-primary/50 bg-btn-primary/5 p-4 text-[11px] leading-relaxed text-btn-primary">
+        <p className="mt-5 rounded-md border border-btn-primary/50 bg-btn-primary/5 p-4 text-xs leading-relaxed text-btn-primary">
           {t("playerDashboard.modal.notice")}
         </p>
 
@@ -78,7 +78,7 @@ const ProfileStatusModal = ({ open, onClose }) => {
               >
                 <div className="flex flex-wrap items-center gap-2">
                   <span
-                    className={`flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-[10px] uppercase tracking-wide ${
+                    className={`flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-xs uppercase tracking-wide ${
                       tone === "accent" ? "border-accent/50 text-accent" : "border-btn-primary/50 text-btn-primary"
                     }`}
                   >
@@ -89,11 +89,11 @@ const ProfileStatusModal = ({ open, onClose }) => {
                       {t("playerDashboard.modal.current")}
                     </span>
                   )}
-                  <span className="ml-auto text-[10px] text-white/40">
+                  <span className="ml-auto text-xs text-white/40">
                     {t("playerDashboard.modal.step", { number: index + 1, total: PROFILE_STATUSES.length })}
                   </span>
                 </div>
-                <p className="mt-2.5 text-[11px] leading-relaxed text-white/60">
+                <p className="mt-2.5 text-sm leading-relaxed text-white/60">
                   {t(`playerDashboard.modal.descriptions.${status}`)}
                 </p>
               </li>

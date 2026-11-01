@@ -37,7 +37,7 @@ const ProfileReadinessChecklist = () => {
                 className="flex items-center gap-4 rounded-md border border-white/10 bg-black/20 p-4 transition hover:border-white/25"
               >
                 <span
-                  className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-md ${
+                  className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-md ${
                     complete
                       ? "bg-accent/15 text-accent"
                       : "bg-btn-primary/15 text-btn-primary"
@@ -46,20 +46,20 @@ const ProfileReadinessChecklist = () => {
                   <Icon />
                 </span>
                 <span className="min-w-0 flex-1">
-                  <span className="flex flex-wrap items-center gap-2 font-ethnocentric text-[11px] uppercase">
+                  <span className="flex flex-wrap items-center gap-2 font-ethnocentric text-sm uppercase">
                     {t(`${base}.sections.${key}.title`)}
                     {required && !complete && (
-                      <span className="rounded-sm bg-btn-primary px-1.5 py-0.5 font-sans text-[9px] text-primary">
+                      <span className="rounded-sm bg-btn-primary px-1.5 py-0.5 font-sans text-xs text-primary">
                         {t(`${base}.nextSteps.required`)}
                       </span>
                     )}
                   </span>
-                  <span className="mt-1 block text-[10px] text-white/50">
+                  <span className="mt-1 block text-xs text-white/50">
                     {t(`${base}.sections.${key}.text`)}
                   </span>
                 </span>
                 <span
-                  className={`hidden rounded-full px-2.5 py-1 text-[9px] uppercase tracking-wide sm:inline ${
+                  className={`hidden rounded-full px-2.5 py-1 text-xs uppercase tracking-wide sm:inline ${
                     complete
                       ? "bg-accent/10 text-accent"
                       : "bg-btn-primary/10 text-btn-primary"
