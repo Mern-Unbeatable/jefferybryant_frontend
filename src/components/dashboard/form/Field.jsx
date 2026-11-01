@@ -11,13 +11,13 @@ const Field = ({ id, label, required = false, hint, className = "", children }) 
           {label}
         </label>
         {required && (
-          <span className="text-[9px] uppercase tracking-[0.15em] text-btn-primary">
+          <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-[0.15em] text-btn-primary">
             {t("dashboardForm.required")}
           </span>
         )}
       </div>
       <div className="mt-2">{children}</div>
-      {hint && <p className="mt-1.5 text-[10px] text-white/40">{hint}</p>}
+      {hint && <p className="mt-1.5 text-xs text-white/50">{hint}</p>}
     </div>
   );
 };

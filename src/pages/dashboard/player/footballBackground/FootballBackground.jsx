@@ -99,7 +99,7 @@ const FootballBackground = () => {
               <ul className="flex flex-col gap-3">
                 {values.previousClubs.map((club, index) => (
                   <li key={club.id} className="flex items-center gap-3">
-                    <span className="w-6 shrink-0 text-[10px] text-btn-primary">
+                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-sm border border-btn-primary/40 bg-black/40 text-xs sm:text-sm font-bold text-btn-primary">
                       {String(index + 1).padStart(2, "0")}
                     </span>
                     <input
@@ -122,7 +122,7 @@ const FootballBackground = () => {
                       type="button"
                       onClick={() => removeClub(club.id)}
                       aria-label={t(`${base}.remove`)}
-                      className="flex h-9 w-9 shrink-0 items-center justify-center rounded-sm border border-white/10 text-red-400 transition hover:bg-red-500/10"
+                      className="flex h-11 w-11 shrink-0 items-center justify-center rounded-sm border border-white/10 text-red-400 transition hover:bg-red-500/10"
                     >
                       <FiTrash2 />
                     </button>
