@@ -12,19 +12,10 @@ const Overview = () => {
 
   return (
     <div className="mx-auto flex flex-col gap-5">
-      {/* Welcome Banner */}
       <PlayerWelcomeBanner onOpenStatusModal={openModal} />
-
-      {/* Completion & Status Section */}
       <ProfileProgressSection onOpenStatusModal={openModal} />
-
-      {/* Profile Overview Snapshot */}
       <ProfileOverviewSnapshot />
-
-      {/* Next Steps / Profile Readiness Checklist */}
       <ProfileReadinessChecklist />
-
-      {/* Profile Status Explanation Modal */}
       <ProfileStatusModal open={isModalOpen} onClose={closeModal} />
     </div>
   );

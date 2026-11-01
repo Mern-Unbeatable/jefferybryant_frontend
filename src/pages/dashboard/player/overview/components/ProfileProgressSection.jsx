@@ -34,7 +34,7 @@ const ProfileProgressSection = ({ onOpenStatusModal }) => {
             eyebrow={t(`${base}.completion.eyebrow`)}
             title={t(`${base}.completion.title`)}
           />
-          <span className="flex items-center gap-1.5 rounded-full bg-accent/10 px-2.5 py-1 text-[9px] uppercase tracking-wide text-accent">
+          <span className="flex items-center gap-1.5 rounded-full bg-accent/10 px-2.5 py-1 text-xs uppercase tracking-wide text-accent">
             <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-accent" />
             {t(`${base}.completion.live`)}
           </span>
@@ -43,13 +43,13 @@ const ProfileProgressSection = ({ onOpenStatusModal }) => {
         <div className="mt-6 flex flex-col gap-6 sm:flex-row sm:items-center">
           <CompletionRing percent={percent} />
           <div className="flex-1">
-            <p className="text-sm">
+            <p className="text-base">
               {t(`${base}.completion.count`, {
                 done: completedSections,
                 total: totalSections,
               })}
             </p>
-            <p className="mt-1 text-[11px] text-white/50">
+            <p className="mt-1 text-sm text-white/50">
               {t(`${base}.completion.hint`)}
             </p>
             <div className="mt-4 h-1.5 overflow-hidden rounded-full bg-white/10">
@@ -60,7 +60,7 @@ const ProfileProgressSection = ({ onOpenStatusModal }) => {
             </div>
             <Link
               to={playerPath("highlight-video")}
-              className="mt-5 inline-flex items-center gap-2 rounded-sm bg-btn-primary px-4 py-2.5 text-xs text-primary transition hover:bg-btn-primary/90"
+              className="mt-5 inline-flex items-center gap-2 rounded-sm bg-btn-primary px-4 py-2.5 text-sm text-primary transition hover:bg-btn-primary/90"
             >
               <FiArrowRight /> {t(`${base}.completion.cta`)}
             </Link>
@@ -88,10 +88,10 @@ const ProfileProgressSection = ({ onOpenStatusModal }) => {
         <div className="mt-5 flex gap-3 rounded-md border border-btn-primary/40 bg-btn-primary/5 p-3">
           <FiAlertTriangle className="mt-0.5 shrink-0 text-btn-primary" />
           <div>
-            <p className="text-[11px] uppercase tracking-wide text-btn-primary">
+            <p className="text-sm uppercase tracking-wide text-btn-primary">
               {t(`${base}.statuses.${CURRENT_STATUS}`)}
             </p>
-            <p className="mt-1 text-[10px] leading-relaxed text-white/60">
+            <p className="mt-1 text-xs leading-relaxed text-white/60">
               {t(`${base}.status.alertText`)}
             </p>
           </div>
@@ -99,7 +99,7 @@ const ProfileProgressSection = ({ onOpenStatusModal }) => {
 
         <StatusStepper />
 
-        <p className="mt-5 flex items-center gap-1.5 text-[10px] text-white/40">
+        <p className="mt-5 flex items-center gap-1.5 text-xs text-white/40">
           <FiInfo className="shrink-0" /> {t(`${base}.status.footnote`)}
         </p>
       </section>

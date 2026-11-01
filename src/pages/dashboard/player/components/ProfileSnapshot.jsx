@@ -16,10 +16,10 @@ const ProfileSnapshot = () => {
       <dl className="grid flex-1 sm:grid-cols-2 lg:grid-cols-3">
         {profileFields.map(({ key, value }) => (
           <div key={key} className="border-b border-white/10 p-4 sm:border-r">
-            <dt className="text-[10px] uppercase tracking-[0.15em] text-white/40">
+            <dt className="text-xs uppercase tracking-[0.15em] text-white/40">
               {t(`playerDashboard.fields.${key}`)}
             </dt>
-            <dd className="mt-1.5 font-ethnocentric text-[11px] uppercase">{value}</dd>
+            <dd className="mt-1.5 font-ethnocentric text-sm uppercase">{value}</dd>
           </div>
         ))}
       </dl>

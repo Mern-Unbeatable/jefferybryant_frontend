@@ -31,7 +31,7 @@ const StatusStepper = ({
             className="relative flex w-12 flex-col items-center gap-2 text-center"
           >
             <span
-              className={`flex h-3.5 w-3.5 items-center justify-center rounded-full border ${
+              className={`flex h-4.5 w-4.5 items-center justify-center rounded-full border ${
                 isDone
                   ? "border-accent bg-accent"
                   : isCurrent
@@ -40,7 +40,7 @@ const StatusStepper = ({
               }`}
             />
             <span
-              className={`text-[9px] leading-tight ${
+              className={`text-xs leading-tight ${
                 isCurrent
                   ? "text-btn-primary"
                   : isDone
