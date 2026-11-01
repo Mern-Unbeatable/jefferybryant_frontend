@@ -18,8 +18,8 @@ const QuickActionContent = ({ icon, title, text }) => {
         <Icon />
       </span>
       <span className="min-w-0 flex-1">
-        <span className="block text-xs text-white">{title}</span>
-        <span className="mt-1 block text-[10px] text-white/45">{text}</span>
+        <span className="block text-sm font-medium text-white">{title}</span>
+        <span className="mt-1 block text-xs text-white/50">{text}</span>
       </span>
       <FiChevronRight className="shrink-0 text-white/30 transition group-hover:translate-x-0.5 group-hover:text-white" />
     </>
@@ -32,8 +32,8 @@ const CoachQuickActions = () => {
 
   return (
     <section>
-      <p className="text-[10px] uppercase tracking-[0.2em] text-accent">{t(`${base}.shortcuts`)}</p>
-      <h2 className="mt-1.5 font-ethnocentric text-base uppercase">{t(`${base}.quickActions`)}</h2>
+      <p className="text-xs uppercase tracking-[0.2em] text-accent">{t(`${base}.shortcuts`)}</p>
+      <h2 className="mt-1.5 font-ethnocentric text-base uppercase sm:text-lg">{t(`${base}.quickActions`)}</h2>
       <div className="mt-4 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         <Link to={coachPath("invite-players")} className={quickActionClass}>
           <QuickActionContent
@@ -73,4 +73,3 @@ const CoachQuickActions = () => {
 };
 
 export default CoachQuickActions;
-

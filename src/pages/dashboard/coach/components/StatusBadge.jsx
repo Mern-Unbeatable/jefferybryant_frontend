@@ -23,11 +23,11 @@ const STATUS_TONES = {
 
 const StatusBadge = ({ status, children }) => (
   <span
-    className={`inline-flex items-center gap-1.5 whitespace-nowrap rounded-sm border px-2 py-0.5 text-[9px] uppercase tracking-wider ${
+    className={`inline-flex items-center gap-1.5 whitespace-nowrap rounded-sm border px-2 py-0.5 text-xs uppercase tracking-wider ${
       tones[STATUS_TONES[status] ?? "accent"]
     }`}
   >
-    <span className="h-1 w-1 rounded-full bg-current" />
+    <span className="h-1.5 w-1.5 rounded-full bg-current" />
     {children}
   </span>
 );

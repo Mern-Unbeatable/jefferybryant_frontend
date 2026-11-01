@@ -23,7 +23,7 @@ const RecentActivityCard = () => {
     <section className={cardClass}>
       <div className="flex items-start justify-between gap-3">
         <CardHeading eyebrow={t(`${base}.activityEyebrow`)} title={t(`${base}.activityTitle`)} />
-        <Link to={coachPath("notifications")} className="text-[10px] text-btn-primary hover:underline">
+        <Link to={coachPath("notifications")} className="text-xs text-btn-primary hover:underline">
           {t(`${base}.viewAll`)}
         </Link>
       </div>
@@ -32,14 +32,14 @@ const RecentActivityCard = () => {
           const Icon = activityIcons[type];
           return (
             <li key={id} className="flex items-center gap-3 border-b border-white/5 py-3 last:border-b-0">
-              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-accent/10 text-sm text-accent">
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-accent/10 text-base text-accent">
                 <Icon />
               </span>
               <span className="min-w-0 flex-1">
-                <span className="block truncate text-xs">{name}</span>
-                <span className="block text-[10px] text-white/45">{t(`${base}.activity.${type}`)}</span>
+                <span className="block truncate text-xs sm:text-sm font-medium text-white">{name}</span>
+                <span className="block text-xs text-white/50">{t(`${base}.activity.${type}`)}</span>
               </span>
-              <span className="shrink-0 text-[10px] text-white/40">
+              <span className="shrink-0 text-xs text-white/40">
                 {date ? formatDate(date, i18n.language, { month: "short", day: "numeric" }) : t(`dashboardTime.${time}`)}
               </span>
             </li>
@@ -51,4 +51,3 @@ const RecentActivityCard = () => {
 };
 
 export default RecentActivityCard;
-

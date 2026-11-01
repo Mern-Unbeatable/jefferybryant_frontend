@@ -17,27 +17,27 @@ const RegistrationProgressCard = () => {
     <section className={`${cardClass} xl:col-span-2`}>
       <div className="flex flex-wrap items-start justify-between gap-3">
         <CardHeading eyebrow={t(`${base}.progressEyebrow`)} title={t(`${base}.progressTitle`)} />
-        <Link to={coachPath("my-players")} className="flex items-center gap-1.5 text-[10px] text-btn-primary hover:underline">
+        <Link to={coachPath("my-players")} className="flex items-center gap-1.5 text-xs text-btn-primary hover:underline">
           {t(`${base}.viewActivity`)} <FiArrowRight />
         </Link>
       </div>
       <ol className="mt-6 flex flex-col">
         {REGISTRATION_PROGRESS.map(({ key, value }, index) => (
           <li key={key} className="flex items-center gap-4 border-b border-white/5 py-3 last:border-b-0">
-            <span className="w-5 text-[10px] text-white/40">{String(index + 1).padStart(2, "0")}</span>
+            <span className="w-6 text-xs text-white/40">{String(index + 1).padStart(2, "0")}</span>
             <div className="flex-1">
-              <div className="flex items-center justify-between text-[11px]">
+              <div className="flex items-center justify-between text-xs sm:text-sm">
                 <span>{t(`${base}.progress.${key}`)}</span>
                 <span className="font-ethnocentric text-accent">{value}</span>
               </div>
-              <div className="mt-2 h-1 rounded-full bg-white/10">
+              <div className="mt-2 h-1.5 rounded-full bg-white/10">
                 <div className="h-full rounded-full bg-accent" style={{ width: `${(value / maxProgress) * 100}%` }} />
               </div>
             </div>
           </li>
         ))}
       </ol>
-      <p className="mt-4 flex items-center gap-2 text-[10px] text-white/50">
+      <p className="mt-4 flex items-center gap-2 text-xs text-white/50">
         <FiCheck className="text-green-400" /> {t(`${base}.completionRate`, { percent: completionRate })}
       </p>
     </section>
@@ -45,4 +45,3 @@ const RegistrationProgressCard = () => {
 };
 
 export default RegistrationProgressCard;
-
