@@ -34,13 +34,13 @@ const Overview = () => {
       <section className="rounded-lg border border-white/10 bg-[#12171b] p-5 sm:p-6">
         <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-start">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-400">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-400">
               Nashville SC Partnership
             </p>
-            <h2 className="mt-1 font-ethnocentric text-base tracking-wider text-white sm:text-lg">
+            <h2 className="mt-1 font-ethnocentric text-lg tracking-wider text-white sm:text-2xl">
               Performance Milestone Tracker
             </h2>
-            <p className="mt-1 text-xs text-white/50">
+            <p className="mt-1 text-base text-white/50">
               Track the delivery of Review-Ready player profiles to Nashville SC across two performance milestones.
             </p>
           </div>

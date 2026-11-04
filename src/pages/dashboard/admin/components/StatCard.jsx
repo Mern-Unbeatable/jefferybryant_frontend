@@ -13,7 +13,7 @@ const StatCard = ({ stat }) => {
     <div className="group flex h-full flex-col justify-between rounded-lg border border-white/10 bg-[#12171b] p-4 transition duration-200 hover:border-white/25 hover:bg-[#151c22]">
       <div className="flex items-center justify-between">
         <span
-          className={`flex h-8 w-8 items-center justify-center rounded-md border text-sm ${iconClasses}`}
+          className={`flex h-10 w-10 items-center justify-center rounded-md border text-base ${iconClasses}`}
         >
           <Icon />
         </span>
@@ -22,7 +22,7 @@ const StatCard = ({ stat }) => {
 
       <div className="mt-4">
         <p className="text-2xl font-bold tracking-tight text-white">{value}</p>
-        <p className="mt-1 text-xs text-white/50">{label}</p>
+        <p className="mt-1 text-base text-white/50">{label}</p>
       </div>
     </div>
   );

@@ -83,7 +83,7 @@ const MilestoneProgressCard = ({
     <div onClick={onClick} className="group block h-full cursor-pointer">
       {Content}
     </div>
-  );
+  );0
 };
 
 export default MilestoneProgressCard;

@@ -22,17 +22,17 @@ const AdminHeader = ({
     >
       <div>
         {eyebrow && (
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/45">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-white/45">
             {eyebrow}
           </p>
         )}
         {title && (
-          <h1 className="mt-1 font-ethnocentric text-xl tracking-wider text-white sm:text-2xl">
+          <h1 className="mt-1 font-ethnocentric text-xl tracking-wider text-white sm:text-3xl">
             {title}
           </h1>
         )}
         {subtitle && (
-          <p className="mt-1 text-xs text-white/50">{subtitle}</p>
+          <p className="mt-1 text-base text-white/50">{subtitle}</p>
         )}
         {children}
       </div>
