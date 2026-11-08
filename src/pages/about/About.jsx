@@ -4,6 +4,7 @@ import MissionSection from "./sections/MissionSection";
 import InformationFlowSection from "./sections/InformationFlowSection";
 import CommitmentSection from "./sections/CommitmentSection";
 import TrustSection from "./sections/TrustSection";
+import ManagementSection from "./sections/ManagementSection";
 
 const About = () => {
   return (
@@ -11,9 +12,11 @@ const About = () => {
       <AboutHeroSection />
       <WhoWeAreSection />
       <MissionSection />
+      <ManagementSection />
       <InformationFlowSection />
       <CommitmentSection />
       <TrustSection />
+     
     </>
   );
 };

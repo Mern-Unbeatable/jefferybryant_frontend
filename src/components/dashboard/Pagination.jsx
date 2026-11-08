@@ -7,11 +7,15 @@ const Pagination = ({ page, totalPages, totalItems, onChange }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
-      <p className="text-xs text-white/50">
+    <nav
+      aria-label="Pagination"
+      data-no-animate="true"
+      className="flex flex-col items-center justify-between gap-3 border-t border-white/10 px-4 py-3 sm:flex-row"
+    >
+      <p className="text-center text-xs text-white/50 sm:text-left">
         {t("dashboardTable.pageSummary", { page, total: Math.max(totalPages, 1), count: totalItems })}
       </p>
-      <div className="flex items-center gap-1.5">
+      <div className="flex flex-wrap items-center justify-center gap-1.5">
         <button
           type="button"
           disabled={page <= 1}
@@ -27,7 +31,7 @@ const Pagination = ({ page, totalPages, totalItems, onChange }) => {
             aria-current={number === page ? "page" : undefined}
             onClick={() => onChange(number)}
             className={`${pageButton} ${
-              number === page ? "border-accent bg-accent text-primary" : "text-white/60 hover:bg-white/10"
+              number === page ? "border-accent bg-accent font-bold text-primary" : "text-white/60 hover:bg-white/10"
             }`}
           >
             {number}
@@ -42,7 +46,7 @@ const Pagination = ({ page, totalPages, totalItems, onChange }) => {
           {t("dashboardTable.next")}
         </button>
       </div>
-    </div>
+    </nav>
   );
 };
 
