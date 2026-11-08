@@ -27,6 +27,9 @@ const getRevealTargets = (scope) => {
   );
 
   return [...matches].filter((el) => {
+    if (el.closest("[data-no-animate], nav, [role='navigation'], [role='tablist'], .pagination, [data-pagination]")) {
+      return false;
+    }
     for (let parent = el.parentElement; parent && parent !== scope; parent = parent.parentElement) {
       if (matches.has(parent)) return false;
     }
@@ -46,10 +49,12 @@ export const usePageAnimations = (scope, pathname) => {
         }
 
         const targets = getRevealTargets(scope.current);
+        if (!targets.length) return;
+
         gsap.set(targets, { autoAlpha: 0, y: 28, transition: "none" });
 
         ScrollTrigger.batch(targets, {
-          start: "top 92%",
+          start: "top 95%",
           once: true,
           onEnter: (batch) =>
             gsap.to(batch, {
@@ -62,6 +67,8 @@ export const usePageAnimations = (scope, pathname) => {
               clearProps: "opacity,visibility,transform,transition",
             }),
         });
+
+        ScrollTrigger.refresh();
       });
     },
     { scope, dependencies: [pathname], revertOnUpdate: true }

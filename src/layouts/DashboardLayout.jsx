@@ -34,7 +34,7 @@ const DashboardLayout = () => {
           </button>
         </header>
 
-        <main ref={mainRef} className="p-4 sm:p-6 lg:p-8">
+        <main ref={mainRef} className="p-4 pb-16 sm:p-6 sm:pb-20 lg:p-8">
           <Outlet />
         </main>
       </div>

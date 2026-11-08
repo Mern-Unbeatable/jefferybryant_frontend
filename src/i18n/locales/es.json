@@ -588,6 +588,16 @@
       "description": "Seas jugador, entrenador o academia, CFit te ofrece una forma de formar parte de un ecosistema futbolístico más conectado.",
       "join": "Únete a CFit",
       "explore": "Explorar jugadores"
+    },
+    "management": {
+      "eyebrow": "Gestión estratégica",
+      "titleLine1": "Gestionado con",
+      "titleHighlight": "experiencia.",
+      "managedBy": "CFit es gestionado estratégicamente por Fitch & Smith HR Consulting, aportando décadas de experiencia en identificación de talento, estrategia de reclutamiento, desarrollo organizacional y construcción de relaciones al fútbol caribeño.",
+      "network": "A través de una red creciente de entrenadores, academias, clubes y organizaciones de fútbol, CFit crea caminos para que el talento caribeño emergente gane visibilidad y acceso a oportunidades de scouting profesional.",
+      "safeguardingTitle": "Nuestro compromiso con la protección de jugadores",
+      "safeguardingText": "La seguridad, la dignidad y el bienestar de los jóvenes atletas son centrales en la misión de CFit. Nuestro enfoque de protección se está desarrollando con referencia al marco FIFA Guardians Safeguarding in Football, enfatizando el involucramiento responsable, el consentimiento adecuado, la privacidad y la protección de menores en todo el proceso de identificación de talento.",
+      "logoAlt": "Fitch and Smith HR Consulting"
     }
   },
   "partners": {
