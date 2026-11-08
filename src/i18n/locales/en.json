@@ -588,6 +588,16 @@
       "description": "Whether you are a player, coach, or academy, CFit offers a way to become part of a more connected football ecosystem.",
       "join": "Join CFit",
       "explore": "Explore players"
+    },
+    "management": {
+      "eyebrow": "Strategic management",
+      "titleLine1": "Managed with",
+      "titleHighlight": "experience.",
+      "managedBy": "CFit is strategically managed by Fitch & Smith HR Consulting, bringing decades of experience in talent identification, recruitment strategy, organizational development, and relationship building to the world of Caribbean football.",
+      "network": "Through a growing network of coaches, academies, clubs, and football organizations, CFit is creating pathways for emerging Caribbean talent to gain visibility and access to professional scouting opportunities.",
+      "safeguardingTitle": "Our Commitment to Player Safeguarding",
+      "safeguardingText": "The safety, dignity, and well-being of young athletes are central to CFit's mission. Our safeguarding approach is being developed with reference to the FIFA Guardians Safeguarding in Football framework, emphasizing responsible player engagement, appropriate consent, privacy, and the protection of minors throughout the talent identification process.",
+      "logoAlt": "Fitch and Smith HR Consulting"
     }
   },
   "partners": {
